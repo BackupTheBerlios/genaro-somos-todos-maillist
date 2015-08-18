@@ -1,0 +1,1489 @@
+From roberto_____666 at hotmail.com  Sun May  1 19:21:54 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 01 May 2005 17:21:54 +0000
+Subject: [Genaro-somos-todos] Tipo de semilla
+In-Reply-To: <BAY103-F23762DB28F7C273622309BCE250@phx.gbl>
+Message-ID: <BAY1-F3925098E2FDFEF5203E526D5260@phx.gbl>
+
+Entonces hay que decirselo a Javi para que lo ponga como opcion y que se lo 
+pase a Prolog por argumentos. El tipo 2 no guarda el ritmo armonico, creo 
+que lo unico que hice fue generar cifrados aleatoriamente asi que de momento 
+eso lo dejamos
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Tipo de semilla
+>Date: Sat, 30 Apr 2005 17:19:47 +0200
+>
+>Ya te lo he dicho, hay distintos predicados de creacion de semillas que son 
+>ligeramente diferentes. Con el tipo eliges cual usas, ponlo como argumento, 
+>puede valer 1 o 3. El de tipo2 corresponde al predicado de generacion de 
+>semillas que hiciste tu, si este mantiene el ritmo arm?nico ponlo como 
+>posibilidad
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] Tipo de semilla
+>>Date: Sat, 30 Apr 2005 13:36:31 +0000
+>>
+>>En la creacion de la semilla hay un parametro que es "Tipo" que no se 
+>>exactamente que hace. De todas formas no esta especificado en el paso de 
+>>parametros del "mainargs". Yo de momento pongo 1 aunque no se que hacer 
+>>con ello
+>>
+>>_________________________________________________________________
+>>Descarga gratis la Barra de Herramientas de MSN 
+>>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Sun May  1 19:59:04 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 01 May 2005 17:59:04 +0000
+Subject: [Genaro-somos-todos] Tipo de semilla
+In-Reply-To: <BAY1-F3925098E2FDFEF5203E526D5260@phx.gbl>
+Message-ID: <BAY107-F110180B8C5C4D2384B7BCDB9260@phx.gbl>
+
+ok, pero si no os importa es en la pr?xima reuni?n cuando lo a?adimos a mi 
+curro, que este finde me est? costando la madre trabajar :D
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Tipo de semilla
+>Date: Sun, 01 May 2005 17:21:54 +0000
+>
+>
+>Entonces hay que decirselo a Javi para que lo ponga como opcion y que se lo 
+>pase a Prolog por argumentos. El tipo 2 no guarda el ritmo armonico, creo 
+>que lo unico que hice fue generar cifrados aleatoriamente asi que de 
+>momento eso lo dejamos
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] Tipo de semilla
+>>Date: Sat, 30 Apr 2005 17:19:47 +0200
+>>
+>>Ya te lo he dicho, hay distintos predicados de creacion de semillas que 
+>>son ligeramente diferentes. Con el tipo eliges cual usas, ponlo como 
+>>argumento, puede valer 1 o 3. El de tipo2 corresponde al predicado de 
+>>generacion de semillas que hiciste tu, si este mantiene el ritmo arm?nico 
+>>ponlo como posibilidad
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] Tipo de semilla
+>>>Date: Sat, 30 Apr 2005 13:36:31 +0000
+>>>
+>>>En la creacion de la semilla hay un parametro que es "Tipo" que no se 
+>>>exactamente que hace. De todas formas no esta especificado en el paso de 
+>>>parametros del "mainargs". Yo de momento pongo 1 aunque no se que hacer 
+>>>con ello
+>>>
+>>>_________________________________________________________________
+>>>Descarga gratis la Barra de Herramientas de MSN 
+>>>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+>ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Mon May  2 16:22:10 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 02 May 2005 14:22:10 +0000
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIEZXOiDabHRpbWEgYWR2ZXJ0?=
+ =?iso-8859-1?B?ZW5jaWE6IHR1IGdydXBvIG11c2ljYV9hbGVhdG9yaWFfZmRpIHY=?=
+In-Reply-To: <BAY103-F100167DEF31A288EE523B4CE250@phx.gbl>
+Message-ID: <BAY1-F13886F63AC406300C5800FD5270@phx.gbl>
+
+Si no tenemos nada mas que salvar da igual que se pierda, ya no lo usabamos.
+Le haremos un funeral como se merecen entre botellas de ron.
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] FW: ?ltima advertencia: tu grupo 
+>musica_aleatoria_fdi va a ser eliminado
+>Date: Sat, 30 Apr 2005 17:25:17 +0200
+>
+>Weno, el grupo de msn de genaro se va a la mierda, q lo sepais
+>
+>>From: "MSN Grupos" <notifications at groups.msn.com>
+>>To: "Administradores de musica_aleatoria_fdi" 
+>><musicaaleatoriafdi at groups.msn.com>
+>>Subject: ?ltima advertencia: tu grupo musica_aleatoria_fdi va a ser 
+>>eliminado
+>>Date: Sat, 30 Apr 2005 08:18:48 -0700
+>>
+>>
+>>-----------------------------------------------------------
+>>
+>>       MSN Grupos
+>>
+>>-----------------------------------------------------------
+>>
+>>Querido/a usuario/a de MSN Grupos,
+>>
+>>El presente es otro recordatorio de que tu grupo de MSN, 
+>>musica_aleatoria_fdi, no ha tenido ninguna actividad en m?s de 90 d?as. 
+>>Esperamos que lo reactives con la mayor brevedad posible para que no sea 
+>>eliminado.
+>>http://groups.msn.com/musicaaleatoriafdi
+>>
+>>Tu grupo ser? autom?ticamente eliminado si contin?a estando inactivo.
+>>Si deseas mantener tu grupo, no tienes m?s que hacer clic en el v?nculo 
+>>que ver?s abajo y seguir las instrucciones de la p?gina Web.
+>>Mantener mi grupo
+>>http://groups.msn.com/musicaaleatoriafdi/_activate.msnw
+>>
+>>
+>>Esperando que tu grupo vuelva a activarse cuanto antes,
+>>
+>>
+>>MSN Grupos
+>>http://groups.msn.com
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Sat May  7 00:06:38 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 06 May 2005 22:06:38 +0000
+Subject: [Genaro-somos-todos] Acta reunión 04-05-05
+In-Reply-To: <BAY1-F3925098E2FDFEF5203E526D5260@phx.gbl>
+Message-ID: <BAY107-F41A1B2AC4296FB25056B73B91B0@phx.gbl>
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Nuevos trabajos.	2
+3.- Reuniones extraordinarias	2
+
+1.- Asistentes.
+Javier, Roberto y Juan
+2.- Nuevos trabajos.
+
+
+
+	Obligatorios:
+
+		Llamadas de C a Haskell (interfaz haskell-C), para la creaci?n de bloques 
+al renderizar
+
+		Que Rober mire el GHC para compilar el haskore.
+
+		Crear patrones r?tmicos (roberto)
+
+		Llevar el lillypond el s?bado a la reuni?n extaordinaria (roberto)
+
+
+Opcionales:
+
+	Prolog: Generaci?n de acordes, dominantes sustitutos y disminuidos
+
+	Haskell: Armonizador de Terceras y Sextas.
+
+	C: Repartir voces de acordes entre los instrumentos (semilla aleatoria)
+
+
+3.- Reuniones extraordinarias
+
+	Esta semana se han fijado 2 sesiones de trabajo en grupo para finalizar 
+ciertos aspectos en com?n. La primera de estas sesiones est? fijada para el 
+s?bado a las 16:00 horas. La del domingo se decidir? el mismo s?bado.
+
+
+
+
+From bc24us at hotmail.com  Sat May  7 17:57:26 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 07 May 2005 17:57:26 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIEFjdGEgcmV1bmnzbiAwNC0w?=
+ =?iso-8859-1?B?NS0wNQ==?=
+In-Reply-To: <BAY107-F41A1B2AC4296FB25056B73B91B0@phx.gbl>
+Message-ID: <BAY103-F173C02871FA877B3C5E5E5CE1C0@phx.gbl>
+
+>Opcionales:
+>
+>	Prolog: Generaci?n de acordes, dominantes sustitutos y disminuidos
+>
+>	Haskell: Armonizador de Terceras y Sextas.
+>
+>	C: Repartir voces de acordes entre los instrumentos (semilla aleatoria)
+>
+>
+
+y tb elegir por interfaz si se van a usar triadas, cuatriadas o tensiones en 
+los acordes
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Mon May  9 13:55:44 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 09 May 2005 11:55:44 +0000
+Subject: [Genaro-somos-todos] parsear Music
+Message-ID: <BAY1-F349399C8C8BA58CE57C0F2D51E0@phx.gbl>
+
+Acabo de ver que quizas no hubiera hecho falta hacer el parser del tipo 
+Music. Podriamos haber guardado el music como un Midi y luego recuperar el 
+music a partir de dicho Midi. he visto que hay funciones que hacen eso: se 
+llaman readMidi y loadMidiFile.
+Las he probado y si que funcionan pero no se hasta que punto recogen la 
+informacion de los Midi. Supongo que el operador :=: y :+: lo pillan bien 
+aunque no estoy tan seguro si hacen lo mismo cuando se pone Legado, Vibrato 
+o cosas asi.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Wed May 11 13:32:13 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 11 May 2005 11:32:13 +0000
+Subject: [Genaro-somos-todos] La polla
+Message-ID: <BAY1-F15811F9798CB93943AC755D5100@phx.gbl>
+
+Los ejemplos de melodia son la polla. Decir m?s ser?a pecado.
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Wed May 11 23:25:34 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 11 May 2005 21:25:34 +0000
+Subject: [Genaro-somos-todos] Tres tristes pegas (mas una)
+Message-ID: <BAY1-F4EDF6CCE21B1230167421D5100@phx.gbl>
+
+Primero: Se me olvido poner un parametro el codigo de prolog. Es el 
+parametro del tipo de semilla, que puede ser 1 ? 3. Lo que hacen dichos 
+tipos no tengo ni idea, hay que preguntarselo a Juan.
+
+Segundo: Necesito una pista de bateria. La pista simplemente tiene un numero 
+de compases, como siempre y un patron ritmico de bateria. Un patron ritmico 
+de bateria es simplemente un patron ritmico normal en el que el texto de la 
+izquierda que poner "voz n" se sustituye por lo siguiente:
+Bombo, CajaFuerte, CajaSuave, CharlesPisado, CharlesAbierto, CharlesCerrado, 
+TimbalAgudo, TimbalGrave, Ride, Crash (de abajo a arriba). El numero de 
+voces es siempre fijo (10, tantas como instrumentos). El resto de parametros 
+(como sistema paralelo, numero de notas, ...) no se van a tener.
+Lo que no se es como se puede codificar eso en timidity
+
+Tercero: quiero que cada pista tenga asociado un String que indique el 
+instrumento MIDI que va a reproducir, independientemente del timidity. Eso 
+es para que se forme el MIDI de forma correcta aunque luego le asocies un 
+sample de "fantasia" a la pista 7. Los instrumentos Midi no los copies a 
+mano, yo te pasare un Pdf donde los puedes copiar y pegar. Tan facil como 
+eso.
+
+Cuarto: para crear subbloque de silencio vas a tener que llamar a Haskell 
+para hacer una tonteria.
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Thu May 12 13:17:45 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 12 May 2005 11:17:45 +0000
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?bWHxYW5h?=
+Message-ID: <BAY1-F219F4D408D8D99A6C01B4BD5110@phx.gbl>
+
+Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan se 
+lleve el portatil, asi podemos trabajar los tres.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From gatchan00 at hotmail.com  Thu May 12 15:17:45 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 12 May 2005 13:17:45 +0000
+Subject: [Genaro-somos-todos] mañana
+In-Reply-To: <BAY1-F219F4D408D8D99A6C01B4BD5110@phx.gbl>
+Message-ID: <BAY107-F15EBB8FC6459A00E888E98B9110@phx.gbl>
+
+Os parece bien a las 12 horas?
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] ma?ana
+>Date: Thu, 12 May 2005 11:17:45 +0000
+>
+>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan se 
+>lleve el portatil, asi podemos trabajar los tres.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Thu May 12 17:14:51 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 12 May 2005 15:14:51 +0000
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIG1h8WFuYQ==?=
+In-Reply-To: <BAY107-F15EBB8FC6459A00E888E98B9110@phx.gbl>
+Message-ID: <BAY1-F11528D0CA0EA537DD71C15D5110@phx.gbl>
+
+Vaaaaaaaale. A mi me parece bien. En tu colegio sirven comida a los 
+intrusos, ?no Javi?
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] ma?ana
+>Date: Thu, 12 May 2005 13:17:45 +0000
+>
+>Os parece bien a las 12 horas?
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] ma?ana
+>>Date: Thu, 12 May 2005 11:17:45 +0000
+>>
+>>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan 
+>>se lleve el portatil, asi podemos trabajar los tres.
+>>
+>>_________________________________________________________________
+>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>http://www.msn.es/Mujer/moda/default.asp
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Thu May 12 20:30:12 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 12 May 2005 20:30:12 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIFJFOiBbR2VuYXJvLXNvbW9z?=
+ =?iso-8859-1?B?LXRvZG9zXSBtYfFhbmE=?=
+In-Reply-To: <BAY1-F11528D0CA0EA537DD71C15D5110@phx.gbl>
+Message-ID: <BAY103-F25D5AF2663276F5BF95ADFCE110@phx.gbl>
+
+Ok, yo salgo de clase a las 12:00 asi q llegare tarde, si quereis qdamos a 
+la 12:30 q me lo creo mas, yo ire directo de todas formas. Supongo q qdamos 
+en los bancos de siempre
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] ma?ana
+>Date: Thu, 12 May 2005 15:14:51 +0000
+>
+>Vaaaaaaaale. A mi me parece bien. En tu colegio sirven comida a los 
+>intrusos, ?no Javi?
+>
+>
+>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] ma?ana
+>>Date: Thu, 12 May 2005 13:17:45 +0000
+>>
+>>Os parece bien a las 12 horas?
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] ma?ana
+>>>Date: Thu, 12 May 2005 11:17:45 +0000
+>>>
+>>>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>>>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan 
+>>>se lleve el portatil, asi podemos trabajar los tres.
+>>>
+>>>_________________________________________________________________
+>>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>>http://www.msn.es/Mujer/moda/default.asp
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From gatchan00 at hotmail.com  Thu May 12 22:53:48 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 12 May 2005 20:53:48 +0000
+Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] mañana
+In-Reply-To: <BAY1-F11528D0CA0EA537DD71C15D5110@phx.gbl>
+Message-ID: <BAY107-F250F44C42A6BA9E4F15BCBB9110@phx.gbl>
+
+si, no os preocup?is, que pod?is comer aqu?.
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] ma?ana
+>Date: Thu, 12 May 2005 15:14:51 +0000
+>
+>Vaaaaaaaale. A mi me parece bien. En tu colegio sirven comida a los 
+>intrusos, ?no Javi?
+>
+>
+>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] ma?ana
+>>Date: Thu, 12 May 2005 13:17:45 +0000
+>>
+>>Os parece bien a las 12 horas?
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] ma?ana
+>>>Date: Thu, 12 May 2005 11:17:45 +0000
+>>>
+>>>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>>>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan 
+>>>se lleve el portatil, asi podemos trabajar los tres.
+>>>
+>>>_________________________________________________________________
+>>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>>http://www.msn.es/Mujer/moda/default.asp
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Thu May 12 22:59:01 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 12 May 2005 20:59:01 +0000
+Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] RE: [Genaro-somos-todos] mañan
+In-Reply-To: <BAY103-F25D5AF2663276F5BF95ADFCE110@phx.gbl>
+Message-ID: <BAY107-F20BBDED7D2AE47DF8E56B0B9110@phx.gbl>
+
+vale, pues quedamos a las 12:30
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] RE: 
+>[Genaro-somos-todos] ma?ana
+>Date: Thu, 12 May 2005 20:30:12 +0200
+>
+>Ok, yo salgo de clase a las 12:00 asi q llegare tarde, si quereis qdamos a 
+>la 12:30 q me lo creo mas, yo ire directo de todas formas. Supongo q qdamos 
+>en los bancos de siempre
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] ma?ana
+>>Date: Thu, 12 May 2005 15:14:51 +0000
+>>
+>>Vaaaaaaaale. A mi me parece bien. En tu colegio sirven comida a los 
+>>intrusos, ?no Javi?
+>>
+>>
+>>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: RE: [Genaro-somos-todos] ma?ana
+>>>Date: Thu, 12 May 2005 13:17:45 +0000
+>>>
+>>>Os parece bien a las 12 horas?
+>>>
+>>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>Subject: [Genaro-somos-todos] ma?ana
+>>>>Date: Thu, 12 May 2005 11:17:45 +0000
+>>>>
+>>>>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>>>>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que Juan 
+>>>>se lleve el portatil, asi podemos trabajar los tres.
+>>>>
+>>>>_________________________________________________________________
+>>>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>>>http://www.msn.es/Mujer/moda/default.asp
+>>>>
+>>>>_______________________________________________
+>>>>Genaro-somos-todos mailing list
+>>>>Genaro-somos-todos at lists.berlios.de
+>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>>canciones. http://music.msn.es/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Fri May 13 10:12:33 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 13 May 2005 08:12:33 +0000
+Subject: [Genaro-somos-todos] viernes a las 12:30
+In-Reply-To: <BAY107-F20BBDED7D2AE47DF8E56B0B9110@phx.gbl>
+Message-ID: <BAY1-F1957A2F1778D6591E58334D5120@phx.gbl>
+
+Vale. El viernes a las 12:30 en el cole de Javi
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] RE: [Genaro-somos-todos] RE: 
+>[Genaro-somos-todos] ma?an
+>Date: Thu, 12 May 2005 20:59:01 +0000
+>
+>vale, pues quedamos a las 12:30
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] RE: 
+>>[Genaro-somos-todos] ma?ana
+>>Date: Thu, 12 May 2005 20:30:12 +0200
+>>
+>>Ok, yo salgo de clase a las 12:00 asi q llegare tarde, si quereis qdamos a 
+>>la 12:30 q me lo creo mas, yo ire directo de todas formas. Supongo q 
+>>qdamos en los bancos de siempre
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] ma?ana
+>>>Date: Thu, 12 May 2005 15:14:51 +0000
+>>>
+>>>Vaaaaaaaale. A mi me parece bien. En tu colegio sirven comida a los 
+>>>intrusos, ?no Javi?
+>>>
+>>>
+>>>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>Subject: RE: [Genaro-somos-todos] ma?ana
+>>>>Date: Thu, 12 May 2005 13:17:45 +0000
+>>>>
+>>>>Os parece bien a las 12 horas?
+>>>>
+>>>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>>Subject: [Genaro-somos-todos] ma?ana
+>>>>>Date: Thu, 12 May 2005 11:17:45 +0000
+>>>>>
+>>>>>Ma?ana tengo el dia libre asi que si quereis podemos quedar para hacer 
+>>>>>genaritos por la ma?ana en el colegio de javi. Pase lo que pase que 
+>>>>>Juan se lleve el portatil, asi podemos trabajar los tres.
+>>>>>
+>>>>>_________________________________________________________________
+>>>>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>>>>http://www.msn.es/Mujer/moda/default.asp
+>>>>>
+>>>>>_______________________________________________
+>>>>>Genaro-somos-todos mailing list
+>>>>>Genaro-somos-todos at lists.berlios.de
+>>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>>
+>>>>
+>>>>_______________________________________________
+>>>>Genaro-somos-todos mailing list
+>>>>Genaro-somos-todos at lists.berlios.de
+>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>
+>>>_________________________________________________________________
+>>>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>>>canciones. http://music.msn.es/
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Tue May 17 20:01:41 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 17 May 2005 20:01:41 +0200
+Subject: [Genaro-somos-todos] cuando qdamos
+Message-ID: <BAY103-F1A98C3658F38197C20AFFCE160@phx.gbl>
+
+Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo qdar 
+con jaime la semana q viene tengamos lo q tengamos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Tue May 17 20:07:57 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 17 May 2005 20:07:57 +0200
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY103-F1A98C3658F38197C20AFFCE160@phx.gbl>
+Message-ID: <BAY103-F30394CF7B6935E1D8D97A5CE160@phx.gbl>
+
+Me aburro a mi mismo, pero weno, esta informacion es tranquilizadora:
+
+http://www.fdi.ucm.es/local/SI/calendario.html
+
+CALENDARIO DE SISTEMAS INFORM?TICOS CURSO 2004-05
+
+Alumnos que se matriculen de esta asignatura durante el periodo oficial de 
+matr?cula
+Periodo de propuesta de proyectos por mutuo acuerdo 	del 1 de julio al 5 de 
+octubre
+Publicaci?n de la lista de proyectos ofertados por los profesores 	8 de 
+octubre
+Periodo de solicitud de proyectos 	del 11 al 15 de octubre
+Publicaci?n de la lista de proyectos asignados 	18 de octubre
+Alumnos que se matriculen de esta asignatura en ampliaci?n de matr?cula
+Publicaci?n de la lista de proyectos asignados 	25 de octubre
+
+Convocatoria de Junio
+Periodo de exposici?n p?blica de proyectos 	del 27 al 30 de junio
+L?mite de entrega en Secretar?a de la memoria del proyecto
+(1 copia en papel + 1 copia electr?nica). 	1 de julio
+L?mite de entrega de actas y propuesta de candidatos a M.H.
+(solo para profesores) 	1 de julio
+Acto de exposici?n p?blica de proyectos candidatos a M.H. 	7 de julio
+Firma de acta de Sistemas Inform?ticos 	11 de julio
+
+Convocatoria de Septiembre
+
+Periodo de exposici?n p?blica de proyectos 	del 26 al 28 de septiembre
+L?mite de entrega en Secretar?a de la memoria del proyecto
+(1 copia en papel + 1 copia electr?nica). 	30 de septiembre
+L?mite de entrega de actas (s?lo para profesores) 	30 de septiembre
+Firma de acta de Sistemas Inform?ticos 	4 de octubre
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] cuando qdamos
+>Date: Tue, 17 May 2005 20:01:41 +0200
+>
+>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo qdar 
+>con jaime la semana q viene tengamos lo q tengamos
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Tue May 17 22:14:30 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Tue, 17 May 2005 20:14:30 +0000
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY103-F30394CF7B6935E1D8D97A5CE160@phx.gbl>
+Message-ID: <BAY107-F84475ECA08ED47741F4DFB9160@phx.gbl>
+
+a mi me parece bien quedar la semana que viene con jaime, el miercoles como 
+solemos hacer. por cierto, quedamos este domingo para terminar ya de una vez 
+a genarin, el mu pill?n. ;)
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>Date: Tue, 17 May 2005 20:07:57 +0200
+>
+>Me aburro a mi mismo, pero weno, esta informacion es tranquilizadora:
+>
+>http://www.fdi.ucm.es/local/SI/calendario.html
+>
+>CALENDARIO DE SISTEMAS INFORM?TICOS CURSO 2004-05
+>
+>Alumnos que se matriculen de esta asignatura durante el periodo oficial de 
+>matr?cula
+>Periodo de propuesta de proyectos por mutuo acuerdo 	del 1 de julio al 5 de 
+>octubre
+>Publicaci?n de la lista de proyectos ofertados por los profesores 	8 de 
+>octubre
+>Periodo de solicitud de proyectos 	del 11 al 15 de octubre
+>Publicaci?n de la lista de proyectos asignados 	18 de octubre
+>Alumnos que se matriculen de esta asignatura en ampliaci?n de matr?cula
+>Publicaci?n de la lista de proyectos asignados 	25 de octubre
+>
+>Convocatoria de Junio
+>Periodo de exposici?n p?blica de proyectos 	del 27 al 30 de junio
+>L?mite de entrega en Secretar?a de la memoria del proyecto
+>(1 copia en papel + 1 copia electr?nica). 	1 de julio
+>L?mite de entrega de actas y propuesta de candidatos a M.H.
+>(solo para profesores) 	1 de julio
+>Acto de exposici?n p?blica de proyectos candidatos a M.H. 	7 de julio
+>Firma de acta de Sistemas Inform?ticos 	11 de julio
+>
+>Convocatoria de Septiembre
+>
+>Periodo de exposici?n p?blica de proyectos 	del 26 al 28 de septiembre
+>L?mite de entrega en Secretar?a de la memoria del proyecto
+>(1 copia en papel + 1 copia electr?nica). 	30 de septiembre
+>L?mite de entrega de actas (s?lo para profesores) 	30 de septiembre
+>Firma de acta de Sistemas Inform?ticos 	4 de octubre
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] cuando qdamos
+>>Date: Tue, 17 May 2005 20:01:41 +0200
+>>
+>>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo 
+>>qdar con jaime la semana q viene tengamos lo q tengamos
+>>
+>>_________________________________________________________________
+>>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>>te imaginas. http://www.msn.es/Subastas/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Thu May 19 16:10:09 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 19 May 2005 14:10:09 +0000
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY103-F1A98C3658F38197C20AFFCE160@phx.gbl>
+Message-ID: <BAY1-F35AD8DD1FB9591F7155BDDD5080@phx.gbl>
+
+A mi me parece bien quedar este domingo y la semana que viene con Jaime.
+Este domingo no lo vamos a acabar, esta claro, y aunque la entrega 
+definitiva sea el 1 de Julio no creo que quede mucho tiempo. Ahora vienen 
+los examenes, a parte de PDAy CTC, y yo les voy a dedicar casi todo mi 
+tiempo. No puedo perderlo mas con Genaro. No se como lo veis pero hay que ir 
+pensando si seria buena idea dejarlo para septiembre tal y como vamos.
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] cuando qdamos
+>Date: Tue, 17 May 2005 20:01:41 +0200
+>
+>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo qdar 
+>con jaime la semana q viene tengamos lo q tengamos
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Thu May 19 18:42:47 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 19 May 2005 18:42:47 +0200
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY1-F35AD8DD1FB9591F7155BDDD5080@phx.gbl>
+Message-ID: <BAY14-F8F0C15C7E003D76DAF7FACE080@phx.gbl>
+
+A mi me parece una locura dejarlo para septiembre, y adem?s voy a tener 
+bastante tiempo durante los ex?menes. De hecho Villellas me ha dicho hoy q 
+jaime esta muy contento con nuestro proyecto (villellas esta haciendo otro 
+proyecto con jaime). No es q vayamos de puta madre pero me parece demasiado 
+pesimista tu actitud
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>Date: Thu, 19 May 2005 14:10:09 +0000
+>
+>
+>A mi me parece bien quedar este domingo y la semana que viene con Jaime.
+>Este domingo no lo vamos a acabar, esta claro, y aunque la entrega 
+>definitiva sea el 1 de Julio no creo que quede mucho tiempo. Ahora vienen 
+>los examenes, a parte de PDAy CTC, y yo les voy a dedicar casi todo mi 
+>tiempo. No puedo perderlo mas con Genaro. No se como lo veis pero hay que 
+>ir pensando si seria buena idea dejarlo para septiembre tal y como vamos.
+>
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] cuando qdamos
+>>Date: Tue, 17 May 2005 20:01:41 +0200
+>>
+>>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo 
+>>qdar con jaime la semana q viene tengamos lo q tengamos
+>>
+>>_________________________________________________________________
+>>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>>te imaginas. http://www.msn.es/Subastas/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Thu May 19 18:45:46 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 19 May 2005 16:45:46 +0000
+Subject: [Genaro-somos-todos] Tensiones
+Message-ID: <BAY1-F8C023A74B443235F37A78D5080@phx.gbl>
+
+Hay un problema con las tensiones de los acordes. Para determinarlas no me 
+vale exclusivamente la matricula del acorde, tambien necesito el grado sobre 
+el que est?. Por ejemplo IMaj7 tiene de tensiones 9, 13 y IVMaj7 tiene 9, 
+#11, 13. Puedo hacer tres cosas:
+1 dejarlo como esta
+2 a?adir las tensiones 9, 11 y 13 a todos los acordes aunque en algunos no 
+sea correcto
+3 hacer tambien la traduccion pasando el grado sobre el que se forma. El 
+problema de esto es que no se hasta que punto va a ser posible ni cuanto 
+codigo tendria que cambiar
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Thu May 19 18:54:57 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 19 May 2005 18:54:57 +0200
+Subject: [Genaro-somos-todos] Tensiones
+In-Reply-To: <BAY1-F8C023A74B443235F37A78D5080@phx.gbl>
+Message-ID: <BAY103-F5A9E14996958B950801F9CE080@phx.gbl>
+
+Usa solo triadas y dejate de lios, las tensiones q qden para la version 2.0
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Tensiones
+>Date: Thu, 19 May 2005 16:45:46 +0000
+>
+>Hay un problema con las tensiones de los acordes. Para determinarlas no me 
+>vale exclusivamente la matricula del acorde, tambien necesito el grado 
+>sobre el que est?. Por ejemplo IMaj7 tiene de tensiones 9, 13 y IVMaj7 
+>tiene 9, #11, 13. Puedo hacer tres cosas:
+>1 dejarlo como esta
+>2 a?adir las tensiones 9, 11 y 13 a todos los acordes aunque en algunos no 
+>sea correcto
+>3 hacer tambien la traduccion pasando el grado sobre el que se forma. El 
+>problema de esto es que no se hasta que punto va a ser posible ni cuanto 
+>codigo tendria que cambiar
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From gatchan00 at hotmail.com  Thu May 19 23:54:25 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 19 May 2005 21:54:25 +0000
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY14-F8F0C15C7E003D76DAF7FACE080@phx.gbl>
+Message-ID: <BAY107-F167028359177FB9320A8AAB9080@phx.gbl>
+
+estoy con juan, creo que queda documentar y poca cosa m?s, pero casi mejor 
+hablarlo el domingo, digo yo. no obstante yo veo algo pesimista lo de 
+dejarlo para septiembre.
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>Date: Thu, 19 May 2005 18:42:47 +0200
+>
+>A mi me parece una locura dejarlo para septiembre, y adem?s voy a tener 
+>bastante tiempo durante los ex?menes. De hecho Villellas me ha dicho hoy q 
+>jaime esta muy contento con nuestro proyecto (villellas esta haciendo otro 
+>proyecto con jaime). No es q vayamos de puta madre pero me parece demasiado 
+>pesimista tu actitud
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>>Date: Thu, 19 May 2005 14:10:09 +0000
+>>
+>>
+>>A mi me parece bien quedar este domingo y la semana que viene con Jaime.
+>>Este domingo no lo vamos a acabar, esta claro, y aunque la entrega 
+>>definitiva sea el 1 de Julio no creo que quede mucho tiempo. Ahora vienen 
+>>los examenes, a parte de PDAy CTC, y yo les voy a dedicar casi todo mi 
+>>tiempo. No puedo perderlo mas con Genaro. No se como lo veis pero hay que 
+>>ir pensando si seria buena idea dejarlo para septiembre tal y como vamos.
+>>
+>>
+>>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] cuando qdamos
+>>>Date: Tue, 17 May 2005 20:01:41 +0200
+>>>
+>>>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>>>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>>>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo 
+>>>qdar con jaime la semana q viene tengamos lo q tengamos
+>>>
+>>>_________________________________________________________________
+>>>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>>>te imaginas. http://www.msn.es/Subastas/
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>>Desc?rgalo y pru?balo 2 meses gratis. 
+>>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+>ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Sat May 21 12:58:10 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 21 May 2005 10:58:10 +0000
+Subject: [Genaro-somos-todos] cuando qdamos
+In-Reply-To: <BAY107-F167028359177FB9320A8AAB9080@phx.gbl>
+Message-ID: <BAY1-F24DF90177FBBB26DF0444AD50A0@phx.gbl>
+
+Yo lo digo con criterio. Queda nada mas que dos semanas de clase y este 
+domingo no creo que lo acabemos. Quedan hacer pruebas y la documentacion, 
+que no es poca cosa. Ademas, ahora llegan los examenes y yo no voy a tener 
+casi tiempo de hacer el proyecto. Vosotros no se, a lo mejor teneis mas 
+tiempo que yo y por eso lo veis asi de optimista.
+
+Otra cosa, entonces quedamos el domingo a las cuatro, como siempre, no?
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>Date: Thu, 19 May 2005 21:54:25 +0000
+>
+>estoy con juan, creo que queda documentar y poca cosa m?s, pero casi mejor 
+>hablarlo el domingo, digo yo. no obstante yo veo algo pesimista lo de 
+>dejarlo para septiembre.
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>>Date: Thu, 19 May 2005 18:42:47 +0200
+>>
+>>A mi me parece una locura dejarlo para septiembre, y adem?s voy a tener 
+>>bastante tiempo durante los ex?menes. De hecho Villellas me ha dicho hoy q 
+>>jaime esta muy contento con nuestro proyecto (villellas esta haciendo otro 
+>>proyecto con jaime). No es q vayamos de puta madre pero me parece 
+>>demasiado pesimista tu actitud
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: RE: [Genaro-somos-todos] cuando qdamos
+>>>Date: Thu, 19 May 2005 14:10:09 +0000
+>>>
+>>>
+>>>A mi me parece bien quedar este domingo y la semana que viene con Jaime.
+>>>Este domingo no lo vamos a acabar, esta claro, y aunque la entrega 
+>>>definitiva sea el 1 de Julio no creo que quede mucho tiempo. Ahora vienen 
+>>>los examenes, a parte de PDAy CTC, y yo les voy a dedicar casi todo mi 
+>>>tiempo. No puedo perderlo mas con Genaro. No se como lo veis pero hay que 
+>>>ir pensando si seria buena idea dejarlo para septiembre tal y como vamos.
+>>>
+>>>
+>>>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>Subject: [Genaro-somos-todos] cuando qdamos
+>>>>Date: Tue, 17 May 2005 20:01:41 +0200
+>>>>
+>>>>Q eso, me vendria bien para plaqnificarme la semana saber q dias vamos a 
+>>>>qdar esta semana. Tb estaria bien hablar con jaime y enterarnos de los 
+>>>>plazos de entrega exactos, pq solo qdan dos semanas de clase. Propongo 
+>>>>qdar con jaime la semana q viene tengamos lo q tengamos
+>>>>
+>>>>_________________________________________________________________
+>>>>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que 
+>>>>ni te imaginas. http://www.msn.es/Subastas/
+>>>>
+>>>>_______________________________________________
+>>>>Genaro-somos-todos mailing list
+>>>>Genaro-somos-todos at lists.berlios.de
+>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>
+>>>_________________________________________________________________
+>>>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>>>Desc?rgalo y pru?balo 2 meses gratis. 
+>>>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+>>ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun May 22 21:59:14 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 22 May 2005 21:59:14 +0200
+Subject: [Genaro-somos-todos] direcciones de imagenes enrolladas
+Message-ID: <BAY14-F80772469457F7C532EC00CE0B0@phx.gbl>
+
+http://www.flickr.com/creativecommons/by-2.0/tags/music/
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Fri May 27 15:26:51 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 27 May 2005 13:26:51 +0000
+Subject: [Genaro-somos-todos] Domingo
+Message-ID: <BAY1-F9E3F0B716E860A297FEF7D5000@phx.gbl>
+
+Quedamos el domingo a las 4 en el cole de Javi, ?no chavales?
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Fri May 27 16:41:05 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 27 May 2005 16:41:05 +0200
+Subject: [Genaro-somos-todos] Domingo
+In-Reply-To: <BAY1-F9E3F0B716E860A297FEF7D5000@phx.gbl>
+Message-ID: <BAY103-F2251CC32F1D298A08A1727CE000@phx.gbl>
+
+OKa, alli nos vemos y de paso te devuelvo tus apuntes de GC. Que paseis buen 
+finde!
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Domingo
+>Date: Fri, 27 May 2005 13:26:51 +0000
+>
+>Quedamos el domingo a las 4 en el cole de Javi, ?no chavales?
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Fri May 27 17:19:25 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 27 May 2005 15:19:25 +0000
+Subject: [Genaro-somos-todos] Error prolog
+Message-ID: <BAY1-F14C95B83507A5DEE003D4ED5000@phx.gbl>
+
+Supongo que el codigo de C del cvs esta pensado para que se pueda ejecutar 
+directamente desde el repositorio de mi ordenador. Suponiendo que s? en mi 
+ordenador me sale un error muy raro, algo asi como que no puede acceder a 
+los recursos del sistema, y claro, se queda colgado despues. Es normal eso?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From gatchan00 at hotmail.com  Fri May 27 20:55:17 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 27 May 2005 18:55:17 +0000
+Subject: [Genaro-somos-todos] Error prolog
+In-Reply-To: <BAY1-F14C95B83507A5DEE003D4ED5000@phx.gbl>
+Message-ID: <BAY107-F4CC25AF58E04969A0E27AB9000@phx.gbl>
+
+pues no, no es muy normal, para que nos vamos a enga?ar... XD
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Error prolog
+>Date: Fri, 27 May 2005 15:19:25 +0000
+>
+>Supongo que el codigo de C del cvs esta pensado para que se pueda ejecutar 
+>directamente desde el repositorio de mi ordenador. Suponiendo que s? en mi 
+>ordenador me sale un error muy raro, algo asi como que no puede acceder a 
+>los recursos del sistema, y claro, se queda colgado despues. Es normal eso?
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Fri May 27 20:56:29 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 27 May 2005 18:56:29 +0000
+Subject: [Genaro-somos-todos] Domingo
+In-Reply-To: <BAY103-F2251CC32F1D298A08A1727CE000@phx.gbl>
+Message-ID: <BAY107-F18492E76937483E3B51115B9000@phx.gbl>
+
+po zi, a las 4 el domingo.
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Domingo
+>Date: Fri, 27 May 2005 16:41:05 +0200
+>
+>OKa, alli nos vemos y de paso te devuelvo tus apuntes de GC. Que paseis 
+>buen finde!
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] Domingo
+>>Date: Fri, 27 May 2005 13:26:51 +0000
+>>
+>>Quedamos el domingo a las 4 en el cole de Javi, ?no chavales?
+>>
+>>_________________________________________________________________
+>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Sat May 28 13:28:28 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 28 May 2005 11:28:28 +0000
+Subject: [Genaro-somos-todos] Editor pianola
+Message-ID: <BAY1-F9D02C06880486757B60DAD5010@phx.gbl>
+
+Alguien me puede decir como se ponen notas con puntillo en el editor de 
+pianola (si es que se puede). Dicho de otra forma, como se pegan notas.
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Sat May 28 13:32:32 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 28 May 2005 11:32:32 +0000
+Subject: [Genaro-somos-todos] editor pianola 2
+Message-ID: <BAY1-F45D27E0867A27356D23EFD5010@phx.gbl>
+
+Cuando pones el grid a 1/8 o mas las notas que pones no se ajustan a la 
+division de la rejilla. Da un efecto mu malo
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Mon May 30 16:27:40 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 30 May 2005 14:27:40 +0000
+Subject: [Genaro-somos-todos] Malas noticias sobre lilypond
+Message-ID: <BAY1-F21AB98935107104C186585D5030@phx.gbl>
+
+Tengo malas noticias sobre lilypond. Por lo visto el fichero que sale de 
+lilypond es correcto pero al compilarlo con lilypond sale un error raro. A 
+mi me pone al final que la pila se ha llenado. Si es asi ya si que no se 
+como solucionarlo
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Mon May 30 22:46:36 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 30 May 2005 22:46:36 +0200
+Subject: [Genaro-somos-todos] trabajo para el domingo 5 de junio
+Message-ID: <BAY103-F4A8373F49092D62BACD9ECE030@phx.gbl>
+
+trabajo para el domingo 5 de junio:
+
+- Javi:
+  .hacer lo de cargar proyectos
+  .apa?ar el problema con mostrar las curvas melodicas hechas por haskell
+  .empezar el manual de usuario
+
+-Rober:
+  .corregir el terrible bug del patron ritmivo flamenco
+  .documentar lo del ritmo y/o enlace de voces de los acordes
+
+-Juan:
+  .terminar el walking
+  .documentar la genaracion de progresiones de Prolog -> gram?tica
+
+si se me ha olvidado algo decidlo, tambi?n es vuestra responsabilidad!
+
+Que paseis buena semana
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+

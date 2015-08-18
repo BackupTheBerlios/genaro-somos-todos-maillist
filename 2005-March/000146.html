@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Patrones ritmicos
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Patrones%20ritmicos&In-Reply-To=%3CBAY103-F34DAB609A5CE583F84314CE510%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000145.html">
+   <LINK REL="Next"  HREF="000148.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Patrones ritmicos</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Patrones%20ritmicos&In-Reply-To=%3CBAY103-F34DAB609A5CE583F84314CE510%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Patrones ritmicos">bc24us at hotmail.com
+       </A><BR>
+    <I>Wed Mar  9 16:49:42 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000145.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+        <LI>Next message: <A HREF="000148.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#146">[ date ]</a>
+              <a href="thread.html#146">[ thread ]</a>
+              <a href="subject.html#146">[ subject ]</a>
+              <a href="author.html#146">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Quedamos en que cambiaras el tipo y todas las partes del c&#243;digo a las que 
+afectara, asi q te tocar&#237;a a ti cambiar el parser. Por esta vez lo hago pero 
+date cuenta de que he cambiado ese parser 4 veces y ayer mismo lo cambie 
+para nada
+
+&gt;<i>From: &quot;Roberto Torres&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">roberto_____666 at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i>Subject: [Genaro-somos-todos] Patrones ritmicos
+</I>&gt;<i>Date: Wed, 09 Mar 2005 15:41:33 +0000
+</I>&gt;<i>
+</I>&gt;<i>Ya tenemos nuevo tipo para los patrones ritmicos tal y como pidio Juan en 
+</I>&gt;<i>la ultima reunion.
+</I>&gt;<i>Si veis bien, es exactamente lo mismo pero con la altura del patron en una 
+</I>&gt;<i>tupla.
+</I>&gt;<i>La identancion va mal aqui, mejor lo veis en el archivo PatronesRItmicos.hs
+</I>&gt;<i>Ahora Juan tiene que hacer el parser de CAHaskell.hs para que funcione, 
+</I>&gt;<i>porque ahora ni compila
+</I>&gt;<i>
+</I>&gt;<i>type Voz = Int
+</I>&gt;<i>type Acento = Float         -- Acento: intensidad con que se ejecuta ese 
+</I>&gt;<i>tiempo. Valor de 0 a 100
+</I>&gt;<i>type Ligado = Bool          -- Ligado: indica si una voz de una columna 
+</I>&gt;<i>esta ligada con la se la siguiente columna
+</I>&gt;<i>                            -- en caso de que no este dicha voz el ligado 
+</I>&gt;<i>se ignora
+</I>&gt;<i>type URV = [(Voz, Acento, Ligado)]	-- Unidad de ritmo vertical, especifica 
+</I>&gt;<i>todas las filas de una unica columna
+</I>&gt;<i>type URH = Dur 				-- Unidad de ritmo horizontal, especifica la duracion de 
+</I>&gt;<i>una columna
+</I>&gt;<i>type UPR = ( URV , URH)                 -- Unidad del patron ritmico, 
+</I>&gt;<i>especifica completamente toda la informacion necesaria
+</I>&gt;<i>                                        -- para una columna (con todas sus 
+</I>&gt;<i>filas) en la matriz que representa el patron
+</I>&gt;<i>type AlturaPatron = Int			-- numero maximo de voces que posee el patron
+</I>&gt;<i>type MatrizRitmica = [UPR]              -- Una lista de columnas, vamos, 
+</I>&gt;<i>como una matriz
+</I>&gt;<i>
+</I>&gt;<i>type PatronRitmico = (AlturaPatron, MatrizRitmica)
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>Descarga gratis la Barra de Herramientas de MSN 
+</I>&gt;<i><A HREF="http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH">http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+_________________________________________________________________
+Moda para esta temporada. Ponte al d&#237;a de todas las tendencias. 
+<A HREF="http://www.msn.es/Mujer/moda/default.asp">http://www.msn.es/Mujer/moda/default.asp</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000145.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+	<LI>Next message: <A HREF="000148.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#146">[ date ]</a>
+              <a href="thread.html#146">[ thread ]</a>
+              <a href="subject.html#146">[ subject ]</a>
+              <a href="author.html#146">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] como invocar lilypond desde windows
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20como%20invocar%20lilypond%20desde%20windows&In-Reply-To=%3CBAY1-F103C0C8BE86BD5AE260B02D5400%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000181.html">
+   <LINK REL="Next"  HREF="000186.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] como invocar lilypond desde windows</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20como%20invocar%20lilypond%20desde%20windows&In-Reply-To=%3CBAY1-F103C0C8BE86BD5AE260B02D5400%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] como invocar lilypond desde windows">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Thu Mar 24 17:00:48 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000181.html">[Genaro-somos-todos] como funcionan los patrones ritmicos
+</A></li>
+        <LI>Next message: <A HREF="000186.html">[Genaro-somos-todos] como invocar lilypond desde windows
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#182">[ date ]</a>
+              <a href="thread.html#182">[ thread ]</a>
+              <a href="subject.html#182">[ subject ]</a>
+              <a href="author.html#182">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Este mensaje va casi exclusivamente para Javi que es el mago del grupo, ya 
+que invoca programas con sus artes nigromantes.
+Esto lo he cogido de, abriendo cualquier explorador, Herramientas -&gt; 
+opciones de carpeta -&gt; tipos de archivo -&gt; (seleccionas ly) -&gt; opciones 
+avanzadas -&gt;generate PDF -&gt; modificar.
+Resumiendo, como hay que ejecutar lilypond con un archivo a traves del 
+cygwin es asi:
+
+C:\cygwin\bin\bash.exe  --login  -c  '/usr/bin/lily-wins &quot;score.ly&quot;'
+
+Esta claro que el primer parametro es el archivo de la consola del cygwin, 
+en donde este (en mi caso lo instale en c:\cygwin, que es el que viene por 
+defecto)
+El ultimo parametro (el de despues de -c) viene con comillas simples y luego 
+dentro del fuente de lilypond que yo he llamado score.ly que ese viene con 
+comillas dobles.
+Que curioso, pero lo mas curioso viene ahora: la ruta de ese archivo 
+score.ly puede ser la absoluta de windows o la que es tipo Unix, que es la 
+que usa cygwin. Por ejemplo
+Ruta Windows: &quot;C:\mi_carpeta\score.ly&quot;
+Ruta Cygwin: &quot;/cygdrive/c/mi_carpeta/score.ly&quot;
+
+En cygwin, si quereis referiros a un archivo que este fuera de C:\cygwin (el 
+directorio de instalacion por defecto) teneis que poner /cygdrive/c (&#243; d &#243; e 
+si nos referimos a D: o E:). Si no considera una ruta como unix teniendo en 
+cuenta que la raiz del arbol de subdirectorios es C:\cygwin (es decir, que / 
+en cygwin es c:\cygwin en windows)
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+<A HREF="http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH">http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000181.html">[Genaro-somos-todos] como funcionan los patrones ritmicos
+</A></li>
+	<LI>Next message: <A HREF="000186.html">[Genaro-somos-todos] como invocar lilypond desde windows
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#182">[ date ]</a>
+              <a href="thread.html#182">[ thread ]</a>
+              <a href="subject.html#182">[ subject ]</a>
+              <a href="author.html#182">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] parametros de mainargs
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-April/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20parametros%20de%20mainargs&In-Reply-To=%3CBAY1-F20942B76CB1EB047CA7E27D5200%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000259.html">
+   <LINK REL="Next"  HREF="000251.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] parametros de mainargs</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20parametros%20de%20mainargs&In-Reply-To=%3CBAY1-F20942B76CB1EB047CA7E27D5200%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] parametros de mainargs">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Mon Apr 25 17:35:58 CEST 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000259.html">[Genaro-somos-todos] orden de mutaciones
+</A></li>
+        <LI>Next message: <A HREF="000251.html">[Genaro-somos-todos] Prolog
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#250">[ date ]</a>
+              <a href="thread.html#250">[ thread ]</a>
+              <a href="subject.html#250">[ subject ]</a>
+              <a href="author.html#250">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>voy a explicar brevemente como hay que darle los parametros al mainargs que 
+he hecho yo:
+Para las acciones:
+crea_progresion           crea una progresion con un cierto numero de 
+acordes
+muta_progresion         muta una progresion que se encuentra en un fichero
+muta_progresion_acorde    idem que anterior pero solo para un acorde
+muta_progresion_multiple  todavia por especificar bien
+
+Para las mutaciones: se debe mantener el orden
+mt Num_mutaciones   -&gt;  un numero de mutaciones cualesquiera
+ta NTA tb NTB   -&gt; de tipo a y de tipo b
+t1 NT1 t2 NT2 t3 NT3 tb NTB  -&gt; de tipo 1, 2, 3, y B
+ta NTA t4 NT4 t5 NT5 -&gt; de tipo A, 4 y 5
+t1 NT1 t2 NT2 t3 NT3 t4 NT4 t5 NT5  -&gt; de tipo 1, 2, 3, 4 y 5
+Si alguna no queremos que se haga ponemos un 0
+Cualquier ateracion de los parametros anterior produciria una inmediata 
+ca&#237;da del pene.
+
+Si os fijais es como lo que puso Javi en el acta de reunion pero con los 
+parametros en minuscula. Lo hago asi porque me es mas comodo en Prolog, nada 
+mas.
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M&#225;s de medio mill&#243;n de 
+canciones. <A HREF="http://music.msn.es/">http://music.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000259.html">[Genaro-somos-todos] orden de mutaciones
+</A></li>
+	<LI>Next message: <A HREF="000251.html">[Genaro-somos-todos] Prolog
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#250">[ date ]</a>
+              <a href="thread.html#250">[ thread ]</a>
+              <a href="subject.html#250">[ subject ]</a>
+              <a href="author.html#250">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

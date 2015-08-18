@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Acta de reunion 26-04-2005
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-April/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20de%20reunion%2026-04-2005&In-Reply-To=%3CBAY1-F377A499C3F1E638E3A3083D5220%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000254.html">
+   <LINK REL="Next"  HREF="000256.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Acta de reunion 26-04-2005</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20de%20reunion%2026-04-2005&In-Reply-To=%3CBAY1-F377A499C3F1E638E3A3083D5220%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Acta de reunion 26-04-2005">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Wed Apr 27 14:08:46 CEST 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000254.html">[Genaro-somos-todos] Acta  6 4 2005 (con retraso)
+</A></li>
+        <LI>Next message: <A HREF="000256.html">[Genaro-somos-todos] Calendario
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#255">[ date ]</a>
+              <a href="thread.html#255">[ thread ]</a>
+              <a href="subject.html#255">[ subject ]</a>
+              <a href="author.html#255">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Trabajos realizados.
+Roberto: terminado la distincion de casos en Prolog del predicado mainargs 
+excepto para el caso de muta_multiple que tiene que ser discutido es esta 
+reunion.
+
+3.- Nuevos trabajos.
+
+Javi:
+- Seguir con la parte del interfaz especificada pero no acabada todavia
+
+- Realizar el editor de pianola para melodia. Para ello reutilizara el 
+codigo del editor de pianola que ya tenemos. El numero de octavas es de 1 a 
+9 y cada octava tiene 12 notas, por tanto el editor poseera 9 * 12 filas. 
+Las notas de cada fila seran {C, C# / Db, D, D# / Eb , E, F, F# / Gb , G, G# 
+/ Ab , A, A# / Bb, B} seguido de la octava a la que pertenezca.
+
+- Queda como optativo hacer que las filas puedan cambiar de tama&#241;o y que en 
+vez de las notas de la izquierda aparezca un piano con las notas blancas y 
+negras. Posiblemente esto no se haga.
+
+- A&#241;adir los siguientes parametros de la obra completa: el tono que sera un 
+desplegable de las siguientes opciones {C, Cb, C#, D, Db, E, Eb, F, F#, G, 
+Gb, A, Ab, B, Bb} todas ellas son mayores y tempo que es un valor entero de 
+0 a 300
+
+- A&#241;adir la restriccion de la octava inicial para que sea desde 1 hasta 7. 
+Se puede poner un menu desplegable
+
+- Pasar la ruta absoluta a prolog en vez de la relativa como estaba puesto 
+ahora
+
+- Pasar la ruta melodica desde C a haskell mediante un fichero que contiene 
+siempre 10 puntos
+
+- A&#241;adir parametros a la pista de progresiones cuando queremos armonizar una 
+melodia:
+   - Modo Acordes: Triadas (solo para las notas diatonicas) y Triadas y 
+Cuatriadas
+   - Tipo de notas principales: Solo de larga duracion  y mas refinado (que 
+es el que usa el libro). EN ambos casos hay que poner un cuadro desplegable 
+con diferentes duraciones de notas (como en el editor de pianola)
+   - Tipo de asignacion de acordes: Uno por nota y Mas largo posible (este 
+lleva el parametro de la duracion igual que el parametro anterior que indica 
+el maximo que se quiere)
+
+- A&#241;adir un parametro a cada subloque de la pista de acompa&#241;amiento que 
+contenga lo siguiente: una semilla aleatoria o una semilla como numero 
+entero
+
+
+Roberto:
+- A&#241;adir la opcion al mainargs de crea_con_semilla
+
+- Preparar el codigo de haskell para a&#241;adir la bateria.
+
+
+Juan:
+- Acabar la generacion de melodia
+
+_________________________________________________________________
+M&#243;viles, DVD, c&#225;maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. <A HREF="http://www.msn.es/Subastas/">http://www.msn.es/Subastas/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000254.html">[Genaro-somos-todos] Acta  6 4 2005 (con retraso)
+</A></li>
+	<LI>Next message: <A HREF="000256.html">[Genaro-somos-todos] Calendario
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#255">[ date ]</a>
+              <a href="thread.html#255">[ thread ]</a>
+              <a href="subject.html#255">[ subject ]</a>
+              <a href="author.html#255">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

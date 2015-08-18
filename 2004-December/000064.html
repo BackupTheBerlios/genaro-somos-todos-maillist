@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Pa juan y sus parsers
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-December/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Pa%20juan%20y%20sus%20parsers&In-Reply-To=%3CBAY1-F44343EA4564D6C40AADF7D5AD0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000063.html">
+   <LINK REL="Next"  HREF="000065.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Pa juan y sus parsers</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Pa%20juan%20y%20sus%20parsers&In-Reply-To=%3CBAY1-F44343EA4564D6C40AADF7D5AD0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Pa juan y sus parsers">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Wed Dec 15 20:04:47 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000063.html">[Genaro-somos-todos] Cambio de dia
+</A></li>
+        <LI>Next message: <A HREF="000065.html">[Genaro-somos-todos] Acta reunion
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#64">[ date ]</a>
+              <a href="thread.html#64">[ thread ]</a>
+              <a href="subject.html#64">[ subject ]</a>
+              <a href="author.html#64">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>He pensado que deberias hacer dos parsers uno para lo que yo llamo ritmo 
+horizontal y otro para el ritmo vertical. No lo hago por capricho sino 
+porque a lo mejor el ritmo horizontal nos vale para alguna otra cosa, ya que 
+marca cuando se ejecutan algunas notas del acorde (del AcordeOrdenado). 
+Quizas valga para el bajo o la bateria, no lo se. De todas formas en el caso 
+de que no valga para nada no hemos perdido nada.
+Al grano, el ritmo horizontal es asi:
+
+type Acento = Int
+type URH = (Acento, Dur)
+type PatronHorizontal = [URH]
+
+PatronHorizontal es lo que debe parsear. EL ritmo vertical es asi:
+
+type Voz = Int
+type Ligado = Bool
+type URV = (Voz, Ligado)
+type PatronVertical = [URV]
+
+Igual que antes PatronVertical es lo que hay que parsear
+
+Y hablando de parsers... ya que vamos a tener unos cuantos parsers 
+deberiamos hacer algo sistematico en cuanto a la generacion y la 
+nomenglatura. En cuanto a la generacion no se como van pero parece que son 
+faciles. En cuanto a la nomenglatura deberiamos llamar al nombre del archivo 
+parserLoQueSea.hs y tener un archivo que sea parser.hs que simplemente sea 
+un modulo que importe los otros parser
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M&#225;s de medio mill&#243;n de 
+canciones. <A HREF="http://music.msn.es/">http://music.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000063.html">[Genaro-somos-todos] Cambio de dia
+</A></li>
+	<LI>Next message: <A HREF="000065.html">[Genaro-somos-todos] Acta reunion
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#64">[ date ]</a>
+              <a href="thread.html#64">[ thread ]</a>
+              <a href="subject.html#64">[ subject ]</a>
+              <a href="author.html#64">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

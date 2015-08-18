@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Re: Codigo Haskell
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Re%3A%20Codigo%20Haskell&In-Reply-To=%3CBAY14-F236E8DA69EAE7D07FB2711CEB90%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000040.html">
+   <LINK REL="Next"  HREF="000042.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Re: Codigo Haskell</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Re%3A%20Codigo%20Haskell&In-Reply-To=%3CBAY14-F236E8DA69EAE7D07FB2711CEB90%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Re: Codigo Haskell">bc24us at hotmail.com
+       </A><BR>
+    <I>Thu Nov 25 21:18:22 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000040.html">[Genaro-somos-todos] Codigo Haskell
+</A></li>
+        <LI>Next message: <A HREF="000042.html">[Genaro-somos-todos] Acordes Ordenados
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#41">[ date ]</a>
+              <a href="thread.html#41">[ thread ]</a>
+              <a href="subject.html#41">[ subject ]</a>
+              <a href="author.html#41">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>parserProgresionOrdenada :: Parser Char [AcordeOrdenado] es un parser que 
+dado un string devuelve una lista de parajas (string, [AcordeOrdenado]), 
+dado que type Parser symbol result  =  [symbol] -&gt; [([symbol],result)]. 
+Llama mejor a hazProgresionOrdenada :: String -&gt; [AcordeOrdenado]
+que te evita el case por si falla el parser y tienes lo q pedias. Ten en 
+cuenta q lo q hace es:
+&quot;-- coge un String en el formato especificado en 
+biblio_genaro_acordes:es_lista_orden_acordes
+-- y devuelve la lista de acordes ordenados correspondiente, es decir, de 
+acordes con sus voces
+-- ya elegidas&quot;
+  as&#237; q reconoce cosas que cumplen 
+biblio_genaro_acordes:es_lista_orden_acordes, NO que cumplan
+biblio_genaro_acordes:es_progresion_ordenada
+
+Creo q es lo q me pides pero no lo se pq &quot;el listaOrdenada&quot; no es un tipo de 
+nuestro codigo q yo sepa, si no me especificas bien las cosas no te puedo 
+responder
+
+Respecto a comentar el c&#243;digo es parte de mis tareas de la semana y como tal 
+la har&#233;. pero no me mandes m&#225;s trabajo a mitad de semana que el q se me ha 
+asignado pq no podr&#233; hacerlo. En cuanto a tus ideas sobre generaci&#243;n de 
+acordes esta claro q no es lo mismo generar para binario q para ternario, 
+pone al principio de genrador_acordes.pl q es para compas de 2 por 4, pero 
+todo el trabajo de golpe no lo voy a hacer claro. Lo q dices de coger la 
+m&#237;nima duraci&#243;n no lo entiendo pero mejor lo hablamos en la pr&#243;xima reuni&#243;n 
+q es m&#225;s f&#225;cil y para eso est&#225;n. Nos vemos
+
+
+
+&gt;<i>From: &quot;Roberto Torres&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">roberto_____666 at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i>Subject: [Genaro-somos-todos] Codigo Haskell
+</I>&gt;<i>Date: Thu, 25 Nov 2004 12:49:23 +0000
+</I>&gt;<i>
+</I>&gt;<i>No entiendo muy bien el codigo Haskell en conjunto. Necesito que esten 
+</I>&gt;<i>comentadas las funciones y que se explique un poco lo que hacen. Tambien 
+</I>&gt;<i>necesito (aunque no se si esta ya) una funcion que parsee un String y lo 
+</I>&gt;<i>convierta en un tipo que tiene EXACTAMENTE el mismo formato que el 
+</I>&gt;<i>listaOrdenada. De esa forma puedo sacar directamente la figura del acorde y 
+</I>&gt;<i>su lista de notas.
+</I>&gt;<i>En cuanto al patron ritmico es necesario un data que guarde su estructura 
+</I>&gt;<i>ya que una caracteristica de Genaro es que el usuario pueda definir su 
+</I>&gt;<i>patron ritmico. Es por eso que tambien es necesario parsearlo desde un 
+</I>&gt;<i>archivo.
+</I>&gt;<i>En cuanto a la generacion de cifrados he pensado que estamos trabajando 
+</I>&gt;<i>principalmente con ritmos binarios. Porque &#191;que pasaria con ritmos 
+</I>&gt;<i>ternarios? &#191;No deberia dividirse los acordes en tres en vez de en dos para 
+</I>&gt;<i>que l aparte fuerte del ritmo cayera sobre el primero y los otros dos sean 
+</I>&gt;<i>parte debiles?
+</I>&gt;<i>Tambien he pensado que la lista de acordes deveria tener la misma duracion 
+</I>&gt;<i>ya que queda mal efecto arpegiar un acorde que dura redonda y luego dos que 
+</I>&gt;<i>duran blanca. Es decir que en algun momento habria que dividir ciertos 
+</I>&gt;<i>acordes para que todos fueran iguales. Eso me lleva a pensar que podriamos 
+</I>&gt;<i>coger la figura mas peque&#241;a de la progresion, lo que a su vez me lleva a 
+</I>&gt;<i>pensar que deberiamos tener una duracion para el acorde MINIMA. Esas ideas 
+</I>&gt;<i>ya las ire madurando mas adelante y las formalizare mas.
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>M&#243;viles, DVD, c&#225;maras digitales, coleccionismo... Con unas ofertas que ni 
+</I>&gt;<i>te imaginas. <A HREF="http://www.msn.es/Subastas/">http://www.msn.es/Subastas/</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci&#243;n para tus hijos en internet. 
+Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+<A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000040.html">[Genaro-somos-todos] Codigo Haskell
+</A></li>
+	<LI>Next message: <A HREF="000042.html">[Genaro-somos-todos] Acordes Ordenados
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#41">[ date ]</a>
+              <a href="thread.html#41">[ thread ]</a>
+              <a href="subject.html#41">[ subject ]</a>
+              <a href="author.html#41">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

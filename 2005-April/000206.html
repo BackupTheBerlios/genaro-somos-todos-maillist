@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] funcion q hace midis por defecto para los patrones ritmicos
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-April/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20funcion%20q%20hace%20midis%20por%20defecto%20para%20los%20patrones%20ritmicos&In-Reply-To=%3CBAY103-F181933EBB54D1D036A7F4CCE390%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000205.html">
+   <LINK REL="Next"  HREF="000207.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] funcion q hace midis por defecto para los patrones ritmicos</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20funcion%20q%20hace%20midis%20por%20defecto%20para%20los%20patrones%20ritmicos&In-Reply-To=%3CBAY103-F181933EBB54D1D036A7F4CCE390%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] funcion q hace midis por defecto para los patrones ritmicos">bc24us at hotmail.com
+       </A><BR>
+    <I>Sat Apr  2 21:04:51 CEST 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000205.html">[Genaro-somos-todos] cambiados mains de haskell y prolog
+</A></li>
+        <LI>Next message: <A HREF="000207.html">[Genaro-somos-todos] Patrones ritmicos y ligados
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#206">[ date ]</a>
+              <a href="thread.html#206">[ thread ]</a>
+              <a href="subject.html#206">[ subject ]</a>
+              <a href="author.html#206">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ya est&#225; en el CVS el fichero patRitCAMidi.lhs se&#241;oraaaaaa!!!!!. En fin, esta 
+hecho para ser llamado con runhugs y se le pasa la ruta de un patron 
+ritmico, para que haskell cree un midi con el mismo nombre, en el mismo 
+directorio, pero de extensi&#243;n .mid.
+-Ejemplo de uso:
+
+D:\cvsrepo\Codigo\Haskell&gt;runhugs.exe patRitCAMidi.lhs 
+d:/cvsrepo/PatronesRitmicos/mazurka.txt
+
+Procesando el archivo de patron ritmico de C: 
+d:/cvsrepo/PatronesRitmicos/mazurka.txt
+
+Generando el archivo midi: d:/cvsrepo/PatronesRitmicos/mazurka.mid
+
+-Comentarios:
+
+Se llama pasando unicamente la ruta absoluta de un fichero de patron ritmico 
+de C y crea un fichero
+midi por defecto correspondiente a ese patron ritmico, de mismo nombre que 
+el fichero de patron ritmico
+pero con la extensi&#243;n .mid
+
+&gt;<i>main :: IO()
+</I>&gt;<i>main = do [ruta] &lt;- getArgs
+</I>&gt;<i>           fichPatRitAMidi ruta
+</I>
+
+Dada la ruta donde se encuentra un fichero de patron ritmico de C, lo lee y 
+construye un elemento
+de tipo Music resultado de asociar a cada fila/voz del patron r&#237;tmico 
+correspondiente una nota, empezando
+por asociar a la primera voz el Do y siguiendo construyendo la triada de Do 
+mayor, subiendo una octava con cada nota repetida.
+A este acorde se le aplica el patron r&#237;tmico y se produce la musica, que 
+luego se pasa a midi y se escribe en un archivo con el
+mismo nombre que el de partida salvo que su extensi&#243;n se cambia para que sea 
+.mid
+
+&gt;<i>fichPatRitAMidi :: String -&gt; IO()
+</I>&gt;<i>fichPatRitAMidi ruta = do putStr mensajeProcesandoPatronRit
+</I>&gt;<i>                           ficheroPatron &lt;- leePatronRitmicoC ruta
+</I>&gt;<i>                           putStr mensajeGenerandoMidi
+</I>&gt;<i>                           haskoreAMidi (fichPatRitAMusic ficheroPatron) 
+</I>&gt;<i>rutaDestinoMidi
+</I>&gt;<i>                           where rutaDestinoMidi = cambiaExtension &quot;mid&quot; 
+</I>&gt;<i>ruta
+</I>&gt;<i>                                 mensajeProcesandoPatronRit = &quot;\n 
+</I>&gt;<i>Procesando el archivo de patron ritmico de C: &quot; ++ ruta ++ &quot;\n&quot;
+</I>&gt;<i>                                 mensajeGenerandoMidi = &quot;\n Generando el 
+</I>&gt;<i>archivo midi: &quot; ++ rutaDestinoMidi ++ &quot;\n&quot;
+</I>
+
+Ahora solo falta poner un botoncillo en el editor de pianola y tirar millas
+
+_________________________________________________________________
+Hor&#243;scopo, tarot, numerolog&#237;a... Escucha lo que te dicen los astros. 
+<A HREF="http://astrocentro.msn.es/">http://astrocentro.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000205.html">[Genaro-somos-todos] cambiados mains de haskell y prolog
+</A></li>
+	<LI>Next message: <A HREF="000207.html">[Genaro-somos-todos] Patrones ritmicos y ligados
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#206">[ date ]</a>
+              <a href="thread.html#206">[ thread ]</a>
+              <a href="subject.html#206">[ subject ]</a>
+              <a href="author.html#206">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

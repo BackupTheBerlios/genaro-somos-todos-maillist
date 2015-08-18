@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-April/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Propuesta%20de%20uso%20de%20numeros%20aletaorios%20en%20Haskell&In-Reply-To=%3CBAY1-F19271C7AAB8C613AB168BBD5350%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000217.html">
+   <LINK REL="Next"  HREF="000220.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Propuesta%20de%20uso%20de%20numeros%20aletaorios%20en%20Haskell&In-Reply-To=%3CBAY1-F19271C7AAB8C613AB168BBD5350%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Thu Apr 14 16:43:48 CEST 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000217.html">[Genaro-somos-todos] Propuesta de uso  de numeros aletaorios en Haskell
+</A></li>
+        <LI>Next message: <A HREF="000220.html">[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#219">[ date ]</a>
+              <a href="thread.html#219">[ thread ]</a>
+              <a href="subject.html#219">[ subject ]</a>
+              <a href="author.html#219">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Vale, intentare cambiar mi codigo para que se ajuste a esa definicion pero 
+sera algo secundario en la lista de tareas priorizadas, es decir, que lo 
+hare lo ultimo.
+
+
+&gt;<i>La idea es usar un est&#225;ndar para unificar el uso de numeros aleatorios en 
+</I>&gt;<i>el codigo de HASKELL. Se basa en:
+</I>&gt;<i>
+</I>&gt;<i>-En BiblioGenaro.hs se ha definido
+</I>&gt;<i>
+</I>&gt;<i>resolucionRandom :: Int
+</I>&gt;<i>resolucionRandom = 1000
+</I>&gt;<i>
+</I>&gt;<i>todos los numeros aleatorios se generar&#225;n entre 1 y resolucionRandom . De 
+</I>&gt;<i>esta forma no tenemos numero bailando entre el codigo y podemos tener mas o 
+</I>&gt;<i>menos aleatoriedad cambiando un numero. Podemos suponer que cualquier 
+</I>&gt;<i>numero aleatorio/resolucionRandom pertenece a [0,1], y q multiplicado por 
+</I>&gt;<i>otro aplica un porcentaje
+</I>&gt;<i>
+</I>&gt;<i>- Los numeros aleatorios de los procesos pueden generarse con  aleat &lt;- 
+</I>&gt;<i>listaInfNumsAleatoriosIO 1 resolucionRandom, que devuelve una lista 
+</I>&gt;<i>infinita de enteros aleatorios entre 1 y resolucionRandom. Si las funciones 
+</I>&gt;<i>que usan numeros aleatorios tienen de primer parametro una lista de enteros 
+</I>&gt;<i>aleatorios y devuelven una paraja formada por el elemento que se quiera (lo 
+</I>&gt;<i>que se quiere que devuelva la funcion) y los numeros aleatorios de la lista 
+</I>&gt;<i>que no se hayan usado, tenemos una manera facil de hacer el paso de numeros 
+</I>&gt;<i>aleatorios entre las funciones
+</I>&gt;<i>
+</I>&gt;<i>- Las funciones
+</I>&gt;<i>
+</I>&gt;<i>{-
+</I>&gt;<i>Dada una lista de parejas (termino, peso), donde los pesos son naturales, 
+</I>&gt;<i>devuelve en Elem un elemento
+</I>&gt;<i>(es decir, primer componente de una de las parejas que forman la lista de 
+</I>&gt;<i>entrada) elegido al azar entre
+</I>&gt;<i>de los de la lista asignando a cada elemento/pareja una probabilidad de ser 
+</I>&gt;<i>elegida igual a (peso/sumaPesos)
+</I>&gt;<i>, donde suma pesos es la suma de los pesos de todos los elementos de la 
+</I>&gt;<i>lista. Para ello se le debe suministrar un
+</I>&gt;<i>numero aleatorio entre 1 y resolucionRandom. Se devuelve el elemento 
+</I>&gt;<i>elegido y su posicion
+</I>&gt;<i>-dameElemAleatListaPesos aleat listaParejas
+</I>&gt;<i>-}
+</I>&gt;<i>dameElemAleatListaPesos :: Int -&gt; [(a, Int)] -&gt; (a, Int)
+</I>&gt;<i>
+</I>&gt;<i>y
+</I>&gt;<i>
+</I>&gt;<i>{-
+</I>&gt;<i>como dameElemAleatListaPesos pero con pesos de tipo Float
+</I>&gt;<i>-}
+</I>&gt;<i>dameElemAleatListaPesosFloat :: Int -&gt; [(a, Float)] -&gt; (a, Int)
+</I>&gt;<i>
+</I>&gt;<i>valen para eso y tienen su interes
+</I>&gt;<i>
+</I>&gt;<i>Espero tus opiniones Roberto
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>Acepta el reto MSN Premium: Protecci&#243;n para tus hijos en internet. 
+</I>&gt;<i>Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+</I>&gt;<i><A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+<A HREF="http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH">http://www.msn.es/usuario/busqueda/barra?XAPID=2031&amp;DI=1055&amp;SU=http%3A//www.hotmail.com&amp;HL=LINKTAG1OPENINGTEXT_MSNBH</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000217.html">[Genaro-somos-todos] Propuesta de uso  de numeros aletaorios en Haskell
+</A></li>
+	<LI>Next message: <A HREF="000220.html">[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#219">[ date ]</a>
+              <a href="thread.html#219">[ thread ]</a>
+              <a href="subject.html#219">[ subject ]</a>
+              <a href="author.html#219">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

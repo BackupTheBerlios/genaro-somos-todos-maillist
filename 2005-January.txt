@@ -1,0 +1,1705 @@
+From roberto_____666 at hotmail.com  Sat Jan  1 16:33:53 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 01 Jan 2005 15:33:53 +0000
+Subject: [Genaro-somos-todos] Patrones ritmicos de nuevo y continuidad armonica
+Message-ID: <BAY1-F1932E681BC8E3013E573A9D59E0@phx.gbl>
+
+Ahora que podemos definir las notas que van a tener un AcordeOrdenado no 
+tendria mas sentido que el patron vertical, es decir, el numero de voces que 
+tiene el patron ritmico, sea igual al numero de notas del AcordeOrdenado. O 
+lo que es lo mismo, si tenemos una progresion y decimos que tenga N notas 
+cada acorde el PatronRitmico deberia tener de altura N. Creo que es mucho 
+mas logico y ademas nos ahorrariamos bastantes problemas.
+
+Respecto a la continuidad armonica para enlazar acordes tengo una duda. 
+Supongamos un acorde ordenado de N notas. Este acorde tendria 4 inversiones 
+(si es cuatriada claro), 4 disposiciones y N-2 notas internas, es decir, que 
+quitamos la nota mas baja y mas alta que definen la inversion y la 
+disposicion respectivamente. Para comprobar una continuidad armonica mas 
+refinada y mas correcta deberiamos probar con las 4 inversiones, las 4 
+disposiciones y las permutaciones de las notas internas, eso nos da 
+4*4*((N-2)!) posibilidades. Si, por ejemplo N=8 entonces habria que probar 
+con 11520 posibilidades aunque con 6 seria solo 384 que las hace bastante 
+deprisa.
+Otra forma seria como hablamos en la ultima reunion: enpezar con al 
+inversion y sumar 1 de forma circular, como su fueran numeros congruentes. 
+Por ejemplo , con inversion 1 hariamos 2,3,4,1,2,...
+Eso, por supuesto no nos da todas las posibilidades, sin embargo es una 
+forma mucho mas rapida y tampoco va tan mal, por lo menos en lo que he 
+probado.
+Hecha (o casi hecha) esta de las dos formas y mi pregunta es ?dejo la 
+primera forma, la segunda o las dos para que las pueda elegir el usuario a 
+sabiendas de que la segunda forma crece factorialmente con el numero de 
+notas?
+Por cierto, para encontrar una implementacion de haskell de una funcion que 
+permute id aqui
+http://polaris.lcc.uma.es/~pacog/apuntes/pd/cap06.pdf, en la pagina 25
+
+
+Por cierto, la continuidad armonica la estoy haciendo en Haskell es que 
+muchiiiisimo mas rapida y facil aunque para realizar busquedas las tengo que 
+hacer en anchura con listas intensionales.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Jan  1 16:35:37 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 01 Jan 2005 15:35:37 +0000
+Subject: [Genaro-somos-todos] Random
+Message-ID: <BAY1-F8AD8AB58684D418EFF963D59E0@phx.gbl>
+
+?Alguien sabe como se usa los numero aleatorios en Haskell?
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sun Jan  2 12:03:26 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 02 Jan 2005 11:03:26 +0000
+Subject: [Genaro-somos-todos] Vectores
+Message-ID: <BAY1-F303FEE6E28F9D857192430D59F0@phx.gbl>
+
+Juan, necesito que te mires esta funcion matriculaAVector :: Matricula -> 
+Vector
+Ahi estan los vectores que determinan la estructura del acorde. Hay dos en 
+los que tengo un poco de duda. Pero da igual, miratelos todos a ver si estan 
+bien
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 17:20:58 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 17:20:58 +0100
+Subject: [Genaro-somos-todos] Random
+In-Reply-To: <BAY1-F8AD8AB58684D418EFF963D59E0@phx.gbl>
+Message-ID: <BAY103-F28F9A6A96AC3BED8E395A2CE9F0@phx.gbl>
+
+No tengo ni idea , te recomiendo que consultes:
+
+http://www.zvon.org/other/haskell/Outputrandom/index.html
+
+y sobre todo
+
+http://www.haskell.org/onlinereport/random.html
+
+con esto y los apuntes de PF que te ense?an lo de las clases de tipos puede 
+ser suficiente. Suerte!
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Random
+>Date: Sat, 01 Jan 2005 15:35:37 +0000
+>
+>?Alguien sabe como se usa los numero aleatorios en Haskell?
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 17:23:01 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 17:23:01 +0100
+Subject: [Genaro-somos-todos] Mil perdones
+Message-ID: <BAY103-F152876D6E71425BD9CD0C8CE9F0@phx.gbl>
+
+Pido disculpas a Roberto por mis ?ltimos mensajes bastante faltos de 
+diplomacia y educaci?n. Ya sabeis que soy un cafre, tratar? de reformarme XD
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 18:28:04 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 18:28:04 +0100
+Subject: [Genaro-somos-todos] Vectores
+In-Reply-To: <BAY1-F303FEE6E28F9D857192430D59F0@phx.gbl>
+Message-ID: <BAY103-F16688423FC13211B8656F3CE9F0@phx.gbl>
+
+Esta todo bien, te comento:
+-Men7B5 -> [0,3,6,10]: corresponde al septimo grado (B si estamos en C 
+mayor) de la escala mayor armonizada, por tanto su tercer grado es el 
+segundo (D), que est? a una tercera menor de ?l, por eso Men y por eso 3 
+semitonos. Su quinto grado es el cuarto (F) que est? a una quinta disminuida 
+de ?l, por eso 6 semitonos y B5 en la matricula. Su s?ptimo grado es el 
+sexto (A) que est? a una s?ptima menor de ?l, por eso 10 semitonos y 7 en la 
+matr?cula (la septima menor no se indica, solo la mayor con Maj7)
+
+-Dis7 -> [0,3,6,9]: aparece en el s?ptimo grado de la escala menor arm?nica 
+armonizada en cuatriadas, se obtiene como he hecho arriba pero usando la 
+estructura interv?lica
+I   III  bIII  IV  V  bVI   VII
+  T   S     T   T  S    T+s   S
+
+es como extender la triada disminuida (tercera menor y quinta disminuida) 
+con una s?ptima dos veces bemol, es decir disminuida, e.d., una sexta mayor 
+= 9 semitonos
+
+A ver si la pr?xima vez me puedes decir el archivo donde esta la funci?n q 
+me pidas revisar
+
+AVISO que no viene a cuento: estamos trabajando sobre el mismo c?digo as? 
+que recuerda que antes de hacer un commit debes hacer un update y comprobar 
+que no ha habido colisiones. Si no haces antes el update es posible que 
+taches mi c?digo. El update se hace con el comando "cvs update" y ya 
+comprueba todos los archivos del directorio desde donde lo llamas
+
+Venga, me voy a seguir currando, feliz a?o!!!
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Vectores
+>Date: Sun, 02 Jan 2005 11:03:26 +0000
+>
+>Juan, necesito que te mires esta funcion matriculaAVector :: Matricula -> 
+>Vector
+>Ahi estan los vectores que determinan la estructura del acorde. Hay dos en 
+>los que tengo un poco de duda. Pero da igual, miratelos todos a ver si 
+>estan bien
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 18:54:58 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 18:54:58 +0100
+Subject: [Genaro-somos-todos] Patrones ritmicos de nuevo y continuidad armonica
+In-Reply-To: <BAY1-F1932E681BC8E3013E573A9D59E0@phx.gbl>
+Message-ID: <BAY103-F32B98F860CFB41A2DBA6C6CE9F0@phx.gbl>
+
+>Ahora que podemos definir las notas que van a tener un AcordeOrdenado no 
+>tendria mas sentido que el patron vertical, es decir, el numero de voces 
+>que tiene el patron ritmico, sea igual al numero de notas del 
+>AcordeOrdenado. O lo que es lo mismo, si tenemos una progresion y decimos 
+>que tenga N notas cada acorde el PatronRitmico deberia tener de altura N. 
+>Creo que es mucho mas logico y ademas nos ahorrariamos bastantes problemas.
+
+La idea q tengo yo es q se puedan guardar los patrones r?tmicos para por ej 
+usar uno inventado para una canci?n en otra diferente. Si el patr?n no tiene 
+el mismo numero de notas que todos los acordes de la progresion ya sabr? el 
+usuario lo que hace. Muchas veces se usan trucos de estos para componer .Te 
+voy a poner un ejemplillo, la progresion 
+[(C,1/1),(Am,1/1),(Em,1/2),(G,1/2),(F,1/1)], tocada arpegiada (usando line) 
+con todos los acordes dispuestos como Fu-3-5-Octava. En los acordes que 
+duran una redonda (C,Am,F) esta clara la cosa, cada nota del acorde dura una 
+negra. Pero en los que duran una blanca no ser?a cosa muy rara que un humano 
+optara por que sonaran dos negras, la primera con la fundamental y la 
+segunda con todas las notas a la vez, o que sonara en la primera la Fu y en 
+la segunda la tercera o la quinta. Y eso lo podr?a especificar escribiendo 
+E5 o E-3 en vez de Em, con lo que tenemos una progresion en la que no todos 
+los acordes tienen el mismo numero de notas.Lo que te quiero decir es que no 
+por m?s uniforme es m?s l?gico, pq este truco q te cuento lo has oido seguro 
+un mill?n de veces
+
+
+>Respecto a la continuidad armonica para enlazar acordes tengo una duda. 
+>Supongamos un acorde ordenado de N notas. Este acorde tendria 4 inversiones 
+>(si es cuatriada claro), 4 disposiciones y N-2 notas internas, es decir, 
+>que quitamos la nota mas baja y mas alta que definen la inversion y la 
+>disposicion respectivamente. Para comprobar una continuidad armonica mas 
+>refinada y mas correcta deberiamos probar con las 4 inversiones, las 4 
+>disposiciones y las permutaciones de las notas internas, eso nos da 
+>4*4*((N-2)!) posibilidades. Si, por ejemplo N=8 entonces habria que probar 
+>con 11520 posibilidades aunque con 6 seria solo 384 que las hace bastante 
+>deprisa.
+>Otra forma seria como hablamos en la ultima reunion: enpezar con al 
+>inversion y sumar 1 de forma circular, como su fueran numeros congruentes. 
+>Por ejemplo , con inversion 1 hariamos 2,3,4,1,2,...
+>Eso, por supuesto no nos da todas las posibilidades, sin embargo es una 
+>forma mucho mas rapida y tampoco va tan mal, por lo menos en lo que he 
+>probado.
+>Hecha (o casi hecha) esta de las dos formas y mi pregunta es ?dejo la 
+>primera forma, la segunda o las dos para que las pueda elegir el usuario a 
+>sabiendas de que la segunda forma crece factorialmente con el numero de 
+>notas?
+>Por cierto, para encontrar una implementacion de haskell de una funcion que 
+>permute id aqui
+>http://polaris.lcc.uma.es/~pacog/apuntes/pd/cap06.pdf, en la pagina 25
+Yo no me preocupar?a de inversiones y disposiociones m?s q como 
+terminolog?a, son s?lo organizaciones estandar de las voces que yo ni 
+siquiera consideraria a la hora de hacer la continuidad arm?nica, excepto 
+quiz?s para elegir la organzacion del primer acorde. Yo utilizaria el 
+algoritmo de la p?gina 42 del libro 1 de Enric Herrera y lo enfocar?a a la 
+construccion del acorde siguiente, no a la busqueda en un espacio. De todas 
+formas aunque busques se acota mucho la busqueda usando estas reglas
+
+
+>Por cierto, la continuidad armonica la estoy haciendo en Haskell es que 
+>muchiiiisimo mas rapida y facil aunque para realizar busquedas las tengo 
+>que hacer en anchura con listas intensionales.
+
+usa el lenguaje que quieras, me parece muy bien mientras pongas un mensaje 
+indicando donde est? lo que has hecho
+
+Taluegorl, por cierto, nadie opina sobre lo que dije del interfaz en el 
+acta, JAVI????, que opinais??
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 19:26:46 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 19:26:46 +0100
+Subject: [Genaro-somos-todos] Parser de progresiones
+Message-ID: <BAY103-F243D73BB584A76F0FAA486CE9F0@phx.gbl>
+
+Ya esta hecho el parser que lee un string donde hay escrito un termino en 
+Prolog que cumple es_progresion y lo transforma a un dato del tipo 
+Progresion. El tipo Progresion y sus tipos relacionados est?n definidos en 
+Progresiones.hs, el parser est? en PrologAHaskell.hs y se llama 
+parserProgresion :: Parser Char Progresion. Para saber como usarlo consultad 
+pruebaParserProgresion :: String -> IO() en el mismo fichero y aplicaParser 
+:: (Parser Char a) -> (String -> a) y leeYParsea :: Parser Char a -> String 
+-> IO a del archivo Parsers.hs, si teneis problemas.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Sun Jan  2 19:32:12 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 02 Jan 2005 19:32:12 +0100
+Subject: [Genaro-somos-todos] genera_acordes
+Message-ID: <BAY103-F15A996BDDCA3F6BC95FA70CE9F0@phx.gbl>
+
+Se me olvidaba, he cambiado genera_acordes (en realidad haz_progresion) para 
+que escriba el termino correspondiente a la progresion en 
+C:/hlocal/cifrados_termino.txt, ok?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From gatchan00 at hotmail.com  Sun Jan  2 19:37:41 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 02 Jan 2005 18:37:41 +0000
+Subject: [Genaro-somos-todos] RE: Javi dando señales de vida
+In-Reply-To: <BAY103-F32B98F860CFB41A2DBA6C6CE9F0@phx.gbl>
+Message-ID: <BAY23-F2DA9269923E534D0662CBB99F0@phx.gbl>
+
+Hola chicos, escribo este mail para responder un poco a la pregunta de juan, 
+me parece una idea buena la que dijiste en el acta, y como bien dices 
+adelanta trabajo, de todas maneras te voy a llamar para preguntarte un par 
+de dudas con respecto a lo que propones. Ma?ana llego a galicia (mi casa) y 
+ya ah? me pondr? en contacto con vostotros y tendr? internet XD, hasta 
+luego.
+
+
+
+
+From roberto_____666 at hotmail.com  Wed Jan  5 12:55:30 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 05 Jan 2005 11:55:30 +0000
+Subject: [Genaro-somos-todos] IO Int -> Int
+Message-ID: <BAY1-F36B0374301CBFDF9D4ACF9D5920@phx.gbl>
+
+Hola, soy un pobre hombre que necesita ayuda. No me mola pedir pero si 
+alguien puede ayudarme con los procesos de Haskell Dios y yo le estariamos 
+agradecidos.
+A ver, en teoria necesitaria una funcion que sea del tipo IO Int -> Int 
+porque yo tengo esto:
+
+aleatorio :: (Int,Int) -> IO Int
+aleatorio (a,b) = getStdRandom (randomR (a,b))
+
+que devuelve un numero aleatorio en el intervalo [a,b] pero necesita sacar 
+el valor entero que devuelve el proceso. Por eso seria algo asi como IO Int 
+-> Int.
+Ayuda, por favor
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Thu Jan  6 13:15:39 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 06 Jan 2005 13:15:39 +0100
+Subject: [Genaro-somos-todos] IO Int -> Int
+In-Reply-To: <BAY1-F36B0374301CBFDF9D4ACF9D5920@phx.gbl>
+Message-ID: <BAY103-F199295414F9DAFEE9C959BCE930@phx.gbl>
+
+Me temo que no tiene sentido pq un IO Int es un proceso de entrada/salida 
+que devuelve un entero y no se puede convertir a Int pq la representacion 
+interna de los procesos de E/S no es accesible a los usuarios de Haskell: 
+los cosas de tipo IO a s?lo se pueden usar en mitad de un trozo de programa 
+que haga E/S, no se pueden convertir a tipo a, lo siento!
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Thu Jan  6 13:21:37 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 06 Jan 2005 13:21:37 +0100
+Subject: [Genaro-somos-todos] RE: estandar fichero
+In-Reply-To: <BAY23-F28B9613A0F581011F2E7AAB9920@phx.gbl>
+Message-ID: <BAY103-F3478366CBE3B4651AE9E7CE930@phx.gbl>
+
+Ok, este formato del fichero esta wai, pero mandalo a genaro-somos-todos 
+little melon!!!!Bueno, ya la mando yo. Por cierto Rober, al final Javi esta 
+usando C++ en vez de Java pq est? m?s acostumbrado y adem?s es cierto que es 
+m?s manipulable para hacer gr?ficos y tal, que opinas?
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: bc24us at hotmail.com
+>Subject: estandar fichero
+>Date: Wed, 05 Jan 2005 22:22:05 +0000
+>
+><< Estandarficheroeditor.doc >>
+La representaci?n interna del editor de pianola es una matriz, con una fila 
+por cada una de las voces.
+
+El fichero ir? precedido de 3 enteros que indicar?n el tama?o de la matriz y 
+la resoluci?n m?nima empleada.
+
+Posteriormente ir?an, tras un salto de l?nea, el array correspondiente a una 
+de las voces, teniendo el n?mero de elementos que se indiquen al comienzo 
+del fichero y con un FIN com ?ltimo token. un fichero de ejemplo ser?a as?
+
+------------------------------------------------------------------------------------------
+VOCES 3 \n
+COLUMNAS 6 \n
+RESOLUCION 64 \n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SIMPLE FIN \n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SILENCIO FIN \n
+SIMPLE SILENCIO SIMPLE SIMPLE SILENCIO SiLENCIO FIN
+------------------------------------------------------------------------------------------
+
+Los guiones no son parte del fichero, y el \n simboliza el f?n de l?nea.
+
+La resoluci?n es 1/ n?mero especificado
+
+Ligado viene representado en el editor por el color ROJO, Simple por el 
+color AMARILLO y Silencio por el color BLANCO
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050106/ca5525fb/attachment.html>
+
+From roberto_____666 at hotmail.com  Thu Jan  6 13:42:57 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 06 Jan 2005 12:42:57 +0000
+Subject: [Genaro-somos-todos] C++
+Message-ID: <BAY1-F360FFB05F28FDAB37434F9D5930@phx.gbl>
+
+El lenguaje imperativo que useis me da igual. Incluso yo tambien prefiero 
+C++ excepto por una cosa: los interfaces graficos de Java ya los sabemos 
+manejar todos mas o menos. Sin embargo en lo de C no tengo ni idea. Vale 
+podemos usar el builderC pero que pasara cuando queramos que el patron 
+ritmico en vez de 7 voces tenga 6 u 8. Yo particularmente no se crear una 
+ventana con un numero variable de botones.
+Tambien pensamos en usar Java por la exportabilidad, que C++, claro ta, no 
+tiene, pero bueno, como vamos a dar el codigo tambien, que se compile en su 
+sistema.
+Que conste que esto que digo no son pegas para no usar C++ sino cosas que 
+habria que pensar un poco. Por lo demas, y si a Javi le resulta mas facil, 
+pues adelante.
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Thu Jan  6 13:52:08 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 06 Jan 2005 12:52:08 +0000
+Subject: [Genaro-somos-todos] IO
+Message-ID: <BAY1-F22F769DDCF72434E0EAE44D5930@phx.gbl>
+
+Me resulta un poco dificil comprender que que no pueda existir ninguna 
+funcion de tipo IO a -> a ya que lo unico que quiere decir esta funcion es 
+que recogemos el valor devuelto de un proceso. Ademas me extra?a un poco que 
+en Haskell no pueda haber una funcion IO String -> String que lea de un 
+archivo algo y simplemente lo devuelva. Yo creo que algo de eso has hecho 
+tu, Juan
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Thu Jan  6 15:02:47 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 06 Jan 2005 14:02:47 +0000
+Subject: [Genaro-somos-todos] C++
+In-Reply-To: <BAY1-F360FFB05F28FDAB37434F9D5930@phx.gbl>
+Message-ID: <BAY23-F347F79C451EC1C46F227C2B9930@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050106/48fb506a/attachment.html>
+
+From bc24us at hotmail.com  Thu Jan  6 15:52:48 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 06 Jan 2005 15:52:48 +0100
+Subject: [Genaro-somos-todos] IO
+In-Reply-To: <BAY1-F22F769DDCF72434E0EAE44D5930@phx.gbl>
+Message-ID: <BAY103-F29668288E2B4178A20FFBACE930@phx.gbl>
+
+Yo en mi codigo no he hecho nada de IO String -> String, uso el type Parser 
+symbol result  =  [symbol] -> [([symbol],result)] basicamente usando Parser 
+Char a, nada m?s. Aplico los parsers siempre en procesos como en 
+PrologAMidi.hs. Las otras funciones de alto nivel de aplicar parsers que hay 
+en Parsers.hs son aplicaParser :: (Parser Char a) -> (String -> a) y 
+leeYParsea :: Parser Char a -> String -> IO a que es la unica que lee un 
+fichero. Lo que tu dices no se si se puede hacer pero si que se que no se 
+hacerlo. Tb puedes buscar en internet alguna otra biblioteca de funciones de 
+Haskell...
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] IO
+>Date: Thu, 06 Jan 2005 12:52:08 +0000
+>
+>Me resulta un poco dificil comprender que que no pueda existir ninguna 
+>funcion de tipo IO a -> a ya que lo unico que quiere decir esta funcion es 
+>que recogemos el valor devuelto de un proceso. Ademas me extra?a un poco 
+>que en Haskell no pueda haber una funcion IO String -> String que lea de un 
+>archivo algo y simplemente lo devuelva. Yo creo que algo de eso has hecho 
+>tu, Juan
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Thu Jan  6 16:27:31 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 06 Jan 2005 15:27:31 +0000
+Subject: [Genaro-somos-todos] patrones saturados
+Message-ID: <BAY1-F19C773F9A3B4F57ED60032D5930@phx.gbl>
+
+Si recordais el ultimo acta de reunion, hay un caso de encaje de patrones 
+ritmicos en el que el numero de notas del acordes, llamemosle A, y el del 
+voces del patron, llamemosle P, cumplian que A<P. Habia dos valores: 
+truncamiento y saturacion. Bueno pues tal y como me lo habeis especificado 
+es imposible. Solo se me ocurre hacer ese caso como dos:
+A<P y Saturado: en este caso todas las voces del patron que indican voces el 
+acorde entre A+1 y P, es decir, las voces que no existen en el acorde, se 
+toman como la voz A (notas mas aguda) . Esto si que es realmente saturacion
+A<P y ciclico: igual que el caso del truncamiento pero aumentando la octava. 
+Dicho de otra forma aumentamos el acorde repitiendo esas notas y aumentando 
+su octava.
+
+Al caso de A<P y truncado lo dividiria en dos:
+A<P y truncado: las voces que estan entre A y P no se tocan, por eso se 
+llama truncado
+A<P y repetitivo: la voz X se ejecuta modulo A, asi todas las voces de 
+patron caen dentro de las notas del acorde.
+
+Vale, puede que un musico no use nunca alguna de estas opciones pero yo creo 
+que tienen mas sentido.
+
+Por cierto, puede que esto ultimo no me de tiempo de hacerlo
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Thu Jan  6 16:53:08 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 06 Jan 2005 15:53:08 +0000
+Subject: [Genaro-somos-todos] IO
+In-Reply-To: <BAY103-F29668288E2B4178A20FFBACE930@phx.gbl>
+Message-ID: <BAY1-F199A99267B58D78F71C967D5930@phx.gbl>
+
+Pero vamos a ver Juan, tu no eres capaz de hacer una funcion que lea de un 
+fichero una cadena de caracteres y devuelva esa cadena para un proceso 
+posterior. Yo creo que basicamente es lo que haces con los parsers: lees de 
+un archivo una cadena, le aplicas el parser y devuelves el tipo que sea. Yo 
+digo lo mismo pero sin aplicar el parser (o un parser trivial, que no haga 
+nada), es decir, leo una cadena y la devuelvo (como tipo String).
+Dime si estoy equivocado
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 15:41:08 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 15:41:08 +0100
+Subject: [Genaro-somos-todos] patrones saturados
+In-Reply-To: <BAY1-F19C773F9A3B4F57ED60032D5930@phx.gbl>
+Message-ID: <BAY103-F28334D3B29B9712CC1C13ACE940@phx.gbl>
+
+Haz lo que te apetezca, solo eran sugerencias, y si no te da tiempo mala 
+suerte, ya era mucho trabajo.
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de, roberto_____666 at hotmail.com
+>Subject: [Genaro-somos-todos] patrones saturados
+>Date: Thu, 06 Jan 2005 15:27:31 +0000
+>
+>Si recordais el ultimo acta de reunion, hay un caso de encaje de patrones 
+>ritmicos en el que el numero de notas del acordes, llamemosle A, y el del 
+>voces del patron, llamemosle P, cumplian que A<P. Habia dos valores: 
+>truncamiento y saturacion. Bueno pues tal y como me lo habeis especificado 
+>es imposible. Solo se me ocurre hacer ese caso como dos:
+>A<P y Saturado: en este caso todas las voces del patron que indican voces 
+>el acorde entre A+1 y P, es decir, las voces que no existen en el acorde, 
+>se toman como la voz A (notas mas aguda) . Esto si que es realmente 
+>saturacion
+>A<P y ciclico: igual que el caso del truncamiento pero aumentando la 
+>octava. Dicho de otra forma aumentamos el acorde repitiendo esas notas y 
+>aumentando su octava.
+>
+>Al caso de A<P y truncado lo dividiria en dos:
+>A<P y truncado: las voces que estan entre A y P no se tocan, por eso se 
+>llama truncado
+>A<P y repetitivo: la voz X se ejecuta modulo A, asi todas las voces de 
+>patron caen dentro de las notas del acorde.
+>
+>Vale, puede que un musico no use nunca alguna de estas opciones pero yo 
+>creo que tienen mas sentido.
+>
+>Por cierto, puede que esto ultimo no me de tiempo de hacerlo
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 16:28:45 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 16:28:45 +0100
+Subject: [Genaro-somos-todos] IO
+In-Reply-To: <BAY1-F199A99267B58D78F71C967D5930@phx.gbl>
+Message-ID: <BAY103-F243AA52872AD9B4FA48393CE940@phx.gbl>
+
+Para empezar no entiendo tu pregunta, me da la sensacion de que te falta un 
+signo de interrogacion en algun sitio. Como puedes ver en mi codigo yo uso 
+el tipo parser que es type Parser symbol result  =  [symbol] -> 
+[([symbol],result)], que procesa una lista de simbolos de entrada y devuelve 
+una lista de pares que son los posibles resultados de la aplicacion del 
+an?lisis (que no tiene pq ser determinista).El primer elemento del par es la 
+parte de la entrada que queda por analizarr y el segundo es el resultado del 
+analisis del trozo de la entrada que si se ha reconocido. El primer elemento 
+de esta lista es el par que corresponde al analisis que m?s trozo de la 
+entrada consume, as? que si hacemos fst (head resul), con resul el resultado 
+devuelto por un parser tenemos el parser aplicado. Como se ve en mi codigo 
+tengo funciones como parserTokenJavaPats :: Parser Char TokenJavaPatrones, 
+es decir, leo una lista de Char (un String) y obtengo la lista de pares. 
+Aplicando Parsers.aplicaParser :: (Parser Char a) -> (String -> a) hago la 
+distincion de casos que ve si me ha comido toda la entrada o no, y si me la 
+he comido toda hace el fst (head resul) de antes. Pero como ves en todo 
+momento parto de un String, no hago E/S en ningun momento. La funcion 
+Parsers.leeYParsea :: Parser Char a -> String -> IO a si que la hace por eso 
+devuelve un IO a
+
+Aplico los parsers de esta manera, como en PrologAMidi.hs en la funcion
+progresionPrologAMidi :: String -> String -> IO ()
+progresionPrologAMidi rutaOrigen rutaDestino = do texto <- readFile 
+rutaOrigen
+                                                  haskoreAMidi 
+(stringProgresionAMusic texto) rutaDestino
+
+readFile rutaOrigen me devuelve un elemento de tipo IO String que guardo en 
+texto, luego stringProgresionAMusic es
+stringProgresionAMusic :: String -> Music
+stringProgresionAMusic texto = line (map chord listaAcordes)
+                               where listaAcordes = 
+hazProgresionOrdenadaMusic texto
+
+, aunque stringProgresionAMusic acepte entradas de tipo String al estar en 
+un proceso se puede tragar un IO String. Luego
+hazProgresionOrdenadaMusic :: String -> [AcordeOrdenadoMusic]
+hazProgresionOrdenadaMusic = aplicaParser parserProgresionOrdenadaMusic
+
+y
+parserProgresionOrdenadaMusic :: Parser Char [AcordeOrdenadoMusic]
+parserProgresionOrdenadaMusic = (token "progOrdenada") *> 
+parenthesized(parserListaOrdenAcsMusic)
+
+asi que aunque el tipo Parser se llame as? no hace ninguna E/S, y si la 
+hicera o hiciera conversiones de  IO a -> a ya te lo habria dicho hace rato. 
+Yo ya te he dicho lo q se y no puedo perder mas el timpo con este tema, si 
+quieres ya lo hablamos el lunes en la facul
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] IO
+>Date: Thu, 06 Jan 2005 15:53:08 +0000
+>
+>
+>Pero vamos a ver Juan, tu no eres capaz de hacer una funcion que lea de un 
+>fichero una cadena de caracteres y devuelva esa cadena para un proceso 
+>posterior. Yo creo que basicamente es lo que haces con los parsers: lees de 
+>un archivo una cadena, le aplicas el parser y devuelves el tipo que sea. Yo 
+>digo lo mismo pero sin aplicar el parser (o un parser trivial, que no haga 
+>nada), es decir, leo una cadena y la devuelvo (como tipo String).
+>Dime si estoy equivocado
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 16:34:16 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 16:34:16 +0100
+Subject: [Genaro-somos-todos] ERROR: Recursive import dependency
+Message-ID: <BAY103-F1643F093A67781C1ECC6D5CE940@phx.gbl>
+
+Haskell me dice esto al cargar el modulo JavaAHaskell
+
+ERROR "d:/cvsrepo/Codigo/Haskell\TraduceCifrados.hs" - Recursive import 
+dependency between "d:/cvsrepo/Codigo/Haskell\Tra
+duceCifrados.hs" and "d:/cvsrepo/Codigo/Haskell\Ritmo.hs"
+
+lo dice tb al carga cualquier modulo que importe TraduceCifrados o Ritmo, o 
+al cargar cualquiera de estos dos. Necesito cargar Ritmo para acceder a los 
+tipos de los patrones ritmicos, por ahora no lo cargare y escribir? los 
+tipos a pelo pero eso sabemos todos que es una chapuza por la redundancia 
+que lleva a errores de actualizacion. As? que Rober a ver si puedes 
+solucionar eso cuanto antes pq esos dos archivos son tuyos y afectan a mi 
+trabajo tb. Estar?a bien en el futuro comprobar que las cosas funcionan 
+antes de hacer el commit
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 16:45:55 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 16:45:55 +0100
+Subject: [Genaro-somos-todos] BiblioGenaro.hs
+Message-ID: <BAY103-F4174CF7E2A94E2E8989027CE940@phx.gbl>
+
+He creado este modulu/archivo para meter en el todas las funciones que no 
+sean propias de un modulo y que pueden ser utiles para otros, como una 
+funcion para trasponer matrices y otra que elimina las aparciones de un 
+elemento en una lista. Los que useis Haskell usadlo tb si lo creeis 
+oportuno, ok?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Fri Jan  7 17:06:59 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 07 Jan 2005 16:06:59 +0000
+Subject: [Genaro-somos-todos] ERROR
+Message-ID: <BAY1-F236CDE28AA8936034E27ABD5940@phx.gbl>
+
+Ya esta solucionado. ha sido un error mio. En realidad ni ritmo.hs llama a 
+traduceCifrados.hs ni viceversa, lo que ocurre es que para generar Music y 
+comprobar mi codigo importo de los dos. Total, que al final se produjo un 
+ciclo en las importaciones. Pero ya esta solucionado
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 18:18:42 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 18:18:42 +0100
+Subject: [Genaro-somos-todos] formato del fichero java d patrones ritmicos
+Message-ID: <BAY103-F3479C1936361E540BC3177CE940@phx.gbl>
+
+Al hacer el parser no me he dado cuenta de que he omitido el espacio que 
+Javi ponia en Java/C antes del salto de linea, es decir que parseo cosas del 
+tipo :
+
+VOCES 3\n
+COLUMNAS 6\n
+RESOLUCION 64\n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SIMPLE FIN\n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SILENCIO FIN\n
+SIMPLE SILENCIO SIMPLE SIMPLE SILENCIO SILENCIO FIN
+
+en vez de :
+
+VOCES 3 \n
+COLUMNAS 6 \n
+RESOLUCION 64 \n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SIMPLE FIN \n
+LIGADO LIGADO SIMPLE SILENCIO SIMPLE SILENCIO FIN \n
+SIMPLE SILENCIO SIMPLE SIMPLE SILENCIO SILENCIO FIN
+
+si no os importa preferiria hacerlo sin el espacio antes del salto de linea. 
+Tb es muy importante que no haya salto de linea en la ultima fila, ok?
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 19:11:29 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 19:11:29 +0100
+Subject: [Genaro-somos-todos] parser de matrices de patrones ritmicos escrito por java (o C) terminado
+Message-ID: <BAY103-F4354997EF765EC5001FA7CE940@phx.gbl>
+
+Pues eso, que ya esta en el cvs en el fichero JavaAHaskell.hs como 
+parserFichPatronRitmicoJava :: Parser Char FichPatronRitmicoJava. He tenido 
+que definir un data para expresar la variada informacion que viene en ese 
+fichero, es
+
+data FichPatronRitmicoJava = FPRJ Voces Cols Resolucion PatronHorizontal 
+PatronVertical
+	deriving(Show,Eq,Ord)
+type Voces = Int
+type Cols = Int
+type Resolucion = Dur
+
+Como las matrices no incorporan velocity todos los patrones horizontales son 
+iguales, ya que la resolucion de la matriz es homogenea (todas las columnas 
+son igual de anchas) , ya hablaremos mas adelante de ampliaciones.Espero 
+haber entendido lo del ritmo pq no estoy muy seguro. En 
+JavaAHaskell.pruebaParserFichPatronRitJava::String -> IO() se ve como usar 
+el parser, tb tener en cuenta como siempre las funciones de Parsers.hs 
+aplicaParser :: (Parser Char a) -> (String -> a) y leeYParsea :: Parser Char 
+a -> String -> IO a
+
+Que lo disfruten!
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Fri Jan  7 19:31:48 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 07 Jan 2005 19:31:48 +0100
+Subject: [Genaro-somos-todos] documentacion en Prolog
+Message-ID: <BAY103-F40CF16582112317B433995CE940@phx.gbl>
+
+Javi, a ver si cuando amplias la seccion d la GC donde explicas como usar 
+haddock de paso actualizas lo de Prolog, que no pone cual es el programa que 
+vamos a usar ni tampoco la sintaxis para hacer un comentario de introduccion 
+sobre un modulo, ok?
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Fri Jan  7 21:08:58 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 07 Jan 2005 20:08:58 +0000
+Subject: [Genaro-somos-todos] documentacion en Prolog
+In-Reply-To: <BAY103-F40CF16582112317B433995CE940@phx.gbl>
+Message-ID: <BAY23-F524BDDC963D2D6B33CA68B9940@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050107/98de18d2/attachment.html>
+
+From roberto_____666 at hotmail.com  Sat Jan  8 15:41:05 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 08 Jan 2005 14:41:05 +0000
+Subject: [Genaro-somos-todos] Documentacion Haskell
+Message-ID: <BAY1-F230F27F0967BCBE566BC27D5950@phx.gbl>
+
+He mirado la parte de la GC que habla de la documentacion de Haskell y no me 
+ha quedado muy clara. El que tenga tiempo y sepa como va que me mande un 
+peque?o ejemplo estupido que lo ilustre.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sat Jan  8 18:04:53 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 08 Jan 2005 18:04:53 +0100
+Subject: [Genaro-somos-todos] formato del fichero java d patrones ritmicos
+In-Reply-To: <BAY23-F35F9A0CE70533ED4EAA3E9B9940@phx.gbl>
+Message-ID: <BAY103-F2067B4BC686D07B2BFEDF6CE950@phx.gbl>
+
+Virgencita q me quede como estoy, que cosas te pasan Javi, la rebelion de 
+los ordenadores ya ha empezado en tu habitaci?n!!!
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: RE: [Genaro-somos-todos] formato del fichero java d patrones ritmicos
+Date: Fri, 07 Jan 2005 20:57:50 +0000
+Size: 3039
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050108/5d158547/attachment.mht>
+
+From bc24us at hotmail.com  Sat Jan  8 20:42:19 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 08 Jan 2005 20:42:19 +0100
+Subject: [Genaro-somos-todos] reestructuracion de los predicados de generacion de acordes en Prolog
+Message-ID: <BAY103-F39E7BE16680C8466C4CBCDCE950@phx.gbl>
+
+IMPORTANTE: Por fin he partido el infame fichero genera acordes en varios 
+trozos, basicamente genera_acordes.pl, genera_acordes_semillas.pl y 
+genera_acordes_binario.pl . Como por ahora solo generamos en binario os 
+propongo usar genera_acordes_binario.pl y su predicado genera_acordes/0 para 
+pruebas, oki? Todo esto ya esta en el cvs
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Sat Jan  8 22:56:35 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 08 Jan 2005 21:56:35 +0000
+Subject: [Genaro-somos-todos] formato del fichero java d patrones ritmicos
+In-Reply-To: <BAY103-F2067B4BC686D07B2BFEDF6CE950@phx.gbl>
+Message-ID: <BAY23-F29E50B9B9569C193106859B9950@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050108/f2979ef7/attachment.html>
+
+From gatchan00 at hotmail.com  Sat Jan  8 23:00:58 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 08 Jan 2005 22:00:58 +0000
+Subject: [Genaro-somos-todos] Documentacion Haskell
+In-Reply-To: <BAY1-F230F27F0967BCBE566BC27D5950@phx.gbl>
+Message-ID: <BAY23-F109EE10B8EE088F73C6AEDB9950@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050108/afe032fd/attachment.html>
+
+From bc24us at hotmail.com  Sun Jan  9 21:01:14 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 09 Jan 2005 21:01:14 +0100
+Subject: [Genaro-somos-todos] Qdams wapos???
+Message-ID: <BAY103-F40F8F33C2FC1FA892055C4CE960@phx.gbl>
+
+Como pone en la GC supongo que la proxima reunion ser? el martes a las 16:00 
+en la cafeta, con Jaime yo pospondr?a la reunion hasta que nos hayamos 
+aclarado entre nosotros, os parece bien?
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Sun Jan  9 22:54:15 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 09 Jan 2005 21:54:15 +0000
+Subject: [Genaro-somos-todos] Qdams wapos???
+In-Reply-To: <BAY103-F40F8F33C2FC1FA892055C4CE960@phx.gbl>
+Message-ID: <BAY23-F3286EA23B9C7060C039E9FB9960@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050109/bf3c58d3/attachment.html>
+
+From roberto_____666 at hotmail.com  Mon Jan 10 14:33:37 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 10 Jan 2005 13:33:37 +0000
+Subject: [Genaro-somos-todos] Qdams wapos???
+In-Reply-To: <BAY23-F3286EA23B9C7060C039E9FB9960@phx.gbl>
+Message-ID: <BAY1-F298E93B549086103DA50E3D5970@phx.gbl>
+
+
+Estoy de acuerdito, nos vemos el Martes a las 16:00
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: RE: [Genaro-somos-todos] Qdams wapos???
+Date: Sun, 09 Jan 2005 21:54:15 +0000
+Size: 3575
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050110/72a3a6cc/attachment.mht>
+
+From bc24us at hotmail.com  Tue Jan 11 22:44:07 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 11 Jan 2005 22:44:07 +0100
+Subject: [Genaro-somos-todos] reunion del sabado
+Message-ID: <BAY103-F73B13767F09BA5A9F3F08CE880@phx.gbl>
+
+Lo siento mil pero me ha surgido una reunion de antiguos alumnos este sabado 
+a las 17:00, asi q me hariais un enorme favor si cambiaramos la reunion al 
+domingo u otro dia, q me decis??
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Wed Jan 12 15:40:38 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 12 Jan 2005 14:40:38 +0000
+Subject: [Genaro-somos-todos] Reunion 11-1-05
+Message-ID: <BAY1-F32B540B0E6D8FB8B2CB33D5890@phx.gbl>
+
+Nuevos Trabajos:
+
+Juan:
+>Cambiar el orden de las voces cuando analiza sintacticamente para que la 
+>voz 1 sea la voz mas bajadel acorde. Simplemente habria que hacer VozNueva 
+>= Max-Voz
+
+>Llevar a la siguiente reunion de Genaro el programa Reason para que nos 
+>familiaricemos con la pianola
+
+>Cambiar el parser para que pueda analizar el nuevo valor ?velocity? de cada 
+>voz
+
+Javi:
+
+>Retocar  el formato de salida de la siguiente manera:
+
+>Quitar el espacio antes de cada salto de linea
+
+>Quitar el salto de linea al final del fichero
+
+>A?adir el ?velocity? o intensidad en el formato del fichero
+
+>Corregir las notas compuestas
+
+>Corregir que el programa no vaya mal al dar dos veces en la relolucion a la 
+>hora de inicializar
+
+>Corregir el movimiento de la barra de desplazamiento: que no se generen 
+>infinitas celdas cuando llevas la barra al final
+
+>A?adir barra vertical cuando el numero de voces es grande
+
+>A?adir el ?velocity? en la pianola
+
+>Mirar como se documenta un modulo en Prolog
+
+Roberto:
+
+>Cambiar el formato del patron ritmico para que exista un acento o velocity 
+>asociado a cada voz
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Wed Jan 12 15:45:48 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 12 Jan 2005 14:45:48 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY103-F73B13767F09BA5A9F3F08CE880@phx.gbl>
+Message-ID: <BAY1-F200E8CD42007DFCA8C81C3D5890@phx.gbl>
+
+A mi me da igual en el sentido que cualquier dia me va a joder porque tengo 
+bastantes cosas que estudiar y hacer. Yo propongo dejarla para el martes 
+pero a las 15:00 o a las 14:00, es decir, antes de la reunion habitual. 
+Hueco entre clases lo tengo el viernes a las 12:00 pero solo hasta la 13:00.
+
+Recuerdo a Juan que tiene que llevar a la siguiente reunion el Reason para 
+probar lo de la pianola y a mi el catalogo de la tienda de musica alemana.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Fri Jan 14 17:51:28 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 14 Jan 2005 16:51:28 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY103-F31F39224C8432757BB2F39CE890@phx.gbl>
+Message-ID: <BAY1-F6F538765922C94BA51004D58B0@phx.gbl>
+
+Podemos quedar a las 14:00 o a las 14:30 para que comais tranquilamente. 
+Esperemos que a aJavi tambien le venga bien.
+
+He pensado lo de sacar el patron horizontal a partir de un patron ritmico 
+que solo tenga intervalos de tiempo de 1/64 y creo que si que se puede 
+aunque tiene dos pegas:
+1 Creo que se puede aunque no estoy seguro
+2 Es trabajo extra que hace perder el tiempo
+
+Creo que deberiamos avanzar en otros temas y dejar un poco apartado los 
+patrones que llevamos unos meses asi
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Fri Jan 14 22:23:39 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 14 Jan 2005 21:23:39 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY1-F6F538765922C94BA51004D58B0@phx.gbl>
+Message-ID: <BAY23-F42E248714D64D9730AF6FDB98B0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050114/80be8c0d/attachment.html>
+
+From bc24us at hotmail.com  Sat Jan 15 05:24:43 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 15 Jan 2005 05:24:43 +0100
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY23-F42E248714D64D9730AF6FDB98B0@phx.gbl>
+Message-ID: <BAY103-F92CAF6373FE766FD226DECE8C0@phx.gbl>
+
+la hora q has dicho ok, el sabado yo no puedo como dije en el otro mensaje, 
+nos vemos el martes vale?
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] reunion del sabado
+>Date: Fri, 14 Jan 2005 21:23:39 +0000
+>
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+From gatchan00 at hotmail.com  Sat Jan 15 09:36:19 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 15 Jan 2005 08:36:19 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY103-F92CAF6373FE766FD226DECE8C0@phx.gbl>
+Message-ID: <BAY23-F363090C99E5F4B60CE4AD6B98C0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050115/80f484b8/attachment.html>
+
+From roberto_____666 at hotmail.com  Sat Jan 15 17:12:33 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 15 Jan 2005 16:12:33 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY23-F363090C99E5F4B60CE4AD6B98C0@phx.gbl>
+Message-ID: <BAY1-F412F79A62DB99AF603C17D58C0@phx.gbl>
+
+Como veo que no podemos quedar todos juntos el martes podemos quedar juan y 
+yo antes, a las 14:00,  y a las 16:00 ver a Javi.
+?Que os parece?
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: RE: [Genaro-somos-todos] reunion del sabado
+Date: Sat, 15 Jan 2005 08:36:19 +0000
+Size: 3553
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050115/24a1d5f5/attachment.mht>
+
+From gatchan00 at hotmail.com  Sat Jan 15 17:15:20 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 15 Jan 2005 16:15:20 +0000
+Subject: [Genaro-somos-todos] reunion del sabado
+In-Reply-To: <BAY1-F412F79A62DB99AF603C17D58C0@phx.gbl>
+Message-ID: <BAY23-F218F6A68A60A8C8362DED8B98C0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050115/12053e5b/attachment.html>
+
+From roberto_____666 at hotmail.com  Mon Jan 17 18:55:15 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 17 Jan 2005 17:55:15 +0000
+Subject: [Genaro-somos-todos] Reunion 18-1-05
+Message-ID: <BAY1-F9CD674E643213C6D4DA5FD58E0@phx.gbl>
+
+Difinitivamente quedamos el martes 18 de Enero en la cafeteria Juan y Yo a 
+las 14:00. De 14:30 la usaremos para comer y hasta las 17:00 para el 
+proyecto. Quedamos con Javi a las 16:00 en cafeteria
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Mon Jan 17 19:00:12 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Mon, 17 Jan 2005 18:00:12 +0000
+Subject: [Genaro-somos-todos] Reunion 18-1-05
+In-Reply-To: <BAY1-F9CD674E643213C6D4DA5FD58E0@phx.gbl>
+Message-ID: <BAY23-F334E98379830B081CEC653B98E0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050117/b1ab5e8a/attachment.html>
+
+From bc24us at hotmail.com  Tue Jan 18 00:47:10 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 18 Jan 2005 00:47:10 +0100
+Subject: [Genaro-somos-todos] Reunion 18-1-05
+In-Reply-To: <BAY23-F334E98379830B081CEC653B98E0@phx.gbl>
+Message-ID: <BAY103-F373934F22F9019685EA932CE8E0@phx.gbl>
+
+ok
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Reunion 18-1-05
+>Date: Mon, 17 Jan 2005 18:00:12 +0000
+>
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: RE: [Genaro-somos-todos] Reunion 18-1-05
+Date: Mon, 17 Jan 2005 18:00:12 +0000
+Size: 3633
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050118/58514741/attachment.mht>
+
+From bc24us at hotmail.com  Tue Jan 18 16:13:40 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 18 Jan 2005 16:13:40 +0100
+Subject: [Genaro-somos-todos] nuevos patrones ritmicos
+Message-ID: <BAY103-F42F27268011A0321B0FAA5CE8F0@phx.gbl>
+
+el nuevo formato en haskell:
+
+type Voz = Int
+type Acento = Float
+type Ligado = Bool
+type UPR = [(Voz, Acento, Ligado, Dur)]
+type PatronRitmico = [UPR]
+
+el nuevo formato de archivo de C:
+
+VOCES 3\n
+COLUMNAS 6\n
+RESOLUCION 64\n
+LIGADO 12 LIGADO12 SIMPLE 23 SILENCIO SIMPLE 34 SIMPLE 243 FIN\n
+LIGADO 12 LIGADO12 SIMPLE 23 SILENCIO SIMPLE 23 SILENCIO FIN\n
+SIMPLE 12 SILENCIO SIMPLE 43 SIMPLE 34 SILENCIO SILENCIO FIN
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Tue Jan 18 21:57:36 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 18 Jan 2005 20:57:36 +0000
+Subject: [Genaro-somos-todos] Suspenso
+Message-ID: <BAY1-F19C7829CE63ECB5E32E531D58F0@phx.gbl>
+
+Me congratula comunicaros que se suspende la actividad del proyecto hasta 
+despues de los examenes (que creo que es el martes 15), en donde habra que 
+recuperar ese tiempo perdido.
+Que paseis unos buenos examenes
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Wed Jan 19 21:54:20 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 19 Jan 2005 20:54:20 +0000
+Subject: [Genaro-somos-todos] nuevos patrones ritmicos
+In-Reply-To: <BAY103-F42F27268011A0321B0FAA5CE8F0@phx.gbl>
+Message-ID: <BAY1-F4082B4F87554B92FC6A1DBD5800@phx.gbl>
+
+Un momento, que el patron ritmico esta mal. Deberia ser asi:
+type Voz = Int
+type Acento = Float
+type Ligado = Bool
+type UPR = ( [(Voz, Acento, Ligado)] , Dur)
+type PatronRitmico = [UPR]
+
+No se porque di el visto bueno el martes, se me iria la pinza. Piensalo, la 
+duracion es unica para cada columna, dicho de otra manera, cada columna 
+tiene una unica duracion, que va a ser la resolucion minima. De la otra 
+forma, la duracion iba acompa?ando a cada voz.
+Es pero que no hayas empezado a hacer el parser todavia.
+
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] nuevos patrones ritmicos
+>Date: Tue, 18 Jan 2005 16:13:40 +0100
+>
+>el nuevo formato en haskell:
+>
+>type Voz = Int
+>type Acento = Float
+>type Ligado = Bool
+>type UPR = [(Voz, Acento, Ligado, Dur)]
+>type PatronRitmico = [UPR]
+>
+>el nuevo formato de archivo de C:
+>
+>VOCES 3\n
+>COLUMNAS 6\n
+>RESOLUCION 64\n
+>LIGADO 12 LIGADO12 SIMPLE 23 SILENCIO SIMPLE 34 SIMPLE 243 FIN\n
+>LIGADO 12 LIGADO12 SIMPLE 23 SILENCIO SIMPLE 23 SILENCIO FIN\n
+>SIMPLE 12 SILENCIO SIMPLE 43 SIMPLE 34 SILENCIO SILENCIO FIN
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Wed Jan 19 21:59:14 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 19 Jan 2005 20:59:14 +0000
+Subject: [Genaro-somos-todos] Soy brasa
+Message-ID: <BAY1-F37BF03600C43A8E3E563A1D5800@phx.gbl>
+
+Me gustaria que tuvieramos una minima planificacion sobre qu? vamos a hacer 
+estos cuatro meses que queda y c?mo lo vamos a repartir. De esa forma 
+tendriamos algo m?s concreto que poder violar. Pensadlo chavales
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Thu Jan 20 01:00:29 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 20 Jan 2005 01:00:29 +0100
+Subject: [Genaro-somos-todos] Soy brasa
+In-Reply-To: <BAY1-F37BF03600C43A8E3E563A1D5800@phx.gbl>
+Message-ID: <BAY103-F405BCEA168E5AEB7D80628CE810@phx.gbl>
+
+ok a lo de los patrones. Respecto a la planificacion lo dejaria para despues 
+de los examenes pq es un curro y si estamos de descanso estamos de descanso. 
+Por cierto q habria q avisar a jaime de q estamos parados...Pero adelantando 
+un poco de la planificacion yo me ofreceria para terminar los patrones 
+ritmicos pq tengo las ideas ya bastante claras y te veo quemado con eso y 
+m?s con ganas de meterte con la melodia, javi esta claro q seguiria con el 
+interfaz q tiene para rato Tb terminaria lo de los acordes al empezar el 
+segundo cuatrimestre q tendria mas tiempo las primeras semanas. Ahora esto 
+muy agobiado y prefiero terminar otras cosas para poder luego centrarme en 
+genaro tranquilamente. Se q te parece q vamos muy mal pero vamos  mas 
+avanzados q la mayoria de los proyectos, aunque parece improbable q podamos 
+hacer todo lo q especificamos repito q para mi era una especificacion a 
+largo plazo, veo el proyecto m?s como una demo. Y respecto a eso seria tb 
+bueno hacer un dise?o muy modular q permtiera a?adir plug-in's a genaro en 
+plan proyecto GNU, es decir, definir ciertos interfaces q permitieran hacer 
+facil su ampliacion, el uso de archivos de texto como comunicacion (lo q 
+Jaime llama scripts) me parece muy buen comienzo.  Como te digo creo q es 
+mejor no hacer nada hasta terminar los examenes
+
+Por cierto si has averiguado como hacer random en Haskell agradeceria q 
+mandaras un ejemplo a esta lista despues de los examenes
+
+Como y nos vemos el viernes podemos hablar un poco de esto, si quieres decir 
+algo a la lista tb te responder? claro. Taluegorl!!
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] nuevos patrones ritmicos
+>Date: Wed, 19 Jan 2005 20:54:20 +0000
+>
+>Un momento, que el patron ritmico esta mal. Deberia ser asi:
+>type Voz = Int
+>type Acento = Float
+>type Ligado = Bool
+>type UPR = ( [(Voz, Acento, Ligado)] , Dur)
+>type PatronRitmico = [UPR]
+>
+>No se porque di el visto bueno el martes, se me iria la pinza. Piensalo, la 
+>duracion es unica para cada columna, dicho de otra manera, cada columna 
+>tiene una unica duracion, que va a ser la resolucion minima. De la otra 
+>forma, la duracion iba acompa?ando a cada voz.
+>Es pero que no hayas empezado a hacer el parser todavia.
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Soy brasa
+>Date: Wed, 19 Jan 2005 20:59:14 +0000
+>
+>Me gustaria que tuvieramos una minima planificacion sobre qu? vamos a hacer 
+>estos cuatro meses que queda y c?mo lo vamos a repartir. De esa forma 
+>tendriamos algo m?s concreto que poder violar. Pensadlo chavales
+>
+>_________________________________________________________________
+>Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+>ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Thu Jan 20 23:44:20 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 20 Jan 2005 23:44:20 +0100
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?bnVtZXJvcyBhbGVhdG9yaW9zICh5IG5vIGhhcukgbeFzIGhhc3RhIGRl?=
+ =?iso-8859-1?B?c3B16XMgZGUgbG9zIGV44W1lbmVzKQ==?=
+Message-ID: <BAY103-F21C8B908351669A809EAC7CE810@phx.gbl>
+
+Que conste q ha sido pq lo necesitaba para la pr?ctica de IAAC, ya he 
+terminado de pegarme con los numeros aleatorios de Haskell, el merito no es 
+mio evidentemente... Los resultados est?n en BiblioGenaro, al parecer para 
+obtener una semilla aleatoria hay q hacer entrada salida por huevos para 
+pedir el reloj al sistema y tal. asi q hay q meterse en IO pq Haskell es el 
+unico lenguaje de los q usados q separa estrictamente la E/S de lo dem?s, al 
+parecer el random de Sicstus usa IO pero como no hace explicita la E/S no 
+nos enteramos. Pues eso, q habr? q pasar por parametro todos los numeros q 
+deban ser aleatorios y obtenerlos en el main de una sola vez con 
+BiblioGenaro::listaNumsAleatoriosIO
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Jan 23 17:32:09 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 23 Jan 2005 17:32:09 +0100
+Subject: [Genaro-somos-todos] FW: Primera advertencia: tu grupo musica_aleatoria_fdi va a ser eliminado
+Message-ID: <BAY103-F10DE23F57AB0B3E90360C6CE840@phx.gbl>
+
+Los de hotmail me han mandado el mensaje de abajo diciendo q nos cierran el 
+grupo de genaro. Esto no es un drama pero no quiero perder los enlaces, as? 
+que he hecho este html cutrungo con los enlaces para que el javi lo ponga 
+como primera version de la pagina web del proyecto. Os parece bien a todos?
+
+>From: "MSN Grupos" <notifications at groups.msn.com>
+>To: "Administradores de musica_aleatoria_fdi" 
+><musicaaleatoriafdi at groups.msn.com>
+>Subject: Primera advertencia: tu grupo musica_aleatoria_fdi va a ser 
+>eliminado
+>Date: Sat, 22 Jan 2005 07:14:37 -0800
+>
+>
+>-----------------------------------------------------------
+>
+>       MSN Grupos
+>
+>-----------------------------------------------------------
+>
+>Querido/a usuario/a de MSN Grupos,
+>
+>Tu grupo de MSN, musica_aleatoria_fdi, no ha tenido ninguna actividad en 
+>los ?ltimos 90 d?as. Para comodidad de nuestros usuarios registrados, 
+>peri?dicamente eliminamos grupos que han quedado inactivos. Esperamos que 
+>regreses a nosotros ?Todav?a no es demasiado tarde!
+>http://groups.msn.com/musicaaleatoriafdi
+>
+>Si tu grupo contin?a inactivo durante los pr?ximos 14 d?as, procederemos a 
+>eliminarlo.
+>Si deseas mantener tu grupo, no tienes m?s que hacer clic en el v?nculo que 
+>ver?s abajo y seguir las instrucciones de la p?gina Web.
+>Mantener mi grupo
+>http://groups.msn.com/musicaaleatoriafdi/_activate.msnw
+>
+>
+>Esperando que tu grupo vuelva a activarse cuanto antes,
+>
+>
+>MSN Grupos
+>http://groups.msn.com
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050123/47effca9/attachment.html>
+
+From roberto_____666 at hotmail.com  Mon Jan 24 19:37:31 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 24 Jan 2005 18:37:31 +0000
+Subject: [Genaro-somos-todos] FW: Primera advertencia: tu grupo musica_aleatoria_fdi 
+In-Reply-To: <BAY103-F10DE23F57AB0B3E90360C6CE840@phx.gbl>
+Message-ID: <BAY1-F95944818A246916C16572D5850@phx.gbl>
+
+A mi tambien me han mandado el mensaje pero habia un enlace para que el 
+grupo se mantuviera. Le he dado y parece que va a durar un poco mas, aunque 
+eso de guardar los enlaces esta muy bien, quien se via de hotmail
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Mon Jan 24 22:35:31 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 24 Jan 2005 21:35:31 +0000
+Subject: [Genaro-somos-todos] Armonia
+Message-ID: <BAY1-F39407F072A15A781A074B4D5850@phx.gbl>
+
+Esta pregunta va destinada principalmente a Juan, que es el que pilota un 
+poco mas del tema.
+No entiendo lo de los modos griegos. Por lo visto una cancion puede estar en 
+un modo: eolio, jonico, etc. pero diferentes modos tienen las mismas notas. 
+Ej: Do jonico = La eolio. ?Como se puede determinar el modo de una cancion? 
+Ademas, ?c?mo es que la mayoria de la musica esta escrita en modo Mayor que 
+es el Jonico o el Menor que es el eolio?
+Otra cosa. En el libro habla de la semicadencia pero no la explica 
+absolutamente nada. A parte la plagal tampoco me queda muy clara. Creo que 
+la rota y la autentica mas o menos si. Me la puedes explicar, porfi
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Tue Jan 25 21:21:11 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 25 Jan 2005 21:21:11 +0100
+Subject: [Genaro-somos-todos] Armonia
+In-Reply-To: <BAY1-F39407F072A15A781A074B4D5850@phx.gbl>
+Message-ID: <BAY103-F30AA51BD53A83255CD7D31CE860@phx.gbl>
+
+Para responderte apropiadamente a estas cuestiones lo mejor ser?a que 
+quedaramos en persona una tarde o las que fueran pero ahora estoy muy liado 
+con los ex?menes y adem?s tendr?a q empollarme el tema a fondo. No te creas 
+q yo controlo los modos griegos, se como suenan y de oido los identifico e 
+incluso a veces compongo en un modo pero no se la teoria para montar una 
+progresion en un modo. Uno de los motivos por los q me mola este proyecto es 
+precisamente para llenar mis lagunas en teor?a musical, libros hay por todas 
+partes pero si quieres te ayudar? ya q estoy m?s puesto en la terminolog?a. 
+Lo que yo creo saber es lo siguiente: sabes que la escala de C Jonico tiene 
+las mismas notas que D dorico, E frigio, F lidio, G mixolidio, A eolico y B 
+locrio, la difrencia est? en cual es la nota de la escala a la que se le da 
+m?s enfasis. Si tu tocas una sola nota aislada ,por ejemplo un do, no estas 
+definiendo ning?n contexto arm?nico, pero si tocas un do sobre un acorde de 
+C no se oye el mismo efecto que si lo tocas sobre un acorde de G o sobre un 
+Em pq ese do crea intervalos distintos con las notas del acorde. Esto 
+tambi?n lo puedes hacer, aunque es m?s dificil, sin tocar acordes, haciendo 
+una melod?a, pq a una nota le han precedido otras que han creado una cierta 
+expectativa de a donde va la sucesion de notas total (que podemos llamar 
+linea mel?dica, consideremosla monofonica por ahora). De una manera basta en 
+C j?nico la nota de referencia sobre la que giran las dem?s es el do, y en D 
+dorico es el re,pero de una manera distinta a como hace de referencia en D 
+Jonico,  esa es la diferencia. Lo puedes probar de esta manera, en el piano 
+toca todo el rato un do (una sola nota, no el acorde) a negras en la parte 
+grave y haz una linea melodica con la mano derecha en la parte aguda usando 
+la escala de Do mayor (es decir, solo teclas blancas) . Ahora toca en la 
+parte grave un re a negras y haz la misma linea , ver?s que el efecto es 
+distinto pq el contexto arm?nico es distinto, aunque toques la misma melod?a
+
+Pq la mayor parte de la musica est? escrita en J?nico ?, pues por costumbre, 
+y como desde la infancia llevamos oyendo ese modo es muy f?cil hacer 
+progresiones q fijen ese contexto arm?nico. En modo menor se escribe menos 
+pero se suele escribir en menor arm?nico no en e?lico, pq como cuenta Enric 
+Herrera esta escala se ha modificado para conseguir un quinto grado con 
+acorde de dominante (tercera mayor y septima menor) .Pq se busca este V7?, 
+pq la cadencia que m?s nos suena por costumbre, cultura y educacion es la 
+perfecta, la V7-I , y este V7 ayuda a fijar este contexto arm?nico menor y 
+hace que es I del menor arm?nico sea una referencia m?s clara para el resto 
+de las notas.Y pq funcionan la cadencias?, simplemente por educacion, en 
+otras culturas usan otras escalas y en otros momentos de la historia se han 
+usado otras en europa. Otra tipo de armon?a t?pica en la cultura occidental 
+actual es la del blues que te explico ahora. La escala b?sica es la 
+pentat?nica menor, q como su nombre indica tiene 5 notas que son I, bIII, 
+IV, V y bVII, en A ser?a la, do, re, mi, sol, y la progresion t?pica de 
+blues es I7-IV7-I7-V7-IV7-I7-V7, en A ser?a I7 = A7, IV7 = D7 y V7 = E7  . 
+Sobre esa progresion se usa la pentat?nica menor en todos los acordes, 
+fijate que sobre el I7 que es un acorde mayor est?s usando una escala 
+menor(de tercera menor)!!!!, y funciona pq llevamos toda la vida 
+escuch?ndolo, no hay m?s
+
+Pero volviendo a los modos la m?sica modal lo que suele hacer es alargar lo 
+que duran los acordes. Si ves en el libro de Enric Herrera en XXVIII, la 
+relacion escala-acorde puedes ver que se usan los modos, mira la tabla de la 
+p?gina 101, sobre un acorde de V7 se usa la escala mixolidia, la cosa es 
+cambiar de escala cuando se cambia de acorde en la progresion. Esta es una 
+forma distinta de pensar que hacer una progresion totalmente diat?nica y 
+usar la misma escala para hacer una melodia encima de la progresion. Mira 
+este ejemplo sacado de una revista sobre el tema Black Narcissus de Joe 
+Henderson. La progresion es , con un acorde por comp?s en 4/4, (Abm7 
+Db7/Ab)x4 (Gbm7 Cb7/Gb)x4 (Ebmaj7(#11) Fmaj7(#11) Bbmaj7(11#) Cmaj7)x2
+notacion: (acordes)xN, se repite N veces esta serie de acordes
+          cif/not es el cifrado del acorde formado por cif al que se le 
+a?ade de nota grave la nota not
+          cif(#11) es el cifrado del acorde formado por cif al que se le 
+a?ade la tensi?n #11 (cuarta aumentada por la zona aguda)
+Bueno pues en esta progresion se pueden usar las siguientes escalas:
+-compases 1 a 8 (es decir, sobre Abm7 Db7/Ab): Ab dorico. El Ab se ha fijado 
+de referencia pq suena como nota grave en los dos acordes. En la escala 
+dorica el primer grado tiene de acorde Im7 claro, y en el cuarto tiene IV7 
+(como el V grado de la j?nica), en Ab dorico ser?an Im7 = Abmt y IV7 = Db7, 
+todo encaja
+-compases 9 al 16: Gb dorico pq es como la progresion anterior bajada un 
+tono
+-compas 17 : Eb lidio mira la tabla del libro de Enric Herrera pag 101, hay 
+dos acordes maj7, el del I grado y el del IV grado, pero s?lo el del IV 
+admite la tensi?n #11 que este acorde tiene. Y al IV le corresponde la 
+escala Lidia. Miralo de esta forma, en la escala de D mayor (jonica) la 
+cuarta del primer grado es justa, pero la cuarta del cuarto grado es 
+aumentada, y cual es la escala del cuarto grado?: la lidia
+-compas 18 : F lidio
+-compas 19 : Bb lidio
+-compas 20 : C lidio
+
+una progresion modal lo que hace es algo como lo que se hace en los compases 
+1 a 8, alargar la influencia del dorico o el modo que sea con trucos como el 
+pedal que se usa aqui y otros q desconozco. Y tb depende de la melod?a que 
+toques encima, el enf?sis que hagas en una u otra nota. Pero lo q es 
+inevitable es que si no conoces un modo, si no te suena, si no lo has 
+escuchado, entonces una progresion en ese modo te sonara rara y poco 
+musical, por eso el jazz duro no le gusta a alguna gente
+
+Respecto a las cadencias: es una sucesion de acordes que nos lleva a un 
+punto de reposo, por tanto es como un punto o una coma en el discurso 
+musical
+-aut?ntica: V-I
+-plagal: subdominante-tonica, por tanto es IV-I, IV-VIm, IV-IIIm, II-I,..
+-rota: V-tonica, con t?nica distinto del I
+-semicadencia: es el reposo moment?neo en un acorde q no es de t?nica, 
+normalmente el de dominante (V7). Esto es una contradiccion pq no se puede 
+reposar sobre el acorde m?s inestable que hay, por tanto esta cadencia debe 
+ser resuelta para llegar al reposo. Mira el ejemplo del libro, p?gina 78. 
+Hace G C G D7 | G C G D7 G, es decir, I IV I V7| I IV I V7 I La semicadencia 
+se da en el primer D7, se resuelve cuando este cae en el siguiente G. Se que 
+esto no te ha convencido pero bueno...
+
+Espero haberte sido de ayuda y no haber dicho muchas tonter?as, nos vemos 
+despu?s de los ex?menes y seguimos con la discursion!!!
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Armonia
+>Date: Mon, 24 Jan 2005 21:35:31 +0000
+>
+>Esta pregunta va destinada principalmente a Juan, que es el que pilota un 
+>poco mas del tema.
+>No entiendo lo de los modos griegos. Por lo visto una cancion puede estar 
+>en un modo: eolio, jonico, etc. pero diferentes modos tienen las mismas 
+>notas. Ej: Do jonico = La eolio. ?Como se puede determinar el modo de una 
+>cancion? Ademas, ?c?mo es que la mayoria de la musica esta escrita en modo 
+>Mayor que es el Jonico o el Menor que es el eolio?
+>Otra cosa. En el libro habla de la semicadencia pero no la explica 
+>absolutamente nada. A parte la plagal tampoco me queda muy clara. Creo que 
+>la rota y la autentica mas o menos si. Me la puedes explicar, porfi
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] organizacion de los archivos
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20organizacion%20de%20los%20archivos&In-Reply-To=%3CBAY23-F352E81A8523D640847CF5BB94F0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000168.html">
+   <LINK REL="Next"  HREF="000185.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] organizacion de los archivos</H1>
+    <B>Shishigami yamato</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20organizacion%20de%20los%20archivos&In-Reply-To=%3CBAY23-F352E81A8523D640847CF5BB94F0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] organizacion de los archivos">gatchan00 at hotmail.com
+       </A><BR>
+    <I>Wed Mar 23 23:09:01 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000168.html">[Genaro-somos-todos] organizacion de los archivos
+</A></li>
+        <LI>Next message: <A HREF="000185.html">[Genaro-somos-todos] organizacion de los archivos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#177">[ date ]</a>
+              <a href="thread.html#177">[ thread ]</a>
+              <a href="subject.html#177">[ subject ]</a>
+              <a href="author.html#177">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>vale, de momento el interfaz usa como directorio de trabajo el propio (es 
+decir, guarda los fichero de progresi&#243;n y el midi generado en el propio 
+directorio del interfaz) , y te pide cual es el fichero exe del prolog. si 
+quer&#233;is que esto cambie mandad un mail y se cambia.
+
+&gt;<i>From: Juan Rodriguez Hortal&#225; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">bc24us at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i>Subject: [Genaro-somos-todos] organizacion de los archivos
+</I>&gt;<i>Date: Tue, 22 Mar 2005 22:10:54 +0100
+</I>&gt;<i>
+</I>&gt;<i>He intentado organizar un poco los archivos de intercambio que se pasan los 
+</I>&gt;<i>programas escritos en los distintos lenguajes. Supongamos que la carpeta en 
+</I>&gt;<i>la que tenemos el repositorio es c:/hlocal, entonces tienes 
+</I>&gt;<i>c:/hlocal/Codigo/Haskell y c:/hlocal/Codigo/Prolog. Entonces la idea es:
+</I>&gt;<i>
+</I>&gt;<i>-Prolog: que se generen los exes en c:/hlocal/Codigo/Prolog, por tanto se 
+</I>&gt;<i>deber&#237;an subir all&#237; las dll de swi-prolog, q hay q mirar si se puede por 
+</I>&gt;<i>licencias, q supongo q si. Prolog en el modulo generador_acordes contiene 
+</I>&gt;<i>los predicados:
+</I>&gt;<i>
+</I>&gt;<i>fichero_destinoGenAc_prog('../../progresion.txt').
+</I>&gt;<i>fichero_destinoGenAc_prog_depura('../../progresion_dep.txt').
+</I>&gt;<i>fichero_destinoGenAc_prog_semilla('../../progresion_semilla.txt').
+</I>&gt;<i>
+</I>&gt;<i>por tanto generar&#225; estos archivos en c:/hlocal/progresion.txt y tal. No os 
+</I>&gt;<i>olvideis de recompilar prolog cada vez q haya algun cambio de archivo
+</I>&gt;<i>
+</I>&gt;<i>-Haskell: que se suba runhugs a /Codigo/Haskell de manera que al bajarlo 
+</I>&gt;<i>quede en c:/hlocal/Codigo/Haskell. En main.lhs se indican las rutas por 
+</I>&gt;<i>defecto:
+</I>&gt;<i>
+</I>&gt;&gt;<i>rutaProgresion :: String
+</I>&gt;&gt;<i>rutaProgresion = &quot;../../progresion.txt&quot;
+</I>&gt;<i>
+</I>&gt;&gt;<i>rutaDestinoMidi :: String
+</I>&gt;&gt;<i>rutaDestinoMidi = &quot;../../musica_genara.mid&quot;
+</I>&gt;<i>
+</I>&gt;<i>de manera que con:
+</I>&gt;<i>
+</I>&gt;<i>D:\cvsrepo\Codigo\Haskell&gt;runhugs main.lhs 
+</I>&gt;<i>&quot;d:/cvsrepo/PatronesRitmicos/bolero.txt&quot; 4
+</I>&gt;<i>
+</I>&gt;<i>haskell lee el archivo de patron ritmico indicado y el archivo 
+</I>&gt;<i>d:/cvsrepo/progresion.txt y escribe d:/cvsrepo/musica_genara.mid
+</I>&gt;<i>
+</I>&gt;<i>ok?
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>Acepta el reto MSN Premium: Correos m&#225;s divertidos con fotos y textos 
+</I>&gt;<i>incre&#237;bles en MSN Premium. Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+</I>&gt;<i><A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_correosmasdivertidos">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_correosmasdivertidos</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000168.html">[Genaro-somos-todos] organizacion de los archivos
+</A></li>
+	<LI>Next message: <A HREF="000185.html">[Genaro-somos-todos] organizacion de los archivos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#177">[ date ]</a>
+              <a href="thread.html#177">[ thread ]</a>
+              <a href="subject.html#177">[ subject ]</a>
+              <a href="author.html#177">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

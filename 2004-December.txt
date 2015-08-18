@@ -1,0 +1,614 @@
+From gatchan00 at hotmail.com  Thu Dec  2 00:08:25 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 01 Dec 2004 23:08:25 +0000
+Subject: [Genaro-somos-todos] acta reunion
+Message-ID: <BAY23-F22A2223FC96850F0E65D4CB9BF0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041201/0a8c178d/attachment.html>
+
+From bc24us at hotmail.com  Thu Dec  2 00:50:23 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 02 Dec 2004 00:50:23 +0100
+Subject: [Genaro-somos-todos] reunion del viernes
+Message-ID: <BAY14-F36B76AC39F4C4299705E66CEBF0@phx.gbl>
+
+Pues a mi me parece bien q sea en el cole de javi, supongo q quedamos en el 
+banco de siempre, solo falta saber q opina Rober, q opinas?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From gatchan00 at hotmail.com  Thu Dec  2 10:04:05 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 02 Dec 2004 09:04:05 +0000
+Subject: [Genaro-somos-todos] reunion del viernes
+In-Reply-To: <BAY14-F36B76AC39F4C4299705E66CEBF0@phx.gbl>
+Message-ID: <BAY23-F10F40DD9CC1F0139D51A21B9B00@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041202/d6380977/attachment.html>
+
+From roberto_____666 at hotmail.com  Thu Dec  2 15:13:16 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 02 Dec 2004 14:13:16 +0000
+Subject: [Genaro-somos-todos] Reunion viernes
+Message-ID: <BAY1-F16373B55F9A01BAFCE3A18D5B00@phx.gbl>
+
+Me parece bien. Entonces a las 12:00 en el colegio de Javi
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From gatchan00 at hotmail.com  Thu Dec  2 15:19:25 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 02 Dec 2004 14:19:25 +0000
+Subject: [Genaro-somos-todos] Reunion viernes
+In-Reply-To: <BAY1-F16373B55F9A01BAFCE3A18D5B00@phx.gbl>
+Message-ID: <BAY23-F6CD653810DF5FFF9FFDB4B9B00@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041202/4b25432b/attachment.html>
+
+From roberto_____666 at hotmail.com  Mon Dec  6 16:46:42 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 06 Dec 2004 15:46:42 +0000
+Subject: [Genaro-somos-todos] Cambio de progresion ordenada
+Message-ID: <BAY1-F2F80C80A8AD0C0F256AB5D5B40@phx.gbl>
+
+Ya he cambiado el predicado de traduccion para que la salida sea una 
+progresion ordenada como tu me pediste. Ahora te toca cambiar el parser para 
+que lo coja bien y ademas como yo te pedi que fuera AcordeOrdenado en 
+Haskell.
+Cuando lo hagas avisame
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Wed Dec  8 14:12:33 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 08 Dec 2004 14:12:33 +0100
+Subject: [Genaro-somos-todos] Cambio de progresion ordenada
+In-Reply-To: <BAY1-F2F80C80A8AD0C0F256AB5D5B40@phx.gbl>
+Message-ID: <BAY14-F336CBDD7D6E91B238C939ECEB60@phx.gbl>
+
+Ya esta hecho, en PrologAHaskell.hs como hazProgresionOrdenada. El viejo 
+parser queda como hazProgresionOrdenadaMusic. En PrologAHaskell.hs se usa
+
+type AcordeOrdenado = ([Pitch],Dur)
+
+y la funcion es
+
+hazProgresionOrdenada :: String -> [AcordeOrdenado]
+
+ok?
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Cambio de progresion ordenada
+>Date: Mon, 06 Dec 2004 15:46:42 +0000
+>
+>Ya he cambiado el predicado de traduccion para que la salida sea una 
+>progresion ordenada como tu me pediste. Ahora te toca cambiar el parser 
+>para que lo coja bien y ademas como yo te pedi que fuera AcordeOrdenado en 
+>Haskell.
+>Cuando lo hagas avisame
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From gatchan00 at hotmail.com  Fri Dec 10 11:39:59 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 10 Dec 2004 10:39:59 +0000
+Subject: [Genaro-somos-todos] Reunión próximo lunes
+Message-ID: <BAY23-F1289930D82DD9EBEF1074B9A80@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041210/8e3f40c0/attachment.html>
+
+From roberto_____666 at hotmail.com  Sat Dec 11 11:27:07 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 11 Dec 2004 10:27:07 +0000
+Subject: [Genaro-somos-todos] Acordes
+Message-ID: <BAY1-F1627463D1C555F298FB7B5D5A90@phx.gbl>
+
+Los patrones ritmicos creo que estan completos. Solo tengo que hacer algunas 
+pruebas para comprobar que funciona en todos los casos. Segun lo tengo hecho 
+habria que hacer una distincion entre los acordes ordenados de cuatro notas 
+(las triadas) y los de cinco (cuatriadas). Me parece que quedaria mucho 
+mejor que todos los acordes tuvieran el mismo numero de notas, es decir, 
+cinco aunque no se que consecuencias tendria en la audicion. Pero por otro 
+lado me parece un poco cutre que el usuario tenga que distinguir entre 
+acordes de cuatro notas y de cinco.
+Ahi dejo mi consulta por si alguien quiere opinar.
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Dec 11 11:54:31 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 11 Dec 2004 10:54:31 +0000
+Subject: [Genaro-somos-todos] percusion
+Message-ID: <BAY1-F192AA681533C1694B0374D5A90@phx.gbl>
+
+He mirado un poquito la percusion en haskore y en MIDI. Biene muy bien 
+explicado en el tutorial de haskore que se encuentra en el cvs y dos 
+paginas. Hay una funcion perc que lo hace casi todo. Lo unico es que lo que 
+genera perc lo debe interpretar el instrumento "Drums".
+Hay ahi una lista de muchos instrumentos pero no se cuales son los que estan 
+en una bateria de jazz o cuales vamos a usar. Tampoco se como se "usan".
+Si alguien tiene tiempo que se lo mire un poco
+
+_________________________________________________________________
+La informaci?n m?s fresca desde diferentes puntos de vista en la Revista de 
+Prensa de MSN. http://es.newsbot.msn.com/
+
+
+
+From roberto_____666 at hotmail.com  Sun Dec 12 15:25:34 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 12 Dec 2004 14:25:34 +0000
+Subject: [Genaro-somos-todos] HaskoreAMidi
+Message-ID: <BAY1-F248700C72F70F65F0E124AD5AA0@phx.gbl>
+
+Tengo dos problemas a la hora de escribir esa nuesva funcion haskoreAMidi :: 
+Music -> Int -> String ->IO().
+Un problema es que no me deja poner dos funciones con el mismo nombre aunque 
+tengan distinto tipo. Eso del polimorfismo, no se, no se...
+El segundo que no se como pasar de Int a Float para usarlo en el metronomo 
+(funcion metro). La funcion que he visto que se usa es fromInt pero hugs me 
+dice no sabe cual es. Tambien he probado con fromInteger y me dice que 
+tampoco.
+De todas formas he puesto el codigo en el cvs aunque comentado la parte que 
+he hecho yo.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sun Dec 12 18:53:37 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 12 Dec 2004 18:53:37 +0100
+Subject: [Genaro-somos-todos] HaskoreAMidi
+In-Reply-To: <BAY1-F248700C72F70F65F0E124AD5AA0@phx.gbl>
+Message-ID: <BAY14-F26C40D34FE19ADFFDBA8AECEAA0@phx.gbl>
+
+Si , lo del polimorfismo no es como yo cre?a, basta con poner otro nombre. 
+Respecto a lo otro prueba con fromIntegral, q era lo q usabamos en 
+Bitops.lhs para resolver el problema. Para problemas con haskell usa 
+http://www.zvon.org/other/haskell/Outputglobal/ , encontr? esta p?gina 
+poniendo Haskell reference en google
+
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] HaskoreAMidi
+>Date: Sun, 12 Dec 2004 14:25:34 +0000
+>
+>Tengo dos problemas a la hora de escribir esa nuesva funcion haskoreAMidi 
+>:: Music -> Int -> String ->IO().
+>Un problema es que no me deja poner dos funciones con el mismo nombre 
+>aunque tengan distinto tipo. Eso del polimorfismo, no se, no se...
+>El segundo que no se como pasar de Int a Float para usarlo en el metronomo 
+>(funcion metro). La funcion que he visto que se usa es fromInt pero hugs me 
+>dice no sabe cual es. Tambien he probado con fromInteger y me dice que 
+>tampoco.
+>De todas formas he puesto el codigo en el cvs aunque comentado la parte que 
+>he hecho yo.
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From gatchan00 at hotmail.com  Mon Dec 13 00:55:25 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 12 Dec 2004 23:55:25 +0000
+Subject: [Genaro-somos-todos] no hay preguntas tontas, sólo gente tona
+Message-ID: <BAY23-F23C454277ED3F7AB126F71B9AA0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041212/c0a244c5/attachment.html>
+
+From bc24us at hotmail.com  Mon Dec 13 12:29:32 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 13 Dec 2004 12:29:32 +0100
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIG5vIGhheSBwcmVndW50YXMg?=
+ =?iso-8859-1?B?dG9udGFzLCBz82xvIGdlbnRlIHRvbmE=?=
+In-Reply-To: <BAY23-F23C454277ED3F7AB126F71B9AA0@phx.gbl>
+Message-ID: <BAY14-F1459EBDE7F4441875DBE62CEAB0@phx.gbl>
+
+ya esta solucionado el problema de fromInt/fromIntegral, ahora solo queda 
+borrar la carpeta lib de Codigo/Haskell
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] no hay preguntas tontas, s?lo gente tona
+>Date: Sun, 12 Dec 2004 23:55:25 +0000
+>
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: [Genaro-somos-todos] no hay preguntas tontas, s?lo gente tona
+Date: Sun, 12 Dec 2004 23:55:25 +0000
+Size: 3012
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041213/2c5caea1/attachment.mht>
+
+From roberto_____666 at hotmail.com  Tue Dec 14 21:02:48 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 14 Dec 2004 20:02:48 +0000
+Subject: [Genaro-somos-todos] Fallo mio
+Message-ID: <BAY1-F115112E7E2383A30224906D5AC0@phx.gbl>
+
+Vaaaaaaaaaaaale, he tenido un fallo muy tonto en lo de haskoreAMidi. S? que 
+funciona con la funcion fromIntegral. El problema es que yo habia puesto 
+fromInteger
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Wed Dec 15 13:48:49 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 15 Dec 2004 12:48:49 +0000
+Subject: [Genaro-somos-todos] Cambio de dia
+Message-ID: <BAY1-F5941E62CC238CD4C28FCBD5AD0@phx.gbl>
+
+Me viene mal quedar el martes por a las 15:30 porque al final s? que hay 
+informatica gr?fica. Me gustaria que se cambiara al lunes a las 15:30 (o 
+cualquier hora por la tarde) o ese mismo martes por la ma?ana, a las 10 o 
+asi. Si no podeis entonces quedamos como estabamos ya, a las 15:30 el martes 
+en el cole de Javi
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Wed Dec 15 15:34:48 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 15 Dec 2004 14:34:48 +0000
+Subject: [Genaro-somos-todos] Cambio de dia
+In-Reply-To: <BAY1-F5941E62CC238CD4C28FCBD5AD0@phx.gbl>
+Message-ID: <BAY23-F2788E7493350E562303876B9AD0@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041215/acc4dac5/attachment.html>
+
+From roberto_____666 at hotmail.com  Wed Dec 15 20:04:47 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 15 Dec 2004 19:04:47 +0000
+Subject: [Genaro-somos-todos] Pa juan y sus parsers
+Message-ID: <BAY1-F44343EA4564D6C40AADF7D5AD0@phx.gbl>
+
+He pensado que deberias hacer dos parsers uno para lo que yo llamo ritmo 
+horizontal y otro para el ritmo vertical. No lo hago por capricho sino 
+porque a lo mejor el ritmo horizontal nos vale para alguna otra cosa, ya que 
+marca cuando se ejecutan algunas notas del acorde (del AcordeOrdenado). 
+Quizas valga para el bajo o la bateria, no lo se. De todas formas en el caso 
+de que no valga para nada no hemos perdido nada.
+Al grano, el ritmo horizontal es asi:
+
+type Acento = Int
+type URH = (Acento, Dur)
+type PatronHorizontal = [URH]
+
+PatronHorizontal es lo que debe parsear. EL ritmo vertical es asi:
+
+type Voz = Int
+type Ligado = Bool
+type URV = (Voz, Ligado)
+type PatronVertical = [URV]
+
+Igual que antes PatronVertical es lo que hay que parsear
+
+Y hablando de parsers... ya que vamos a tener unos cuantos parsers 
+deberiamos hacer algo sistematico en cuanto a la generacion y la 
+nomenglatura. En cuanto a la generacion no se como van pero parece que son 
+faciles. En cuanto a la nomenglatura deberiamos llamar al nombre del archivo 
+parserLoQueSea.hs y tener un archivo que sea parser.hs que simplemente sea 
+un modulo que importe los otros parser
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Thu Dec 16 19:21:49 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 16 Dec 2004 18:21:49 +0000
+Subject: [Genaro-somos-todos] Acta reunion
+Message-ID: <BAY1-F173C1C9B8F32ED6F6AFA77D5AE0@phx.gbl>
+
+Juan:
+- Realizar dos parsers o analizadores sintacticos en haskell. Dichos parsers 
+deben leer una cadena de caracteres o String y devolver, en cada caso, un 
+elemento del tipo PatronHorizontal y PatronVertical. Ambos tipos estan 
+especificados en el archivo /Codigo/Haskell/Ritmo.hs. Los dos parsers se 
+pueden fusionar en uno pero se va a hacer de esta forma para tener una mayor 
+flexibilidad para futuros trabajos.
+
+
+Javi:
+- Cambiar el fichero de configuracion realizado para el interfaz y nucleo de 
+Java para que est? redefinido a buscar el ejecutable de prolog en ../prolog 
+y el de haskell en ../haskell
+- Subir al CVS en interprete de Haskell (runhugs) junto al resto del c?digo. 
+De esa forma no hay que cambiar ni buscar nada cuando nos bajamos el codigo 
+del CVS a cualquier ordenador
+- Para automatizar la ejecucion del prolog se desea que e cambie la forma de 
+ejecutarlo por la siguiente: crear un archivo que importe el codigo del main 
+y luego llamar a prolog con ese archivo
+- A?adir cuadros de texto al interfaz para facilitar la ejecucion tanto de 
+Prolog como de Haskell
+
+Roberto:
+- Intentar arreglar la funcion haskellAMidi2 para que pase correctamente de 
+un Int a un Float (mientras se escribia este documento el problema se 
+solucionaba m?gicamente)
+- Retocar el codigo de los patrones ritmicos (archivo Ritmo.hs) para que se 
+ajuste a la siguiente especificacion de tipos
+type PatronRitmico = [ ( URV, URH ) ]
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Dec 18 16:33:13 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 18 Dec 2004 15:33:13 +0000
+Subject: [Genaro-somos-todos] Reunion 21
+Message-ID: <BAY1-F18F3020BC94E671D21104CD5A00@phx.gbl>
+
+Al final me da igual quedar el martes 21. Asi que quedamos el martes 21 en 
+el colegio de Javi a las 15:30, tal y como estaba previsto
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Thu Dec 23 20:01:39 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 23 Dec 2004 20:01:39 +0100
+Subject: [Genaro-somos-todos] acta_reunion_21_12_04
+Message-ID: <BAY103-F200F460BE3C4E15108FB72CEA50@phx.gbl>
+
+ACTA REUNI?N
+
+
+Proyecto Genaro:	reunion_21_12_04
+Fecha de creaci?n	21/ 12/ 04
+Fecha de ?ltima actualizaci?n:	21/ 12/ 04
+Autores:	Juan Rodr?guez Hortal?
+
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+Los tres completamos los trabajos  especificados en 
+acta_reunion_14_12_04.doc
+
+3.- Nuevos trabajos.
+
+
+Juan:
+
+Terminar por f?n el generador de acordes esta vez manteniendo como 
+invariante entre las mutaciones que el ritmo arm?nico sea correcto, y que el 
+numero de compases especificado como entrada se respecte exactamente, no 
+aproximadamente
+Comentar todo su c?digo
+Hacer un parser para el fichero escrito por el editor de patrones r?tmicos 
+(ver abajo), que lea el fichero escrito por Java y obtenga dos elementos de 
+tipo PatronHorizontal y PatronVertical
+Hacer un parser de un termino Prolog que cumpla es_progresion escrito en un 
+fichero al tipo correspondiente en Haskell q tb ha de definir
+Javi:
+Comentar y limpiar todo el c?digo de Java
+Modificar y a,pliar la secci?n de la GC sobre la sintaxis de los comentarios 
+de documentaci?n en Haskell
+Hacer un editor visual de patrones r?tmicos en Java: a?adir un bot?n u 
+opci?n de men? ?Nuevo patr?n r?tmico? o similar que habra un di?logo o 
+ventana adicional que constar? de :
+
+Un selector de alg?n tipo para elegir el n?mero de voces (dimensi?n 
+vertical) del patr?n
+Una rejilla/matriz que inicialmente tendr? 1 sola columna y tantas filas 
+como voces se hayan elegido. Las filas por tanto representan las voces/notas 
+que forman un acorde ordenado y las columnas divisiones en el tiempo
+Un bot?n ?a?adir columna? que al ser pulsado pide una fracci?n que 
+representa una figura, que a?ade una columna de esta duraci?n a la derecha 
+de la columna de la casilla seleccionada
+Un bot?n ?dividir columna? que al ser pulsado divide la columna de la 
+casilla que este seleccionada en 2 o en 3 seg?n est? seleccionado en alg?n 
+men? desplegable que haya en la ventana
+Las casillas tendr?n  estos colores o equivalentes:
+Blanco: si indican que la voz de su fila no suena en el momento que indica 
+su columna
+Amarillo: si indican que la voz de su fila si que suena en el momento que 
+indica su columna, pero no est? ligada con la casilla de la misma fila y 
+columna adyacente por la derecha
+Rojo: si indican que la voz de su fila si que suena en el momento que indica 
+su columna, y adem?s est? ligada con la casilla de la misma fila y columna 
+adyacente por la derecha. Las casillas se ponen rojas/ligan pulsando un 
+bot?n ?ligar? que hay por ah?. Hay que comprobar que realmente hay una 
+casilla amarilla a la derecha de otra casilla antes de dejar ligarla pq si 
+no se ligar?a con una nota inexistente. No se si eso es un problema con la 
+representaci?n de Roberto pero me parecer?a una chapuza y un c?digo poco 
+modular si no se hiciera esto bien, que adem?s es f?cil (matriz[i][j+1] == 
+amarillo), as? que propongo que se le quite el enable al bot?n ligar cuando 
+corresponda
+Un bot?n ?previa? o algo as? que reproduzca una vez el patr?n r?tmico como 
+un midi de piano que asigne una nota (siempre la misma) cualquiera a cada 
+voz,  para que el usuario se haga una idea de lo que ha hecho
+
+                     Comentario personal: he estado pensando esto en mi casa 
+y he llegado a la conclusi?n de que este editor aunque podr?a usarse y 
+servir para hacer cualquier patr?n llegar?a a ser muy engorroso. Yo 
+propondr?a hacer un editor de pianola como el del reason para las baterias. 
+Es igual que este s?lo que en vez de dividir columnas y a?adirlas hace lo 
+siguiente:
+
+Hay un menu desplegable con el que se cambia la resoluci?n de el eje X/ las 
+columnas. Al pintar en una cuadr?cula pintas con el ancho de la resoluci?n 
+que est? seleccionada en ese momento, pero al cambiar la resoluci?n a menos 
+lo que has pintado sigue con el mismo tama?p
+El eje X/columnas tiene un n?mero infinito de columnas, pero se colocan un 
+par de marcadores izquierdo y derecho que delimitan el fragmento. En este 
+caso creo que bastar?a con un solo marcador de fin
+
+                                                      creo firmemento que el 
+editor de otro estilo habr?a que terminar cambi?ndolo y como un editor en 
+plan Reason lo vas a tener que hacer igual para la melod?a as? ir?as 
+adelantando trabajo. De todas formas propongo q lo votemos en la lista de 
+correo.
+
+Por ?ltimo habr?a un bot?n ?guardar patr?n? que por ahora guardar?a el 
+patr?n siempre en el mismo fichero (pej ?Codigo/Java/PatronMatriz.txt?). 
+Como idea puedo sugerir que guardes la matriz que tengas en menoria para 
+representar cuadr?cula directamente. Si lo que tuvieras en memoria fuera la 
+matriz con las columnas a la resoluci?n m?s precisa, ligando para simular 
+cuadrados m?s grandes (que luego al pintar se ven como cuadrados gordos) 
+podr?as ir escribiendo por columnas, una columna por linea del txt, los 
+colores, quedando implicito que la resoluci?n es la m?s precisa, indicando 
+esta al principio del fichero, pej:
+resolucion = 1 / 32
+amarillo rojo blanco amarillo \n
+amarillo blanco blanco amarillo \n
+                                             ...
+                                             Hagas lo que hagas es 
+importante que mandes un mail a genaro_somos_todos en cuanto definas el 
+formato del fichero que vas a escribir especificandolo con claridad
+
+Roberto:
+
+Hacer una funci?n aplicaPatronRitmico :: PatronRitmico -> [AcordeOrdenado] 
+-> Music
+Ampliar los predicados de Prolog para generar acordes ordenados a partir de 
+listas de cifrados (traduce_lista_cifrados) para incluir como par?metro 
+adicional el n?mero de voces que se desea que tenga el acorde
+Al hacer aplicaPatronRitmico definir otras funciones que tengan en cuenta lo 
+que ocurre cuando se aplica un patr?n r?tmico a un acorde ordenado con un 
+numero de notas/voces distinto al del patr?n r?tmico. Supuesto que tenemos 
+un patron r?tmico definido para acordes de P voces y que se lo aplicamos a 
+un acorde de A voces, con A !=P puede ocurrir:
+A>P: Se pueden tomar dos alternativas
+Truncar: Las voces extras del acorde no se tocan, no suenan
+Saturar: Las voces del acorde entre P+1 y A se tocan a la vez que la voz 
+numero P del acorde, cada vez que esta suene
+
+A<P: De nuevo hay varias alternativas:
+Truncar: la voz X del patr?n ser? la voz XmodA del acorde
+Saturar: se expande al acorde repitiendo las voces cicl?camente y aumentando 
+su octava. Esto es delicado pq puede q sea necesario mantener la disposici?n 
+e inversion. Pej tenemos una triada de C ordenado como 
+[(C,1),(E,1),(G,1),(C,2)], por tanto en estado fundamental y primera 
+disposici?n, y queremos saturarla para un patr?n de 6 voces. Las voces a 
+a?adir ser?an un E y un G pq el C ya se repite (o el criterio q sea), pero 
+si ponemos (E,2) y (G,2) el C ya no es la nota m?s aguda y ya no estamos en 
+primera disposici?n, as? que debemos subir el C agudo y queda 
+[(C,1),(E,1),(G,1),(E,2),(G,2)(C,3)] (creo q ser?a m?s f?cil si es 
+invariante q las voces ordenadas de grave a agudo en la lista). Esto se 
+complica a?n m?s en el caso de la continuidad arm?nica!!!!
+
+                                       Estas son s?lo algunas opciones que 
+se me ocurren de las muchas posibilidades que hay.Y esto lo  deber?a poder 
+elegir el usuario, con lo que tenemos m?s argumentos en 
+aplicaPatronRitmicoModo :: PatronRitmico -> ModoPatron ->[AcordeOrdenado] -> 
+Music ,donde ModoPatron es un type enumerado
+
+Empezar a investigar en como hacer las melod?as
+
+
+	IDEA: Que en cuanta hayamos terminado cada uno  de los  trabajos asignados 
+mandemos un mensaje a la lista genaro_somos_todos indicando los nombres de 
+las funciones/predicados/clases/m?todos que hemos hecho, el fichero/modulo 
+donde est?n y a que trabajo se refieren
+
+Feliz Navidad y prosperoa?oyfelicidad!!!!!
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_is2003 at yahoo.es  Sun Dec 26 22:11:58 2004
+From: roberto_is2003 at yahoo.es (Roberto Torres)
+Date: Sun, 26 Dec 2004 22:11:58 +0100 (CET)
+Subject: [Genaro-somos-todos] Hotmail
+Message-ID: <20041226211158.55253.qmail@web53105.mail.yahoo.com>
+
+Hola, no se que pasa pero no me puedo meter a hotmail, asi que si podeis usad esta cuenta de correo para comunicaros conmigo de momento. Si teneis mas prima me dais un toque al movil. 
+Feliz Navidad
+
+
+		
+---------------------------------
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041226/76475233/attachment.html>
+

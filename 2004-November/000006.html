@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Retoque de la representacion haskore
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Retoque%20de%20la%20representacion%20haskore&In-Reply-To=%3CBAY14-F265DYge2Qw4h0003bcfa%40hotmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000005.html">
+   <LINK REL="Next"  HREF="000007.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Retoque de la representacion haskore</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Retoque%20de%20la%20representacion%20haskore&In-Reply-To=%3CBAY14-F265DYge2Qw4h0003bcfa%40hotmail.com%3E"
+       TITLE="[Genaro-somos-todos] Retoque de la representacion haskore">bc24us at hotmail.com
+       </A><BR>
+    <I>Mon Nov  1 18:41:56 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000005.html">[Genaro-somos-todos] Cambio de representacion
+</A></li>
+        <LI>Next message: <A HREF="000007.html">[Genaro-somos-todos] Asunto: Sistemas Inform&#225;ticos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#6">[ date ]</a>
+              <a href="thread.html#6">[ thread ]</a>
+              <a href="subject.html#6">[ subject ]</a>
+              <a href="author.html#6">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Respecto a lo del velocity si recuerdas en la &#250;ltima reuni&#243;n quedamos en que 
+lo ampliar&#237;amos m&#225;s tarde. Y respecto a lo de poner figura en vez de 
+fracci&#243;n no le veo sentido ya que figura est&#225; definido con:
+
+es_figura(figura(N,D)) :- es_fraccionNat(N, D).
+es_fraccionNat(N, D) :- natural(N), natural(D).
+natural(N) :- integer(N), N&gt;=0.
+
+la diferencia est&#225; en q usando fraccionNat no metes la constructora figura q 
+no viene a cuento
+
+por cierto q por los nombres de los predicados deduzco que la versi&#243;n del 
+archivo q tienes es del a&#241;o la polca. Me parece q nos estamos coordinando 
+bastante mal, me parece mala idea cambiar la representaci&#243;n sin consultar 
+cuando otros est&#225;n trabajando con lo mismo pq luego lo q se iba a tener 
+listo para una semana est&#225; ya para la siguiente como pronto. Me parece mejor 
+idea trabajar con lo q hay, proponer los cambios en la reuni&#243;n y dejar las 
+mejoras para el siguiente prototipo, sobre todo pq los cambios q uno puede 
+pensar imprescindibles al final puede q no lo sean. Y adem&#225;s siguen sin 
+estar en el CVS la mitad de los archivos. Bueno hablamos ma&#241;ana
+
+&gt;<i>From: &quot;Roberto Torres&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">roberto_____666 at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i>Subject: [Genaro-somos-todos] Retoque de la representacion haskore
+</I>&gt;<i>Date: Sun, 31 Oct 2004 18:48:28 +0000
+</I>&gt;<i>
+</I>&gt;<i>He visto que en la representacion de haskore le falta un par de peque&#241;as 
+</I>&gt;<i>cosillas:
+</I>&gt;<i>1 falta de algun modo especificar la intensidad de la nota
+</I>&gt;<i>2 en la clausula musica(tempo(F,M)) habria que poner
+</I>&gt;<i>musica(tempo(F,M)) :- figura(F), musica(M).
+</I>&gt;<i>en vez de
+</I>&gt;<i>musica(tempo(F,M)) :- fraccionNat(F), musica(M).
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>Un amor, una aventura, compa&#241;&#237;a para un viaje. Reg&#237;strate gratis en MSN 
+</I>&gt;<i>Amor &amp; Amistad. <A HREF="http://match.msn.es/">http://match.msn.es/</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. <A HREF="http://entretenimiento.msn.es/">http://entretenimiento.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000005.html">[Genaro-somos-todos] Cambio de representacion
+</A></li>
+	<LI>Next message: <A HREF="000007.html">[Genaro-somos-todos] Asunto: Sistemas Inform&#225;ticos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#6">[ date ]</a>
+              <a href="thread.html#6">[ thread ]</a>
+              <a href="subject.html#6">[ subject ]</a>
+              <a href="author.html#6">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

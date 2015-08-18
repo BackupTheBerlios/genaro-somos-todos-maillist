@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] main de haskell
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20main%20de%20haskell&In-Reply-To=%3CBAY103-F30EECEE296C3763C0F195ECE4C0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000165.html">
+   <LINK REL="Next"  HREF="000169.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] main de haskell</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20main%20de%20haskell&In-Reply-To=%3CBAY103-F30EECEE296C3763C0F195ECE4C0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] main de haskell">bc24us at hotmail.com
+       </A><BR>
+    <I>Sun Mar 20 22:13:52 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000165.html">[Genaro-somos-todos] midi2ly
+</A></li>
+        <LI>Next message: <A HREF="000169.html">[Genaro-somos-todos] Interfaz-genaro
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#166">[ date ]</a>
+              <a href="thread.html#166">[ thread ]</a>
+              <a href="subject.html#166">[ subject ]</a>
+              <a href="author.html#166">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ya esta terminado el nuevo main de haskell, esta en el fichero main.lhs, el 
+antiguo main.hsx ya no se usa y lo he borrado del cvs. El archivo 
+runhugs.exe y las carpetas que necesita (libraries y oldlib) deberian ir en 
+/Haskell pq el archivo al que llames con runhugs necesita consultar los 
+dem&#225;s fuentes de haskell y por tanto deben ir en la misma carpeta
+
+Un ejemplo de uso de este runhugs con el nuevo main:
+
+D:\cvsrepo\Codigo\Haskell&gt;runhugs main.lhs 
+d:/cvsrepo/PatronesRitmicos/Cumbia.txt 3
+
+El directorio de trabajo es: D:\cvsrepo\Codigo\Haskell
+
+Procesando el archivo de progresion de acordes de Prolog: 
+D:\cvsrepo\Codigo\Haskell\progresion.txt
+
+Procesando el archivo de patron ritmico de C: 
+d:/cvsrepo/PatronesRitmicos/Cumbia.txt
+
+Generando el archivo midi: D:\cvsrepo\Codigo\Haskell\musica_genara.mid
+
+D:\cvsrepo\Codigo\Haskell&gt;
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci&#243;n para tus hijos en internet. 
+Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+<A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000165.html">[Genaro-somos-todos] midi2ly
+</A></li>
+	<LI>Next message: <A HREF="000169.html">[Genaro-somos-todos] Interfaz-genaro
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#166">[ date ]</a>
+              <a href="thread.html#166">[ thread ]</a>
+              <a href="subject.html#166">[ subject ]</a>
+              <a href="author.html#166">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

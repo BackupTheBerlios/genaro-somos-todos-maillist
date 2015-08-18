@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Acta reunion
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-December/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20reunion&In-Reply-To=%3CBAY1-F173C1C9B8F32ED6F6AFA77D5AE0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000064.html">
+   <LINK REL="Next"  HREF="000066.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Acta reunion</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20reunion&In-Reply-To=%3CBAY1-F173C1C9B8F32ED6F6AFA77D5AE0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Acta reunion">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Thu Dec 16 19:21:49 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000064.html">[Genaro-somos-todos] Pa juan y sus parsers
+</A></li>
+        <LI>Next message: <A HREF="000066.html">[Genaro-somos-todos] Reunion 21
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#65">[ date ]</a>
+              <a href="thread.html#65">[ thread ]</a>
+              <a href="subject.html#65">[ subject ]</a>
+              <a href="author.html#65">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Juan:
+- Realizar dos parsers o analizadores sintacticos en haskell. Dichos parsers 
+deben leer una cadena de caracteres o String y devolver, en cada caso, un 
+elemento del tipo PatronHorizontal y PatronVertical. Ambos tipos estan 
+especificados en el archivo /Codigo/Haskell/Ritmo.hs. Los dos parsers se 
+pueden fusionar en uno pero se va a hacer de esta forma para tener una mayor 
+flexibilidad para futuros trabajos.
+
+
+Javi:
+- Cambiar el fichero de configuracion realizado para el interfaz y nucleo de 
+Java para que est&#233; redefinido a buscar el ejecutable de prolog en ../prolog 
+y el de haskell en ../haskell
+- Subir al CVS en interprete de Haskell (runhugs) junto al resto del c&#243;digo. 
+De esa forma no hay que cambiar ni buscar nada cuando nos bajamos el codigo 
+del CVS a cualquier ordenador
+- Para automatizar la ejecucion del prolog se desea que e cambie la forma de 
+ejecutarlo por la siguiente: crear un archivo que importe el codigo del main 
+y luego llamar a prolog con ese archivo
+- A&#241;adir cuadros de texto al interfaz para facilitar la ejecucion tanto de 
+Prolog como de Haskell
+
+Roberto:
+- Intentar arreglar la funcion haskellAMidi2 para que pase correctamente de 
+un Int a un Float (mientras se escribia este documento el problema se 
+solucionaba m&#225;gicamente)
+- Retocar el codigo de los patrones ritmicos (archivo Ritmo.hs) para que se 
+ajuste a la siguiente especificacion de tipos
+type PatronRitmico = [ ( URV, URH ) ]
+
+_________________________________________________________________
+Hor&#243;scopo, tarot, numerolog&#237;a... Escucha lo que te dicen los astros. 
+<A HREF="http://astrocentro.msn.es/">http://astrocentro.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000064.html">[Genaro-somos-todos] Pa juan y sus parsers
+</A></li>
+	<LI>Next message: <A HREF="000066.html">[Genaro-somos-todos] Reunion 21
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#65">[ date ]</a>
+              <a href="thread.html#65">[ thread ]</a>
+              <a href="subject.html#65">[ subject ]</a>
+              <a href="author.html#65">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

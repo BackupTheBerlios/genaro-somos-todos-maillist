@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] acta_reunion_21_12_04
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-December/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20acta_reunion_21_12_04&In-Reply-To=%3CBAY103-F200F460BE3C4E15108FB72CEA50%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000066.html">
+   <LINK REL="Next"  HREF="000068.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] acta_reunion_21_12_04</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20acta_reunion_21_12_04&In-Reply-To=%3CBAY103-F200F460BE3C4E15108FB72CEA50%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] acta_reunion_21_12_04">bc24us at hotmail.com
+       </A><BR>
+    <I>Thu Dec 23 20:01:39 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000066.html">[Genaro-somos-todos] Reunion 21
+</A></li>
+        <LI>Next message: <A HREF="000068.html">[Genaro-somos-todos] Hotmail
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#67">[ date ]</a>
+              <a href="thread.html#67">[ thread ]</a>
+              <a href="subject.html#67">[ subject ]</a>
+              <a href="author.html#67">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>ACTA REUNI&#211;N
+
+
+Proyecto Genaro:	reunion_21_12_04
+Fecha de creaci&#243;n	21/ 12/ 04
+Fecha de &#250;ltima actualizaci&#243;n:	21/ 12/ 04
+Autores:	Juan Rodr&#237;guez Hortal&#225;
+
+
+&#205;NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+Los tres completamos los trabajos  especificados en 
+acta_reunion_14_12_04.doc
+
+3.- Nuevos trabajos.
+
+
+Juan:
+
+Terminar por f&#237;n el generador de acordes esta vez manteniendo como 
+invariante entre las mutaciones que el ritmo arm&#243;nico sea correcto, y que el 
+numero de compases especificado como entrada se respecte exactamente, no 
+aproximadamente
+Comentar todo su c&#243;digo
+Hacer un parser para el fichero escrito por el editor de patrones r&#237;tmicos 
+(ver abajo), que lea el fichero escrito por Java y obtenga dos elementos de 
+tipo PatronHorizontal y PatronVertical
+Hacer un parser de un termino Prolog que cumpla es_progresion escrito en un 
+fichero al tipo correspondiente en Haskell q tb ha de definir
+Javi:
+Comentar y limpiar todo el c&#243;digo de Java
+Modificar y a,pliar la secci&#243;n de la GC sobre la sintaxis de los comentarios 
+de documentaci&#243;n en Haskell
+Hacer un editor visual de patrones r&#237;tmicos en Java: a&#241;adir un bot&#243;n u 
+opci&#243;n de men&#250; &#147;Nuevo patr&#243;n r&#237;tmico&#148; o similar que habra un di&#225;logo o 
+ventana adicional que constar&#225; de :
+
+Un selector de alg&#250;n tipo para elegir el n&#250;mero de voces (dimensi&#243;n 
+vertical) del patr&#243;n
+Una rejilla/matriz que inicialmente tendr&#225; 1 sola columna y tantas filas 
+como voces se hayan elegido. Las filas por tanto representan las voces/notas 
+que forman un acorde ordenado y las columnas divisiones en el tiempo
+Un bot&#243;n &#147;a&#241;adir columna&#148; que al ser pulsado pide una fracci&#243;n que 
+representa una figura, que a&#241;ade una columna de esta duraci&#243;n a la derecha 
+de la columna de la casilla seleccionada
+Un bot&#243;n &#147;dividir columna&#148; que al ser pulsado divide la columna de la 
+casilla que este seleccionada en 2 o en 3 seg&#250;n est&#233; seleccionado en alg&#250;n 
+men&#250; desplegable que haya en la ventana
+Las casillas tendr&#225;n  estos colores o equivalentes:
+Blanco: si indican que la voz de su fila no suena en el momento que indica 
+su columna
+Amarillo: si indican que la voz de su fila si que suena en el momento que 
+indica su columna, pero no est&#225; ligada con la casilla de la misma fila y 
+columna adyacente por la derecha
+Rojo: si indican que la voz de su fila si que suena en el momento que indica 
+su columna, y adem&#225;s est&#225; ligada con la casilla de la misma fila y columna 
+adyacente por la derecha. Las casillas se ponen rojas/ligan pulsando un 
+bot&#243;n &#147;ligar&#148; que hay por ah&#237;. Hay que comprobar que realmente hay una 
+casilla amarilla a la derecha de otra casilla antes de dejar ligarla pq si 
+no se ligar&#237;a con una nota inexistente. No se si eso es un problema con la 
+representaci&#243;n de Roberto pero me parecer&#237;a una chapuza y un c&#243;digo poco 
+modular si no se hiciera esto bien, que adem&#225;s es f&#225;cil (matriz[i][j+1] == 
+amarillo), as&#237; que propongo que se le quite el enable al bot&#243;n ligar cuando 
+corresponda
+Un bot&#243;n &#147;previa&#148; o algo as&#237; que reproduzca una vez el patr&#243;n r&#237;tmico como 
+un midi de piano que asigne una nota (siempre la misma) cualquiera a cada 
+voz,  para que el usuario se haga una idea de lo que ha hecho
+
+                     Comentario personal: he estado pensando esto en mi casa 
+y he llegado a la conclusi&#243;n de que este editor aunque podr&#237;a usarse y 
+servir para hacer cualquier patr&#243;n llegar&#237;a a ser muy engorroso. Yo 
+propondr&#237;a hacer un editor de pianola como el del reason para las baterias. 
+Es igual que este s&#243;lo que en vez de dividir columnas y a&#241;adirlas hace lo 
+siguiente:
+
+Hay un menu desplegable con el que se cambia la resoluci&#243;n de el eje X/ las 
+columnas. Al pintar en una cuadr&#237;cula pintas con el ancho de la resoluci&#243;n 
+que est&#233; seleccionada en ese momento, pero al cambiar la resoluci&#243;n a menos 
+lo que has pintado sigue con el mismo tama&#241;p
+El eje X/columnas tiene un n&#250;mero infinito de columnas, pero se colocan un 
+par de marcadores izquierdo y derecho que delimitan el fragmento. En este 
+caso creo que bastar&#237;a con un solo marcador de fin
+
+                                                      creo firmemento que el 
+editor de otro estilo habr&#237;a que terminar cambi&#225;ndolo y como un editor en 
+plan Reason lo vas a tener que hacer igual para la melod&#237;a as&#237; ir&#237;as 
+adelantando trabajo. De todas formas propongo q lo votemos en la lista de 
+correo.
+
+Por &#250;ltimo habr&#237;a un bot&#243;n &#147;guardar patr&#243;n&#148; que por ahora guardar&#237;a el 
+patr&#243;n siempre en el mismo fichero (pej &#147;Codigo/Java/PatronMatriz.txt&#148;). 
+Como idea puedo sugerir que guardes la matriz que tengas en menoria para 
+representar cuadr&#237;cula directamente. Si lo que tuvieras en memoria fuera la 
+matriz con las columnas a la resoluci&#243;n m&#225;s precisa, ligando para simular 
+cuadrados m&#225;s grandes (que luego al pintar se ven como cuadrados gordos) 
+podr&#237;as ir escribiendo por columnas, una columna por linea del txt, los 
+colores, quedando implicito que la resoluci&#243;n es la m&#225;s precisa, indicando 
+esta al principio del fichero, pej:
+resolucion = 1 / 32
+amarillo rojo blanco amarillo \n
+amarillo blanco blanco amarillo \n
+                                             ...
+                                             Hagas lo que hagas es 
+importante que mandes un mail a genaro_somos_todos en cuanto definas el 
+formato del fichero que vas a escribir especificandolo con claridad
+
+Roberto:
+
+Hacer una funci&#243;n aplicaPatronRitmico :: PatronRitmico -&gt; [AcordeOrdenado] 
+-&gt; Music
+Ampliar los predicados de Prolog para generar acordes ordenados a partir de 
+listas de cifrados (traduce_lista_cifrados) para incluir como par&#225;metro 
+adicional el n&#250;mero de voces que se desea que tenga el acorde
+Al hacer aplicaPatronRitmico definir otras funciones que tengan en cuenta lo 
+que ocurre cuando se aplica un patr&#243;n r&#237;tmico a un acorde ordenado con un 
+numero de notas/voces distinto al del patr&#243;n r&#237;tmico. Supuesto que tenemos 
+un patron r&#237;tmico definido para acordes de P voces y que se lo aplicamos a 
+un acorde de A voces, con A !=P puede ocurrir:
+A&gt;P: Se pueden tomar dos alternativas
+Truncar: Las voces extras del acorde no se tocan, no suenan
+Saturar: Las voces del acorde entre P+1 y A se tocan a la vez que la voz 
+numero P del acorde, cada vez que esta suene
+
+A&lt;P: De nuevo hay varias alternativas:
+Truncar: la voz X del patr&#243;n ser&#225; la voz XmodA del acorde
+Saturar: se expande al acorde repitiendo las voces cicl&#237;camente y aumentando 
+su octava. Esto es delicado pq puede q sea necesario mantener la disposici&#243;n 
+e inversion. Pej tenemos una triada de C ordenado como 
+[(C,1),(E,1),(G,1),(C,2)], por tanto en estado fundamental y primera 
+disposici&#243;n, y queremos saturarla para un patr&#243;n de 6 voces. Las voces a 
+a&#241;adir ser&#237;an un E y un G pq el C ya se repite (o el criterio q sea), pero 
+si ponemos (E,2) y (G,2) el C ya no es la nota m&#225;s aguda y ya no estamos en 
+primera disposici&#243;n, as&#237; que debemos subir el C agudo y queda 
+[(C,1),(E,1),(G,1),(E,2),(G,2)(C,3)] (creo q ser&#237;a m&#225;s f&#225;cil si es 
+invariante q las voces ordenadas de grave a agudo en la lista). Esto se 
+complica a&#250;n m&#225;s en el caso de la continuidad arm&#243;nica!!!!
+
+                                       Estas son s&#243;lo algunas opciones que 
+se me ocurren de las muchas posibilidades que hay.Y esto lo  deber&#237;a poder 
+elegir el usuario, con lo que tenemos m&#225;s argumentos en 
+aplicaPatronRitmicoModo :: PatronRitmico -&gt; ModoPatron -&gt;[AcordeOrdenado] -&gt; 
+Music ,donde ModoPatron es un type enumerado
+
+Empezar a investigar en como hacer las melod&#237;as
+
+
+	IDEA: Que en cuanta hayamos terminado cada uno  de los  trabajos asignados 
+mandemos un mensaje a la lista genaro_somos_todos indicando los nombres de 
+las funciones/predicados/clases/m&#233;todos que hemos hecho, el fichero/modulo 
+donde est&#225;n y a que trabajo se refieren
+
+Feliz Navidad y prosperoa&#241;oyfelicidad!!!!!
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. <A HREF="http://entretenimiento.msn.es/">http://entretenimiento.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000066.html">[Genaro-somos-todos] Reunion 21
+</A></li>
+	<LI>Next message: <A HREF="000068.html">[Genaro-somos-todos] Hotmail
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#67">[ date ]</a>
+              <a href="thread.html#67">[ thread ]</a>
+              <a href="subject.html#67">[ subject ]</a>
+              <a href="author.html#67">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

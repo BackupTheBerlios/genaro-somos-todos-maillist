@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] reunion_02_11_04
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20reunion_02_11_04&In-Reply-To=%3CBAY14-F363ednHM3SOl0000e755%40hotmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000007.html">
+   <LINK REL="Next"  HREF="000009.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] reunion_02_11_04</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20reunion_02_11_04&In-Reply-To=%3CBAY14-F363ednHM3SOl0000e755%40hotmail.com%3E"
+       TITLE="[Genaro-somos-todos] reunion_02_11_04">bc24us at hotmail.com
+       </A><BR>
+    <I>Tue Nov  2 23:58:28 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000007.html">[Genaro-somos-todos] Asunto: Sistemas Inform&#225;ticos
+</A></li>
+        <LI>Next message: <A HREF="000009.html">[Genaro-somos-todos] Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#8">[ date ]</a>
+              <a href="thread.html#8">[ thread ]</a>
+              <a href="subject.html#8">[ subject ]</a>
+              <a href="author.html#8">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>ACTA REUNI&#211;N
+
+
+Proyecto Genaro:		reunion_02_11_04
+Fecha de creaci&#243;n		02/ 11/ 04
+Fecha de &#250;ltima actualizaci&#243;n:	02/ 11/ 04
+Autores:				Juan Rodr&#237;guez
+
+
+&#205;NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+
+&#149;	Generaci&#243;n de acordes: hecho en parte, faltan dominantes secundaros y 
+segundos relativos
+&#149;	Paso de progresi&#243;n a Haskore: hecha versi&#243;n b&#225;sica en posici&#243;n de t&#243;nica y 
+arpegiado
+&#149;	Paso de Haskore a representaci&#243;n de bajo nivel: hecho casi del todo
+&#149;	Paso de representaci&#243;n de bajo nivel a midi: hecho casi del todo
+&#149;	Uso de Java y Prolog: sin empezar
+
+3.- Nuevos trabajos.
+
+
+&#149;	Juan:
+
+o	Juntar prolog, haskell y Java para hacer el paso a midi de una progresi&#243;n 
+de acordes
+o	A&#241;adir dominantes secundarios y segundos relativos a la generaci&#243;n de 
+progresiones
+o	Modificar la GC a&#241;adiendo:
+
+&#61607;	El encargado del &#250;ltimo acta la traer&#225; a la siguiente reuni&#243;n
+&#61607;	El encargado de hacer el acta la mandar&#225; a la lista de correo y al 
+CVS como muy tarde el d&#237;a siguiente a la reuni&#243;n
+&#61607;	Las listas de correo ser&#225;n genaro_somos_todos y la de Jaime
+
+&#149;	Javi:
+o	Cambiar el instalador de Timidity para que funcione en C:\hlocal\timidity 
+pq en los labos no se puede hacer directorios en C:. Subirlo al CVS
+o	Preparar el Doxygen para documentar Java y Prolog.
+o	Quedar con Jaime para la semana que viene a trav&#233;s de la lista de correo 
+genaro-jaime de Berlios
+
+&#149;	Roberto: definir predicados que pasen de una progresi&#243;n de acordes Prog 
+(que cumple el predicado es_progresion(P), definido exhaustivamente en el 
+archivo generador_acordes.pl) a una lista de listas de notas L que cumple 
+es_progresion_ordenada(L), definida por:
+
+		es_progresion_ordenada(progOrdenada(Loa)) :- es_lista_orden_acordes(Loa).
+		es_lista_orden_acordes([]).
+		es_lista_orden_acordes([Oa|Loa]) :- es_ordenacion_acorde(Oa), 
+es_lista_orden_acordes(Loa).
+		es_ordenacion_acorde(ordenAcorde(Ln)) :-es_lista_notas(Ln).
+
+		(ver concepto de ordenaci&#243;n de acorde de &#147;Armonia una intro gentil&#148; pag 9)
+
+		es_lista_notas([]).
+		es_lista_notas([N|Ln]) :- es_nota(N), es_lista_notas(Ln).
+
+		Estos predicados enlazar&#225;n los enlaces de la progresi&#243;n seg&#250;n el sistema 
+paralelo y tambi&#233;n seg&#250;n el sistema de continuidad arm&#243;nica (&#147;Teor&#237;a musical 
+y armon&#237;a moderna&#148;, pags 42 en adelante). Se considerar&#225;n las combinaciones 
+de inversi&#243;n y disposici&#243;n en posici&#243;n cerrada para ordenaciones de acordes 
+de 4 notas de la tabla en &#147;Armonia una intro gentil&#148; pag 11 en adelante
+
+&#149;	A partir de ahora los nombre de predicados en Prolog vendr&#225;n precedidos de 
+las siglas que se forman con el nombre del acorde, pej los nombres de los 
+predicados de generador_acordes.pl empezar&#225;n todos por ga_. Por tanto los 
+predicados del punto anterior ser&#225;n xy_es_progresion_ordenada etc, donde xy 
+ser&#225;n las siglas del nombre que de Roberto a su archivo. Los nombres de los 
+predicados hechos anteriormente se cambiar&#225;n tb a esta nueva notaci&#243;n
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d&#237;a de todas las tendencias. 
+<A HREF="http://www.msn.es/Mujer/moda/default.asp">http://www.msn.es/Mujer/moda/default.asp</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000007.html">[Genaro-somos-todos] Asunto: Sistemas Inform&#225;ticos
+</A></li>
+	<LI>Next message: <A HREF="000009.html">[Genaro-somos-todos] Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#8">[ date ]</a>
+              <a href="thread.html#8">[ thread ]</a>
+              <a href="subject.html#8">[ subject ]</a>
+              <a href="author.html#8">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

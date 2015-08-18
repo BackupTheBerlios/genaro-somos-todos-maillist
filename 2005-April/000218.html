@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Acta reuni&#243;n 12-4-05
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-April/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20reuni%F3n%2012-4-05&In-Reply-To=%3CBAY23-F38F5B05C30A3F7F070AC9EB9340%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000220.html">
+   <LINK REL="Next"  HREF="000221.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Acta reuni&#243;n 12-4-05</H1>
+    <B>Shishigami yamato</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Acta%20reuni%F3n%2012-4-05&In-Reply-To=%3CBAY23-F38F5B05C30A3F7F070AC9EB9340%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Acta reuni&#243;n 12-4-05">gatchan00 at hotmail.com
+       </A><BR>
+    <I>Thu Apr 14 01:00:53 CEST 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000220.html">[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+</A></li>
+        <LI>Next message: <A HREF="000221.html">[Genaro-somos-todos] reparto de voces
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#218">[ date ]</a>
+              <a href="thread.html#218">[ thread ]</a>
+              <a href="subject.html#218">[ subject ]</a>
+              <a href="author.html#218">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&#205;NDICE
+
+1.- Asistentes.	2
+2.- Evaluaci&#243;n del trabajo	2
+3.- Especificaciones.	2
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Evaluaci&#243;n del trabajo
+-Juan:  Por terminar su trabajo, tiempo estimado 2 semanas
+
+-Javi: Por terminar su trabajo, tiempo estimado 1 semana
+
+-Rober: Por terminar su trabajo, tiempo estimado 1 semana
+
+3.- Especificaciones.
+
+	Bater&#237;a: Estar&#225; compuesta de 10 instrumentos, que son los siguientes
+		Bombo
+		Caja Fuerte
+		Caja Suave
+		Charles Pisado
+		Charles Abierto
+		Charles Cerrado
+		Timbal Agudo
+		Timbal Grave
+		1 Ride
+		1 Crash
+
+	Llamadas a Prolog para las progresiones:
+
+	Para hacer una progresi&#243;n est&#225;n los siguientes argumentos:
+
+	Directorio_Trabajo: Directorio de trabajo actual
+
+	Instrucci&#243;n: existen 3, Crea_Progresi&#243;n, Muta_Progresi&#243;n
+
+	Ruta_Origen: Ruta de la progresi&#243;n original
+
+	Ruta_Destino: Ruta destino de la progresi&#243;n obtenida
+
+	N_Compases: N&#250;mero de compases utilizados para la progresi&#243;n a generar
+
+	MUTACIONES: existen 5 tipos de mutaciones,
+	  &#147;T1 n&#148; Realiza n mutaciones de tipo 1, es decir, JUNTA ACORDES
+	  &#147;T2 n&#148; Realiza n mutaciones de tipo 2, es decir, SEPARA ACORDES
+	  &#147;T3 n&#148; Realiza n mutaciones de tipo 3, es decir, CAMBIA ACORDES
+	Estos 3 primeros acordes pueden ser agrupados en el tipo A, es decir &#147;TA n&#148;
+	  &#147;TA n&#148; Realiza n mutaciones de cualquiera de los 3 primeros tipos
+
+	  &#147;T4 n&#148; Realiza n mutaciones de tipo 4, es decir, DOMINANTE SECUNDARIOS
+	  &#147;T5 n&#148; Realiza n mutaciones de tipo 1, es decir, 2&#170; MENOR S&#201;PTIMA
+	Estos 2 &#250;ltimos acordes pueden ser agrupados en el tipo B, es decir &#147;TB n&#148;
+	  &#147;TB n&#148; Realiza n mutaciones de cualquiera de los 2 &#250;ltimos tipos
+
+	Y si no se quieren especificar el tipo de mutaciones se dir&#237;a &#147;MT n&#148; 
+realiza n mutaciones.
+	*Es obligatorio nombrar los 5 tipos de mutaciones si no se nombra ning&#250;n 
+tipo que los agrupe, es decir, si decidimos
+	hacer T1 a T2 b TB c, deber&#237;amos especificar T3 d, aunque ese d sea 0.
+
+
+
+	Instrucciones para las llamadas al mainArgs y ejemplos
+		Crea_Progresion: Crea una progresi&#243;n. Ejemplos:
+	MainArgs Directorio_Trabajo Crea_Progresi&#243;n Ruta_Destino N_Compases TA 3 TB 
+2
+	MainArgs Directorio_Trabajo Crea_Progresi&#243;n Ruta_Destino N_Compases TA 3 T4 
+1 T5 1
+	MainArgs Directorio_Trabajo Crea_Progresi&#243;n Ruta_Destino N_Compases T1 3 T2 
+2 T3 0 T4 0 T5 7
+	MainArgs Directorio_Trabajo Crea_Progresi&#243;n Ruta_Destino N_Compases MT 12
+	MainArgs Directorio_Trabajo Crea_Progresi&#243;n Ruta_Destino N_Compases T1 3 T2 
+2 T3 8 TB 2
+
+		Muta_Progresion: Muta una progresi&#243;n ya existente.
+	MainArgs Directorio_Trabajo Muta_Progresi&#243;n Ruta_Origen Ruta_Destino 
+N_Compases TA 3 TB 2
+
+		Muta_Progresion_Acorde: Muta la progresi&#243;n en el acorde especificado
+	MainArgs Directorio_Trabajo Muta_Progresion_Acorde Ruta_Origen Ruta_Destino 
+N_Compases N_Acorde MT 33
+
+		Muta_Progresi&#243;n_M&#250;ltiple: Crea una progresi&#243;n cogiendo al semilla de la 
+progresi&#243;n origen
+	MainArgs Directorio_Trabajo Muta_Progresi&#243;n_M&#250;ltiple Ruta_Origen 
+Ruta_Destino N_Compases TA 3 TB 2
+
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000220.html">[Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+</A></li>
+	<LI>Next message: <A HREF="000221.html">[Genaro-somos-todos] reparto de voces
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#218">[ date ]</a>
+              <a href="thread.html#218">[ thread ]</a>
+              <a href="subject.html#218">[ subject ]</a>
+              <a href="author.html#218">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

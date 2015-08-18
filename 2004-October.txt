@@ -1,0 +1,105 @@
+From bc24us at hotmail.com  Sun Oct 31 17:54:50 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 31 Oct 2004 17:54:50 +0100
+Subject: [Genaro-somos-todos] RE: SI
+Message-ID: <BAY14-F6aAGgWtpe1OW00046f46@hotmail.com>
+
+Parece que hay problemillas para subscribirse a las listas, por lo menos la 
+de genaro-somos-todos ya va bien, lo confirmo. Respecto a quedar tb Rober 
+quiere el martes, he hablado con ?l. Yo a las 12.00 tengo GC pero a las 
+16:00 me viene perfecto
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: SI
+Date: Sun, 31 Oct 2004 13:16:34 +0000
+Size: 901
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041031/c3705684/attachment.mht>
+
+From bc24us at hotmail.com  Sun Oct 31 19:12:21 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 31 Oct 2004 19:12:21 +0100
+Subject: [Genaro-somos-todos] editor de prolog java
+Message-ID: <BAY14-F4AQq12LRF58t00046dca@hotmail.com>
+
+Por fin he encontrado un editor de Prolog en java q funciona:
+
+http://520094857424.bei.t-online.de/JPrologEditor/english/index.htm
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Sun Oct 31 19:44:01 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 31 Oct 2004 18:44:01 +0000
+Subject: [Genaro-somos-todos] Reunion 25-10.2004
+Message-ID: <BAY1-F39c4Iu1B6gVs100005403@hotmail.com>
+
+REUNION DEL 25-10-2004
+
+Tareas acordadas para la siguiente semana:
+Juan:
+	- Modificar ligeramente la gestion de configuracion
+	- Terminar una version primera del generador de acordes
+	- Subir al CVS todo lo que teniamos en gmail excepto el timidity
+	- Mirar llamadas a prolog desde Java
+Javier:
+	- Realizar en java un programa que pase de la representacion musical a bajo 
+nivel a un archivo MIDI
+	- Subir al CVS el timidity
+Roberto:
+	- Realizar un archivo de ejemplo para entrenamiento de Javi
+	- Realizar en prolog un programa que pase de la representacion tipo haskell 
+a la de bajo nivel
+	- Retocar la representacion en bajo nivel para que ya quede perfecta para 
+la posteridad de la informatica
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sun Oct 31 19:48:28 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 31 Oct 2004 18:48:28 +0000
+Subject: [Genaro-somos-todos] Retoque de la representacion haskore
+Message-ID: <BAY1-F20RQvXlaoY99E00002175@hotmail.com>
+
+He visto que en la representacion de haskore le falta un par de peque?as 
+cosillas:
+1 falta de algun modo especificar la intensidad de la nota
+2 en la clausula musica(tempo(F,M)) habria que poner
+musica(tempo(F,M)) :- figura(F), musica(M).
+en vez de
+musica(tempo(F,M)) :- fraccionNat(F), musica(M).
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sun Oct 31 19:53:45 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 31 Oct 2004 18:53:45 +0000
+Subject: [Genaro-somos-todos] Reunion del martes 2
+Message-ID: <BAY1-F38HGmCvoXM7e000033d73@hotmail.com>
+
+Creo que definitivamente deberiamos quedar el martes 2 a las 16:00 para 
+hacer la reunion. Si alguien tiene algun problema que lo diga, pero si nadie 
+dice nada lo hacemos a esa hora.
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+

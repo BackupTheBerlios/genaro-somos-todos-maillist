@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] preguntas de javi
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20preguntas%20de%20javi&In-Reply-To=%3CBAY103-F23E10CFB9F75CD9E0C0D01CE4C0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000163.html">
+   <LINK REL="Next"  HREF="000165.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] preguntas de javi</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20preguntas%20de%20javi&In-Reply-To=%3CBAY103-F23E10CFB9F75CD9E0C0D01CE4C0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] preguntas de javi">bc24us at hotmail.com
+       </A><BR>
+    <I>Sun Mar 20 19:40:41 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000163.html">[Genaro-somos-todos] runhugs en windows
+</A></li>
+        <LI>Next message: <A HREF="000165.html">[Genaro-somos-todos] midi2ly
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#164">[ date ]</a>
+              <a href="thread.html#164">[ thread ]</a>
+              <a href="subject.html#164">[ subject ]</a>
+              <a href="author.html#164">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>1.No entiendo bien tu pregunta pq esta escrita de forma bastante confusa. Si 
+te lees el comentario de principal:mainArgumentos:
+&#147;/**
+* mainArgumentos: este predicado esta pensado para ser compilado en un exe 
+siguiendo este
+* procedimiento:
+* -iniciar SWI-Prolog
+* -consultar solamente este modulo
+* -llamar al objetivo: 
+biblio_genaro_ES:haz_ejecutable('ruta_relativa/mainArgs.exe',principal:mainArgumentos)
+* Una vez construido el ejecutable mainArgs.exe su directorio de trabajo al 
+ejecutarlo ser&#225; el directorio
+* desde donde se le llame, asi que ser&#237;a recomendable situarlo en C:/hlocal 
+o el directorio que se use para
+* la comunicacion de archivos que corresponda. para que luego Haskell pueda 
+encontrar los archivos
+* Por consola esto se debe llamar sin poner &quot;-&quot; delante de los argumentos, 
+por ejemplo con ./mainArgs.exe 8 0
+* En windows hay que poner todos los archivos .dll que hay en la carpeta bin 
+del directorio donde
+* este instalado SWI pq si no funcionan los exes
+* En windows no cargar el guitracer antes de hacer el exe o no funcionara
+*/&#148;
+
+Esta la cosa clara, por consola lo llamas con el nombre del archivo y dos 
+enteros, el primero es el numero de compases y el segundo el numero de 
+mutaciones. Lo que tienes que hacer en C es llamar a ese exe como si fuera 
+por consola, no entiendo cual es tu problema. Si no te vale la respuesta 
+dilo pronto que no quiero encontrarme el dia de la reuni&#243;n con que todavia 
+no estan enlazadas las cosas
+
+
+2.Para hacer exes en haskell instalate el glasgow haskell compiler (GHC, 
+busca en haskell.org) y haz por comandos &quot;ghc --make -o destino.exe 
+origen.hs&quot;.Pero lo que pasa es que no hay mail de como hacer exes en haskell 
+pq eso no se me ha encargado a mi ni a nadie, a mi lo q se me ha pedido es 
+averiguar como pasar par&#225;metros a haskell con runhugs y es lo que he hecho:
+
+&#147;Basta con usar la funci&#243;n getArgs :: IO [String] incluida en la biblioteca
+est&#225;ndar System. Esta funci&#243;n crea un proceso de E/S que devuelve una lista
+de strings que son los argumentos con los que se ha llamado a runhugs,
+quitando el primero que siempre es el nombre del programa en haskell
+
+En linux runhugs solo acepta haskell en estilo literario, es decir, ficheros
+normalmente de extension .lhs en los que se usa una especie de lenguaje de
+marcado simple que luego latex acepta, y en los que todas las lineas de
+c&#243;digo van precedidas por &quot;&gt; &quot;. En windows runhugs solo acepta ficheros .hsx
+y CREO que no necesitan estilo literario. Las pruebas las he hecho en linux,
+en unos dias pruebo en windows y os cuento
+
+Un ejemplo de uso, en linux:
+prurunhugs.lhs:
+
+\documentstyle{article}
+\begin{document}
+\section{Modulo Principal}
+\label{principal}
+
+\begin{verbatim}
+
+&gt;<i>module Main where
+</I>&gt;<i>import System
+</I>
+
+\end{verbatim}
+
+\begin{verbatim}
+
+&gt;<i>main :: IO()
+</I>&gt;<i>main = do argumentos &lt;- getArgs
+</I>&gt;<i>           putStr (&quot;\nLos argumentos son: \n&quot;++(formateaArgs 
+</I>&gt;<i>argumentos)++&quot;\n&quot;)
+</I>&gt;<i>           putStr &quot;Escribiendo argumentos en archivo\n&quot;
+</I>&gt;<i>           writeFile &quot;./argumentos.txt&quot; (formateaArgs argumentos)
+</I>&gt;<i>           putStr &quot;Proceso terminado correctamente\n&quot;
+</I>
+&gt;<i>formateaArgs :: [String] -&gt; String
+</I>&gt;<i>formateaArgs = formateaArgsAcu 1
+</I>&gt;<i>                where formateaArgsAcu _ [] = []
+</I>&gt;<i>                      formateaArgsAcu n (x:xs) = (show 
+</I>&gt;<i>n)++&quot;.&quot;++x++&quot;\n&quot;++(formateaArgsAcu (n+1) xs)
+</I>
+\end{verbatim}
+
+en consola:
+[<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">root at localhost</A> Codigo]# runhugs prurunhugs.lhs mi nombre es Trinidad
+
+Los argumentos son:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+Escribiendo argumentos en archivo
+Proceso terminado correctamente
+
+argumentos.txt:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+esta claro, no?
+&#148;
+De todas forma el GHC tiene problemas para enlazar el Haskore asi q por 
+ahora no lo usamos. Usa runghugs que ya sabes como se usa, con el archivo 
+main.lhs q cambio ahora en un rato. Por ahora llamalo sin argumentos, cuando 
+lo cambie te dire en un mail q argumentos debes pasar, argumentos q se 
+elegir&#225;n con el interfaz
+
+3.Estaria bien q el asunto de los mensajes tuviera q ver con lo q dicen
+
+&gt;<i>From: &quot;Shishigami yamato&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">gatchan00 at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">bc24us at hotmail.com</A>
+</I>&gt;<i>Subject: RE: [Genaro-somos-todos] midi2ly
+</I>&gt;<i>Date: Sun, 20 Mar 2005 18:07:59 +0000
+</I>&gt;<i>
+</I>&gt;<i>juan pregunta absurda, rid&#237;cula y me vas a matar, pero bueno, ah&#237; va
+</I>&gt;<i>
+</I>&gt;<i>1- tengo hecho el mainargs.exe de prolog, lo llamo como lo llamo? llamo al 
+</I>&gt;<i>exe con el parametro mainargumentos:-current_prolog_flag(....)
+</I>&gt;<i>
+</I>&gt;<i>2- no encuentro el mail de como se hacen exes en haskell...
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>bueno, espero que puedas responderme a esto. gracias de antemano yperdona 
+</I>&gt;<i>por las molestias.
+</I>
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m&#225;s divertidos con fotos y textos 
+incre&#237;bles en MSN Premium. Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+<A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_correosmasdivertidos">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_correosmasdivertidos</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000163.html">[Genaro-somos-todos] runhugs en windows
+</A></li>
+	<LI>Next message: <A HREF="000165.html">[Genaro-somos-todos] midi2ly
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#164">[ date ]</a>
+              <a href="thread.html#164">[ thread ]</a>
+              <a href="subject.html#164">[ subject ]</a>
+              <a href="author.html#164">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

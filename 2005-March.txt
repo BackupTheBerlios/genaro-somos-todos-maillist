@@ -1,0 +1,2614 @@
+From roberto_____666 at hotmail.com  Thu Mar  3 17:50:56 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 03 Mar 2005 16:50:56 +0000
+Subject: [Genaro-somos-todos] midi2ly
+Message-ID: <BAY1-F39342FA153C96A98B107A4D55B0@phx.gbl>
+
+Para varia tengo problemas con el programa midi2ly, que es el programa que 
+pasa de midi a el lenguaje que tienede lilypond. Al parece el programa 
+midi2ly es un programa interpretado escrito en python, programa que me es 
+totalmente desconocido. Si abrimos ese archivo que esta en /bin/midi2ly 
+vemos que es un archivo de texto y que en la linea 43 pone "import midi". 
+Pues bien, cuando lo ejecutamos sale un error en esa linea porque no 
+encuentra dicho modulo midi.
+Bonito, eh? Pues he mirado por ahi y todavia no se como solucionarlo. 
+Vosotros que habeis llegado a ejecutarlo mirar a ver si podeis pasarme el 
+modulo que me falta. Supongo que el archivo se llamara "midi" tal cual. 
+Abridlo a ver que tiene dentro, que tiene que se texto
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Thu Mar  3 21:01:06 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 03 Mar 2005 21:01:06 +0100
+Subject: [Genaro-somos-todos] midi2ly
+In-Reply-To: <BAY1-F39342FA153C96A98B107A4D55B0@phx.gbl>
+Message-ID: <BAY103-F177AC3F7DCF13288A82343CE5B0@phx.gbl>
+
+Yo no tuve ninguno de esos problemas pq ya tenia instalado python, q es un 
+lenguaje de m?quina virtual como Java pero sin disciplina de tipos, uno de 
+los preferidos ahora por hackers y linuxeros. Yo que tu probaba a instalarlo 
+(http://www.python.org/) a ver si es eso. Pero que haya que instalar tb 
+python para nuestro programa es una movida, para plantearse no usar 
+lilypond. Al pararecer python se puede compilar con codeop 
+(http://www.python.org/doc/2.0.1/lib/module-codeop.html), pero eso ya ser?a 
+una movida. Quiz?s habr?a q ir pensando en alguna alternativa a lilypond, pq 
+generar partituras me parece bastante prioritario...
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] midi2ly
+>Date: Thu, 03 Mar 2005 16:50:56 +0000
+>
+>Para varia tengo problemas con el programa midi2ly, que es el programa que 
+>pasa de midi a el lenguaje que tienede lilypond. Al parece el programa 
+>midi2ly es un programa interpretado escrito en python, programa que me es 
+>totalmente desconocido. Si abrimos ese archivo que esta en /bin/midi2ly 
+>vemos que es un archivo de texto y que en la linea 43 pone "import midi". 
+>Pues bien, cuando lo ejecutamos sale un error en esa linea porque no 
+>encuentra dicho modulo midi.
+>Bonito, eh? Pues he mirado por ahi y todavia no se como solucionarlo. 
+>Vosotros que habeis llegado a ejecutarlo mirar a ver si podeis pasarme el 
+>modulo que me falta. Supongo que el archivo se llamara "midi" tal cual. 
+>Abridlo a ver que tiene dentro, que tiene que se texto
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar  5 14:32:39 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 05 Mar 2005 13:32:39 +0000
+Subject: [Genaro-somos-todos] Midi2ly
+Message-ID: <BAY1-F263694F7A098A8A056A36BD55D0@phx.gbl>
+
+Me he bajado el python 2.4 y el 1.5.2 porque habia visto en un foro por ahi 
+que se podia solucionar peor nada, no consigo que el midi2ly funcione. Mirad 
+vosotros en vuestro disco duro a ver si encontrais una carpeta o un archivo 
+que se llame midi. Buscad en c:\cygwin\lib\python2.4 a ver si teneis algo 
+que se llame "midi" y me lo enviais.
+Ahora voy a buscar otro programa GNU que pase de midi a pdf
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar  5 15:46:18 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 05 Mar 2005 14:46:18 +0000
+Subject: [Genaro-somos-todos] Timidity
+Message-ID: <BAY1-F8BF4C84231650EF10110BD55D0@phx.gbl>
+
+He conseguido que funcione el timidity con el teclado. Simplemente hay que 
+poner "timidity -iW" y responder a unas sencillas preguntas. La opcion -i es 
+del interfaze y la W de windows
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar  5 16:23:28 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 05 Mar 2005 15:23:28 +0000
+Subject: [Genaro-somos-todos] fuentes de sonido
+Message-ID: <BAY1-F26A5B61E9E6F46922DF49BD55D0@phx.gbl>
+
+De donde me puedo bajar fuentes de sonido para el timidity, que supongo que 
+seran gratis, no?
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sat Mar  5 19:02:22 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 05 Mar 2005 19:02:22 +0100
+Subject: [Genaro-somos-todos] fuentes de sonido
+In-Reply-To: <BAY1-F26A5B61E9E6F46922DF49BD55D0@phx.gbl>
+Message-ID: <BAY103-F247FAC39687A9E872C8D6BCE5D0@phx.gbl>
+
+Si buscas .sf2 en google te salen muchas p?ginas, por ejemplo 
+http://www.sf2midi.com/ o http://www.sf2-files.com/
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] fuentes de sonido
+>Date: Sat, 05 Mar 2005 15:23:28 +0000
+>
+>De donde me puedo bajar fuentes de sonido para el timidity, que supongo que 
+>seran gratis, no?
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Sun Mar  6 11:30:37 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 06 Mar 2005 10:30:37 +0000
+Subject: [Genaro-somos-todos] fuentes de sonido
+In-Reply-To: <BAY1-F26A5B61E9E6F46922DF49BD55D0@phx.gbl>
+Message-ID: <BAY23-F126C6DA2C33333F04B1566B95E0@phx.gbl>
+
+pues no se de donde me las baje yo, pero tengo 2 fuentes de sonido, las 
+cutres de pocos megas y las mega-tochas de muuuchos megas XD.
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] fuentes de sonido
+>Date: Sat, 05 Mar 2005 15:23:28 +0000
+>
+>De donde me puedo bajar fuentes de sonido para el timidity, que supongo que 
+>seran gratis, no?
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From bc24us at hotmail.com  Sun Mar  6 20:42:19 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 06 Mar 2005 20:42:19 +0100
+Subject: [Genaro-somos-todos] mains y comunicacion entre programas
+Message-ID: <BAY103-F3496496387209F474D3D83CE5E0@phx.gbl>
+
+El otro dia no funcionaba nada y eso no mola. El problema es que el cachondo 
+de SWI-prolog mete espacios donde le da la gana al escribir los t?rminos en 
+los archivos. Esto se ha solucionado con la funcion quitaEspacios de 
+Parsers.hs
+
+Y ya que estaba me he comido el tarro para apa?ar los problemas con las 
+rutas absolutas:
+-en haskell: llamar a la funci?n setCurrentDirectory:: String -> IO() 
+contenida en la libreria est?ndar Directory. Cambia el directorio de trabajo
+-en Prolog: el predicado working_directory/2, que usado como 
+"working_directory(_, DirTrabajo)" cambia el directorio de trabajo
+
+Entonces la idea es que todas las rutas que aparezcan en el c?digo sean 
+relativas, ahora ya es as?, s?lo hay que mantener esto.
+
+Y ahora esto va para Javi que tienes que llamar a Prolog y a Haskell, he 
+hecho dos archivos que funcionan como main para que no tengas tanto lio:
+-en haskell: main.hsx, la funci?n main a cambiado de tipo a "main :: String 
+-> IO()", el String que se le pasa es el directorio de trabajo, la llamada 
+en windows podr?a ser main "c:/hlocal" que escribir?a el fichero 
+c:/hlocal/musica_genara.mid
+-en Prolog: principal.pl, hay que llamar a main(DirTrabajo) ,por ejemplo  
+main('c:/hlocal')., que escribe el c:/hlocal cuatro ficheros:
+    -progresion_semilla.txt: termino correspondiente a la semilla de la 
+generacion
+    -progresion_con_rel.txt: termino correspondiente a la progresion 
+generada, sin quitar todavia los grados relativos
+    -progresion.txt: termino correspondiente a la progresion generada, con 
+los grados relativos pasados a absolutos
+    -progresion_ordenada.txt: termino correspondiente a la progresion 
+generada, con las voces ordenadas, esto es lo que procesa haskell en la 
+versi?n actual que no tiene ritmo a?n
+
+pero esto Javi te da igual, solo debes llamar primero a Prolog con 
+principal:main('c:/hlocal') y luego a haskell con main::main "c:/hlocal" y 
+ya est?. O con el directorio de trabajo que sea, que estar?a bien que te 
+diera a elegir el interfaz
+
+Por cierto ahora las progresiones ser?n muy cutres y aburridas porque esta 
+casi todo lo de Prolog desactivado y no hay ritmo, pero no se preocupen que 
+pronto mejorar?. En el futuro los dos mains tendr?n m?s argumentos para 
+poder elegir bien las opciones de generacion
+
+Bueno, espero que os parezcan bien los cambios, hasta ma?ana!!!
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Mon Mar  7 19:12:33 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 07 Mar 2005 19:12:33 +0100
+Subject: [Genaro-somos-todos] formato del fichero C de patrones ritmicos
+Message-ID: <BAY103-F259751F5A27404B649B8E9CE5F0@phx.gbl>
+
+VOCES 3\n
+  COLUMNAS 6\n
+  RESOLUCION 64\n
+  LIGADO 12 LIGADO 12 SIMPLE 23 SILENCIO SIMPLE 34 SIMPLE 243 FIN\n
+  LIGADO 12 LIGADO 12 SIMPLE 23 SILENCIO SIMPLE 23 SILENCIO FIN\n
+  SIMPLE 12 SILENCIO SIMPLE 43 SIMPLE 34 SILENCIO SILENCIO FIN
+
+
+con velocity
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Tue Mar  8 15:20:40 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 08 Mar 2005 15:20:40 +0100
+Subject: [Genaro-somos-todos] Ritmo.hs
+Message-ID: <BAY103-F16EED9839737D32900A7FECE500@phx.gbl>
+
+En Ritmo.hs hay otra definici?n del tipo PatronRitmico, esta duplicaci?n de 
+informacion es confusa y peligrosa. Roberto, cuando comentes el codigo quita 
+las definciones duplicadas de funciones y tipo y si hay que borrar algun 
+fichero hazlo sin problemas con
+
+cvs -z3 -d:ssh:usuario at cvs.genaro.berlios.de:/cvsroot/genaro remove 
+nombre_archivo
+cvs commit nombre_archivo
+
+y por favor comenta cuanto antes las definiciones de tipo, en particular las 
+de los del ritmo, explicando el "significado intuitivo" de cada parte de los 
+tipos
+
+Hacer estas dos cosas (borrar definiciones dobles y ficheros in?tiles, y 
+comentar el c?digo) me parece fundamental para trabajar en grupo
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Tue Mar  8 16:23:02 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 08 Mar 2005 16:23:02 +0100
+Subject: [Genaro-somos-todos] JavaAHaskell.hs
+Message-ID: <BAY103-F2553EFBCBE83BF4317F2DCCE500@phx.gbl>
+
+He borrado el fichero JavaAHaskell.hs del cvs, pq ya no usamos Java
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Wed Mar  9 02:24:29 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 09 Mar 2005 01:24:29 +0000
+Subject: [Genaro-somos-todos] Acta reunion  7-3-05
+In-Reply-To: <BAY103-F2553EFBCBE83BF4317F2DCCE500@phx.gbl>
+Message-ID: <BAY23-F29D2BE7F07A741D23EB29AB9510@phx.gbl>
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Nuevos trabajos.
+
+
+?	Juan:
+?	Realizar un parser que pase del tipo ?es_progresi?n? de prolog al tipo 
+?progresi?n? de haskell (archivo progresiones.hs)
+?	Realizar un parser que pase del editor de pianola de c++ al tipo de 
+haskell patr?n r?tmico que se encuentra en patrones_ritmicos.hs
+?	Investigar la compilaci?n de ?stand alone exes? en haskell y prolog.
+?	Incorporar al main de haskell la lectura del patr?n r?tmico de C y 
+progresi?n de prolog
+
+?	Javi:
+?	Modificar el editor de pianola para que genere el fichero de salida de la 
+especificaci?n (a?adiendo el velocity)
+?	Leer los ficheros especificados en el propio editor de pianol
+?	Realizar las siguientes modificaciones al editor de pianola:
+?	1 solo color de nota (las no ligadas tienen separaci?n siempre
+?	a?adir opciones para el velocity
+?	corregir errores
+?	Hacer que el editor de pianola genere un midi con el patr?n r?tmico para 
+facilitar al usuario una idea aproximada de lo que se est? haciendo.
+?	Roberto:
+?	A?adir N? de voces total al patr?n r?tmico
+?	Documentar los ?ltimos trabajos realizados
+?	?Picar? patrones r?tmicos
+?	Seguir investigando si se dispone de tiempo de la conversi?n midi a pdf.
+
+
+
+
+From roberto_____666 at hotmail.com  Wed Mar  9 15:57:09 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 09 Mar 2005 14:57:09 +0000
+Subject: [Genaro-somos-todos] Altura Patron
+Message-ID: <BAY1-F678A685A73CE3228FEBC8D5510@phx.gbl>
+
+El parametro AlturaPatron es, efectivamente, el numero de voces del patron 
+ritmico. Eso ya lo comentare esta semana.
+El fichero ritmo.hs ya no se usa.
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Wed Mar  9 16:41:33 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 09 Mar 2005 15:41:33 +0000
+Subject: [Genaro-somos-todos] Patrones ritmicos
+Message-ID: <BAY1-F15300305056726651E80BDD5510@phx.gbl>
+
+Ya tenemos nuevo tipo para los patrones ritmicos tal y como pidio Juan en la 
+ultima reunion.
+Si veis bien, es exactamente lo mismo pero con la altura del patron en una 
+tupla.
+La identancion va mal aqui, mejor lo veis en el archivo PatronesRItmicos.hs
+Ahora Juan tiene que hacer el parser de CAHaskell.hs para que funcione, 
+porque ahora ni compila
+
+type Voz = Int
+type Acento = Float         -- Acento: intensidad con que se ejecuta ese 
+tiempo. Valor de 0 a 100
+type Ligado = Bool          -- Ligado: indica si una voz de una columna esta 
+ligada con la se la siguiente columna
+                            -- en caso de que no este dicha voz el ligado se 
+ignora
+type URV = [(Voz, Acento, Ligado)]	-- Unidad de ritmo vertical, especifica 
+todas las filas de una unica columna
+type URH = Dur 				-- Unidad de ritmo horizontal, especifica la duracion de 
+una columna
+type UPR = ( URV , URH)                 -- Unidad del patron ritmico, 
+especifica completamente toda la informacion necesaria
+                                        -- para una columna (con todas sus 
+filas) en la matriz que representa el patron
+type AlturaPatron = Int			-- numero maximo de voces que posee el patron
+type MatrizRitmica = [UPR]              -- Una lista de columnas, vamos, 
+como una matriz
+
+type PatronRitmico = (AlturaPatron, MatrizRitmica)
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Wed Mar  9 16:49:42 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 09 Mar 2005 16:49:42 +0100
+Subject: [Genaro-somos-todos] Patrones ritmicos
+In-Reply-To: <BAY1-F15300305056726651E80BDD5510@phx.gbl>
+Message-ID: <BAY103-F34DAB609A5CE583F84314CE510@phx.gbl>
+
+Quedamos en que cambiaras el tipo y todas las partes del c?digo a las que 
+afectara, asi q te tocar?a a ti cambiar el parser. Por esta vez lo hago pero 
+date cuenta de que he cambiado ese parser 4 veces y ayer mismo lo cambie 
+para nada
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Patrones ritmicos
+>Date: Wed, 09 Mar 2005 15:41:33 +0000
+>
+>Ya tenemos nuevo tipo para los patrones ritmicos tal y como pidio Juan en 
+>la ultima reunion.
+>Si veis bien, es exactamente lo mismo pero con la altura del patron en una 
+>tupla.
+>La identancion va mal aqui, mejor lo veis en el archivo PatronesRItmicos.hs
+>Ahora Juan tiene que hacer el parser de CAHaskell.hs para que funcione, 
+>porque ahora ni compila
+>
+>type Voz = Int
+>type Acento = Float         -- Acento: intensidad con que se ejecuta ese 
+>tiempo. Valor de 0 a 100
+>type Ligado = Bool          -- Ligado: indica si una voz de una columna 
+>esta ligada con la se la siguiente columna
+>                            -- en caso de que no este dicha voz el ligado 
+>se ignora
+>type URV = [(Voz, Acento, Ligado)]	-- Unidad de ritmo vertical, especifica 
+>todas las filas de una unica columna
+>type URH = Dur 				-- Unidad de ritmo horizontal, especifica la duracion de 
+>una columna
+>type UPR = ( URV , URH)                 -- Unidad del patron ritmico, 
+>especifica completamente toda la informacion necesaria
+>                                        -- para una columna (con todas sus 
+>filas) en la matriz que representa el patron
+>type AlturaPatron = Int			-- numero maximo de voces que posee el patron
+>type MatrizRitmica = [UPR]              -- Una lista de columnas, vamos, 
+>como una matriz
+>
+>type PatronRitmico = (AlturaPatron, MatrizRitmica)
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Wed Mar  9 16:52:03 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 09 Mar 2005 16:52:03 +0100
+Subject: [Genaro-somos-todos] Altura Patron
+In-Reply-To: <BAY1-F678A685A73CE3228FEBC8D5510@phx.gbl>
+Message-ID: <BAY103-F28C94450DB815819724E04CE510@phx.gbl>
+
+Si ese fichero no vale para nada borr?lo. las instrucciones en un mensaje 
+que mande hace nada
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Altura Patron
+>Date: Wed, 09 Mar 2005 14:57:09 +0000
+>
+>El parametro AlturaPatron es, efectivamente, el numero de voces del patron 
+>ritmico. Eso ya lo comentare esta semana.
+>El fichero ritmo.hs ya no se usa.
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Wed Mar  9 16:59:38 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 09 Mar 2005 16:59:38 +0100
+Subject: [Genaro-somos-todos] Patrones ritmicos
+In-Reply-To: <BAY1-F15300305056726651E80BDD5510@phx.gbl>
+Message-ID: <BAY103-F23A9E80A6A791F254DA68CE510@phx.gbl>
+
+Lo de hacer comentarios de una sola linea (con "--") muy largos es peligroso 
+pq genera c?digo q a lo mejor no compila si lo salvas con un editor distinto 
+o de otro Sistema operativo. Lo suyo es comentar cosas largas con {--} o aun 
+mejor,  con sintaxis Haddock , q para algo Javi a cambiado la GC 
+explic?ndolo mejor. Que si no documentamos el c?digo seg?n lo hacemos los 
+dem?s no lo entienden y adem?s al final tenemos que mandar de trabajo de la 
+semana hacer el haddock de un m?dulo
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Patrones ritmicos
+>Date: Wed, 09 Mar 2005 15:41:33 +0000
+>
+>Ya tenemos nuevo tipo para los patrones ritmicos tal y como pidio Juan en 
+>la ultima reunion.
+>Si veis bien, es exactamente lo mismo pero con la altura del patron en una 
+>tupla.
+>La identancion va mal aqui, mejor lo veis en el archivo PatronesRItmicos.hs
+>Ahora Juan tiene que hacer el parser de CAHaskell.hs para que funcione, 
+>porque ahora ni compila
+>
+>type Voz = Int
+>type Acento = Float         -- Acento: intensidad con que se ejecuta ese 
+>tiempo. Valor de 0 a 100
+>type Ligado = Bool          -- Ligado: indica si una voz de una columna 
+>esta ligada con la se la siguiente columna
+>                            -- en caso de que no este dicha voz el ligado 
+>se ignora
+>type URV = [(Voz, Acento, Ligado)]	-- Unidad de ritmo vertical, especifica 
+>todas las filas de una unica columna
+>type URH = Dur 				-- Unidad de ritmo horizontal, especifica la duracion de 
+>una columna
+>type UPR = ( URV , URH)                 -- Unidad del patron ritmico, 
+>especifica completamente toda la informacion necesaria
+>                                        -- para una columna (con todas sus 
+>filas) en la matriz que representa el patron
+>type AlturaPatron = Int			-- numero maximo de voces que posee el patron
+>type MatrizRitmica = [UPR]              -- Una lista de columnas, vamos, 
+>como una matriz
+>
+>type PatronRitmico = (AlturaPatron, MatrizRitmica)
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sat Mar 12 20:07:29 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 12 Mar 2005 20:07:29 +0100
+Subject: [Genaro-somos-todos] reunion con Jaime
+Message-ID: <BAY103-F789F2C2C6CBB09BDF9597CE540@phx.gbl>
+
+Deberiamos ir confirmando la reunion con Jaime de la semana q viene, el 
+mi?rcoles a las 15:00 os viene bien. Confirmad plis
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Sat Mar 12 20:10:43 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 12 Mar 2005 20:10:43 +0100
+Subject: [Genaro-somos-todos] reunion con Jaime
+Message-ID: <BAY103-F29C0B5FC6011B9BA3EF7CCE540@phx.gbl>
+
+deberiamos ir cerrando la reuni?n con Jaime de la semana que viene, el 
+miercoles a las 15:00 os viene bien? Confirmad plis
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar 12 20:29:02 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 12 Mar 2005 19:29:02 +0000
+Subject: [Genaro-somos-todos] reunion con Jaime
+In-Reply-To: <BAY103-F29C0B5FC6011B9BA3EF7CCE540@phx.gbl>
+Message-ID: <BAY1-F1565D2408A11A990DB8FDFD5540@phx.gbl>
+
+A mi me viene bien como el ultimo dia, que creo que era el miercoles a las 
+15:00
+
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] reunion con Jaime
+>Date: Sat, 12 Mar 2005 20:10:43 +0100
+>
+>deberiamos ir cerrando la reuni?n con Jaime de la semana que viene, el 
+>miercoles a las 15:00 os viene bien? Confirmad plis
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Sat Mar 12 21:08:14 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 12 Mar 2005 21:08:14 +0100
+Subject: [Genaro-somos-todos] exes en prolog
+Message-ID: <BAY103-F1307E833D7B48896009A86CE540@phx.gbl>
+
+Ya funcionan los exes stand-alone en Prolog con par?metros por consola, un 
+extracto de principal.pl para que Javi sepa lo que tiene que hacer
+/**
+* mainArgumentos: este predicado esta pensado para ser compilado en un exe 
+siguiendo este
+* procedimiento:
+* -iniciar SWI-Prolog
+* -consultar solamente este modulo
+* -llamar al objetivo: 
+biblio_genaro_ES:haz_ejecutable('ruta_relativa/mainArgs.exe',principal:mainArgumentos)
+* Una vez construido el ejecutable mainArgs.exe su directorio de trabajo al 
+ejecutarlo ser? el directorio
+* desde donde se le llame, asi que ser?a recomendable situarlo en C:/hlocal 
+o el directorio que se use para
+* la comunicacion de archivos que corresponda. para que luego Haskell pueda 
+encontrar los archivos
+* Por consola esto se debe llamar sin poner "-" delante de los argumentos, 
+por ejemplo con ./mainArgs.exe 8 0
+*/
+mainArgumentos :- current_prolog_flag(argv, [_,NumCompases, NumMutaciones])
+       ,atom_number(NumCompases,NC),atom_number(NumMutaciones,NM)
+       ,generador_acordes_binario:genera_acordes(NC, NM, paralelo, 1)
+       ,halt(0).
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Sun Mar 13 17:33:03 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 13 Mar 2005 17:33:03 +0100
+Subject: [Genaro-somos-todos] pagina de genaro
+Message-ID: <BAY103-F193B78A9F3FF3D493DD421CE550@phx.gbl>
+
+Javi, a ver si puedes subir la cutre-pagina de genaro que hice algun tiempo 
+para ponerla como pagina de berlios, q como administrador eres el unico q 
+puede hacerlo (creo). La vuelvo a mandar
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050313/28540542/attachment.html>
+
+From bc24us at hotmail.com  Sun Mar 13 17:38:56 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 13 Mar 2005 17:38:56 +0100
+Subject: [Genaro-somos-todos] reunion del miercoles
+Message-ID: <BAY103-F333E0DB58F2838ED2004F2CE550@phx.gbl>
+
+este es el mensaje q le he mandado a jaime para quedar
+
+Hemos estado hablando sobre la reuni?n de la semana que viene y hemos 
+llegado a la conclusi?n de que  el mi?rcoles 16 a las 15:00 es el dia que 
+nos viene mejor, ?te parece bien?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Sun Mar 13 20:44:26 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 13 Mar 2005 20:44:26 +0100
+Subject: [Genaro-somos-todos] Solucionado problema con los exes
+Message-ID: <BAY103-F73194BE7913C72A4627F1CE550@phx.gbl>
+
+Vale, lo de hacer los exes lo hice en Linux y al probarlo en windows he 
+encontrado algunos problemas
+1.En el directorio donde esten los exes de prolog hay que poner tb las dll 
+que hay en el directorio bin de la carpeta donde este instalado el SWI
+2.Al hacer el exe desde el interprete con biblio_genaro_ES:haz_ejecutable/2 
+NO puedes haber cargado el gui-tracer pq si no luego no lo encuentra el exe
+3.En el main hay que hacer un consult de TODOS los archivos prolog que se 
+llamen directa o indirectamente por el main, para que esten en el estado del 
+interprete
+4.La biblioteca de SWI lists te la deja usar sin hacer use_module pero luego 
+al compilar no la encuentra, asi que todos los archivos que usen cosas de 
+lists deben hacer :- ensure_loaded(library(lists))., con la biblioteca 
+system igual
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Thu Mar 17 15:10:28 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 17 Mar 2005 14:10:28 +0000
+Subject: [Genaro-somos-todos] Reunion 14-3-2005
+Message-ID: <BAY1-F26ECA75A229C86E2F973BBD5490@phx.gbl>
+
+Estas son las tareas asignadas para la semana santa:
+
+Javi:
+  - Hacer las llamadas a los ejecutables de haskell y de prolog para que el 
+proceso sea automatico
+  - Todo lo de la semana pasada que paso a repetir:
+    - leer los ficheros especificados en el editor de pianola
+    - Modificar el editor de pianola para que tenga lo siguiente:
+       - un solo color para las notas, de forma que una nota se vea como una 
+sola raya
+       - a?adir barritas para el velocity estilo Reason
+       - Corregir errores
+   - hacer que el editor de pianola genere un midi y suene para que el 
+usuario se haga una idea
+     del resultado final
+
+Roberto:
+  - Mirar la forma en que se puede sacar un acompa?amiento armonico a una 
+melodia dada
+  - Pasar de midi a pdf, usando midi2ly preferentemente.
+  - Ver la forma en que se puede invocar a cygwin para usar lylipond y 
+midi2ly
+  - Documentar el codigo
+
+Juan:
+  - Realizar la melodia a partir de los cifrados
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar 19 15:13:59 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 19 Mar 2005 14:13:59 +0000
+Subject: [Genaro-somos-todos] midi
+Message-ID: <BAY1-F404437C67B213A488362D7D54B0@phx.gbl>
+
+Si teneis el cygwin mandadme el archivo midi.so o midi.dll que esta por 
+alguna carpeta.
+Si estais en linux pues tambien lo buscais y me lo mandais. A ver si consigo 
+pasar al pdf de una vez
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar 19 15:31:46 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 19 Mar 2005 14:31:46 +0000
+Subject: [Genaro-somos-todos] midi a lilypond
+Message-ID: <BAY1-F25EF9755689355636433A7D54B0@phx.gbl>
+
+Parece que he encontrado una solucion en este hilo:
+http://lists.gnu.org/archive/html/lilypond-user/2002-07/msg00204.html
+
+Por cierto, si teneis el midi.pyo o midi.dll tambien mandadmelo
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Sat Mar 19 19:16:07 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 19 Mar 2005 19:16:07 +0100
+Subject: [Genaro-somos-todos] midi
+In-Reply-To: <BAY1-F404437C67B213A488362D7D54B0@phx.gbl>
+Message-ID: <BAY103-F19FC29728E4EFE0448C220CE4B0@phx.gbl>
+
+No te olvides de buscar en google q para eso est?
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] midi
+>Date: Sat, 19 Mar 2005 14:13:59 +0000
+>
+>Si teneis el cygwin mandadme el archivo midi.so o midi.dll que esta por 
+>alguna carpeta.
+>Si estais en linux pues tambien lo buscais y me lo mandais. A ver si 
+>consigo pasar al pdf de una vez
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Mar 19 20:30:14 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 19 Mar 2005 20:30:14 +0100
+Subject: [Genaro-somos-todos] paso de argumentos a programas haskell con runhugs
+Message-ID: <BAY103-F9898A85193DA63BD0F7D8CE4B0@phx.gbl>
+
+Basta con usar la funci?n getArgs :: IO [String] incluida en la biblioteca 
+est?ndar System. Esta funci?n crea un proceso de E/S que devuelve una lista 
+de strings que son los argumentos con los que se ha llamado a runhugs, 
+quitando el primero que siempre es el nombre del programa en haskell
+
+En linux runhugs solo acepta haskell en estilo literario, es decir, ficheros 
+normalmente de extension .lhs en los que se usa una especie de lenguaje de 
+marcado simple que luego latex acepta, y en los que todas las lineas de 
+c?digo van precedidas por "> ". En windows runhugs solo acepta ficheros .hsx 
+y CREO que no necesitan estilo literario. Las pruebas las he hecho en linux, 
+en unos dias pruebo en windows y os cuento
+
+Un ejemplo de uso, en linux:
+prurunhugs.lhs:
+
+\documentstyle{article}
+\begin{document}
+\section{Modulo Principal}
+\label{principal}
+
+\begin{verbatim}
+
+>module Main where
+>import System
+
+
+\end{verbatim}
+
+\begin{verbatim}
+
+>main :: IO()
+>main = do argumentos <- getArgs
+>           putStr ("\nLos argumentos son: \n"++(formateaArgs 
+>argumentos)++"\n")
+>           putStr "Escribiendo argumentos en archivo\n"
+>           writeFile "./argumentos.txt" (formateaArgs argumentos)
+>           putStr "Proceso terminado correctamente\n"
+
+>formateaArgs :: [String] -> String
+>formateaArgs = formateaArgsAcu 1
+>                where formateaArgsAcu _ [] = []
+>                      formateaArgsAcu n (x:xs) = (show 
+>n)++"."++x++"\n"++(formateaArgsAcu (n+1) xs)
+
+\end{verbatim}
+
+en consola:
+[root at localhost Codigo]# runhugs prurunhugs.lhs mi nombre es Trinidad
+
+Los argumentos son:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+Escribiendo argumentos en archivo
+Proceso terminado correctamente
+
+argumentos.txt:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+esta claro, no?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Sun Mar 20 13:30:59 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 20 Mar 2005 12:30:59 +0000
+Subject: [Genaro-somos-todos] midi2ly
+Message-ID: <BAY1-F2625FDBFCD1674FFC9000DD54C0@phx.gbl>
+
+No encuentro por internet las librerias que os pedi asi que ya no puedo 
+hacer nada mas. Tengo una ligera idea de por que se produce el error y puede 
+que lo consiga solucionar si alguien me manda el midi.dll o el midi.so (que 
+ese le tenia jaime).
+Ahora me pasare a armonizar una melodia a ver que puedo sacar
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Sun Mar 20 18:46:52 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 20 Mar 2005 18:46:52 +0100
+Subject: [Genaro-somos-todos] midi2ly
+Message-ID: <BAY103-F29F74BBC3CB78AB7A3BC8DCE4C0@phx.gbl>
+
+Te mando la dll, no se supone q el .so te lo habia dada jaime
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] midi2ly
+>Date: Sun, 20 Mar 2005 12:30:59 +0000
+>
+>No encuentro por internet las librerias que os pedi asi que ya no puedo 
+>hacer nada mas. Tengo una ligera idea de por que se produce el error y 
+>puede que lo consiga solucionar si alguien me manda el midi.dll o el 
+>midi.so (que ese le tenia jaime).
+>Ahora me pasare a armonizar una melodia a ver que puedo sacar
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: midi.dll
+Type: application/x-msdownload
+Size: 9216 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050320/e5b3beee/attachment.bin>
+
+From bc24us at hotmail.com  Sun Mar 20 19:19:17 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 20 Mar 2005 19:19:17 +0100
+Subject: [Genaro-somos-todos] runhugs en windows
+Message-ID: <BAY103-F8D6D504CA231666741DF7CE4C0@phx.gbl>
+
+Ya he comprobado como va el runhugs en windows y solo tiene el problema de q 
+hay que poner en la misma carpeta que runhugs.exe las carpetas libraries y 
+oldlib, asi que hay q subir estas carpetas a la carpeta desde donde se use 
+runhugs, como ya se hizo cuando se subio a  Codigo/Java. En la proxima 
+reuinion deberiamos aclarar donde van a ir los archivos de patrones 
+ritmicos, acordes y tal para q esto no sea un caos.
+Afortunadamente runhugs en windows ejecuta archivos .lhs de estilo haskell 
+literario, diga lo que diga la ayuda. Como runhugs en linux solo reconoce 
+haskell literario voy a borrar el archivo Codigo/Haskell/main.hsx y lo voy a 
+sustiuir por main.lhs en estilo literario. Tb lo adaptare para q coja los 
+argumentos y tal
+
+Cuando lo termine os informo
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Mar 20 19:40:41 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 20 Mar 2005 19:40:41 +0100
+Subject: [Genaro-somos-todos] preguntas de javi
+In-Reply-To: <BAY23-F251C63E075C98D12CD92F8B94C0@phx.gbl>
+Message-ID: <BAY103-F23E10CFB9F75CD9E0C0D01CE4C0@phx.gbl>
+
+1.No entiendo bien tu pregunta pq esta escrita de forma bastante confusa. Si 
+te lees el comentario de principal:mainArgumentos:
+?/**
+* mainArgumentos: este predicado esta pensado para ser compilado en un exe 
+siguiendo este
+* procedimiento:
+* -iniciar SWI-Prolog
+* -consultar solamente este modulo
+* -llamar al objetivo: 
+biblio_genaro_ES:haz_ejecutable('ruta_relativa/mainArgs.exe',principal:mainArgumentos)
+* Una vez construido el ejecutable mainArgs.exe su directorio de trabajo al 
+ejecutarlo ser? el directorio
+* desde donde se le llame, asi que ser?a recomendable situarlo en C:/hlocal 
+o el directorio que se use para
+* la comunicacion de archivos que corresponda. para que luego Haskell pueda 
+encontrar los archivos
+* Por consola esto se debe llamar sin poner "-" delante de los argumentos, 
+por ejemplo con ./mainArgs.exe 8 0
+* En windows hay que poner todos los archivos .dll que hay en la carpeta bin 
+del directorio donde
+* este instalado SWI pq si no funcionan los exes
+* En windows no cargar el guitracer antes de hacer el exe o no funcionara
+*/?
+
+Esta la cosa clara, por consola lo llamas con el nombre del archivo y dos 
+enteros, el primero es el numero de compases y el segundo el numero de 
+mutaciones. Lo que tienes que hacer en C es llamar a ese exe como si fuera 
+por consola, no entiendo cual es tu problema. Si no te vale la respuesta 
+dilo pronto que no quiero encontrarme el dia de la reuni?n con que todavia 
+no estan enlazadas las cosas
+
+
+2.Para hacer exes en haskell instalate el glasgow haskell compiler (GHC, 
+busca en haskell.org) y haz por comandos "ghc --make -o destino.exe 
+origen.hs".Pero lo que pasa es que no hay mail de como hacer exes en haskell 
+pq eso no se me ha encargado a mi ni a nadie, a mi lo q se me ha pedido es 
+averiguar como pasar par?metros a haskell con runhugs y es lo que he hecho:
+
+?Basta con usar la funci?n getArgs :: IO [String] incluida en la biblioteca
+est?ndar System. Esta funci?n crea un proceso de E/S que devuelve una lista
+de strings que son los argumentos con los que se ha llamado a runhugs,
+quitando el primero que siempre es el nombre del programa en haskell
+
+En linux runhugs solo acepta haskell en estilo literario, es decir, ficheros
+normalmente de extension .lhs en los que se usa una especie de lenguaje de
+marcado simple que luego latex acepta, y en los que todas las lineas de
+c?digo van precedidas por "> ". En windows runhugs solo acepta ficheros .hsx
+y CREO que no necesitan estilo literario. Las pruebas las he hecho en linux,
+en unos dias pruebo en windows y os cuento
+
+Un ejemplo de uso, en linux:
+prurunhugs.lhs:
+
+\documentstyle{article}
+\begin{document}
+\section{Modulo Principal}
+\label{principal}
+
+\begin{verbatim}
+
+>module Main where
+>import System
+
+
+\end{verbatim}
+
+\begin{verbatim}
+
+>main :: IO()
+>main = do argumentos <- getArgs
+>           putStr ("\nLos argumentos son: \n"++(formateaArgs 
+>argumentos)++"\n")
+>           putStr "Escribiendo argumentos en archivo\n"
+>           writeFile "./argumentos.txt" (formateaArgs argumentos)
+>           putStr "Proceso terminado correctamente\n"
+
+>formateaArgs :: [String] -> String
+>formateaArgs = formateaArgsAcu 1
+>                where formateaArgsAcu _ [] = []
+>                      formateaArgsAcu n (x:xs) = (show 
+>n)++"."++x++"\n"++(formateaArgsAcu (n+1) xs)
+
+\end{verbatim}
+
+en consola:
+[root at localhost Codigo]# runhugs prurunhugs.lhs mi nombre es Trinidad
+
+Los argumentos son:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+Escribiendo argumentos en archivo
+Proceso terminado correctamente
+
+argumentos.txt:
+1.mi
+2.nombre
+3.es
+4.Trinidad
+
+esta claro, no?
+?
+De todas forma el GHC tiene problemas para enlazar el Haskore asi q por 
+ahora no lo usamos. Usa runghugs que ya sabes como se usa, con el archivo 
+main.lhs q cambio ahora en un rato. Por ahora llamalo sin argumentos, cuando 
+lo cambie te dire en un mail q argumentos debes pasar, argumentos q se 
+elegir?n con el interfaz
+
+3.Estaria bien q el asunto de los mensajes tuviera q ver con lo q dicen
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: bc24us at hotmail.com
+>Subject: RE: [Genaro-somos-todos] midi2ly
+>Date: Sun, 20 Mar 2005 18:07:59 +0000
+>
+>juan pregunta absurda, rid?cula y me vas a matar, pero bueno, ah? va
+>
+>1- tengo hecho el mainargs.exe de prolog, lo llamo como lo llamo? llamo al 
+>exe con el parametro mainargumentos:-current_prolog_flag(....)
+>
+>2- no encuentro el mail de como se hacen exes en haskell...
+>
+>
+>bueno, espero que puedas responderme a esto. gracias de antemano yperdona 
+>por las molestias.
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Sun Mar 20 19:47:20 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 20 Mar 2005 19:47:20 +0100
+Subject: [Genaro-somos-todos] midi2ly
+In-Reply-To: <BAY23-F4247F3795DEE71BE800297B94C0@phx.gbl>
+Message-ID: <BAY103-F4C57EF14873E090821D0ECE4C0@phx.gbl>
+
+Mand? un mail a esta lista hace tiempo explicando como iba la cosa:
+"Date: Sat, 12 Mar 2005 21:08:14 +0100
+Subject: [Genaro-somos-todos] exes en prolog
+[...]
+* Por consola esto se debe llamar sin poner "-" delante de los argumentos,
+por ejemplo con ./mainArgs.exe 8 0[...]"
+
+leete los mails, q yo tb tengo cosas q hacer
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: bc24us at hotmail.com
+>Subject: RE: [Genaro-somos-todos] midi2ly
+>Date: Sun, 20 Mar 2005 18:19:56 +0000
+>
+>vale, no te r?as de mi, te juro que probe de todo, y no me dio por probar 
+>meter como argumentos tan dolo el n? de compases y el n? de mutaciones. 
+>olvida la primera pregunta del otro mail, responde si puedes a la 2?
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: roberto_____666 at hotmail.com, genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] midi2ly
+>>Date: Sun, 20 Mar 2005 18:46:52 +0100
+>>
+>>Te mando la dll, no se supone q el .so te lo habia dada jaime
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] midi2ly
+>>>Date: Sun, 20 Mar 2005 12:30:59 +0000
+>>>
+>>>No encuentro por internet las librerias que os pedi asi que ya no puedo 
+>>>hacer nada mas. Tengo una ligera idea de por que se produce el error y 
+>>>puede que lo consiga solucionar si alguien me manda el midi.dll o el 
+>>>midi.so (que ese le tenia jaime).
+>>>Ahora me pasare a armonizar una melodia a ver que puedo sacar
+>>>
+>>>_________________________________________________________________
+>>>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>>>te imaginas. http://www.msn.es/Subastas/
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Descarga gratis la Barra de Herramientas de MSN 
+>>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>><< midi.dll >>
+>
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Mar 20 22:13:52 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 20 Mar 2005 22:13:52 +0100
+Subject: [Genaro-somos-todos] main de haskell
+Message-ID: <BAY103-F30EECEE296C3763C0F195ECE4C0@phx.gbl>
+
+Ya esta terminado el nuevo main de haskell, esta en el fichero main.lhs, el 
+antiguo main.hsx ya no se usa y lo he borrado del cvs. El archivo 
+runhugs.exe y las carpetas que necesita (libraries y oldlib) deberian ir en 
+/Haskell pq el archivo al que llames con runhugs necesita consultar los 
+dem?s fuentes de haskell y por tanto deben ir en la misma carpeta
+
+Un ejemplo de uso de este runhugs con el nuevo main:
+
+D:\cvsrepo\Codigo\Haskell>runhugs main.lhs 
+d:/cvsrepo/PatronesRitmicos/Cumbia.txt 3
+
+El directorio de trabajo es: D:\cvsrepo\Codigo\Haskell
+
+Procesando el archivo de progresion de acordes de Prolog: 
+D:\cvsrepo\Codigo\Haskell\progresion.txt
+
+Procesando el archivo de patron ritmico de C: 
+d:/cvsrepo/PatronesRitmicos/Cumbia.txt
+
+Generando el archivo midi: D:\cvsrepo\Codigo\Haskell\musica_genara.mid
+
+D:\cvsrepo\Codigo\Haskell>
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Tue Mar 22 15:11:48 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 22 Mar 2005 14:11:48 +0000
+Subject: [Genaro-somos-todos] midi2ly
+Message-ID: <BAY1-F28B2FFDB2CBCC7E86DCEADD54E0@phx.gbl>
+
+Tengo una noticia buena y otra mala para vosotros.
+La buena es que he conseguido que midi2ly funcione, me he bajado una 
+verseion un poco mas reciente que debio de aparecer posteriormente a cuando 
+yo me lo baje la primera vez.
+La mala es que funciona como el culo, no solo porque el pdf que sale da pena 
+verlo sino porque hay que cambiar una parte del archivo .ly que genera, cosa 
+que me parece perdedora.
+Investigare las opciones que tiene tanto midi2ly como lilypond a ver si 
+puedo solucionar algo.
+Ahora que he conseguido que funcione me voy a poner con esto, por lo que 
+creo que la armonizacion de la melodia no lo voy a tener (a no ser que me 
+digais lo contrario)
+Este es mi via crucis
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Tue Mar 22 22:10:54 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 22 Mar 2005 22:10:54 +0100
+Subject: [Genaro-somos-todos] organizacion de los archivos
+Message-ID: <BAY103-F7DC06A92991FF36C7C081CE4E0@phx.gbl>
+
+He intentado organizar un poco los archivos de intercambio que se pasan los 
+programas escritos en los distintos lenguajes. Supongamos que la carpeta en 
+la que tenemos el repositorio es c:/hlocal, entonces tienes 
+c:/hlocal/Codigo/Haskell y c:/hlocal/Codigo/Prolog. Entonces la idea es:
+
+-Prolog: que se generen los exes en c:/hlocal/Codigo/Prolog, por tanto se 
+deber?an subir all? las dll de swi-prolog, q hay q mirar si se puede por 
+licencias, q supongo q si. Prolog en el modulo generador_acordes contiene 
+los predicados:
+
+fichero_destinoGenAc_prog('../../progresion.txt').
+fichero_destinoGenAc_prog_depura('../../progresion_dep.txt').
+fichero_destinoGenAc_prog_semilla('../../progresion_semilla.txt').
+
+por tanto generar? estos archivos en c:/hlocal/progresion.txt y tal. No os 
+olvideis de recompilar prolog cada vez q haya algun cambio de archivo
+
+-Haskell: que se suba runhugs a /Codigo/Haskell de manera que al bajarlo 
+quede en c:/hlocal/Codigo/Haskell. En main.lhs se indican las rutas por 
+defecto:
+
+>rutaProgresion :: String
+>rutaProgresion = "../../progresion.txt"
+
+>rutaDestinoMidi :: String
+>rutaDestinoMidi = "../../musica_genara.mid"
+
+de manera que con:
+
+D:\cvsrepo\Codigo\Haskell>runhugs main.lhs 
+"d:/cvsrepo/PatronesRitmicos/bolero.txt" 4
+
+haskell lee el archivo de patron ritmico indicado y el archivo 
+d:/cvsrepo/progresion.txt y escribe d:/cvsrepo/musica_genara.mid
+
+ok?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From gatchan00 at hotmail.com  Tue Mar 22 12:40:58 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Tue, 22 Mar 2005 11:40:58 +0000
+Subject: [Genaro-somos-todos] Interfaz-genaro
+In-Reply-To: <BAY103-F30EECEE296C3763C0F195ECE4C0@phx.gbl>
+Message-ID: <BAY23-F327D9101157ACB8901F3BAB94E0@phx.gbl>
+
+He tomado un par de decisiones haciendo el interfaz, las pongo aqu? por si 
+no os parecen las adecuadas.
+
+1-el n?mero de acordes y de mutaciones de prolog, se eligen mediante una 
+barra de desplazamiento. creo que visualmente es m?s agradable, y as? 
+podemos obligar al usuario a establecerse entre los intervalos que nosotros 
+queramos (1-99 por ejemplo).
+
+2- El interfaz del editor de pianola va a ser mas similar al del reason, 
+como pedisteis, puedes escribir en cualquier resoluci?n una nota desde una 
+redonda hasta lo que haga falta, pero se hace eligiendo antes la resoluci?n 
+de la nota, me explico, como en el reason hay 2 resoluciones, la del editor, 
+y la de la duraci?n de la nota que escribimos. ?de acuerdo?.
+
+una pregunta :
+
+Aunque el runhugs ahora mismo lo ejecutamos sin par?metros, cuantos 
+par?metros puede llegar a tener? van a ser siempre constantes, en n?mero 
+quiero decir.
+
+ya he encontrado un ciber por cierto que tienen windows 2000, as? que espero 
+hacer un commit este miercoles con el interfaz prinicipal.
+
+por otro lado, lo del editor de pianola del reason ya entiendo como va, para 
+el s?bado espero tenerlo todo terminado, incluido el manual que te destripa 
+el c?digo como un spoiler en una pel?cula.
+
+bueno chicos, a vivir ;)
+
+
+
+
+From roberto_____666 at hotmail.com  Wed Mar 23 13:24:34 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 23 Mar 2005 12:24:34 +0000
+Subject: [Genaro-somos-todos] de Music a lilypond
+Message-ID: <BAY1-F631FDDBF34A1EA73E2D03D54F0@phx.gbl>
+
+He estado mirando el midi2ly y tiene muy pocas opciones. Ademas lo que saca 
+es que es una mierda, no corresponde en casi nada con lo que deberia sacar. 
+Por eso estoy haciendo una funcion muy simple que pase de Music a formato de 
+lilypond. Ya casi la tengo acabada, solo me falta algunas pijadillas. He 
+visto que algunas cosas del formato del lilypond son muy parecidas a las 
+constructoras del tipo music.
+Cuando algo decente que ense?ar lo subire al CVS. Espero tardar entre dos y 
+tres dias mas.
+Tampoco espereis una partitura perfecta, lo mas seguro es que tenga peque?os 
+fallos en las alteraciones (sostenidos y bemoles). Cuando digo fallos me 
+refiero a que, por ejemplo, si queremos escribir Do sostenido escriba Re 
+bemol, que es la misma nota pero con diferentes alteraciones.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 16:16:05 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 16:16:05 +0100
+Subject: [Genaro-somos-todos] midi2ly
+In-Reply-To: <BAY1-F28B2FFDB2CBCC7E86DCEADD54E0@phx.gbl>
+Message-ID: <BAY103-F13448332D8CC7B5449C972CE4F0@phx.gbl>
+
+weno, pues si no te da tiempo a hacer lo de la armonizacion tampoco pasa 
+nada
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] midi2ly
+>Date: Tue, 22 Mar 2005 14:11:48 +0000
+>
+>Tengo una noticia buena y otra mala para vosotros.
+>La buena es que he conseguido que midi2ly funcione, me he bajado una 
+>verseion un poco mas reciente que debio de aparecer posteriormente a cuando 
+>yo me lo baje la primera vez.
+>La mala es que funciona como el culo, no solo porque el pdf que sale da 
+>pena verlo sino porque hay que cambiar una parte del archivo .ly que 
+>genera, cosa que me parece perdedora.
+>Investigare las opciones que tiene tanto midi2ly como lilypond a ver si 
+>puedo solucionar algo.
+>Ahora que he conseguido que funcione me voy a poner con esto, por lo que 
+>creo que la armonizacion de la melodia no lo voy a tener (a no ser que me 
+>digais lo contrario)
+>Este es mi via crucis
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 17:22:33 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 17:22:33 +0100
+Subject: [Genaro-somos-todos] Interfaz-genaro
+In-Reply-To: <BAY23-F327D9101157ACB8901F3BAB94E0@phx.gbl>
+Message-ID: <BAY103-F42955EF70D6E053F16B5A5CE4F0@phx.gbl>
+
+Esta frase no la entiendo:
+>2- El interfaz del editor de pianola va a ser mas similar al del reason, 
+>como pedisteis, puedes escribir en cualquier resoluci?n una nota desde una 
+>redonda hasta lo que haga falta, pero se hace eligiendo antes la resoluci?n 
+>de la nota, me explico, como en el reason hay 2 resoluciones, la del 
+>editor, y la de la duraci?n de la nota que escribimos. ?de acuerdo?.
+
+
+
+>Aunque el runhugs ahora mismo lo ejecutamos sin par?metros, cuantos 
+>par?metros puede llegar a tener? van a ser siempre constantes, en n?mero 
+>quiero decir.
+Como dije hace un par de mensajes ([Genaro-somos-todos] organizacion de los 
+archivos) ahora mismo el runhugs se ejecuta con dos par?metros. Un ejemplo:
+D:\cvsrepo\Codigo\Haskell>runhugs main.lhs 
+"d:/cvsrepo/PatronesRitmicos/bolero.txt" 4
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 17:26:28 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 17:26:28 +0100
+Subject: [Genaro-somos-todos] problema con los archivos de texto DOS
+Message-ID: <BAY103-F319A00258AACE3C19807F6CE4F0@phx.gbl>
+
+He descubierto que el retorno de carro se escribe distinto en LInux, Windows 
+y Mac. Como dice el colega:
+
+"En las G?indous o en el DOS si no recuerdo mal el retorno de carro es \r\n
+al contrario que en el UNIX que es solo \n y en el Mac que es \r."
+http://lists.debian.org/debian-user-spanish/2000/04/msg00325.html
+
+y eso nos afecta pq los patrones ritmicos estan escritos desde windows y los 
+leen parsers de haskell. Ya lo he solucionado con la funci?n de Parsers.hs
+
+quitaFormatoDOS :: String -> String
+quitaFormatoDOS = filter (/= '\r')
+
+que parece que en windows no tiene efectos perjudiciales. Por si teneis 
+algun problema con los parsers en el futuro q tengais esto en cuenta
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 17:34:03 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 17:34:03 +0100
+Subject: [Genaro-somos-todos] de Music a lilypond
+In-Reply-To: <BAY1-F631FDDBF34A1EA73E2D03D54F0@phx.gbl>
+Message-ID: <BAY103-F19C419E378D8153D7070D2CE4F0@phx.gbl>
+
+Me parece muy buena idea lo q estas haciendo y tal pero te advierto que 
+aunque para un inform?tico como nosotros un Do# sea lo mismo que un Reb para 
+un m?sico hacer esa identificaci?n es una blasfemia, porque como grados en 
+una escala tienen funciones diferentes. Escribir uno por otro en una 
+partitura indicar?a un cambio de tonalidad que confundir?a al int?rprete. E 
+incluso te digo que para los instrumentistas de afinaci?n justa, como los 
+violinistas (un violin no tiene trastes ni teclas por lo que el intervalo en 
+que se puede afinar al pulsar una nota es continuo, no discreto), un Do# no 
+es el mismo sonido que un Reb, no pulsan en el mismo lugar del m?stil. Asi 
+que lamento decirte que una partitura q confunde sostenidos y bemoles es 
+inaceptable, o si no preguntale a Jaime y ya ver?s lo que te responde
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] de Music a lilypond
+>Date: Wed, 23 Mar 2005 12:24:34 +0000
+>
+>He estado mirando el midi2ly y tiene muy pocas opciones. Ademas lo que saca 
+>es que es una mierda, no corresponde en casi nada con lo que deberia sacar. 
+>Por eso estoy haciendo una funcion muy simple que pase de Music a formato 
+>de lilypond. Ya casi la tengo acabada, solo me falta algunas pijadillas. He 
+>visto que algunas cosas del formato del lilypond son muy parecidas a las 
+>constructoras del tipo music.
+>Cuando algo decente que ense?ar lo subire al CVS. Espero tardar entre dos y 
+>tres dias mas.
+>Tampoco espereis una partitura perfecta, lo mas seguro es que tenga 
+>peque?os fallos en las alteraciones (sostenidos y bemoles). Cuando digo 
+>fallos me refiero a que, por ejemplo, si queremos escribir Do sostenido 
+>escriba Re bemol, que es la misma nota pero con diferentes alteraciones.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 17:54:33 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 17:54:33 +0100
+Subject: [Genaro-somos-todos] Interfaz-genaro
+In-Reply-To: <BAY23-F327D9101157ACB8901F3BAB94E0@phx.gbl>
+Message-ID: <BAY103-F1CA64C72DC986929E6D6BCE4F0@phx.gbl>
+
+>Aunque el runhugs ahora mismo lo ejecutamos sin par?metros, cuantos 
+>par?metros puede llegar a tener? van a ser siempre constantes, en n?mero 
+>quiero decir.
+
+un main de haskell llamado con runhugs puede tener un numero variable de 
+argumentos, por ahora nuestro main tiene dos, la ruta absoluta del patron 
+ritmico y un natural >=0 que es el numero de veces que se repite la rueda de 
+acordes
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Wed Mar 23 19:49:14 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 23 Mar 2005 19:49:14 +0100
+Subject: [Genaro-somos-todos] como funcionan los patrones ritmicos
+Message-ID: <BAY103-F80D9E47463E2592649752CE4F0@phx.gbl>
+
+Esto es para Rober, me harias un favor si mandaras un mensaje a esta lista 
+explicando un poco las ideas que hay detr?s de los algoritmos implementados 
+en PatronesRitmicos.hs
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Wed Mar 23 23:09:01 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 23 Mar 2005 22:09:01 +0000
+Subject: [Genaro-somos-todos] organizacion de los archivos
+In-Reply-To: <BAY103-F7DC06A92991FF36C7C081CE4E0@phx.gbl>
+Message-ID: <BAY23-F352E81A8523D640847CF5BB94F0@phx.gbl>
+
+vale, de momento el interfaz usa como directorio de trabajo el propio (es 
+decir, guarda los fichero de progresi?n y el midi generado en el propio 
+directorio del interfaz) , y te pide cual es el fichero exe del prolog. si 
+quer?is que esto cambie mandad un mail y se cambia.
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] organizacion de los archivos
+>Date: Tue, 22 Mar 2005 22:10:54 +0100
+>
+>He intentado organizar un poco los archivos de intercambio que se pasan los 
+>programas escritos en los distintos lenguajes. Supongamos que la carpeta en 
+>la que tenemos el repositorio es c:/hlocal, entonces tienes 
+>c:/hlocal/Codigo/Haskell y c:/hlocal/Codigo/Prolog. Entonces la idea es:
+>
+>-Prolog: que se generen los exes en c:/hlocal/Codigo/Prolog, por tanto se 
+>deber?an subir all? las dll de swi-prolog, q hay q mirar si se puede por 
+>licencias, q supongo q si. Prolog en el modulo generador_acordes contiene 
+>los predicados:
+>
+>fichero_destinoGenAc_prog('../../progresion.txt').
+>fichero_destinoGenAc_prog_depura('../../progresion_dep.txt').
+>fichero_destinoGenAc_prog_semilla('../../progresion_semilla.txt').
+>
+>por tanto generar? estos archivos en c:/hlocal/progresion.txt y tal. No os 
+>olvideis de recompilar prolog cada vez q haya algun cambio de archivo
+>
+>-Haskell: que se suba runhugs a /Codigo/Haskell de manera que al bajarlo 
+>quede en c:/hlocal/Codigo/Haskell. En main.lhs se indican las rutas por 
+>defecto:
+>
+>>rutaProgresion :: String
+>>rutaProgresion = "../../progresion.txt"
+>
+>>rutaDestinoMidi :: String
+>>rutaDestinoMidi = "../../musica_genara.mid"
+>
+>de manera que con:
+>
+>D:\cvsrepo\Codigo\Haskell>runhugs main.lhs 
+>"d:/cvsrepo/PatronesRitmicos/bolero.txt" 4
+>
+>haskell lee el archivo de patron ritmico indicado y el archivo 
+>d:/cvsrepo/progresion.txt y escribe d:/cvsrepo/musica_genara.mid
+>
+>ok?
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Wed Mar 23 23:12:49 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 23 Mar 2005 22:12:49 +0000
+Subject: [Genaro-somos-todos] Interfaz-genaro
+In-Reply-To: <BAY103-F42955EF70D6E053F16B5A5CE4F0@phx.gbl>
+Message-ID: <BAY23-F203E706CE6134068B06B6CB94F0@phx.gbl>
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Interfaz-genaro
+>Date: Wed, 23 Mar 2005 17:22:33 +0100
+>
+>Esta frase no la entiendo:
+>>2- El interfaz del editor de pianola va a ser mas similar al del reason, 
+>>como pedisteis, puedes escribir en cualquier resoluci?n una nota desde una 
+>>redonda hasta lo que haga falta, pero se hace eligiendo antes la 
+>>resoluci?n de la nota, me explico, como en el reason hay 2 resoluciones, 
+>>la del editor, y la de la duraci?n de la nota que escribimos. ?de 
+>>acuerdo?.
+
+Quiere decir que vas a tener una heramienta de zoom y una herramienta en la 
+que te permite decidir la duraci?n de la nota que vas a escribir
+
+>
+>>Aunque el runhugs ahora mismo lo ejecutamos sin par?metros, cuantos 
+>>par?metros puede llegar a tener? van a ser siempre constantes, en n?mero 
+>>quiero decir.
+>Como dije hace un par de mensajes ([Genaro-somos-todos] organizacion de los 
+>archivos) ahora mismo el runhugs se ejecuta con dos par?metros. Un ejemplo:
+>D:\cvsrepo\Codigo\Haskell>runhugs main.lhs 
+>"d:/cvsrepo/PatronesRitmicos/bolero.txt" 4
+
+este mail sali? antes de que se posteara ese mensaje, por eso no lo hab?a 
+leido
+
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Wed Mar 23 23:14:52 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 23 Mar 2005 22:14:52 +0000
+Subject: [Genaro-somos-todos] problema con los archivos de texto DOS
+In-Reply-To: <BAY103-F319A00258AACE3C19807F6CE4F0@phx.gbl>
+Message-ID: <BAY23-F14F8802F175C0E23BB2AD8B94F0@phx.gbl>
+
+puedo a?adir el \r al archivo de patrones generado por el editor de pianola. 
+os vale eso?
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] problema con los archivos de texto DOS
+>Date: Wed, 23 Mar 2005 17:26:28 +0100
+>
+>He descubierto que el retorno de carro se escribe distinto en LInux, 
+>Windows y Mac. Como dice el colega:
+>
+>"En las G?indous o en el DOS si no recuerdo mal el retorno de carro es \r\n
+>al contrario que en el UNIX que es solo \n y en el Mac que es \r."
+>http://lists.debian.org/debian-user-spanish/2000/04/msg00325.html
+>
+>y eso nos afecta pq los patrones ritmicos estan escritos desde windows y 
+>los leen parsers de haskell. Ya lo he solucionado con la funci?n de 
+>Parsers.hs
+>
+>quitaFormatoDOS :: String -> String
+>quitaFormatoDOS = filter (/= '\r')
+>
+>que parece que en windows no tiene efectos perjudiciales. Por si teneis 
+>algun problema con los parsers en el futuro q tengais esto en cuenta
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Thu Mar 24 16:31:52 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 24 Mar 2005 15:31:52 +0000
+Subject: [Genaro-somos-todos] de Music a lilypond
+In-Reply-To: <BAY103-F19C419E378D8153D7070D2CE4F0@phx.gbl>
+Message-ID: <BAY1-F10F07CA3F429A98789DF4DD5400@phx.gbl>
+
+>Me parece muy buena idea lo q estas haciendo y tal pero te advierto que 
+>aunque para un inform?tico como nosotros un Do# sea lo mismo que un Reb 
+>para un m?sico hacer esa identificaci?n es una blasfemia, porque como 
+>grados en una escala tienen funciones diferentes. Escribir uno por otro en 
+>una partitura indicar?a un cambio de tonalidad que confundir?a al 
+>int?rprete. E incluso te digo que para los instrumentistas de afinaci?n 
+>justa, como los violinistas (un violin no tiene trastes ni teclas por lo 
+>que el intervalo en que se puede afinar al pulsar una nota es continuo, no 
+>discreto), un Do# no es el mismo sonido que un Reb, no pulsan en el mismo 
+>lugar del m?stil. Asi que lamento decirte que una partitura q confunde 
+>sostenidos y bemoles es inaceptable, o si no preguntale a Jaime y ya ver?s 
+>lo que te responde
+
+Eso que me cuentas es muy bonito y a mi tambien me gustaria pero eso, ni lo 
+puedo hacer ni se podia hacer antes con el midi2ly aunque hicieras las cosas 
+bien. Te prometo que la partitura que sacaba era para cortarse las venas.
+De todas formas el conversos a lilypond ya esta hecho, se encuentra en el 
+archivo haskoreALilypond.hs . La pega es que la salida, debido a que la 
+realiza casi directamente de un tipo Music va a ser un poco extra?a, aunque 
+correcta.
+Os invito a que la probeis y me digais a ver si sale algun error. Solo 
+necesitais un tipo Music y algun que otro parametro que he puesto yo, pero 
+son muy simples.
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Thu Mar 24 16:36:18 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 24 Mar 2005 15:36:18 +0000
+Subject: [Genaro-somos-todos] como funcionan los patrones ritmicos
+In-Reply-To: <BAY103-F80D9E47463E2592649752CE4F0@phx.gbl>
+Message-ID: <BAY1-F2694EBC786C12DC95C5232D5400@phx.gbl>
+
+No te preocupes por eso porque voy a comentar el codigo como es debido. No 
+lo he hecho antes porque estaba con el lilypond. Asi que mejor leete los 
+comentarios cuando los haga.
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] como funcionan los patrones ritmicos
+>Date: Wed, 23 Mar 2005 19:49:14 +0100
+>
+>Esto es para Rober, me harias un favor si mandaras un mensaje a esta lista 
+>explicando un poco las ideas que hay detr?s de los algoritmos implementados 
+>en PatronesRitmicos.hs
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Thu Mar 24 17:00:48 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 24 Mar 2005 16:00:48 +0000
+Subject: [Genaro-somos-todos] como invocar lilypond desde windows
+Message-ID: <BAY1-F103C0C8BE86BD5AE260B02D5400@phx.gbl>
+
+Este mensaje va casi exclusivamente para Javi que es el mago del grupo, ya 
+que invoca programas con sus artes nigromantes.
+Esto lo he cogido de, abriendo cualquier explorador, Herramientas -> 
+opciones de carpeta -> tipos de archivo -> (seleccionas ly) -> opciones 
+avanzadas ->generate PDF -> modificar.
+Resumiendo, como hay que ejecutar lilypond con un archivo a traves del 
+cygwin es asi:
+
+C:\cygwin\bin\bash.exe  --login  -c  '/usr/bin/lily-wins "score.ly"'
+
+Esta claro que el primer parametro es el archivo de la consola del cygwin, 
+en donde este (en mi caso lo instale en c:\cygwin, que es el que viene por 
+defecto)
+El ultimo parametro (el de despues de -c) viene con comillas simples y luego 
+dentro del fuente de lilypond que yo he llamado score.ly que ese viene con 
+comillas dobles.
+Que curioso, pero lo mas curioso viene ahora: la ruta de ese archivo 
+score.ly puede ser la absoluta de windows o la que es tipo Unix, que es la 
+que usa cygwin. Por ejemplo
+Ruta Windows: "C:\mi_carpeta\score.ly"
+Ruta Cygwin: "/cygdrive/c/mi_carpeta/score.ly"
+
+En cygwin, si quereis referiros a un archivo que este fuera de C:\cygwin (el 
+directorio de instalacion por defecto) teneis que poner /cygdrive/c (? d ? e 
+si nos referimos a D: o E:). Si no considera una ruta como unix teniendo en 
+cuenta que la raiz del arbol de subdirectorios es C:\cygwin (es decir, que / 
+en cygwin es c:\cygwin en windows)
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Fri Mar 25 00:41:59 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 25 Mar 2005 00:41:59 +0100
+Subject: [Genaro-somos-todos] problema con los archivos de texto DOS
+In-Reply-To: <BAY23-F14F8802F175C0E23BB2AD8B94F0@phx.gbl>
+Message-ID: <BAY103-F2261F496F06771C05A6757CE400@phx.gbl>
+
+No hace falta q hagas nada, como pone en el mensaje ya est? solucionado. 
+Solo lo comento por si alguien mas tiene algun problema de estos en el 
+futuro
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] problema con los archivos de texto DOS
+>Date: Wed, 23 Mar 2005 22:14:52 +0000
+>
+>puedo a?adir el \r al archivo de patrones generado por el editor de 
+>pianola. os vale eso?
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Fri Mar 25 00:47:57 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 25 Mar 2005 00:47:57 +0100
+Subject: [Genaro-somos-todos] de Music a lilypond
+In-Reply-To: <BAY1-F10F07CA3F429A98789DF4DD5400@phx.gbl>
+Message-ID: <BAY103-F103C4F9C6236ABD3D030D3CE400@phx.gbl>
+
+No me has entendido,lo que quiero decir no es que la partitura sea m?s 
+bonita si no confunde sostenidos y bemoles, sino que una partitura que 
+confunde un Do # con un Re bemol es una partitura incorrecta. Eso no se 
+puede presentar a nadie con un poco de idea de teor?a musical
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] de Music a lilypond
+>Date: Thu, 24 Mar 2005 15:31:52 +0000
+>
+>
+>>Me parece muy buena idea lo q estas haciendo y tal pero te advierto que 
+>>aunque para un inform?tico como nosotros un Do# sea lo mismo que un Reb 
+>>para un m?sico hacer esa identificaci?n es una blasfemia, porque como 
+>>grados en una escala tienen funciones diferentes. Escribir uno por otro en 
+>>una partitura indicar?a un cambio de tonalidad que confundir?a al 
+>>int?rprete. E incluso te digo que para los instrumentistas de afinaci?n 
+>>justa, como los violinistas (un violin no tiene trastes ni teclas por lo 
+>>que el intervalo en que se puede afinar al pulsar una nota es continuo, no 
+>>discreto), un Do# no es el mismo sonido que un Reb, no pulsan en el mismo 
+>>lugar del m?stil. Asi que lamento decirte que una partitura q confunde 
+>>sostenidos y bemoles es inaceptable, o si no preguntale a Jaime y ya ver?s 
+>>lo que te responde
+>
+>Eso que me cuentas es muy bonito y a mi tambien me gustaria pero eso, ni lo 
+>puedo hacer ni se podia hacer antes con el midi2ly aunque hicieras las 
+>cosas bien. Te prometo que la partitura que sacaba era para cortarse las 
+>venas.
+>De todas formas el conversos a lilypond ya esta hecho, se encuentra en el 
+>archivo haskoreALilypond.hs . La pega es que la salida, debido a que la 
+>realiza casi directamente de un tipo Music va a ser un poco extra?a, aunque 
+>correcta.
+>Os invito a que la probeis y me digais a ver si sale algun error. Solo 
+>necesitais un tipo Music y algun que otro parametro que he puesto yo, pero 
+>son muy simples.
+>
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Fri Mar 25 13:22:54 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 25 Mar 2005 13:22:54 +0100
+Subject: [Genaro-somos-todos] organizacion de los archivos
+In-Reply-To: <BAY23-F352E81A8523D640847CF5BB94F0@phx.gbl>
+Message-ID: <BAY103-F41DB06D6FB461E0B616E70CE410@phx.gbl>
+
+Con lo de "usa como directorio de trabajo el propio" entiendo que te 
+refieres a Codigo/C, pero estaria bien que en futuros mensajes especificaras 
+las cosas con m?s claridad. Lo he contado ya en otros mensajes pero repito 
+ahora la organizacion de archivos que propongo, q no es ni la mejor ni la 
+peor opci?n, solamente es una organizaci?n q por tanto nos libraria del caos 
+en que ahora estamos sumidos.
+Supongamos que la carpeta en la que tenemos el repositorio es 
+c:/hlocal,entonces tienes c:/hlocal/Codigo/Haskell , c:/hlocal/Codigo/Prolog 
+y c:/hlocal/Codigo/C:
+
+-Haskell:  main en c:/hlocal/Codigo/Haskell/main.lhs
+                escribe en c:/hlocal/musica_genara.mid
+                lee de c:/hlocal/progresion.txt
+                lee el patron ritmico de la ruta absoluta especificada como 
+primer par?metro de la llamada a runhugs
+
+-Prolog: main en  c:/hlocal/Codigo/Prolog/mainArgs.exe
+              escribe en c:/hlocal/progresion.txt
+
+
+as? q sube a Codigo/Prolog las dll para que funcione el exe (las que est?n 
+al lado del exe de prolog en la carpeta donde lo tengas instalado). No se te 
+olvide subir tb a esa carpeta al archivo de texto que viene con SWI-prolog 
+donde esta la licencia y tal. Y sube a Codigo/Haskell el runhugs y las dos 
+carpetas que necesita, como hiciste con Codigo/Java
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From gatchan00 at hotmail.com  Fri Mar 25 20:09:13 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 25 Mar 2005 19:09:13 +0000
+Subject: [Genaro-somos-todos] como invocar lilypond desde windows
+In-Reply-To: <BAY1-F103C0C8BE86BD5AE260B02D5400@phx.gbl>
+Message-ID: <BAY23-F3386F925C005A1F2AC4444B9410@phx.gbl>
+
+creo entender lo que dices, supongo que querr?s que a?ada al interfaz una 
+manera de acceder a esto para poder con un simple click crear el pdf. no 
+creo que haya mucho problema, pero si no correo prisa hablamos de esto en la 
+pr?xima reuni?n, ok?
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] como invocar lilypond desde windows
+>Date: Thu, 24 Mar 2005 16:00:48 +0000
+>
+>Este mensaje va casi exclusivamente para Javi que es el mago del grupo, ya 
+>que invoca programas con sus artes nigromantes.
+>Esto lo he cogido de, abriendo cualquier explorador, Herramientas -> 
+>opciones de carpeta -> tipos de archivo -> (seleccionas ly) -> opciones 
+>avanzadas ->generate PDF -> modificar.
+>Resumiendo, como hay que ejecutar lilypond con un archivo a traves del 
+>cygwin es asi:
+>
+>C:\cygwin\bin\bash.exe  --login  -c  '/usr/bin/lily-wins "score.ly"'
+>
+>Esta claro que el primer parametro es el archivo de la consola del cygwin, 
+>en donde este (en mi caso lo instale en c:\cygwin, que es el que viene por 
+>defecto)
+>El ultimo parametro (el de despues de -c) viene con comillas simples y 
+>luego dentro del fuente de lilypond que yo he llamado score.ly que ese 
+>viene con comillas dobles.
+>Que curioso, pero lo mas curioso viene ahora: la ruta de ese archivo 
+>score.ly puede ser la absoluta de windows o la que es tipo Unix, que es la 
+>que usa cygwin. Por ejemplo
+>Ruta Windows: "C:\mi_carpeta\score.ly"
+>Ruta Cygwin: "/cygdrive/c/mi_carpeta/score.ly"
+>
+>En cygwin, si quereis referiros a un archivo que este fuera de C:\cygwin 
+>(el directorio de instalacion por defecto) teneis que poner /cygdrive/c (? 
+>d ? e si nos referimos a D: o E:). Si no considera una ruta como unix 
+>teniendo en cuenta que la raiz del arbol de subdirectorios es C:\cygwin (es 
+>decir, que / en cygwin es c:\cygwin en windows)
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Fri Mar 25 20:15:02 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 25 Mar 2005 19:15:02 +0000
+Subject: [Genaro-somos-todos] organizacion de los archivos
+In-Reply-To: <BAY103-F41DB06D6FB461E0B616E70CE410@phx.gbl>
+Message-ID: <BAY23-F15BFB44CCF5057DD9E1885B9410@phx.gbl>
+
+vale, subir? todo lo necesario a los directorios correspondientes, y 
+cambiar? el directorio de trabajo del interfaz gr?fico a ..\..\ para que 
+escriba directamente en el directorio del repositorio.
+
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] organizacion de los archivos
+>Date: Fri, 25 Mar 2005 13:22:54 +0100
+>
+>Con lo de "usa como directorio de trabajo el propio" entiendo que te 
+>refieres a Codigo/C, pero estaria bien que en futuros mensajes 
+>especificaras las cosas con m?s claridad. Lo he contado ya en otros 
+>mensajes pero repito ahora la organizacion de archivos que propongo, q no 
+>es ni la mejor ni la peor opci?n, solamente es una organizaci?n q por tanto 
+>nos libraria del caos en que ahora estamos sumidos.
+>Supongamos que la carpeta en la que tenemos el repositorio es 
+>c:/hlocal,entonces tienes c:/hlocal/Codigo/Haskell , 
+>c:/hlocal/Codigo/Prolog y c:/hlocal/Codigo/C:
+>
+>-Haskell:  main en c:/hlocal/Codigo/Haskell/main.lhs
+>                escribe en c:/hlocal/musica_genara.mid
+>                lee de c:/hlocal/progresion.txt
+>                lee el patron ritmico de la ruta absoluta especificada como 
+>primer par?metro de la llamada a runhugs
+>
+>-Prolog: main en  c:/hlocal/Codigo/Prolog/mainArgs.exe
+>              escribe en c:/hlocal/progresion.txt
+>
+>
+>as? q sube a Codigo/Prolog las dll para que funcione el exe (las que est?n 
+>al lado del exe de prolog en la carpeta donde lo tengas instalado). No se 
+>te olvide subir tb a esa carpeta al archivo de texto que viene con 
+>SWI-prolog donde esta la licencia y tal. Y sube a Codigo/Haskell el runhugs 
+>y las dos carpetas que necesita, como hiciste con Codigo/Java
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Fri Mar 25 20:18:59 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 25 Mar 2005 19:18:59 +0000
+Subject: [Genaro-somos-todos] Editor de pianola (y aclaración sobre el interfaz)
+Message-ID: <BAY23-F28DA22B60DB8370A17C013B9410@phx.gbl>
+
+estoy ahora mismo en un ciber hermoso y bello con win98, as? que no voy a 
+poder subir lo ?ltimo que he hecho al cvs, no obstante, os env?o los avances 
+del editor de pianola por mail, para que si quer?is probar lo que hay de 
+momento pod?is chapucear un poco. espero que este editor si os guste.
+
+que hace ahora mismo: nada m?s que permite escribir notas, de la duraci?n 
+deseada, exportar el patr?n r?tmico (de momento por defecto a "prueba.txt") 
+y leer un patr?n r?tmico (tambi?n por defecto "prueba.txt").
+
+en breve permitir? borrar notas, cambiar velocity, ligar notas...
+
+
+y con respecto al intefaz, que sub? el pasado mi?rcoles, se me olvid? 
+enviaros unas advertencias de uso, que modificar? en breve. os lo posteo 
+aqu? mismo
+
+Varias cosas muy importantes que hay que tener claro para que funcione el 
+interfaz genaro
+
+1- El runhugs ha de estar junto a sus librerias en el directorio 
+/Codigo/Haskell/
+2- El c?digo ha de ser ejecutado directamente desde el directorio propio (es 
+decir /Codigo/C)
+    //en breve se cambiar? para que el directorio de trabajo sea el mismo 
+del repositorio)
+3- los patrones r?tmicos han de estar en /PatronesRitmicos/, y tener la 
+extensi?n .txt
+4- Ha de existir un MainArgs (puede tener otro nombre) compilado en 
+cualquier directorio. al arrancar por primera vez el programa, crear? un 
+fichero de configuraci?n que guarde la direcci?n del mismo.
+
+
+
+
+From gatchan00 at gmail.com  Fri Mar 25 20:26:18 2005
+From: gatchan00 at gmail.com (Gatchan)
+Date: Fri, 25 Mar 2005 20:26:18 +0100
+Subject: [Genaro-somos-todos] =?ISO-8859-1?Q?Fwd:_FW:_[Genaro-somos-todos]_Editor_de_?=
+ =?ISO-8859-1?Q?pianola_(y_aclaraci=F3n_sobre_el_interfaz)?=
+In-Reply-To: <BAY23-F4261643B6EE075F46FB2F2B9410@phx.gbl>
+References: <BAY23-F4261643B6EE075F46FB2F2B9410@phx.gbl>
+Message-ID: <ab15f71d050325112657f25b33@mail.gmail.com>
+
+bueno, lo creais o no, hotmail no me deja mandar archivos.zip, espero
+que desde esta cuenta me deje y llegue sin problemas. ;)
+
+
+---------- Forwarded message ----------
+From: Shishigami yamato <gatchan00 at hotmail.com>
+Date: Fri, 25 Mar 2005 19:24:38 +0000
+Subject: FW: [Genaro-somos-todos] Editor de pianola (y aclaraci?n
+sobre el interfaz)
+To: gatchan00 at gmail.com
+
+
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Editor de pianola (y aclaraci?n sobre el
+>interfaz)
+>Date: Fri, 25 Mar 2005 19:18:59 +0000
+>
+>estoy ahora mismo en un ciber hermoso y bello con win98, as? que no voy a
+>poder subir lo ?ltimo que he hecho al cvs, no obstante, os env?o los
+>avances del editor de pianola por mail, para que si quer?is probar lo que
+>hay de momento pod?is chapucear un poco. espero que este editor si os
+>guste.
+>
+>que hace ahora mismo: nada m?s que permite escribir notas, de la duraci?n
+>deseada, exportar el patr?n r?tmico (de momento por defecto a "prueba.txt")
+>y leer un patr?n r?tmico (tambi?n por defecto "prueba.txt").
+>
+>en breve permitir? borrar notas, cambiar velocity, ligar notas...
+>
+>
+>y con respecto al intefaz, que sub? el pasado mi?rcoles, se me olvid?
+>enviaros unas advertencias de uso, que modificar? en breve. os lo posteo
+>aqu? mismo
+>
+>Varias cosas muy importantes que hay que tener claro para que funcione el
+>interfaz genaro
+>
+>1- El runhugs ha de estar junto a sus librerias en el directorio
+>/Codigo/Haskell/
+>2- El c?digo ha de ser ejecutado directamente desde el directorio propio
+>(es decir /Codigo/C)
+>    //en breve se cambiar? para que el directorio de trabajo sea el mismo
+>del repositorio)
+>3- los patrones r?tmicos han de estar en /PatronesRitmicos/, y tener la
+>extensi?n .txt
+>4- Ha de existir un MainArgs (puede tener otro nombre) compilado en
+>cualquier directorio. al arrancar por primera vez el programa, crear? un
+>fichero de configuraci?n que guarde la direcci?n del mismo.
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: peditor.zip
+Type: application/x-zip-compressed
+Size: 11871 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050325/f22b5882/attachment.bin>
+
+From roberto_____666 at hotmail.com  Sat Mar 26 11:53:54 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 26 Mar 2005 10:53:54 +0000
+Subject: [Genaro-somos-todos] como invocar lilypond desde windows
+In-Reply-To: <BAY23-F3386F925C005A1F2AC4444B9410@phx.gbl>
+Message-ID: <BAY1-F328575C7B419E10DE97C22D5420@phx.gbl>
+
+Si, si, por supuesto. Solo lo pongo en un email para que quede escrito y 
+porque era una de las tareas que se me habia mandado para semana santa
+
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] como invocar lilypond desde windows
+>Date: Fri, 25 Mar 2005 19:09:13 +0000
+>
+>creo entender lo que dices, supongo que querr?s que a?ada al interfaz una 
+>manera de acceder a esto para poder con un simple click crear el pdf. no 
+>creo que haya mucho problema, pero si no correo prisa hablamos de esto en 
+>la pr?xima reuni?n, ok?
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] como invocar lilypond desde windows
+>>Date: Thu, 24 Mar 2005 16:00:48 +0000
+>>
+>>Este mensaje va casi exclusivamente para Javi que es el mago del grupo, ya 
+>>que invoca programas con sus artes nigromantes.
+>>Esto lo he cogido de, abriendo cualquier explorador, Herramientas -> 
+>>opciones de carpeta -> tipos de archivo -> (seleccionas ly) -> opciones 
+>>avanzadas ->generate PDF -> modificar.
+>>Resumiendo, como hay que ejecutar lilypond con un archivo a traves del 
+>>cygwin es asi:
+>>
+>>C:\cygwin\bin\bash.exe  --login  -c  '/usr/bin/lily-wins "score.ly"'
+>>
+>>Esta claro que el primer parametro es el archivo de la consola del cygwin, 
+>>en donde este (en mi caso lo instale en c:\cygwin, que es el que viene por 
+>>defecto)
+>>El ultimo parametro (el de despues de -c) viene con comillas simples y 
+>>luego dentro del fuente de lilypond que yo he llamado score.ly que ese 
+>>viene con comillas dobles.
+>>Que curioso, pero lo mas curioso viene ahora: la ruta de ese archivo 
+>>score.ly puede ser la absoluta de windows o la que es tipo Unix, que es la 
+>>que usa cygwin. Por ejemplo
+>>Ruta Windows: "C:\mi_carpeta\score.ly"
+>>Ruta Cygwin: "/cygdrive/c/mi_carpeta/score.ly"
+>>
+>>En cygwin, si quereis referiros a un archivo que este fuera de C:\cygwin 
+>>(el directorio de instalacion por defecto) teneis que poner /cygdrive/c (? 
+>>d ? e si nos referimos a D: o E:). Si no considera una ruta como unix 
+>>teniendo en cuenta que la raiz del arbol de subdirectorios es C:\cygwin 
+>>(es decir, que / en cygwin es c:\cygwin en windows)
+>>
+>>_________________________________________________________________
+>>Descarga gratis la Barra de Herramientas de MSN 
+>>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar 26 12:03:34 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 26 Mar 2005 11:03:34 +0000
+Subject: [Genaro-somos-todos] de Music a lilypond
+In-Reply-To: <BAY103-F103C4F9C6236ABD3D030D3CE400@phx.gbl>
+Message-ID: <BAY1-F42BADF6ECE53120FAC79BBD5420@phx.gbl>
+
+Si, te he entendido. Pero yo te digo que el asunto no es de las funciones 
+que he hecho. EL tipo Music es ambiguo respecto a bemoles y sostenidos, de 
+hecho existe el Cs y el Df como enumerados del tipo PitchClass. Si el tipo 
+music tiene un Cs yo pongo C sostenido y si es un Df yo pongo un D bemol. 
+Asi de simple. Ademas, si te fijas en la funcion "pitch" de Haskore, solo 
+usa sostenidos para hacer la conversion de Int a PitchClass y eso es 
+basicamente lo que uso yo cuando veo la constructora Trans.
+Una solucion muy facil seria hacer cambiar todos los sostenidos por su 
+equivalente en bemoles y viceversa. Me he fijado que las partituras que 
+tienen una armadura con sostenidos practicamente siempre ponen sostenidos en 
+notas alteradas dentro de la partitura y equivalente para los bemoles. Yo 
+creo que esta ultima solucion es la mejor.
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] de Music a lilypond
+>Date: Fri, 25 Mar 2005 00:47:57 +0100
+>
+>No me has entendido,lo que quiero decir no es que la partitura sea m?s 
+>bonita si no confunde sostenidos y bemoles, sino que una partitura que 
+>confunde un Do # con un Re bemol es una partitura incorrecta. Eso no se 
+>puede presentar a nadie con un poco de idea de teor?a musical
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] de Music a lilypond
+>>Date: Thu, 24 Mar 2005 15:31:52 +0000
+>>
+>>
+>>>Me parece muy buena idea lo q estas haciendo y tal pero te advierto que 
+>>>aunque para un inform?tico como nosotros un Do# sea lo mismo que un Reb 
+>>>para un m?sico hacer esa identificaci?n es una blasfemia, porque como 
+>>>grados en una escala tienen funciones diferentes. Escribir uno por otro 
+>>>en una partitura indicar?a un cambio de tonalidad que confundir?a al 
+>>>int?rprete. E incluso te digo que para los instrumentistas de afinaci?n 
+>>>justa, como los violinistas (un violin no tiene trastes ni teclas por lo 
+>>>que el intervalo en que se puede afinar al pulsar una nota es continuo, 
+>>>no discreto), un Do# no es el mismo sonido que un Reb, no pulsan en el 
+>>>mismo lugar del m?stil. Asi que lamento decirte que una partitura q 
+>>>confunde sostenidos y bemoles es inaceptable, o si no preguntale a Jaime 
+>>>y ya ver?s lo que te responde
+>>
+>>Eso que me cuentas es muy bonito y a mi tambien me gustaria pero eso, ni 
+>>lo puedo hacer ni se podia hacer antes con el midi2ly aunque hicieras las 
+>>cosas bien. Te prometo que la partitura que sacaba era para cortarse las 
+>>venas.
+>>De todas formas el conversos a lilypond ya esta hecho, se encuentra en el 
+>>archivo haskoreALilypond.hs . La pega es que la salida, debido a que la 
+>>realiza casi directamente de un tipo Music va a ser un poco extra?a, 
+>>aunque correcta.
+>>Os invito a que la probeis y me digais a ver si sale algun error. Solo 
+>>necesitais un tipo Music y algun que otro parametro que he puesto yo, pero 
+>>son muy simples.
+>>
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From roberto_____666 at hotmail.com  Sat Mar 26 12:14:27 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 26 Mar 2005 11:14:27 +0000
+Subject: [Genaro-somos-todos] Patrones ritmicos
+Message-ID: <BAY1-F51AF4FD1807D9F310BEC6D5420@phx.gbl>
+
+Os voy a contar un poco por encima las ideas generales de los patrones 
+ritmicos como me habiais pedido.
+
+Necesitamos dos cosas: un acorde ordenado y un patron ritmicos. Un acorde 
+ordenado es una lista de notas con la duracion de todo el acorde. Un patron 
+ritmico es una matriz cuya altura es el numero de notas del acorde y cuya 
+anchura en la duracion del acorde. Cuando digo numero de notas del acorde no 
+me refiero a que las triadas tengan tres y las cuatriadas cuatro sino que 
+hablo de las notas definitivas, es decir, con repeticion de notas.
+
+Si la altura y la anchura del acorde ordenado y de la matriz coinciden todo 
+esta claro: se ponene uno encima del otro y se ve como encajan. Esas seran 
+las notas definitivas.
+El problema viene cuando o la altura o la anchura son distintas.
+
+Si la anchura es distinta entonces a la matriz (patron ritmico) le falta o 
+le sobra algo. Si le falta entonces la repetimos las veces que haga falta. 
+Si sobra entonces ?qu? hacemos con el cacho del patron ritmico que sobre? No 
+lo se, pero se lo preguntamos al usuario, entonces mas parametros. Podemos 
+decir que el cacho que sobra lo tire (parametros NoCiclico) o que lo use 
+como principio del siguiente acorde ordenado (parametros Ciclico)
+
+Algo parecido pasa cuando la altura (numero de voces) no es la misma. 
+Entonces hay mas parametros que no voy a explicar. Son truncado, saturado, 
+etc. para cuando hay mas voces o menos.
+
+Espero que ya haya quedado claro por fin
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sun Mar 27 16:35:35 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 27 Mar 2005 14:35:35 +0000
+Subject: [Genaro-somos-todos] Patrones ritmicos
+Message-ID: <BAY1-F15EBF2D3E74227EC671C9AD5430@phx.gbl>
+
+Os voy a contar un poco por encima las ideas generales de los patrones 
+ritmicos como me habiais pedido.
+
+Necesitamos dos cosas: un acorde ordenado y un patron ritmicos. Un acorde 
+ordenado es una lista de notas con la duracion de todo el acorde. Un patron 
+ritmico es una matriz cuya altura es el numero de notas del acorde y cuya 
+anchura en la duracion del acorde. Cuando digo numero de notas del acorde no 
+me refiero a que las triadas tengan tres y las cuatriadas cuatro sino que 
+hablo de las notas definitivas, es decir, con repeticion de notas.
+
+Si la altura y la anchura del acorde ordenado y de la matriz coinciden todo 
+esta claro: se ponene uno encima del otro y se ve como encajan. Esas seran 
+las notas definitivas.
+El problema viene cuando o la altura o la anchura son distintas.
+
+Si la anchura es distinta entonces a la matriz (patron ritmico) le falta o 
+le sobra algo. Si le falta entonces la repetimos las veces que haga falta. 
+Si sobra entonces ?qu? hacemos con el cacho del patron ritmico que sobre? No 
+lo se, pero se lo preguntamos al usuario, entonces mas parametros. Podemos 
+decir que el cacho que sobra lo tire (parametros NoCiclico) o que lo use 
+como principio del siguiente acorde ordenado (parametros Ciclico)
+
+Algo parecido pasa cuando la altura (numero de voces) no es la misma. 
+Entonces hay mas parametros que no voy a explicar. Son truncado, saturado, 
+etc. para cuando hay mas voces o menos.
+
+Espero que ya haya quedado claro por fin
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From gatchan00 at hotmail.com  Sun Mar 27 12:59:20 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 27 Mar 2005 10:59:20 +0000
+Subject: [Genaro-somos-todos] Una reunioncita para después de semana santa
+In-Reply-To: <BAY1-F328575C7B419E10DE97C22D5420@phx.gbl>
+Message-ID: <BAY23-F306E10574F2F70FD0936F7B9430@phx.gbl>
+
+Hola shafales, el mi?rcoles tenemos reuni?n con jaime, os parece bien que 
+quedemos el martes por la tarde para poder tener la reuni?n de la semana, 
+asignar el trabajo para la pr?xima y tal, y as? llevar un poco preparado lo 
+que se va a ense?ar a jaime el mi?rcoles?
+
+yo preferir?a que fuera a las 4, pero sea cuando sea entre las 3 y las 8, 
+har?a lo necesario para ir.
+
+pues eso, a ver si respond?is para poder tener la reuni?n. ;)
+
+
+
+
+From bc24us at hotmail.com  Sun Mar 27 21:24:47 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 27 Mar 2005 21:24:47 +0200
+Subject: [Genaro-somos-todos] RE: reunion del martes
+In-Reply-To: <BAY23-F42DEFF7114B71366AFD699B9430@phx.gbl>
+Message-ID: <BAY103-F42E5895A449E2B17A4EFE0CE430@phx.gbl>
+
+el martes a las 16:00 me viene wai
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: roberto_____666 at hotmail.com, bc24us at hotmail.com, gatchan00 at ono.com
+>Subject: reunion del martes
+>Date: Sun, 27 Mar 2005 19:20:11 +0000
+>
+>he mandado esta ma?ana un mail a la lista general, pero parece que no 
+>llega, as? que os mando uno personalizado.
+>
+>bueno, el motivo de este mail es para concretar una reuni?n para este 
+>martes, para hacer la tarea de la semana y preparar la reuni?n con jaime, 
+>ser?a el martes por la tarde, yo puedo entre las 4 y las 8, pero preferri?a 
+>a las 4. vosotros dir?is.
+>
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Mon Mar 28 14:51:31 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 28 Mar 2005 12:51:31 +0000
+Subject: [Genaro-somos-todos] reunion martes y miercoles
+Message-ID: <BAY1-F35DB856B863D744980196FD5440@phx.gbl>
+
+Vale, entonce quedamos el martes a las 16:00 en cafeteria.
+Voy a mandar un correo a Jaime para que vayamos a verle el miercoles a las 
+15:00, como siempre
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From gatchan00 at hotmail.com  Mon Mar 28 22:09:42 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Mon, 28 Mar 2005 20:09:42 +0000
+Subject: [Genaro-somos-todos] Problemas con el main.lhs
+In-Reply-To: <BAY1-F15EBF2D3E74227EC671C9AD5430@phx.gbl>
+Message-ID: <BAY23-F52F4B6B4A762FB835F1D7B9440@phx.gbl>
+
+por si hab?is intentado probar el interfaz genaro, os habr?is dado cuenta de 
+que da un error por el que el runhugs no puede crear el midi. esto es debido 
+a que busca el archivo "progresion.txt" haciendo una mezcla explosiva con la 
+ruta del directorio de trabajo del programa ("cvsrepo\Codigo\C") y la ruta 
+relativa aportada por el main.lhs ("../../progresion.txt"), tal que queda 
+una cosa as? "cvsrepo\Codigo\C\/../../progresion.txt", y claro, se l?a. para 
+hacer pruebas os recomiendo que modifiqu?is el main.lhs poniendo los 
+directorios como "./progresion.txt" y as?. ?Por qu?? pues porque cuando se 
+llama al runhugs se hace directamente desde el directorio de trabajo donde 
+se ha llamado a prolog, es decir, que comparten el mismo directorio de 
+trabajo a pesar de estar en distintos directorios. no se si me he expresado 
+con claridad, pero ma?ana en la reuni?n lo har? correctamente XP.
+
+
+
+
+From bc24us at hotmail.com  Wed Mar 30 13:03:45 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 30 Mar 2005 13:03:45 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?QUNUQSBSRVVOSdNOIHJldW5p825fMjlfMDNfMDU=?=
+Message-ID: <BAY103-F180B4A5CB0A1511A5E3EFACE460@phx.gbl>
+
+ACTA REUNI?N
+
+Proyecto Genaro:		reuni?n_29_03_05
+Fecha de creaci?n		30/ 03/ 05
+Fecha de ?ltima actualizaci?n:	30/ 03/ 05
+Autores:				Juan Rodr?guez
+
+
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Evaluaci?n del trabajo	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Evaluaci?n del trabajo
+-Juan:  ok
+
+-Javi: ok
+
+-Rober: ok
+
+3.- Nuevos trabajos.
+
+
+Javi:
+?	Redirigir la salida de los procesos de haskell y prolog invocados desde C 
+para que escriban en unos ficheros.log correspondientes
+?	En el editor de pianola, cambiar el color de las barras de velocity
+?	A?adir al interfaz opciones de elecci?n de instrumentos y los efectos 
+reverb, chorus y delay. Para implementar la elecci?n de instrumentos 
+conseguir? m?s fuentes de sonido de formato .sf2 (buscar en google), y para 
+los efectos usar? las opciones de timidity, que se apa?ar? para a?adir a la 
+distribuci??n de genaro
+?	 Se desecha Fmod, se usar? timidity para la reproducci?n del midi desde el 
+interfaz y para luego exportar a midi
+?	Implementar exportar midi y exportar wav
+?	A?adir al editor de pianola:
+o	Boton para mostrar todos los velocity: o por defecto hacerlo cuando se 
+esta en modo vision/selecci?n (no edici?n)
+o	Barra de desplazamiento para velocity por defecto
+
+Roberto:
+?	Hablar con Jaime en la reuni?n del dia 30 sobre su idea para eliminar el 
+problema de ambig?edad de bemoles y sostenidos en haskore debida a la 
+funci?n pitch. Si Jaime confirma la correcci?n de su idea aplicarla para 
+generar el .ly que de lugar luego a la partitura de la m?sica
+?	Hacer un armonizador de melod?as
+
+Juan:
+?	Seguir con la melod?a
+?	A?adir el directorio de trabajo como par?metro de los main de haskell y 
+prolog. Avisar claramente despu?s de hacerlo porque en ese momento las 
+llamadas desde C dejar?n de funcionar
+?	Hacer una funci?n que genere un midi a partir de un fichero de patron 
+ritmico de C para que el usuario pueda ver lo que va haciendo con el editor 
+de pianola
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From roberto_____666 at hotmail.com  Thu Mar 31 15:40:01 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 31 Mar 2005 13:40:01 +0000
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?QXJtb25pemFjaW9uICgxqiBwYXJ0ZSk=?=
+Message-ID: <BAY1-F38F56F423124B5795990CAD5470@phx.gbl>
+
+Esta pregunta va para ti, Juan. Si, si, tu, no te hagas el loco. Se supone 
+que de cada nota principal de la melodia busco un acorde que tenga en comun 
+una nota con dicha nota principal de la melodia. Hasta ahi bien, pero:
+? Que tipos de acordes cojo ? Puedo coger todos los que tenemos pero 
+quedaria un poco raro que se armonizara con dominantes y cosas de esas 
+raras. Creo que mejor lo hago con triadas y cuatriadas. Quizas lo deje como 
+opcion las dos cosas aunque una sepamos que va a sonar muy mal.
+? Tengo en cuenta las tensiones de los acordes ? Es decir, que si armonizo 
+con acordes que tengan una nota en comun con la melodia en la fundamental o 
+tercera o quinta o septica o tensiones. O simplemente no tengo en cuenta las 
+tensiones. A mi me vendria mejor no usar las tensiones
+? Tengo en cuenta el ritmo en las notas principales ? En el libro creo que 
+viene que no pero no esta muy bien explicado
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+

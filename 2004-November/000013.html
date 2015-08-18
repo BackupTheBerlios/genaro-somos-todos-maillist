@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Respuesta a Roberto
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Respuesta%20a%20Roberto&In-Reply-To=%3CBAY14-F24Ou7KDSpCW40001bee8%40hotmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000012.html">
+   <LINK REL="Next"  HREF="000014.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Respuesta a Roberto</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Respuesta%20a%20Roberto&In-Reply-To=%3CBAY14-F24Ou7KDSpCW40001bee8%40hotmail.com%3E"
+       TITLE="[Genaro-somos-todos] Respuesta a Roberto">bc24us at hotmail.com
+       </A><BR>
+    <I>Sat Nov  6 20:37:17 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000012.html">[Genaro-somos-todos] Reuni&#243;n con Jaime
+</A></li>
+        <LI>Next message: <A HREF="000014.html">[Genaro-somos-todos] Quedada con Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#13">[ date ]</a>
+              <a href="thread.html#13">[ thread ]</a>
+              <a href="subject.html#13">[ subject ]</a>
+              <a href="author.html#13">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>&gt;&gt;<i>En primer lugar necesito que comentes un poco mas las funciones.
+</I>EL c&#243;digo por ahora es provisional y hay mucho q mejorar y cambiar. Los 
+predicados est&#225;n comentados s&#243;lo en parte pq estaba esperando al estandar de 
+Doxygen,
+pq no me ha dado tiempo y pq este c&#243;digo no ten&#237;a porqu&#233; verlo nadie por 
+ahora, de hecho para hacer tu trabajo de esta semana te basta con entender 
+es_progresion(P),
+que en mi opini&#243;n se entiende ya bastante bien
+
+&gt;&gt;<i>El programa de generar acordes no entiendo que se le pase el numero de 
+</I>&gt;&gt;<i>compases, seria mejor que se le pasara el numero de
+</I>&gt;&gt;<i>acordes y esos luego se repartiesen sobre los compases como nosotros 
+</I>&gt;&gt;<i>quisieramos
+</I>Eso es buena idea pero no se me ha especificado, si quieres lo hablamos en 
+la reuni&#243;n pero desde luego q no lo voy a tener para la semana que viene pq 
+no me da tiempo. Todo esto son versiones preliminares y para mi lo 
+importante no es el predicado genera_acordes(N, M) aniade_acordes, 
+quita_acordes y tal q son los dificiles de hacer
+
+&gt;&gt;<i>Necesito un predicado que genere la lista de acordes solo con su cifrado 
+</I>&gt;&gt;<i>para yo colocarles las notas como se merecen. No veo que haga falta
+</I>&gt;&gt;<i>de momento escribirlo en un archivo si no nos vamos a mover del entorno 
+</I>&gt;&gt;<i>prolog.
+</I>Tienes el predicado haz_progresion(N, M, Progresion) que precisamente genera 
+una progresion que es una lista de cifrados con duraci&#243;n (figura) asociada, 
+q es lo q se especific&#243; en el acta. Pon haz_progresion(3, 4, P), 
+es_progresion(P). en Sicstus y ver&#225;s lo q sale. Lo de q genera_acordes(N, M) 
+escriba en un archivo es por motivos de depuraci&#243;n y pq es en lo que 
+quedamos la semana pasada, no quedar&#225; as&#237;, esta claro
+
+&gt;&gt;<i>Por cierto, en la matricula de un cifrado no entiendo muy bien
+</I>&gt;&gt;<i>que es un acorde de 6. Si eso se refiere a la primera inversion no 
+</I>&gt;&gt;<i>encuentro cual es la de sexta cuarta que representa la segunda inversion.
+</I>Los cifrados son los que aparecen en mi manual de armonia, hay muchos m&#225;s 
+pero he puesto esos pocos para empezar. Como pone en la tabla de mi manual 
+un acorde de 6 es una cuatr&#237;ada de tercera menor y quinta justa en el que la 
+s&#233;ptima se sustituye por la sexta mayor (s&#233;ptima disminuida)
+
+&gt;&gt;<i>Hay un construcctor en la estructura de haskore que no le veo sentido si 
+</I>&gt;&gt;<i>vamos a tener separado los instrumentos, que es
+</I>&gt;&gt;<i>a constructora inst(I, M). Podriamos contar con ella y no usarla para nada 
+</I>&gt;&gt;<i>pero de esa forma la estructura de haskore no seria
+</I>&gt;&gt;<i>tan general como parece en su definicion.
+</I>Yo no me he inventado el Haskore, si quieres lo hablamos en la proxima 
+reuni&#243;n
+
+&gt;&gt;<i>Me he mirado un poco el manual de sicstus y visto que si que se puede 
+</I>&gt;&gt;<i>tener objetos en prolog. Es un poco paja mental. Mas o
+</I>&gt;&gt;<i>menos habla de asociar los predicados a algun objeto. Tambien tiene algo 
+</I>&gt;&gt;<i>de herencia y delegacion (bonita palabra si entendiera realmente
+</I>&gt;&gt;<i>que significa). Si quereis me lo siguo mirando (el manual) aunque tambien 
+</I>&gt;&gt;<i>podemos evitarlo si tenemos un poco de cuidado al hacerlo.
+</I>Usar objetos en Prolog me parece una aberraci&#243;n y una cutrez y no lo 
+considero necesario. Se puede hablar como todo y si votamos y vosotros dos 
+quereis los usaremos
+pero desde ahora os digo q yo prefiero no usar objetos con Prolog
+
+&gt;&gt;<i>Para eso os mando un poco del estandar de codigo de prolog basado un poco 
+</I>&gt;&gt;<i>en lo que hablamos el otro dia. Si quereis lo completo un
+</I>&gt;&gt;<i>poco mas y lo subo al ce uve ese.
+</I>Por mi wai, habia q hacerlo tarde o temprano, subelo al CVS, ok
+
+
+&gt;&gt;<i>En tu representacion de las matriculas de los acordes he visto que te 
+</I>&gt;&gt;<i>falta los suspendidos. A lo mejor se te ha pasado, te lo digo solo por 
+</I>&gt;&gt;<i>eso.
+</I>Como dije arriba faltan muchas cosas. Hay cientos de cifrados y s&#243;lo he 
+puesto los b&#225;sicos de mi manual
+
+&gt;&gt;<i>&#191; Por cierto os ha llegado un correo que mande a la lista de correo ? Es 
+</I>&gt;&gt;<i>que me sorprende porque puse muchas cosas y no me habeis contestado nadie.
+</I>La lista me funciona perfectamente, simplemente he estado ocupado y tb se me 
+ha jodido el pc de sobremesa
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. <A HREF="http://entretenimiento.msn.es/">http://entretenimiento.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000012.html">[Genaro-somos-todos] Reuni&#243;n con Jaime
+</A></li>
+	<LI>Next message: <A HREF="000014.html">[Genaro-somos-todos] Quedada con Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#13">[ date ]</a>
+              <a href="thread.html#13">[ thread ]</a>
+              <a href="subject.html#13">[ subject ]</a>
+              <a href="author.html#13">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Patrones ritmicos
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Patrones%20ritmicos&In-Reply-To=%3CBAY1-F51AF4FD1807D9F310BEC6D5420%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000189.html">
+   <LINK REL="Next"  HREF="000193.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Patrones ritmicos</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Patrones%20ritmicos&In-Reply-To=%3CBAY1-F51AF4FD1807D9F310BEC6D5420%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] Patrones ritmicos">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Sat Mar 26 12:14:27 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000189.html">[Genaro-somos-todos] Fwd: FW: [Genaro-somos-todos] Editor de pianola (y aclaraci&#243;n sobre el interfaz)
+</A></li>
+        <LI>Next message: <A HREF="000193.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#192">[ date ]</a>
+              <a href="thread.html#192">[ thread ]</a>
+              <a href="subject.html#192">[ subject ]</a>
+              <a href="author.html#192">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Os voy a contar un poco por encima las ideas generales de los patrones 
+ritmicos como me habiais pedido.
+
+Necesitamos dos cosas: un acorde ordenado y un patron ritmicos. Un acorde 
+ordenado es una lista de notas con la duracion de todo el acorde. Un patron 
+ritmico es una matriz cuya altura es el numero de notas del acorde y cuya 
+anchura en la duracion del acorde. Cuando digo numero de notas del acorde no 
+me refiero a que las triadas tengan tres y las cuatriadas cuatro sino que 
+hablo de las notas definitivas, es decir, con repeticion de notas.
+
+Si la altura y la anchura del acorde ordenado y de la matriz coinciden todo 
+esta claro: se ponene uno encima del otro y se ve como encajan. Esas seran 
+las notas definitivas.
+El problema viene cuando o la altura o la anchura son distintas.
+
+Si la anchura es distinta entonces a la matriz (patron ritmico) le falta o 
+le sobra algo. Si le falta entonces la repetimos las veces que haga falta. 
+Si sobra entonces &#191;qu&#233; hacemos con el cacho del patron ritmico que sobre? No 
+lo se, pero se lo preguntamos al usuario, entonces mas parametros. Podemos 
+decir que el cacho que sobra lo tire (parametros NoCiclico) o que lo use 
+como principio del siguiente acorde ordenado (parametros Ciclico)
+
+Algo parecido pasa cuando la altura (numero de voces) no es la misma. 
+Entonces hay mas parametros que no voy a explicar. Son truncado, saturado, 
+etc. para cuando hay mas voces o menos.
+
+Espero que ya haya quedado claro por fin
+
+_________________________________________________________________
+&#191;Est&#225;s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. <A HREF="http://motor.msn.es/researchcentre/">http://motor.msn.es/researchcentre/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000189.html">[Genaro-somos-todos] Fwd: FW: [Genaro-somos-todos] Editor de pianola (y aclaraci&#243;n sobre el interfaz)
+</A></li>
+	<LI>Next message: <A HREF="000193.html">[Genaro-somos-todos] Patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#192">[ date ]</a>
+              <a href="thread.html#192">[ thread ]</a>
+              <a href="subject.html#192">[ subject ]</a>
+              <a href="author.html#192">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

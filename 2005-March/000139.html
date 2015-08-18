@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] mains y comunicacion entre programas
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20mains%20y%20comunicacion%20entre%20programas&In-Reply-To=%3CBAY103-F3496496387209F474D3D83CE5E0%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000138.html">
+   <LINK REL="Next"  HREF="000140.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] mains y comunicacion entre programas</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20mains%20y%20comunicacion%20entre%20programas&In-Reply-To=%3CBAY103-F3496496387209F474D3D83CE5E0%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] mains y comunicacion entre programas">bc24us at hotmail.com
+       </A><BR>
+    <I>Sun Mar  6 20:42:19 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000138.html">[Genaro-somos-todos] fuentes de sonido
+</A></li>
+        <LI>Next message: <A HREF="000140.html">[Genaro-somos-todos] formato del fichero C de patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#139">[ date ]</a>
+              <a href="thread.html#139">[ thread ]</a>
+              <a href="subject.html#139">[ subject ]</a>
+              <a href="author.html#139">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>El otro dia no funcionaba nada y eso no mola. El problema es que el cachondo 
+de SWI-prolog mete espacios donde le da la gana al escribir los t&#233;rminos en 
+los archivos. Esto se ha solucionado con la funcion quitaEspacios de 
+Parsers.hs
+
+Y ya que estaba me he comido el tarro para apa&#241;ar los problemas con las 
+rutas absolutas:
+-en haskell: llamar a la funci&#243;n setCurrentDirectory:: String -&gt; IO() 
+contenida en la libreria est&#225;ndar Directory. Cambia el directorio de trabajo
+-en Prolog: el predicado working_directory/2, que usado como 
+&quot;working_directory(_, DirTrabajo)&quot; cambia el directorio de trabajo
+
+Entonces la idea es que todas las rutas que aparezcan en el c&#243;digo sean 
+relativas, ahora ya es as&#237;, s&#243;lo hay que mantener esto.
+
+Y ahora esto va para Javi que tienes que llamar a Prolog y a Haskell, he 
+hecho dos archivos que funcionan como main para que no tengas tanto lio:
+-en haskell: main.hsx, la funci&#243;n main a cambiado de tipo a &quot;main :: String 
+-&gt; IO()&quot;, el String que se le pasa es el directorio de trabajo, la llamada 
+en windows podr&#237;a ser main &quot;c:/hlocal&quot; que escribir&#237;a el fichero 
+c:/hlocal/musica_genara.mid
+-en Prolog: principal.pl, hay que llamar a main(DirTrabajo) ,por ejemplo  
+main('c:/hlocal')., que escribe el c:/hlocal cuatro ficheros:
+    -progresion_semilla.txt: termino correspondiente a la semilla de la 
+generacion
+    -progresion_con_rel.txt: termino correspondiente a la progresion 
+generada, sin quitar todavia los grados relativos
+    -progresion.txt: termino correspondiente a la progresion generada, con 
+los grados relativos pasados a absolutos
+    -progresion_ordenada.txt: termino correspondiente a la progresion 
+generada, con las voces ordenadas, esto es lo que procesa haskell en la 
+versi&#243;n actual que no tiene ritmo a&#250;n
+
+pero esto Javi te da igual, solo debes llamar primero a Prolog con 
+principal:main('c:/hlocal') y luego a haskell con main::main &quot;c:/hlocal&quot; y 
+ya est&#225;. O con el directorio de trabajo que sea, que estar&#237;a bien que te 
+diera a elegir el interfaz
+
+Por cierto ahora las progresiones ser&#225;n muy cutres y aburridas porque esta 
+casi todo lo de Prolog desactivado y no hay ritmo, pero no se preocupen que 
+pronto mejorar&#225;. En el futuro los dos mains tendr&#225;n m&#225;s argumentos para 
+poder elegir bien las opciones de generacion
+
+Bueno, espero que os parezcan bien los cambios, hasta ma&#241;ana!!!
+
+_________________________________________________________________
+&#191;Est&#225;s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. <A HREF="http://motor.msn.es/researchcentre/">http://motor.msn.es/researchcentre/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000138.html">[Genaro-somos-todos] fuentes de sonido
+</A></li>
+	<LI>Next message: <A HREF="000140.html">[Genaro-somos-todos] formato del fichero C de patrones ritmicos
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#139">[ date ]</a>
+              <a href="thread.html#139">[ thread ]</a>
+              <a href="subject.html#139">[ subject ]</a>
+              <a href="author.html#139">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

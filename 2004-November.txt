@@ -1,0 +1,1207 @@
+From roberto_____666 at hotmail.com  Mon Nov  1 18:24:53 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 01 Nov 2004 17:24:53 +0000
+Subject: [Genaro-somos-todos] Cambio de representacion
+Message-ID: <BAY1-F23j5p1Fjxe0ym00019573@hotmail.com>
+
+Tengo hecho el cambio de representacion y si alguien lo quiere se lo pasare. 
+Por cierto, he cambiado un poco la representacion a bajo nivel asi que 
+espero tranquilo a que Javi coja una katana y me corte la cabeza. La pega es 
+que no esta en el CVS porque he estado un poco ausente y el bajarj tarda un 
+poco.
+No os preocupeis que esta semana lo tendre todo perfecto
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Mon Nov  1 18:41:56 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 01 Nov 2004 18:41:56 +0100
+Subject: [Genaro-somos-todos] Retoque de la representacion haskore
+Message-ID: <BAY14-F265DYge2Qw4h0003bcfa@hotmail.com>
+
+Respecto a lo del velocity si recuerdas en la ?ltima reuni?n quedamos en que 
+lo ampliar?amos m?s tarde. Y respecto a lo de poner figura en vez de 
+fracci?n no le veo sentido ya que figura est? definido con:
+
+es_figura(figura(N,D)) :- es_fraccionNat(N, D).
+es_fraccionNat(N, D) :- natural(N), natural(D).
+natural(N) :- integer(N), N>=0.
+
+la diferencia est? en q usando fraccionNat no metes la constructora figura q 
+no viene a cuento
+
+por cierto q por los nombres de los predicados deduzco que la versi?n del 
+archivo q tienes es del a?o la polca. Me parece q nos estamos coordinando 
+bastante mal, me parece mala idea cambiar la representaci?n sin consultar 
+cuando otros est?n trabajando con lo mismo pq luego lo q se iba a tener 
+listo para una semana est? ya para la siguiente como pronto. Me parece mejor 
+idea trabajar con lo q hay, proponer los cambios en la reuni?n y dejar las 
+mejoras para el siguiente prototipo, sobre todo pq los cambios q uno puede 
+pensar imprescindibles al final puede q no lo sean. Y adem?s siguen sin 
+estar en el CVS la mitad de los archivos. Bueno hablamos ma?ana
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Retoque de la representacion haskore
+>Date: Sun, 31 Oct 2004 18:48:28 +0000
+>
+>He visto que en la representacion de haskore le falta un par de peque?as 
+>cosillas:
+>1 falta de algun modo especificar la intensidad de la nota
+>2 en la clausula musica(tempo(F,M)) habria que poner
+>musica(tempo(F,M)) :- figura(F), musica(M).
+>en vez de
+>musica(tempo(F,M)) :- fraccionNat(F), musica(M).
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From gatchan at ono.com  Tue Nov  2 17:33:11 2004
+From: gatchan at ono.com (gatchan at ono.com)
+Date: Tue, 2 Nov 2004 17:33:11 +0100
+Subject: [Genaro-somos-todos] =?ISO-8859-15?Q?Asunto=3A=20Sistemas=20Inform=E1ticos?=
+In-Reply-To: <4187B3DE.FCC01F7E@sip.ucm.es>
+Message-ID: <415C438C00012D1F@mta02.ono.com>
+
+>-- Mensaje original --
+>Date: Tue, 02 Nov 2004 17:20:46 +0100
+>From: Jaime S?nchez Hern?ndez <jaime at sip.ucm.es>
+>Subject: Sistemas Inform?ticos
+>To: gatchan at ono.com, Juan24us2 <bc24us at hotmail.com>
+>
+>
+>Hola, como vais con el proyecto? He visto algunos enlaces que pueden interesar
+>-yo no los he revisado con mucho detalle-
+>
+>Este puede ser un buen sitio para ver lo que se ha hecho
+>
+>    http://alum.hampshire.edu/~adaF92/algocomp/algocomp95.html
+>
+>En este hay enlaces a distintos programas de composicion algoritmica
+>
+>    http://www.flexatone.net/algoNet/sysDate.html
+>
+>Aqui hay un libro con un capitulo -corto- sobre musica fractal y aleda?os
+>
+>    http://www.cim.mcgill.ca/~clark/nordmodularbook/nm_book_toc.html
+>
+>
+>
+>Y por cierto, al principio me hablasteis de trabajar en funcional. Nyquist
+>da
+>muchas cosas hechas y puede ser una forma rapida de desarrollar cosas
+>
+>Un saludo
+>
+
+
+
+
+From bc24us at hotmail.com  Tue Nov  2 23:58:28 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 02 Nov 2004 23:58:28 +0100
+Subject: [Genaro-somos-todos] reunion_02_11_04
+Message-ID: <BAY14-F363ednHM3SOl0000e755@hotmail.com>
+
+ACTA REUNI?N
+
+
+Proyecto Genaro:		reunion_02_11_04
+Fecha de creaci?n		02/ 11/ 04
+Fecha de ?ltima actualizaci?n:	02/ 11/ 04
+Autores:				Juan Rodr?guez
+
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+
+?	Generaci?n de acordes: hecho en parte, faltan dominantes secundaros y 
+segundos relativos
+?	Paso de progresi?n a Haskore: hecha versi?n b?sica en posici?n de t?nica y 
+arpegiado
+?	Paso de Haskore a representaci?n de bajo nivel: hecho casi del todo
+?	Paso de representaci?n de bajo nivel a midi: hecho casi del todo
+?	Uso de Java y Prolog: sin empezar
+
+3.- Nuevos trabajos.
+
+
+?	Juan:
+
+o	Juntar prolog, haskell y Java para hacer el paso a midi de una progresi?n 
+de acordes
+o	A?adir dominantes secundarios y segundos relativos a la generaci?n de 
+progresiones
+o	Modificar la GC a?adiendo:
+
+&#61607;	El encargado del ?ltimo acta la traer? a la siguiente reuni?n
+&#61607;	El encargado de hacer el acta la mandar? a la lista de correo y al 
+CVS como muy tarde el d?a siguiente a la reuni?n
+&#61607;	Las listas de correo ser?n genaro_somos_todos y la de Jaime
+
+?	Javi:
+o	Cambiar el instalador de Timidity para que funcione en C:\hlocal\timidity 
+pq en los labos no se puede hacer directorios en C:. Subirlo al CVS
+o	Preparar el Doxygen para documentar Java y Prolog.
+o	Quedar con Jaime para la semana que viene a trav?s de la lista de correo 
+genaro-jaime de Berlios
+
+?	Roberto: definir predicados que pasen de una progresi?n de acordes Prog 
+(que cumple el predicado es_progresion(P), definido exhaustivamente en el 
+archivo generador_acordes.pl) a una lista de listas de notas L que cumple 
+es_progresion_ordenada(L), definida por:
+
+		es_progresion_ordenada(progOrdenada(Loa)) :- es_lista_orden_acordes(Loa).
+		es_lista_orden_acordes([]).
+		es_lista_orden_acordes([Oa|Loa]) :- es_ordenacion_acorde(Oa), 
+es_lista_orden_acordes(Loa).
+		es_ordenacion_acorde(ordenAcorde(Ln)) :-es_lista_notas(Ln).
+
+		(ver concepto de ordenaci?n de acorde de ?Armonia una intro gentil? pag 9)
+
+		es_lista_notas([]).
+		es_lista_notas([N|Ln]) :- es_nota(N), es_lista_notas(Ln).
+
+		Estos predicados enlazar?n los enlaces de la progresi?n seg?n el sistema 
+paralelo y tambi?n seg?n el sistema de continuidad arm?nica (?Teor?a musical 
+y armon?a moderna?, pags 42 en adelante). Se considerar?n las combinaciones 
+de inversi?n y disposici?n en posici?n cerrada para ordenaciones de acordes 
+de 4 notas de la tabla en ?Armonia una intro gentil? pag 11 en adelante
+
+?	A partir de ahora los nombre de predicados en Prolog vendr?n precedidos de 
+las siglas que se forman con el nombre del acorde, pej los nombres de los 
+predicados de generador_acordes.pl empezar?n todos por ga_. Por tanto los 
+predicados del punto anterior ser?n xy_es_progresion_ordenada etc, donde xy 
+ser?n las siglas del nombre que de Roberto a su archivo. Los nombres de los 
+predicados hechos anteriormente se cambiar?n tb a esta nueva notaci?n
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Wed Nov  3 12:28:20 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 03 Nov 2004 12:28:20 +0100
+Subject: [Genaro-somos-todos] Jaime
+Message-ID: <BAY14-F30WDO3hRDT6Z00011cdd@hotmail.com>
+
+Me he encontrado a Jaime por la facul y me ha dicho q Javi le hab?a mandado 
+un mensaje para quedar el lunes. pero q a lo mejor no puede pq hace puente, 
+as? q hay q ver q dia de la semana q viene entre el miercoles y el viernes 
+nos viene bien a todos. Yo tengo hueco jueves y viernes de 12 a 15:30 y 
+miercoles de 15 a 16. Bien pensado opino q es mejor resevar m?s de una hora 
+para hablar con Jaime
+Por cierto dice q Berlios no le acepta el password
+Hasta luegorl
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Wed Nov  3 14:57:27 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 03 Nov 2004 13:57:27 +0000
+Subject: [Genaro-somos-todos] reunión con jaime
+Message-ID: <BAY23-F27R9Odutox7n0000c7cc@hotmail.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041103/c665a335/attachment.html>
+
+From roberto_____666 at hotmail.com  Wed Nov  3 21:46:01 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 03 Nov 2004 20:46:01 +0000
+Subject: [Genaro-somos-todos] Cosas de prolog
+Message-ID: <BAY1-F38r5XsCj1d4vJ00001b7c@hotmail.com>
+
+Este correo va dedicado principalmente a Juan que, aunque todos le queremos, 
+le voy a cortar los pelos a la altura del cuello
+
+	Tengo ciertos problemas para entender muchas cosas del programa prolog de 
+generar acordes.
+	En primer lugar necesito que comentes un poco mas las funciones.
+	El programa de generar acordes no entiendo que se le pase el numero de 
+compases, seria mejor que se le pasara el numero de
+acordes y esos luego se repartiesen sobre los compases como nosotros 
+quisieramos (vale, es lo mismo pero quiero que quede claro,
+quizas me este ivanizando)
+	Necesito un predicado que genere la lista de acordes solo con su cifrado 
+para yo colocarles las notas como se merecen. No veo que haga falta
+de momento escribirlo en un archivo si no nos vamos a mover del entorno 
+prolog. Por cierto, en la matricula de un cifrado no entiendo muy bien
+que es un acorde de 6. Si eso se refiere a la primera inversion no encuentro 
+cual es la de sexta cuarta que representa la segunda inversion.
+	Hay un construcctor en la estructura de haskore que no le veo sentido si 
+vamos a tener separado los instrumentos, que es
+la constructora inst(I, M). Podriamos contar con ella y no usarla para nada 
+pero de esa forma la estructura de haskore no seria
+tan general como parece en su definicion.
+Me he mirado un poco el manual de sicstus y visto que si que se puede tener 
+objetos en prolog. Es un poco paja mental. Mas o
+menos habla de asociar los predicados a algun objeto. Tambien tiene algo de 
+herencia y delegacion (bonita palabra si entendiera realmente
+que significa). Si quereis me lo siguo mirando (el manual) aunque tambien 
+podemos evitarlo si tenemos un poco de cuidado al hacerlo.
+	Para eso os mando un poco del estandar de codigo de prolog basado un poco 
+en lo que hablamos el otro dia. Si quereis lo completo un
+poco mas y lo subo al ce uve ese.
+
+
+
+ESTANDAR DE CODIGO PARA PROLOG
+
+- Si un nombre de un predicado contiene varias palabras, estas estaran 
+juntas pero la primera letra de cada palabra estara en
+mayusculas excepto la primera
+- A todos los predicados de un archivo se les a?adira el nombre abreviado 
+del archivo seguido de un guion bajo
+y el nombre del predicado. Si la abreviatura se repite en varios archivos 
+usaremos un numero despues.
+Ej:
+	le_elementoAleatorio(....) :- ....
+	esta en el archivo lista_enlazada.pl
+
+	le2_buscar(...) :- ....
+	esta en el archivo laberinto_eclectico.pl
+
+	"elementoAleatorio" es el nombre del predicado (por lo menos el nombre 
+original) y "le" es el nombre del archivo .pl al que pertenece
+- Antes de cada predicado debe existir un comentario que especifique 
+vulgarmente que hace y cuales son los parametros de
+entrada y de salida o cuales pueden ser sus usos.
+- Antes de cada clausula (regla o hecho) puede haber o no un comentario 
+sobre ese caso en particular.
+- Al principio de cada archivo debe haber, en forma de comentario, una lista 
+de los predicados que se pretende exportar. Por supuesto, cuando
+se hace consult tenemos todos los predicados a disposicion pero deberiamos 
+usar solo aquellos que nos interese.
+
+- La especificacion de como es la "estructura de datos" representada en 
+forma de arbol de functores (constructoras) deberia estar disponible en
+un archivo a parte. Para el nombre me gusta lo de esFraccion(fraccion(N,D)) 
+pero eso lo dejo a vuestra opinion.
+
+
+
+
+En cuanto a lo de quedar con Jaime, yo el jueves a las 12 no puedo pero a la 
+13 si. Si me apurais un poco me podria saltar ERC pero prefiero que no. Pero 
+si no hay mas remedio me lo saltaria. Todo por Genaro!!!
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sat Nov  6 19:54:22 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 06 Nov 2004 19:54:22 +0100
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UmV1bmnzbiBjb24gSmFpbWU=?=
+Message-ID: <BAY14-F18BGTuAyHsjC0004490f@hotmail.com>
+
+Me encontr? a Jaime el jueves por la facul y me dijo q al final si q le 
+viene bien el lunes a las 12:00, as? q propongo usar al final ese d?a. 
+Propongo q vayamos confirmando y el ?ltimo en confirmar mande un mensaje a 
+Jaime diciendo q quedamos ese d?a...a no ser q a alguien no le mole ese dia
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Sat Nov  6 20:37:17 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 06 Nov 2004 20:37:17 +0100
+Subject: [Genaro-somos-todos] Respuesta a Roberto
+Message-ID: <BAY14-F24Ou7KDSpCW40001bee8@hotmail.com>
+
+>>En primer lugar necesito que comentes un poco mas las funciones.
+EL c?digo por ahora es provisional y hay mucho q mejorar y cambiar. Los 
+predicados est?n comentados s?lo en parte pq estaba esperando al estandar de 
+Doxygen,
+pq no me ha dado tiempo y pq este c?digo no ten?a porqu? verlo nadie por 
+ahora, de hecho para hacer tu trabajo de esta semana te basta con entender 
+es_progresion(P),
+que en mi opini?n se entiende ya bastante bien
+
+>>El programa de generar acordes no entiendo que se le pase el numero de 
+>>compases, seria mejor que se le pasara el numero de
+>>acordes y esos luego se repartiesen sobre los compases como nosotros 
+>>quisieramos
+Eso es buena idea pero no se me ha especificado, si quieres lo hablamos en 
+la reuni?n pero desde luego q no lo voy a tener para la semana que viene pq 
+no me da tiempo. Todo esto son versiones preliminares y para mi lo 
+importante no es el predicado genera_acordes(N, M) aniade_acordes, 
+quita_acordes y tal q son los dificiles de hacer
+
+>>Necesito un predicado que genere la lista de acordes solo con su cifrado 
+>>para yo colocarles las notas como se merecen. No veo que haga falta
+>>de momento escribirlo en un archivo si no nos vamos a mover del entorno 
+>>prolog.
+Tienes el predicado haz_progresion(N, M, Progresion) que precisamente genera 
+una progresion que es una lista de cifrados con duraci?n (figura) asociada, 
+q es lo q se especific? en el acta. Pon haz_progresion(3, 4, P), 
+es_progresion(P). en Sicstus y ver?s lo q sale. Lo de q genera_acordes(N, M) 
+escriba en un archivo es por motivos de depuraci?n y pq es en lo que 
+quedamos la semana pasada, no quedar? as?, esta claro
+
+>>Por cierto, en la matricula de un cifrado no entiendo muy bien
+>>que es un acorde de 6. Si eso se refiere a la primera inversion no 
+>>encuentro cual es la de sexta cuarta que representa la segunda inversion.
+Los cifrados son los que aparecen en mi manual de armonia, hay muchos m?s 
+pero he puesto esos pocos para empezar. Como pone en la tabla de mi manual 
+un acorde de 6 es una cuatr?ada de tercera menor y quinta justa en el que la 
+s?ptima se sustituye por la sexta mayor (s?ptima disminuida)
+
+>>Hay un construcctor en la estructura de haskore que no le veo sentido si 
+>>vamos a tener separado los instrumentos, que es
+>>a constructora inst(I, M). Podriamos contar con ella y no usarla para nada 
+>>pero de esa forma la estructura de haskore no seria
+>>tan general como parece en su definicion.
+Yo no me he inventado el Haskore, si quieres lo hablamos en la proxima 
+reuni?n
+
+>>Me he mirado un poco el manual de sicstus y visto que si que se puede 
+>>tener objetos en prolog. Es un poco paja mental. Mas o
+>>menos habla de asociar los predicados a algun objeto. Tambien tiene algo 
+>>de herencia y delegacion (bonita palabra si entendiera realmente
+>>que significa). Si quereis me lo siguo mirando (el manual) aunque tambien 
+>>podemos evitarlo si tenemos un poco de cuidado al hacerlo.
+Usar objetos en Prolog me parece una aberraci?n y una cutrez y no lo 
+considero necesario. Se puede hablar como todo y si votamos y vosotros dos 
+quereis los usaremos
+pero desde ahora os digo q yo prefiero no usar objetos con Prolog
+
+>>Para eso os mando un poco del estandar de codigo de prolog basado un poco 
+>>en lo que hablamos el otro dia. Si quereis lo completo un
+>>poco mas y lo subo al ce uve ese.
+Por mi wai, habia q hacerlo tarde o temprano, subelo al CVS, ok
+
+
+>>En tu representacion de las matriculas de los acordes he visto que te 
+>>falta los suspendidos. A lo mejor se te ha pasado, te lo digo solo por 
+>>eso.
+Como dije arriba faltan muchas cosas. Hay cientos de cifrados y s?lo he 
+puesto los b?sicos de mi manual
+
+>>? Por cierto os ha llegado un correo que mande a la lista de correo ? Es 
+>>que me sorprende porque puse muchas cosas y no me habeis contestado nadie.
+La lista me funciona perfectamente, simplemente he estado ocupado y tb se me 
+ha jodido el pc de sobremesa
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Nov  6 22:48:21 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 06 Nov 2004 21:48:21 +0000
+Subject: [Genaro-somos-todos] Quedada con Jaime
+Message-ID: <BAY1-F3BsuZ2K4xDh9v000271c0@hotmail.com>
+
+A mi me va bien quedar el Lunes a las 12:00 pero solo puedo quedarme hasta 
+la 13 porque quiero que la de criptografia me vea.
+Javi creo que no esta en madrid este finde pero como habiamos quedado el 
+lunes a las 12 en la reunion se lo podemos decir alli mismo.
+El paso de acordes a notas segun el sistema paralelo me ha dado un poco de 
+quebradero de cabeza y no se si lo puedo tener para el lunes. No lo he 
+probado mucho pero creo que funciona mal. El otro metodo no lo he empezado 
+todavia pero tengo un poco de idea de como va.
+Nos vemos el lunesa las 12 en la cafeteria o en el vestibulo.
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Sun Nov  7 17:35:30 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 07 Nov 2004 17:35:30 +0100
+Subject: [Genaro-somos-todos] RE Quedada con Jaime
+Message-ID: <BAY14-F23KYVpMmOlbc0004a87f@hotmail.com>
+
+Ok, el lunes a las 12:00 en la cafeta como siempre, aviso yo a Jaime
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Tue Nov  9 19:28:03 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 09 Nov 2004 19:28:03 +0100
+Subject: [Genaro-somos-todos] Javadoc
+Message-ID: <BAY14-F194z3r5vzfHs00069649@hotmail.com>
+
+No se puede usar la sintaxis de Javadoc en Prolog y en Haskell pq los 
+comentarios se indican de forma diferente y no compila poniendo /***/ por 
+ah?. A eso me refer?a con que hab?a q modificar alg?n fichero de 
+configuraci?n de Doxygen. Lo har?s, Javi?
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Tue Nov  9 19:45:34 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 09 Nov 2004 19:45:34 +0100
+Subject: [Genaro-somos-todos] Javadoc2
+Message-ID: <BAY14-F19blaLJPv00J00069a16@hotmail.com>
+
+Vale, en Prolog si q se puede usar la sintaxis Javadoc pero en Haskell no
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Tue Nov  9 20:11:11 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 09 Nov 2004 20:11:11 +0100
+Subject: [Genaro-somos-todos] modulos en prolog
+Message-ID: <BAY14-F2564kDn9cvKl00041386@hotmail.com>
+
+He cambiado los archivos q hice en Prolog para adaptarlos al sistema de 
+modulos. Solo he exportado cuatro cosas por archivo as? q si necesitais algo 
+de un archivo a?adidlo a su lista de "exportaciones" alegrementa. Podeis ver 
+la sintaxis para exportar e importar en mis archivos, es una parida
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Thu Nov 11 20:46:22 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 11 Nov 2004 20:46:22 +0100
+Subject: [Genaro-somos-todos] acta
+Message-ID: <BAY14-F28I0DEgAk4UJ000815d1@hotmail.com>
+
+solo recordaros q en la GC indicamos q el acta se enviar?a como muy tarde el 
+dia siguiente a la reuni?n, y ese dia fu? ayer. Si no el acta no vale para 
+nada...
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From gatchan00 at hotmail.com  Thu Nov 11 20:58:52 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Thu, 11 Nov 2004 19:58:52 +0000
+Subject: [Genaro-somos-todos] acta
+Message-ID: <BAY23-F9KrlVKvH9oil000500ab@hotmail.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041111/51a62fd0/attachment.html>
+
+From gatchan00 at hotmail.com  Fri Nov 12 13:26:57 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 12 Nov 2004 12:26:57 +0000
+Subject: [Genaro-somos-todos] acta reunión
+Message-ID: <BAY23-F8lhgnFZS4HIv00014ee6@hotmail.com>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041112/a3da39f1/attachment.html>
+
+From roberto_____666 at hotmail.com  Sat Nov 13 11:58:34 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 13 Nov 2004 10:58:34 +0000
+Subject: [Genaro-somos-todos] Cambio de la biblioteca fracciones
+Message-ID: <BAY1-F4s4KWiGtXsL1c00049875@hotmail.com>
+
+He cambiado un poquito la biblioteca del manejo de las fracciones. Si 
+alguien la usaba que se lo mire porque he cambiado un poco algun nombre.
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Sat Nov 13 12:09:13 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 13 Nov 2004 11:09:13 +0000
+Subject: [Genaro-somos-todos] Fracciones mil
+Message-ID: <BAY1-F30BzDrvnGq8E80002fedb@hotmail.com>
+
+Vale, ya he resuelto el error que cometi un email antes. He cambiado los 
+nombre yo y parece que todo va mega chachi. Miradlo vosotros por si me he 
+dejado algo.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Sun Nov 14 17:02:08 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 14 Nov 2004 16:02:08 +0000
+Subject: [Genaro-somos-todos] Triadas y cuatriadas
+Message-ID: <BAY1-F208vjqueolj8J00035283@hotmail.com>
+
+Respecto a lo que he tenido que hacer (ya de por si bastante raro) me ha 
+costado todavia mas al tener que distinguir entre triadas y cuatriadas ya 
+que, por ejemplo las triadas no tienen cuarta disposicion (claro esta). Se 
+me ha ocurrido que podriamos eliminar directamente las triadas de los 
+cifrados. En caso de que queramos una triada simplemente cogemos una 
+cuatriada y un patron ritmico que no ponga la cuarta nota. Es como una forma 
+de particularizar las triadas como un caso particular de las cuatriadas.
+Ademas he ejecutado muchas veces el haz_progresion y creo que no me ha 
+salido ninguna triada. SI no las vamos a tener me lo podiais haber dicho.
+En cuanto mi trabajo para esta semana esta casi acabao y funciona. Solo me 
+queda repasarlo un pelin, a?adir algun que otro comentario y eliminar las 
+escrituras por pantallas que he usado para depuracion.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sun Nov 14 17:30:30 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 14 Nov 2004 17:30:30 +0100
+Subject: [Genaro-somos-todos] fracciones y tal
+Message-ID: <BAY14-F31KufVma0osA0007fc8f@hotmail.com>
+
+Roberto, he visto lo que has cambiado en el codigo y b?sicamente lo que 
+haces es poner una letra m?s o menos a los predicados. Si tienes q hacer eso 
+para q te funcione sospecho q lo debes estar haciendo mal, me podr?as decir 
+cual era el problema q ten?as? Otra cosilla, a ver si puedes poner algo en 
+el comentario q se adjunta a los archivos cuando los subes al cvs (el bloc 
+de notas q te sale), ayuda bastante a saber lo q se va haciendo, como 
+documentacion y como ayuda al desarrolllo
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sun Nov 14 20:13:18 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 14 Nov 2004 19:13:18 +0000
+Subject: [Genaro-somos-todos] numNota
+Message-ID: <BAY1-F26LridnGiAw8H0004e21a@hotmail.com>
+
+Bien, me has pillado, sabia que al final alguien se daria cuenta. Lo poner 
+sumar en vez de suma es una parida mia o quizas deberia decir que la culpa 
+es de windows al tener ese corta-pega tan asesino.
+Como ves, es una chorrada, y ademas ya esta solucionado porque he a?adido 
+esa letra en tus archivo.
+Tengo una duda trascendentar. Por que hemos puesto a La el numero 0 y hemos 
+empezado a contar desde ahi cuando el Do el el comienzo de la octava?. Eso 
+me ha dado quebraderos de cabeza ya que para cambiar no solo es necesario 
+hacer un modulo 12. Ya lo tengo solucionado y se como operar con ello (son 
+dos cuentas).
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Tue Nov 16 00:08:27 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Tue, 16 Nov 2004 00:08:27 +0100
+Subject: [Genaro-somos-todos] numNota
+Message-ID: <BAY14-F22IYA5kcDj6Q000ba0c9@hotmail.com>
+
+Lo de poner como 0 el La es por convenio, Jaime lo hace as? y yo tb adopt? 
+ese convenio pq me daba igual. Hay no una raz?n sino una inspiraci?n??: que 
+un La son 440 Hz es un convenio, el convenio q sigue la orquesta sinf?nica 
+americana y los instrumentos modernos, en la orquesta europea el La cambia 
+un poquilli, creo q son 480 o algo as?. Pero lo q si q es costumbre es fijar 
+ese convenio diciendo la frecuencia del La, y como tb la guitarra espa?ola 
+se afina empezando por la cuerda del La, pues se crea esa identificaci?n
+Respecto a lo de sumar alturas, en grados_e_intervalos tienes 
+sumaSemitonos(Ae, N, As) ,alturaAbsoluta(Ae, Ne) y  alturaAbsAAltura(Ns, 
+As), pero me temo q no los habr?s usado , KK!!! XD
+
+>Tengo una duda trascendentar. Por que hemos puesto a La el numero 0 y hemos 
+>empezado a contar desde ahi cuando el Do el el comienzo de la octava?. Eso 
+>me ha dado quebraderos de cabeza ya que para cambiar no solo es necesario 
+>hacer un modulo 12. Ya lo tengo solucionado y se como operar con ello (son 
+>dos cuentas).
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Thu Nov 18 18:40:13 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 18 Nov 2004 17:40:13 +0000
+Subject: [Genaro-somos-todos] haskore
+Message-ID: <BAY1-F36591ACACEAF86E206C4B7D5C20@phx.gbl>
+
+Tengo un "peque?o" problema con el haskore. Me lo he bajado, lo cargo con 
+hugs y me sale un error muy raro. Veo el codigo de algunos archivos y lo que 
+aparece es ??Latex!! Si alguien me puede ayudar.
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Fri Nov 19 22:37:26 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 19 Nov 2004 21:37:26 +0000
+Subject: [Genaro-somos-todos] Reunio 16_11_2004
+Message-ID: <BAY1-F340CAA6541458D374A3A4DD5C30@phx.gbl>
+
+
+Juan:
+Terminar su tarea pendiente: generador de acordes y parseador en haskell.
+
+Javi:
+Aprender a usar los documentadores de Prolog y haskell
+Mandar un correo de Jeroen Fokker y decirle que hemos pasado su parser del 
+lenguaje funcional Gofer a Haskell
+Mandar un email a Paul Hudak para que nos de permiso sobre el uso de Haskore
+Hacer estandar de documentacion de Haskell y Prolog
+
+Roberto:
+Aprender a usar todas las funcionalidades de Haskores, centrandose en la 
+generacion del fichero MIDI
+Reordenar los archivos de prolog tematicamente
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Fri Nov 19 22:44:03 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 19 Nov 2004 21:44:03 +0000
+Subject: [Genaro-somos-todos] Haskore de nuevo
+Message-ID: <BAY1-F9406762C8D541BB19B8FAD5C30@phx.gbl>
+
+En primer lugar me teneis que perdonar por el retraso del acta. Todavia no 
+esta subida al CVS. Me acabo de instalar ADSL y pasara un poco hasta que lo 
+tenga todo a punto.
+Respecto a Haskore. El haskore es un modulo de Haskell que te persite 
+componer musica, tratarla, pasarla a MIDI, etc. El problema es que me he 
+bajado los fuentes de la pagina de haskell (www.haskell.org/haskore) y los 
+archivos no funcionan, no porque fueran de otro lenguaje funciona, sino 
+porque era el fuente de los pdf, es decir, latex. No se de donde lo ha 
+sacado Juan pero yo no lo encuentro y en el CVS no esta
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Sat Nov 20 18:42:43 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 20 Nov 2004 18:42:43 +0100
+Subject: [Genaro-somos-todos] problemas con haskore
+Message-ID: <BAY14-F342A9EBEE2DAE35904736BCEC40@phx.gbl>
+
+Vale, lo siento, esto te lo tenia q haber contado. El haskore se baja de 
+http://www.haskell.org/haskore/Haskore.zip, q por otra parte es el primer 
+sitio al que te lleva googlr. Al descomprimir el zip saldr?n varias 
+carpetas, la interesante es Src, ah? es donde est? la biblioteca propiamente 
+dicha. En Haskell hay dos tipos de archivos de fuente, los .hs que tienen la 
+sintaxis que nos han ense?ado en PF, y los .lhs. Los lhs s?lo se leen bien 
+si los abres con el wordpad por lo menos, est?n escritos en un lenguaje de 
+marcado similar a Latex y tienen el c?digo metido entre medias del texto, 
+para documentar as? el c?digo. Las lineas de c?digo ejecutable est?n 
+marcadas con "> " al principio de la linea.
+
+Hugs entiende tanto .hs como .lhs, probablemente tu problema es que en 
+Src/Bitops.lhs no reconoce la funci?n fromInt. Esto es debido a que el 
+estandar de haskell a?n no esta consolidado. Cambia la ?nica (creo) llamada 
+a fromInt por fromIntegral en el archivo Bitops.lhs y te funcionar?. Si esto 
+no sirve comentamelo a ver q puedo hacer
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sun Nov 21 16:35:12 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 21 Nov 2004 15:35:12 +0000
+Subject: [Genaro-somos-todos] Solucionado el haskore
+Message-ID: <BAY1-F22A0B51687A261FE204457D5C50@phx.gbl>
+
+Por fin, era eso lo unico que iba mal. Pues ha sido una pena porque si lo 
+hubiera sabido antes hubiera podido empollarmelo mucho mejor. Gracias.
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Nov 21 17:27:36 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 21 Nov 2004 17:27:36 +0100
+Subject: [Genaro-somos-todos] reunion con Jaime???
+Message-ID: <BAY14-F24EEDA44626DA721DD8093CEC50@phx.gbl>
+
+Esta semana nos toca reuni?n con Jaime?, pq entonces ser?a ma?ana. Responded 
+pronto pq habr?a q avisarle casi ya
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From gatchan00 at hotmail.com  Sun Nov 21 17:49:19 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 21 Nov 2004 16:49:19 +0000
+Subject: [Genaro-somos-todos] reunion con Jaime???
+In-Reply-To: <BAY14-F24EEDA44626DA721DD8093CEC50@phx.gbl>
+Message-ID: <BAY23-F1574798C19C0AEFCBF27E1B9C50@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041121/c29c9111/attachment.html>
+
+From bc24us at hotmail.com  Sun Nov 21 18:37:23 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 21 Nov 2004 18:37:23 +0100
+Subject: [Genaro-somos-todos] reunion con Jaime???
+In-Reply-To: <BAY23-F1574798C19C0AEFCBF27E1B9C50@phx.gbl>
+Message-ID: <BAY14-F36C7F4CE82F90F6D1BC0BECEC50@phx.gbl>
+
+Pues no se, como querais....por cierto, Genaro ya suena!!!!! Podeis oir sus 
+primeras composiciones en Documentos/genaro_music.zip. Se nota bastante a 
+partir de cual ajust? la octava...
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/
+-------------- next part --------------
+An embedded message was scrubbed...
+From: "Shishigami yamato" <gatchan00 at hotmail.com>
+Subject: RE: [Genaro-somos-todos] reunion con Jaime???
+Date: Sun, 21 Nov 2004 16:49:19 +0000
+Size: 3802
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041121/c8344661/attachment.mht>
+
+From gatchan00 at hotmail.com  Sun Nov 21 23:16:41 2004
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 21 Nov 2004 22:16:41 +0000
+Subject: [Genaro-somos-todos] reunion con Jaime???
+In-Reply-To: <BAY14-F36C7F4CE82F90F6D1BC0BECEC50@phx.gbl>
+Message-ID: <BAY23-F3879EA7603D5E70C5619C9B9C50@phx.gbl>
+
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20041121/73f5e001/attachment.html>
+
+From roberto_____666 at hotmail.com  Tue Nov 23 10:15:42 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 23 Nov 2004 09:15:42 +0000
+Subject: [Genaro-somos-todos] sonidos
+Message-ID: <BAY1-F3841BD1A2D309904D1C598D5C70@phx.gbl>
+
+Ahora que Genaro ya ha aporreado un poco el piano seria buena idea que 
+vayamos guardando algunas de sus canciones en una carpeta para ver como 
+evoluciona su aprendizaje.
+He pensado que podria ser de la siguiente forma:
+Creamos una carpeta nueva para los ejemplos
+Los archivos seran midis y tendran el siguiente nombre: testN_dd_mm_aa.mid 
+donde dd-mm-aa es la fecha en que se genero la cancion y N es el numero de 
+test, por si queremos subir varios en un mismo dia
+Adjunto a eso podriamos poner un archivo de texto con el mismo nombre pero 
+terminado en .txt con algunas notas sobre el archivo midi de mismo nombre. 
+Eso seria para poner un poco de informacion extra como los parametros con 
+los que se genero o cosas por el estilo.
+?Que os parece? Si os parece bien que Javi cree un nuevo modulo para 
+encerrarlos.
+
+_________________________________________________________________
+La informaci?n m?s fresca desde diferentes puntos de vista en la Revista de 
+Prensa de MSN. http://es.newsbot.msn.com/
+
+
+
+From roberto_____666 at hotmail.com  Tue Nov 23 11:33:42 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 23 Nov 2004 10:33:42 +0000
+Subject: [Genaro-somos-todos] haz_prog_semilla2
+Message-ID: <BAY1-F108DFC9034D198B88D358CD5C70@phx.gbl>
+
+Ya he hecho el haz_prog_semilla2 como se hable yo con Juan en la reunion con 
+Jaime en lunes 22-11-2004. Ahora solo queda probar las dos a ver cual suena 
+mejor, si por el metodo de Juan o por el mio (que es mucho mas aleatorio).
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Wed Nov 24 22:22:34 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 24 Nov 2004 22:22:34 +0100
+Subject: [Genaro-somos-todos] acta reunion_23_11_04
+Message-ID: <BAY14-F139E905166A90BFE278413CEB80@phx.gbl>
+
+Javivi, si no entiendes algo de mi oscura explicaci?n de como hacer lo q 
+hemos decidido q hagas mandame un mensaje raudo con tus dudas y yo 
+raudamente te responder?. Feliz navidad a todos, que dios os bendiga!!!
+
+ACTA REUNI?N
+
+
+Proyecto Genaro:		reunion_23_11_04
+Fecha de creaci?n		24/ 11/ 04
+Fecha de ?ltima actualizaci?n:	24/ 11/ 04
+Autores:				Juan Rodr?guez
+
+
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+
+?	Juan: Hecho el parser, ya se genera m?sica entre Haskell y Prolog, no 
+terminada la generaci?n de acordes ni la integraci?n con Java
+?	Roberto: todos los trabajos realizados
+?	Javi: todos los trabajos realizados
+
+
+3.- Nuevos trabajos.
+
+?	Javi:
+o	Subir el Haskore al cvs en Codigo/Haskell
+o	Hacer las llamadas a Haskell y Prolog desde java. Para ello estar?a bien 
+que a?adiera un bot?n al inetrfaz u opci?n de men? que abriera un di?logo 
+donde elegir los par?metros N (n?mero de compases) y M (n?mero de 
+mutaciones) de abajo
+
+&#61607;	Haskell: usando runhugs ejecutar la funci?n
+
+				progresionPrologAMidi2 ?C:/hlocal/prog.txt? ?C:/hlocal/prog.mid?
+
+			bas?ndose en el fichero main.hsx. Esta funci?n pertenece al 
+fichero/m?dulo PrologAMidi
+
+&#61607;	Prolog: usando el exe del int?rprete de Prolog llamar al objetivo 
+genera_acordes(N,M, paralelo). , del archivo generador_acordes.pl. Paralelo 
+no es un string y no lleva comillas ni nada
+
+		Todo esto se supone que se har?a con java ejecutandose en Codigo/Java y 
+los archivos de Haskell y Prolog en Codigo/Haskell y Codigo/Prolog 
+respectivamente. Se usar?n ficheros de configuraci?n para Java en los que se 
+indique la ruta de loas archivos de Prolog y Haskell empleados, as? como los 
+archivos temporales prog.txt y prog.mid. Tambi?n se me ocurri? que estar?a 
+bien q de paso llame a Timidity si hay alg?n midi generado, para que lo  
+pase a midi, pero eso no lo hablamos en la reuni?n, s?lo lo propongo ahora
+
+?	Roberto:
+
+o	Cambiar sus generadores de progresiones de acordes ordenados en Prolog 
+para que la salida cumpla el predicado es_progresion_ordenada especificado 
+en bilio_genaro_acordes
+o	Reestructurar los ficheros Prolog para que no haya dos predicados que 
+hagan lo mismo
+o	Comentar todo el codigo Prolog excepto generador_acordes.pl
+o	Estudiar la forma de hacer patrones r?tmicos en Haskell. Idea:
+&#61607;	type AcordeOrdenado = [Music] est? definido en PrologAHaskell
+&#61607;	type PatronRitmico = AcordeOrdenado -> Music
+&#61607;	type ProgresionOrdenada = [AcordeOrdenado]
+&#61607;	aplicar un patron r?tmico pat a una progresi?n ordenada prog es 
+hacer: line (map pat prog)
+?	Juan:
+
+o	Terminar la generaci?n de acordes
+o	Comentar el c?digo en Haskell y generador_acordes.pl
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Thu Nov 25 13:49:23 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 25 Nov 2004 12:49:23 +0000
+Subject: [Genaro-somos-todos] Codigo Haskell
+Message-ID: <BAY1-F15F9FBA0493BE991B5A0B1D5B90@phx.gbl>
+
+No entiendo muy bien el codigo Haskell en conjunto. Necesito que esten 
+comentadas las funciones y que se explique un poco lo que hacen. Tambien 
+necesito (aunque no se si esta ya) una funcion que parsee un String y lo 
+convierta en un tipo que tiene EXACTAMENTE el mismo formato que el 
+listaOrdenada. De esa forma puedo sacar directamente la figura del acorde y 
+su lista de notas.
+En cuanto al patron ritmico es necesario un data que guarde su estructura ya 
+que una caracteristica de Genaro es que el usuario pueda definir su patron 
+ritmico. Es por eso que tambien es necesario parsearlo desde un archivo.
+En cuanto a la generacion de cifrados he pensado que estamos trabajando 
+principalmente con ritmos binarios. Porque ?que pasaria con ritmos 
+ternarios? ?No deberia dividirse los acordes en tres en vez de en dos para 
+que l aparte fuerte del ritmo cayera sobre el primero y los otros dos sean 
+parte debiles?
+Tambien he pensado que la lista de acordes deveria tener la misma duracion 
+ya que queda mal efecto arpegiar un acorde que dura redonda y luego dos que 
+duran blanca. Es decir que en algun momento habria que dividir ciertos 
+acordes para que todos fueran iguales. Eso me lleva a pensar que podriamos 
+coger la figura mas peque?a de la progresion, lo que a su vez me lleva a 
+pensar que deberiamos tener una duracion para el acorde MINIMA. Esas ideas 
+ya las ire madurando mas adelante y las formalizare mas.
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Thu Nov 25 21:18:22 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 25 Nov 2004 21:18:22 +0100
+Subject: [Genaro-somos-todos] Re: Codigo Haskell
+Message-ID: <BAY14-F236E8DA69EAE7D07FB2711CEB90@phx.gbl>
+
+parserProgresionOrdenada :: Parser Char [AcordeOrdenado] es un parser que 
+dado un string devuelve una lista de parajas (string, [AcordeOrdenado]), 
+dado que type Parser symbol result  =  [symbol] -> [([symbol],result)]. 
+Llama mejor a hazProgresionOrdenada :: String -> [AcordeOrdenado]
+que te evita el case por si falla el parser y tienes lo q pedias. Ten en 
+cuenta q lo q hace es:
+"-- coge un String en el formato especificado en 
+biblio_genaro_acordes:es_lista_orden_acordes
+-- y devuelve la lista de acordes ordenados correspondiente, es decir, de 
+acordes con sus voces
+-- ya elegidas"
+  as? q reconoce cosas que cumplen 
+biblio_genaro_acordes:es_lista_orden_acordes, NO que cumplan
+biblio_genaro_acordes:es_progresion_ordenada
+
+Creo q es lo q me pides pero no lo se pq "el listaOrdenada" no es un tipo de 
+nuestro codigo q yo sepa, si no me especificas bien las cosas no te puedo 
+responder
+
+Respecto a comentar el c?digo es parte de mis tareas de la semana y como tal 
+la har?. pero no me mandes m?s trabajo a mitad de semana que el q se me ha 
+asignado pq no podr? hacerlo. En cuanto a tus ideas sobre generaci?n de 
+acordes esta claro q no es lo mismo generar para binario q para ternario, 
+pone al principio de genrador_acordes.pl q es para compas de 2 por 4, pero 
+todo el trabajo de golpe no lo voy a hacer claro. Lo q dices de coger la 
+m?nima duraci?n no lo entiendo pero mejor lo hablamos en la pr?xima reuni?n 
+q es m?s f?cil y para eso est?n. Nos vemos
+
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Codigo Haskell
+>Date: Thu, 25 Nov 2004 12:49:23 +0000
+>
+>No entiendo muy bien el codigo Haskell en conjunto. Necesito que esten 
+>comentadas las funciones y que se explique un poco lo que hacen. Tambien 
+>necesito (aunque no se si esta ya) una funcion que parsee un String y lo 
+>convierta en un tipo que tiene EXACTAMENTE el mismo formato que el 
+>listaOrdenada. De esa forma puedo sacar directamente la figura del acorde y 
+>su lista de notas.
+>En cuanto al patron ritmico es necesario un data que guarde su estructura 
+>ya que una caracteristica de Genaro es que el usuario pueda definir su 
+>patron ritmico. Es por eso que tambien es necesario parsearlo desde un 
+>archivo.
+>En cuanto a la generacion de cifrados he pensado que estamos trabajando 
+>principalmente con ritmos binarios. Porque ?que pasaria con ritmos 
+>ternarios? ?No deberia dividirse los acordes en tres en vez de en dos para 
+>que l aparte fuerte del ritmo cayera sobre el primero y los otros dos sean 
+>parte debiles?
+>Tambien he pensado que la lista de acordes deveria tener la misma duracion 
+>ya que queda mal efecto arpegiar un acorde que dura redonda y luego dos que 
+>duran blanca. Es decir que en algun momento habria que dividir ciertos 
+>acordes para que todos fueran iguales. Eso me lleva a pensar que podriamos 
+>coger la figura mas peque?a de la progresion, lo que a su vez me lleva a 
+>pensar que deberiamos tener una duracion para el acorde MINIMA. Esas ideas 
+>ya las ire madurando mas adelante y las formalizare mas.
+>
+>_________________________________________________________________
+>M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni 
+>te imaginas. http://www.msn.es/Subastas/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Sat Nov 27 12:58:06 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 27 Nov 2004 11:58:06 +0000
+Subject: [Genaro-somos-todos] Acordes Ordenados
+Message-ID: <BAY1-F195DCE69DF8D3FA7BF2A5ED5BB0@phx.gbl>
+
+No es por joder pero creo que el parser de acordes ordenadors hay que 
+retocarlo un poco. Lo que necesito para hacer los patrones ritmicos es una 
+especificacion igual a la que teniamos en prolog, es decir, una lista de 
+parejas cuya primera componente es una lista de alturas y la segunda la 
+duracion del acorde.
+Como creo que va a ser mucho trabajo para Juan lo dejamos para otra semana.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Nov 27 18:07:44 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 27 Nov 2004 18:07:44 +0100
+Subject: [Genaro-somos-todos] RE: Acordes Ordenados
+In-Reply-To: <BAY1-F195DCE69DF8D3FA7BF2A5ED5BB0@phx.gbl>
+Message-ID: <BAY14-F13599DE7154ECC79EDAE2FCEBB0@phx.gbl>
+
+Esa es tu opini?n, ya he dicho antes lo q yo pensaba q deb?a ser un patr?n 
+r?mico q es una funci?n de tipo AcordeOrdenado -> Music, ya lo discutiremos 
+en la reuni?n. Te repito q yo en una semana hago el trabajo q se me ha 
+asignado y nada m?s, no veo necesidad de mandar un mail para pedirme hacer 
+algo q ni siquiera se sabe si va a ser necesario ya q el formato de los 
+patrones r?tmicos todav?a no ha sido aprobado por todos
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Acordes Ordenados
+>Date: Sat, 27 Nov 2004 11:58:06 +0000
+>
+>No es por joder pero creo que el parser de acordes ordenadors hay que 
+>retocarlo un poco. Lo que necesito para hacer los patrones ritmicos es una 
+>especificacion igual a la que teniamos en prolog, es decir, una lista de 
+>parejas cuya primera componente es una lista de alturas y la segunda la 
+>duracion del acorde.
+>Como creo que va a ser mucho trabajo para Juan lo dejamos para otra semana.
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From roberto_____666 at hotmail.com  Sat Nov 27 19:16:11 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 27 Nov 2004 18:16:11 +0000
+Subject: [Genaro-somos-todos] Patrones
+Message-ID: <BAY1-F287302F8694A215DCB2613D5BB0@phx.gbl>
+
+Que ca?a, hecho algo de los patrones ritmicos y queda muy bien. De momento 
+es una version preliminar pero aun asi suena bastante bien.
+He hecho algunos ejemplos y os invito a que los escucheis. Solo teneis que 
+poner en hug >testWin95 musicaN donde N es el numero del ejemplo.
+Basicamente son dos acordes CMaj7 y G7 con varios patrones ritmicos.
+Por el codigo nos os comais la cabeza que es lo peor, ya lo mejorare
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Sat Nov 27 19:23:31 2004
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 27 Nov 2004 18:23:31 +0000
+Subject: [Genaro-somos-todos] Archivos midi
+Message-ID: <BAY1-F30B5C0061C39F7126C3343D5BB0@phx.gbl>
+
+Hay que hacer un nuevo modulo en el CVS para guardar los ejemplos mas 
+relevantes que queramos subir, de esa forma podemos ver como es la evolucion 
+de Genaro. Yo no se como hacerlo y si tengo permisos para hacerlo. Si 
+quereis lo haceis vosotros o si no lo hago yo pero me teneis que decir donde 
+debo mirar.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Nov 27 21:24:55 2004
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 27 Nov 2004 21:24:55 +0100
+Subject: [Genaro-somos-todos] crear modulos
+Message-ID: <BAY14-F302FCB1785D6D8A9662F21CEBB0@phx.gbl>
+
+Para crear un modulo haces bajarj usuario . y luego creas una carpeta en el 
+mismo nivel q Codigo, Documentos y tal, es decir, en el mismo directorio 
+donde has hecho bajarj. Luego haces addbinj usuario nombre_carpeta
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+

@@ -1,0 +1,129 @@
+From roberto_____666 at hotmail.com  Wed Feb 23 23:13:34 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 23 Feb 2005 22:13:34 +0000
+Subject: [Genaro-somos-todos] reunion 21-02-2005
+Message-ID: <BAY1-F350F490D1E9BB55640BBE5D5630@phx.gbl>
+
+Comenzamos el segundo cuatrimestre con las siguientes tareas.
+
+Javi:
+- Pasar la parte de codigo de Java que daba la posibilidad de llamar prolog 
+y a hug98 a C++
+- Hacer el interfaz definitivo. Es decir, el interfaz de la estructura de la 
+cancion
+- Mirar y, si es posible, implementar la parte de reproduccion de MIDIs y 
+Wav's en nuestro programa
+- Hacer que el Timidity funcione bajo windows e implementar la parte para 
+llamarlo desde nuestra aplicacion
+
+Roberto:
+- Implementar en Haskell la parte de patrones ritmicos usando el tipo 
+definitivo. Dicho tipo ya fue especificado en reuniones anteriores
+- Mirar la introduccion de verdadera aleatoriedad en la parte de traduccion 
+de cifrados a AcordesOrdenados. Dicha parte tambien quedo pendiente antes de 
+los examenes
+
+Juan:
+- Acabar el generador de acordes
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Thu Feb 24 21:41:50 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 24 Feb 2005 20:41:50 +0000
+Subject: [Genaro-somos-todos] Reunion con jaime
+Message-ID: <BAY1-F2211C21C5D156C07F6DDB4D5640@phx.gbl>
+
+Me ha contestado Jaime y me ha propuesto el miercoles a las 15:00. A mi me 
+viene genial porque a las 17:00 tengo clase de Ig, de hecho, creo que otra 
+hora no me vendria tan bien. Si alguno no podeis se puede dejar para otro 
+dia que no sea el lunes ni el martes porque a ?l le viene mal.
+?Que os parece, hijos mios?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Fri Feb 25 19:49:15 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 25 Feb 2005 18:49:15 +0000
+Subject: [Genaro-somos-todos] Confirmacion de la reunion con Jaime
+Message-ID: <BAY1-F20C5BE6314605663850210D5650@phx.gbl>
+
+Perfecto. A todos nos viene bien la reunion con jaime el miercoles a las 
+15:00. Entonces quedamos ese dia en el hall de informatica.
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at yahoo.com  Mon Feb 28 18:55:17 2005
+From: bc24us at yahoo.com (Juan Rodriguez)
+Date: Mon, 28 Feb 2005 09:55:17 -0800 (PST)
+Subject: [Genaro-somos-todos] Reunión 28-2-2005
+Message-ID: <20050228175517.33641.qmail@web50305.mail.yahoo.com>
+
+No hemos dicho hoy quien iba a hacer el acta pues la
+hago yo creo q hasta me tocaba
+
+1.evaluaci?n del trabajo
+-Juan no ha podido cumplir pq tenia Plg
+-Javi no ha podido cumplir pq tuvo problemas
+familiares
+-Rober ha cumplido
+
+2.trabajo de la semana
+-Juan termina el generador de acordes para antes de la
+reuni?n del mi?rcoles con Jaime
+-Javi termina su trabajo del interfaz para antes de la
+reuni?n del mi?rcoles con Jaime, usando Fmod (manuales
+en TGP) para reproducir sonidos
+-Rober hace para el lunes:
+     .un programa en C que dada la ruta de un midi
+genere un pdf o ps correspondiente a la partitura del
+midi uasndo Lilypond. Para usar lilypond en linus hay
+q usar cyqwin. Enlaces:
+
+http://www.lilypond.org/web/
+http://lilypond.org/web/download/windows.html
+
+    .si queda tiempo buscar alguna biblioteca o
+sistema para mostrar pdf o ps en interfaz de C++, pero
+si no lo logra tampoco hace falta que se dedique mucho
+a esto
+
+
+		
+__________________________________ 
+Do you Yahoo!? 
+Take Yahoo! Mail with you! Get it on your mobile phone. 
+http://mobile.yahoo.com/maildemo 
+
+
+From bc24us at hotmail.com  Mon Feb 28 18:41:38 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 28 Feb 2005 18:41:38 +0100
+Subject: [Genaro-somos-todos] como depurar en SWI
+Message-ID: <BAY103-F182A1A72A82FDCB9D140EDCE580@phx.gbl>
+
+Que lo sepais
+
+1.Iniciar el modo de depurador: ?- debug.
+2.Hacer una traza de un objetivo: ?- trace, objetivo.
+3.Salir del modo de depurador: ?- nodebug.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+

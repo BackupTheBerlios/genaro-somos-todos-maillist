@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] de Music a lilypond
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20de%20Music%20a%20lilypond&In-Reply-To=%3CBAY1-F42BADF6ECE53120FAC79BBD5420%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000184.html">
+   <LINK REL="Next"  HREF="000173.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] de Music a lilypond</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20de%20Music%20a%20lilypond&In-Reply-To=%3CBAY1-F42BADF6ECE53120FAC79BBD5420%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] de Music a lilypond">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Sat Mar 26 12:03:34 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000184.html">[Genaro-somos-todos] de Music a lilypond
+</A></li>
+        <LI>Next message: <A HREF="000173.html">[Genaro-somos-todos] problema con los archivos de texto DOS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#191">[ date ]</a>
+              <a href="thread.html#191">[ thread ]</a>
+              <a href="subject.html#191">[ subject ]</a>
+              <a href="author.html#191">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Si, te he entendido. Pero yo te digo que el asunto no es de las funciones 
+que he hecho. EL tipo Music es ambiguo respecto a bemoles y sostenidos, de 
+hecho existe el Cs y el Df como enumerados del tipo PitchClass. Si el tipo 
+music tiene un Cs yo pongo C sostenido y si es un Df yo pongo un D bemol. 
+Asi de simple. Ademas, si te fijas en la funcion &quot;pitch&quot; de Haskore, solo 
+usa sostenidos para hacer la conversion de Int a PitchClass y eso es 
+basicamente lo que uso yo cuando veo la constructora Trans.
+Una solucion muy facil seria hacer cambiar todos los sostenidos por su 
+equivalente en bemoles y viceversa. Me he fijado que las partituras que 
+tienen una armadura con sostenidos practicamente siempre ponen sostenidos en 
+notas alteradas dentro de la partitura y equivalente para los bemoles. Yo 
+creo que esta ultima solucion es la mejor.
+
+
+&gt;<i>From: Juan Rodriguez Hortal&#225; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">bc24us at hotmail.com</A>&gt;
+</I>&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i>Subject: RE: [Genaro-somos-todos] de Music a lilypond
+</I>&gt;<i>Date: Fri, 25 Mar 2005 00:47:57 +0100
+</I>&gt;<i>
+</I>&gt;<i>No me has entendido,lo que quiero decir no es que la partitura sea m&#225;s 
+</I>&gt;<i>bonita si no confunde sostenidos y bemoles, sino que una partitura que 
+</I>&gt;<i>confunde un Do # con un Re bemol es una partitura incorrecta. Eso no se 
+</I>&gt;<i>puede presentar a nadie con un poco de idea de teor&#237;a musical
+</I>&gt;<i>
+</I>&gt;&gt;<i>From: &quot;Roberto Torres&quot; &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">roberto_____666 at hotmail.com</A>&gt;
+</I>&gt;&gt;<i>To: <A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;&gt;<i>Subject: RE: [Genaro-somos-todos] de Music a lilypond
+</I>&gt;&gt;<i>Date: Thu, 24 Mar 2005 15:31:52 +0000
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>
+</I>&gt;&gt;&gt;<i>Me parece muy buena idea lo q estas haciendo y tal pero te advierto que 
+</I>&gt;&gt;&gt;<i>aunque para un inform&#225;tico como nosotros un Do# sea lo mismo que un Reb 
+</I>&gt;&gt;&gt;<i>para un m&#250;sico hacer esa identificaci&#243;n es una blasfemia, porque como 
+</I>&gt;&gt;&gt;<i>grados en una escala tienen funciones diferentes. Escribir uno por otro 
+</I>&gt;&gt;&gt;<i>en una partitura indicar&#237;a un cambio de tonalidad que confundir&#237;a al 
+</I>&gt;&gt;&gt;<i>int&#233;rprete. E incluso te digo que para los instrumentistas de afinaci&#243;n 
+</I>&gt;&gt;&gt;<i>justa, como los violinistas (un violin no tiene trastes ni teclas por lo 
+</I>&gt;&gt;&gt;<i>que el intervalo en que se puede afinar al pulsar una nota es continuo, 
+</I>&gt;&gt;&gt;<i>no discreto), un Do# no es el mismo sonido que un Reb, no pulsan en el 
+</I>&gt;&gt;&gt;<i>mismo lugar del m&#225;stil. Asi que lamento decirte que una partitura q 
+</I>&gt;&gt;&gt;<i>confunde sostenidos y bemoles es inaceptable, o si no preguntale a Jaime 
+</I>&gt;&gt;&gt;<i>y ya ver&#225;s lo que te responde
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i>Eso que me cuentas es muy bonito y a mi tambien me gustaria pero eso, ni 
+</I>&gt;&gt;<i>lo puedo hacer ni se podia hacer antes con el midi2ly aunque hicieras las 
+</I>&gt;&gt;<i>cosas bien. Te prometo que la partitura que sacaba era para cortarse las 
+</I>&gt;&gt;<i>venas.
+</I>&gt;&gt;<i>De todas formas el conversos a lilypond ya esta hecho, se encuentra en el 
+</I>&gt;&gt;<i>archivo haskoreALilypond.hs . La pega es que la salida, debido a que la 
+</I>&gt;&gt;<i>realiza casi directamente de un tipo Music va a ser un poco extra&#241;a, 
+</I>&gt;&gt;<i>aunque correcta.
+</I>&gt;&gt;<i>Os invito a que la probeis y me digais a ver si sale algun error. Solo 
+</I>&gt;&gt;<i>necesitais un tipo Music y algun que otro parametro que he puesto yo, pero 
+</I>&gt;&gt;<i>son muy simples.
+</I>&gt;&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>_________________________________________________________________
+</I>&gt;<i>Moda para esta temporada. Ponte al d&#237;a de todas las tendencias. 
+</I>&gt;<i><A HREF="http://www.msn.es/Mujer/moda/default.asp">http://www.msn.es/Mujer/moda/default.asp</A>
+</I>&gt;<i>
+</I>&gt;<i>_______________________________________________
+</I>&gt;<i>Genaro-somos-todos mailing list
+</I>&gt;<i><A HREF="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">Genaro-somos-todos at lists.berlios.de</A>
+</I>&gt;<i><A HREF="http://lists.berlios.de/mailman/listinfo/genaro-somos-todos">http://lists.berlios.de/mailman/listinfo/genaro-somos-todos</A>
+</I>
+_________________________________________________________________
+M&#243;viles, DVD, c&#225;maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. <A HREF="http://www.msn.es/Subastas/">http://www.msn.es/Subastas/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000184.html">[Genaro-somos-todos] de Music a lilypond
+</A></li>
+	<LI>Next message: <A HREF="000173.html">[Genaro-somos-todos] problema con los archivos de texto DOS
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#191">[ date ]</a>
+              <a href="thread.html#191">[ thread ]</a>
+              <a href="subject.html#191">[ subject ]</a>
+              <a href="author.html#191">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

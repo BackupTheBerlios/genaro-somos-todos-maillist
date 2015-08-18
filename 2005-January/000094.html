@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] parser de matrices de patrones ritmicos escrito por java (o C) terminado
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-January/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20parser%20de%20matrices%20de%20patrones%20ritmicos%20escrito%20por%20java%20%28o%20C%29%20terminado&In-Reply-To=%3CBAY103-F4354997EF765EC5001FA7CE940%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000093.html">
+   <LINK REL="Next"  HREF="000095.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] parser de matrices de patrones ritmicos escrito por java (o C) terminado</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20parser%20de%20matrices%20de%20patrones%20ritmicos%20escrito%20por%20java%20%28o%20C%29%20terminado&In-Reply-To=%3CBAY103-F4354997EF765EC5001FA7CE940%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] parser de matrices de patrones ritmicos escrito por java (o C) terminado">bc24us at hotmail.com
+       </A><BR>
+    <I>Fri Jan  7 19:11:29 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000093.html">[Genaro-somos-todos] formato del fichero java d patrones ritmicos
+</A></li>
+        <LI>Next message: <A HREF="000095.html">[Genaro-somos-todos] documentacion en Prolog
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#94">[ date ]</a>
+              <a href="thread.html#94">[ thread ]</a>
+              <a href="subject.html#94">[ subject ]</a>
+              <a href="author.html#94">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Pues eso, que ya esta en el cvs en el fichero JavaAHaskell.hs como 
+parserFichPatronRitmicoJava :: Parser Char FichPatronRitmicoJava. He tenido 
+que definir un data para expresar la variada informacion que viene en ese 
+fichero, es
+
+data FichPatronRitmicoJava = FPRJ Voces Cols Resolucion PatronHorizontal 
+PatronVertical
+	deriving(Show,Eq,Ord)
+type Voces = Int
+type Cols = Int
+type Resolucion = Dur
+
+Como las matrices no incorporan velocity todos los patrones horizontales son 
+iguales, ya que la resolucion de la matriz es homogenea (todas las columnas 
+son igual de anchas) , ya hablaremos mas adelante de ampliaciones.Espero 
+haber entendido lo del ritmo pq no estoy muy seguro. En 
+JavaAHaskell.pruebaParserFichPatronRitJava::String -&gt; IO() se ve como usar 
+el parser, tb tener en cuenta como siempre las funciones de Parsers.hs 
+aplicaParser :: (Parser Char a) -&gt; (String -&gt; a) y leeYParsea :: Parser Char 
+a -&gt; String -&gt; IO a
+
+Que lo disfruten!
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M&#225;s de medio mill&#243;n de 
+canciones. <A HREF="http://music.msn.es/">http://music.msn.es/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000093.html">[Genaro-somos-todos] formato del fichero java d patrones ritmicos
+</A></li>
+	<LI>Next message: <A HREF="000095.html">[Genaro-somos-todos] documentacion en Prolog
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#94">[ date ]</a>
+              <a href="thread.html#94">[ thread ]</a>
+              <a href="subject.html#94">[ subject ]</a>
+              <a href="author.html#94">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

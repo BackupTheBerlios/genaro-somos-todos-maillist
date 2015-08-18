@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] acta reunion_23_11_04
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20acta%20reunion_23_11_04&In-Reply-To=%3CBAY14-F139E905166A90BFE278413CEB80%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000038.html">
+   <LINK REL="Next"  HREF="000040.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] acta reunion_23_11_04</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20acta%20reunion_23_11_04&In-Reply-To=%3CBAY14-F139E905166A90BFE278413CEB80%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] acta reunion_23_11_04">bc24us at hotmail.com
+       </A><BR>
+    <I>Wed Nov 24 22:22:34 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000038.html">[Genaro-somos-todos] haz_prog_semilla2
+</A></li>
+        <LI>Next message: <A HREF="000040.html">[Genaro-somos-todos] Codigo Haskell
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#39">[ date ]</a>
+              <a href="thread.html#39">[ thread ]</a>
+              <a href="subject.html#39">[ subject ]</a>
+              <a href="author.html#39">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Javivi, si no entiendes algo de mi oscura explicaci&#243;n de como hacer lo q 
+hemos decidido q hagas mandame un mensaje raudo con tus dudas y yo 
+raudamente te responder&#233;. Feliz navidad a todos, que dios os bendiga!!!
+
+ACTA REUNI&#211;N
+
+
+Proyecto Genaro:		reunion_23_11_04
+Fecha de creaci&#243;n		24/ 11/ 04
+Fecha de &#250;ltima actualizaci&#243;n:	24/ 11/ 04
+Autores:				Juan Rodr&#237;guez
+
+
+
+&#205;NDICE
+
+1.- Asistentes.	2
+2.- Trabajos completados durante la semana.	2
+3.- Nuevos trabajos.	2
+
+1.- Asistentes.
+Javi, Roberto y Juan
+2.- Trabajos completados durante la semana.
+
+&#149;	Juan: Hecho el parser, ya se genera m&#250;sica entre Haskell y Prolog, no 
+terminada la generaci&#243;n de acordes ni la integraci&#243;n con Java
+&#149;	Roberto: todos los trabajos realizados
+&#149;	Javi: todos los trabajos realizados
+
+
+3.- Nuevos trabajos.
+
+&#149;	Javi:
+o	Subir el Haskore al cvs en Codigo/Haskell
+o	Hacer las llamadas a Haskell y Prolog desde java. Para ello estar&#237;a bien 
+que a&#241;adiera un bot&#243;n al inetrfaz u opci&#243;n de men&#250; que abriera un di&#225;logo 
+donde elegir los par&#225;metros N (n&#250;mero de compases) y M (n&#250;mero de 
+mutaciones) de abajo
+
+&#61607;	Haskell: usando runhugs ejecutar la funci&#243;n
+
+				progresionPrologAMidi2 &#147;C:/hlocal/prog.txt&#148; &#147;C:/hlocal/prog.mid&#148;
+
+			bas&#225;ndose en el fichero main.hsx. Esta funci&#243;n pertenece al 
+fichero/m&#243;dulo PrologAMidi
+
+&#61607;	Prolog: usando el exe del int&#233;rprete de Prolog llamar al objetivo 
+genera_acordes(N,M, paralelo). , del archivo generador_acordes.pl. Paralelo 
+no es un string y no lleva comillas ni nada
+
+		Todo esto se supone que se har&#237;a con java ejecutandose en Codigo/Java y 
+los archivos de Haskell y Prolog en Codigo/Haskell y Codigo/Prolog 
+respectivamente. Se usar&#225;n ficheros de configuraci&#243;n para Java en los que se 
+indique la ruta de loas archivos de Prolog y Haskell empleados, as&#237; como los 
+archivos temporales prog.txt y prog.mid. Tambi&#233;n se me ocurri&#243; que estar&#237;a 
+bien q de paso llame a Timidity si hay alg&#250;n midi generado, para que lo  
+pase a midi, pero eso no lo hablamos en la reuni&#243;n, s&#243;lo lo propongo ahora
+
+&#149;	Roberto:
+
+o	Cambiar sus generadores de progresiones de acordes ordenados en Prolog 
+para que la salida cumpla el predicado es_progresion_ordenada especificado 
+en bilio_genaro_acordes
+o	Reestructurar los ficheros Prolog para que no haya dos predicados que 
+hagan lo mismo
+o	Comentar todo el codigo Prolog excepto generador_acordes.pl
+o	Estudiar la forma de hacer patrones r&#237;tmicos en Haskell. Idea:
+&#61607;	type AcordeOrdenado = [Music] est&#225; definido en PrologAHaskell
+&#61607;	type PatronRitmico = AcordeOrdenado -&gt; Music
+&#61607;	type ProgresionOrdenada = [AcordeOrdenado]
+&#61607;	aplicar un patron r&#237;tmico pat a una progresi&#243;n ordenada prog es 
+hacer: line (map pat prog)
+&#149;	Juan:
+
+o	Terminar la generaci&#243;n de acordes
+o	Comentar el c&#243;digo en Haskell y generador_acordes.pl
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci&#243;n para tus hijos en internet. 
+Desc&#225;rgalo y pru&#233;balo 2 meses gratis. 
+<A HREF="http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil">http://join.msn.com?XAPID=1697&amp;DI=1055&amp;HL=Footer_mailsenviados_proteccioninfantil</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000038.html">[Genaro-somos-todos] haz_prog_semilla2
+</A></li>
+	<LI>Next message: <A HREF="000040.html">[Genaro-somos-todos] Codigo Haskell
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#39">[ date ]</a>
+              <a href="thread.html#39">[ thread ]</a>
+              <a href="subject.html#39">[ subject ]</a>
+              <a href="author.html#39">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

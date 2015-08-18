@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] Cosas de prolog
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2004-November/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Cosas%20de%20prolog&In-Reply-To=%3CBAY1-F38r5XsCj1d4vJ00001b7c%40hotmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000010.html">
+   <LINK REL="Next"  HREF="000012.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] Cosas de prolog</H1>
+    <B>Roberto Torres</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20Cosas%20de%20prolog&In-Reply-To=%3CBAY1-F38r5XsCj1d4vJ00001b7c%40hotmail.com%3E"
+       TITLE="[Genaro-somos-todos] Cosas de prolog">roberto_____666 at hotmail.com
+       </A><BR>
+    <I>Wed Nov  3 21:46:01 CET 2004</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000010.html">[Genaro-somos-todos] reuni&#243;n con jaime
+</A></li>
+        <LI>Next message: <A HREF="000012.html">[Genaro-somos-todos] Reuni&#243;n con Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#11">[ date ]</a>
+              <a href="thread.html#11">[ thread ]</a>
+              <a href="subject.html#11">[ subject ]</a>
+              <a href="author.html#11">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Este correo va dedicado principalmente a Juan que, aunque todos le queremos, 
+le voy a cortar los pelos a la altura del cuello
+
+	Tengo ciertos problemas para entender muchas cosas del programa prolog de 
+generar acordes.
+	En primer lugar necesito que comentes un poco mas las funciones.
+	El programa de generar acordes no entiendo que se le pase el numero de 
+compases, seria mejor que se le pasara el numero de
+acordes y esos luego se repartiesen sobre los compases como nosotros 
+quisieramos (vale, es lo mismo pero quiero que quede claro,
+quizas me este ivanizando)
+	Necesito un predicado que genere la lista de acordes solo con su cifrado 
+para yo colocarles las notas como se merecen. No veo que haga falta
+de momento escribirlo en un archivo si no nos vamos a mover del entorno 
+prolog. Por cierto, en la matricula de un cifrado no entiendo muy bien
+que es un acorde de 6. Si eso se refiere a la primera inversion no encuentro 
+cual es la de sexta cuarta que representa la segunda inversion.
+	Hay un construcctor en la estructura de haskore que no le veo sentido si 
+vamos a tener separado los instrumentos, que es
+la constructora inst(I, M). Podriamos contar con ella y no usarla para nada 
+pero de esa forma la estructura de haskore no seria
+tan general como parece en su definicion.
+Me he mirado un poco el manual de sicstus y visto que si que se puede tener 
+objetos en prolog. Es un poco paja mental. Mas o
+menos habla de asociar los predicados a algun objeto. Tambien tiene algo de 
+herencia y delegacion (bonita palabra si entendiera realmente
+que significa). Si quereis me lo siguo mirando (el manual) aunque tambien 
+podemos evitarlo si tenemos un poco de cuidado al hacerlo.
+	Para eso os mando un poco del estandar de codigo de prolog basado un poco 
+en lo que hablamos el otro dia. Si quereis lo completo un
+poco mas y lo subo al ce uve ese.
+
+
+
+ESTANDAR DE CODIGO PARA PROLOG
+
+- Si un nombre de un predicado contiene varias palabras, estas estaran 
+juntas pero la primera letra de cada palabra estara en
+mayusculas excepto la primera
+- A todos los predicados de un archivo se les a&#241;adira el nombre abreviado 
+del archivo seguido de un guion bajo
+y el nombre del predicado. Si la abreviatura se repite en varios archivos 
+usaremos un numero despues.
+Ej:
+	le_elementoAleatorio(....) :- ....
+	esta en el archivo lista_enlazada.pl
+
+	le2_buscar(...) :- ....
+	esta en el archivo laberinto_eclectico.pl
+
+	&quot;elementoAleatorio&quot; es el nombre del predicado (por lo menos el nombre 
+original) y &quot;le&quot; es el nombre del archivo .pl al que pertenece
+- Antes de cada predicado debe existir un comentario que especifique 
+vulgarmente que hace y cuales son los parametros de
+entrada y de salida o cuales pueden ser sus usos.
+- Antes de cada clausula (regla o hecho) puede haber o no un comentario 
+sobre ese caso en particular.
+- Al principio de cada archivo debe haber, en forma de comentario, una lista 
+de los predicados que se pretende exportar. Por supuesto, cuando
+se hace consult tenemos todos los predicados a disposicion pero deberiamos 
+usar solo aquellos que nos interese.
+
+- La especificacion de como es la &quot;estructura de datos&quot; representada en 
+forma de arbol de functores (constructoras) deberia estar disponible en
+un archivo a parte. Para el nombre me gusta lo de esFraccion(fraccion(N,D)) 
+pero eso lo dejo a vuestra opinion.
+
+
+
+
+En cuanto a lo de quedar con Jaime, yo el jueves a las 12 no puedo pero a la 
+13 si. Si me apurais un poco me podria saltar ERC pero prefiero que no. Pero 
+si no hay mas remedio me lo saltaria. Todo por Genaro!!!
+
+_________________________________________________________________
+&#191;Est&#225;s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. <A HREF="http://motor.msn.es/researchcentre/">http://motor.msn.es/researchcentre/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000010.html">[Genaro-somos-todos] reuni&#243;n con jaime
+</A></li>
+	<LI>Next message: <A HREF="000012.html">[Genaro-somos-todos] Reuni&#243;n con Jaime
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#11">[ date ]</a>
+              <a href="thread.html#11">[ thread ]</a>
+              <a href="subject.html#11">[ subject ]</a>
+              <a href="author.html#11">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

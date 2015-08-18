@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Genaro-somos-todos] exes en prolog
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/genaro-somos-todos/2005-March/index.html" >
+   <LINK REL="made" HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20exes%20en%20prolog&In-Reply-To=%3CBAY103-F1307E833D7B48896009A86CE540%40phx.gbl%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000151.html">
+   <LINK REL="Next"  HREF="000153.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Genaro-somos-todos] exes en prolog</H1>
+    <B>Juan Rodriguez Hortal&#225;</B> 
+    <A HREF="mailto:genaro-somos-todos%40lists.berlios.de?Subject=Re%3A%20%5BGenaro-somos-todos%5D%20exes%20en%20prolog&In-Reply-To=%3CBAY103-F1307E833D7B48896009A86CE540%40phx.gbl%3E"
+       TITLE="[Genaro-somos-todos] exes en prolog">bc24us at hotmail.com
+       </A><BR>
+    <I>Sat Mar 12 21:08:14 CET 2005</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000151.html">[Genaro-somos-todos] reunion con Jaime
+</A></li>
+        <LI>Next message: <A HREF="000153.html">[Genaro-somos-todos] pagina de genaro
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#152">[ date ]</a>
+              <a href="thread.html#152">[ thread ]</a>
+              <a href="subject.html#152">[ subject ]</a>
+              <a href="author.html#152">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Ya funcionan los exes stand-alone en Prolog con par&#225;metros por consola, un 
+extracto de principal.pl para que Javi sepa lo que tiene que hacer
+/**
+* mainArgumentos: este predicado esta pensado para ser compilado en un exe 
+siguiendo este
+* procedimiento:
+* -iniciar SWI-Prolog
+* -consultar solamente este modulo
+* -llamar al objetivo: 
+biblio_genaro_ES:haz_ejecutable('ruta_relativa/mainArgs.exe',principal:mainArgumentos)
+* Una vez construido el ejecutable mainArgs.exe su directorio de trabajo al 
+ejecutarlo ser&#225; el directorio
+* desde donde se le llame, asi que ser&#237;a recomendable situarlo en C:/hlocal 
+o el directorio que se use para
+* la comunicacion de archivos que corresponda. para que luego Haskell pueda 
+encontrar los archivos
+* Por consola esto se debe llamar sin poner &quot;-&quot; delante de los argumentos, 
+por ejemplo con ./mainArgs.exe 8 0
+*/
+mainArgumentos :- current_prolog_flag(argv, [_,NumCompases, NumMutaciones])
+       ,atom_number(NumCompases,NC),atom_number(NumMutaciones,NM)
+       ,generador_acordes_binario:genera_acordes(NC, NM, paralelo, 1)
+       ,halt(0).
+
+_________________________________________________________________
+M&#243;viles, DVD, c&#225;maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. <A HREF="http://www.msn.es/Subastas/">http://www.msn.es/Subastas/</A>
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000151.html">[Genaro-somos-todos] reunion con Jaime
+</A></li>
+	<LI>Next message: <A HREF="000153.html">[Genaro-somos-todos] pagina de genaro
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#152">[ date ]</a>
+              <a href="thread.html#152">[ thread ]</a>
+              <a href="subject.html#152">[ subject ]</a>
+              <a href="author.html#152">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/genaro-somos-todos">More information about the Genaro-somos-todos
+mailing list</a><br>
+</body></html>

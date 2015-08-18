@@ -1,0 +1,3263 @@
+From roberto_____666 at hotmail.com  Fri Apr  1 15:50:35 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 01 Apr 2005 13:50:35 +0000
+Subject: [Genaro-somos-todos] Respuesta de Jaime a sostenidos y bemoles
+Message-ID: <BAY1-F12F482A77FD3A0B17348B7D5380@phx.gbl>
+
+Jaime me ha respondido y me ha dicho que no hay un criterio fijo, que 
+depende de la intencion que se quiera dar o de como se ha llegado a esa 
+nota, si ha sido cambiado de escala o lo que sea. Como Genaro es una persona 
+muy sensata, aunque ignorante en todos los sentidos, lo voy a hacer como 
+propuse.
+Por cierto, la version del lilypond que uso para las partituras es la 2.4.3, 
+asi que si no os compila con la que teneis os recomendaria que os bajarais 
+esa.
+Se me olvido deciros otra cosa por la que midi2ly no iba bien, y es que 
+habia que cambiar el archivo .ly que escribia. El dejaba abierto una cosa 
+que se llamaba score:
+/score{
+<<
+>>
+}
+
+y dentro habia que poner algo asi como /trackA. Por lo menos es lo que tenia 
+que hacer yo.
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From roberto_____666 at hotmail.com  Fri Apr  1 15:54:03 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 01 Apr 2005 13:54:03 +0000
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?QXJtb25pemFjaW9uICgyqiBwYXJ0ZSk=?=
+Message-ID: <BAY1-F842938071BBE8E8D8D71ED5380@phx.gbl>
+
+Bueno, bueno, tengo otro problema, ?que pasa si alguna nota de la melodia 
+que se me pasa para armonizar no contiene notas de la escala (notas 
+diatonicas) ?
+Se supone que yo genero una progresion de acordes, pero ?esa progresion va a 
+ser modificada en algun momento? Seria buena idea que fuera pasada a Prolog 
+para que sirviese de semilla. ?Que os parece?
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Fri Apr  1 17:56:16 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Fri, 01 Apr 2005 15:56:16 +0000
+Subject: [Genaro-somos-todos] Pruebas
+Message-ID: <BAY1-F6C9E6BE817BA712500D2CD5380@phx.gbl>
+
+Opino que nuestra parte de pruebas la deberiamos hacer todos juntos (por 
+ejemplo, en el colegio de Javi) en unas cuantas reuniones. Tambien podiamos 
+dar alguna copia del proyecto a gente externa para que lo valoren como 
+usuarios. Vale, no soy original, pero ?que os parece?
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Fri Apr  1 17:58:25 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Fri, 01 Apr 2005 15:58:25 +0000
+Subject: [Genaro-somos-todos] Pruebas
+In-Reply-To: <BAY1-F6C9E6BE817BA712500D2CD5380@phx.gbl>
+Message-ID: <BAY23-F41EF9F6469B3494BF526A8B9380@phx.gbl>
+
+a mi me parece una idea acertada, para dar cierto retoques tal vez sea mejor 
+estar los 3 juntos una tarde de s?bado haciendo el ganso, digo yo XD
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Pruebas
+>Date: Fri, 01 Apr 2005 15:56:16 +0000
+>
+>Opino que nuestra parte de pruebas la deberiamos hacer todos juntos (por 
+>ejemplo, en el colegio de Javi) en unas cuantas reuniones. Tambien podiamos 
+>dar alguna copia del proyecto a gente externa para que lo valoren como 
+>usuarios. Vale, no soy original, pero ?que os parece?
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From bc24us at hotmail.com  Sat Apr  2 18:24:08 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 02 Apr 2005 18:24:08 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?UkU6IFtHZW5hcm8tc29tb3MtdG9kb3NdIEFybW9uaXphY2lvbiAoMqog?=
+ =?iso-8859-1?B?cGFydGUp?=
+In-Reply-To: <BAY1-F842938071BBE8E8D8D71ED5380@phx.gbl>
+Message-ID: <BAY103-F3779C90E70B60EFAF91B56CE390@phx.gbl>
+
+La cosa es q el usuario te da una melodia q el dice que est? en una escala 
+determinada, si el tio te miente y no le gusta el resultado es problema 
+suyo. Otra cosa es que puede haber notas no diat?nicas en una melod?a, pero 
+s?lo deber?an ser notas de paso. Si alguna nota principal no es diat?nica 
+intenta encontrar la funci?n que podr?a desempe?ar, para ello mira la 
+seccion XXV del libro de Herrera pag 81, acordes no diat?nicos. Si 
+encuentras un bVII asocialo a este acorde, otras notas no diat?nicas podr?an 
+corresponder a dominantes secundarios, iim7 relativos o disminuidos de paso. 
+Yo comprobar?a estas posibilidades
+
+Respecto a lo de mutar la progresi?n es una opci?n que yo dejar?a siempre 
+abierta, no solo para progresiones q vienen de armonizaci?n . Eso no ser?a 
+pasarlo a prolog como semilla, m?s bien habria que escribir la progresion 
+desde haskell en un archivo (tampoco es muy dificil esto), leerlo desde 
+prolog (tb sencillo pq parsea el solo) y aplicarle el predicado de mutacion 
+que quisiera el usuario. Luego volver a escribirlo, q lo lea haskell y q 
+haskell haga el midi (todo ya hecho). Eso lo dejar?a para la semana q viene. 
+Debido a q har?amos muchos accesos a prolog desde C voy a estudiar tb como 
+llamar a SWI desde C sin necesidad de compilar SWI, pq si no habr?a q hacer 
+tantos exes como tipos de llamadas a SWI, y ser?a muy engorroso y chapuzas
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Armonizacion (2? parte)
+>Date: Fri, 01 Apr 2005 13:54:03 +0000
+>
+>Bueno, bueno, tengo otro problema, ?que pasa si alguna nota de la melodia 
+>que se me pasa para armonizar no contiene notas de la escala (notas 
+>diatonicas) ?
+>Se supone que yo genero una progresion de acordes, pero ?esa progresion va 
+>a ser modificada en algun momento? Seria buena idea que fuera pasada a 
+>Prolog para que sirviese de semilla. ?Que os parece?
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Sat Apr  2 20:10:46 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 02 Apr 2005 20:10:46 +0200
+Subject: [Genaro-somos-todos] cambiados mains de haskell y prolog
+Message-ID: <BAY14-F24F108DAA7E52EB025082ACE390@phx.gbl>
+
+Ya estan cambiados los mains de haskell y prolog para que su primer 
+argumento sea el directorio de trabajo. Ejemplos de uso:
+
+D:\cvsrepo\Codigo\Haskell>runhugs.exe main.lhs d:/cvsrepo 
+PatronesRitmicos/vals.txt 4
+
+El directorio de trabajo es: d:/cvsrepo
+
+Procesando el archivo de progresion de acordes de Prolog: 
+d:/cvsrepo\progresion
+.txt
+
+Procesando el archivo de patron ritmico de C: PatronesRitmicos/vals.txt
+
+Generando el archivo midi: d:/cvsrepo\musica_genara.mid
+
+Generando el archivo de partitura lilypond: d:/cvsrepo\musica_genara.ly
+
+D:\cvsrepo\Codigo\Prolog>mainArgs.exe d:/cvsrepo 8 0
+
+ahora solo queda q javi cambie las llamadas q hace C
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sat Apr  2 21:04:51 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 02 Apr 2005 21:04:51 +0200
+Subject: [Genaro-somos-todos] funcion q hace midis por defecto para los patrones ritmicos
+Message-ID: <BAY103-F181933EBB54D1D036A7F4CCE390@phx.gbl>
+
+Ya est? en el CVS el fichero patRitCAMidi.lhs se?oraaaaaa!!!!!. En fin, esta 
+hecho para ser llamado con runhugs y se le pasa la ruta de un patron 
+ritmico, para que haskell cree un midi con el mismo nombre, en el mismo 
+directorio, pero de extensi?n .mid.
+-Ejemplo de uso:
+
+D:\cvsrepo\Codigo\Haskell>runhugs.exe patRitCAMidi.lhs 
+d:/cvsrepo/PatronesRitmicos/mazurka.txt
+
+Procesando el archivo de patron ritmico de C: 
+d:/cvsrepo/PatronesRitmicos/mazurka.txt
+
+Generando el archivo midi: d:/cvsrepo/PatronesRitmicos/mazurka.mid
+
+-Comentarios:
+
+Se llama pasando unicamente la ruta absoluta de un fichero de patron ritmico 
+de C y crea un fichero
+midi por defecto correspondiente a ese patron ritmico, de mismo nombre que 
+el fichero de patron ritmico
+pero con la extensi?n .mid
+
+>main :: IO()
+>main = do [ruta] <- getArgs
+>           fichPatRitAMidi ruta
+
+
+Dada la ruta donde se encuentra un fichero de patron ritmico de C, lo lee y 
+construye un elemento
+de tipo Music resultado de asociar a cada fila/voz del patron r?tmico 
+correspondiente una nota, empezando
+por asociar a la primera voz el Do y siguiendo construyendo la triada de Do 
+mayor, subiendo una octava con cada nota repetida.
+A este acorde se le aplica el patron r?tmico y se produce la musica, que 
+luego se pasa a midi y se escribe en un archivo con el
+mismo nombre que el de partida salvo que su extensi?n se cambia para que sea 
+.mid
+
+>fichPatRitAMidi :: String -> IO()
+>fichPatRitAMidi ruta = do putStr mensajeProcesandoPatronRit
+>                           ficheroPatron <- leePatronRitmicoC ruta
+>                           putStr mensajeGenerandoMidi
+>                           haskoreAMidi (fichPatRitAMusic ficheroPatron) 
+>rutaDestinoMidi
+>                           where rutaDestinoMidi = cambiaExtension "mid" 
+>ruta
+>                                 mensajeProcesandoPatronRit = "\n 
+>Procesando el archivo de patron ritmico de C: " ++ ruta ++ "\n"
+>                                 mensajeGenerandoMidi = "\n Generando el 
+>archivo midi: " ++ rutaDestinoMidi ++ "\n"
+
+
+Ahora solo falta poner un botoncillo en el editor de pianola y tirar millas
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sun Apr  3 16:36:24 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 03 Apr 2005 14:36:24 +0000
+Subject: [Genaro-somos-todos] Patrones ritmicos y ligados
+Message-ID: <BAY1-F96AD806F18F1CFFE8566FD53A0@phx.gbl>
+
+Se me olvido deciros que la ultima nota de una patron ritmicos puede estar 
+ligada o no INDEPENDIENTEMENTE de como sea la primera nota en esa misma voz.
+Eso es debido a que tiene que ver con las notas y no con las volces. Puede 
+que la primera voz de un patron ligue con la segunda voz del siguiente 
+porque son la misma nota.
+Eso va mas para ti, Javi, para que no hagas esa comprobacion en el editor de 
+pianola
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Sat Apr  2 18:35:51 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 02 Apr 2005 18:35:51 +0200
+Subject: [Genaro-somos-todos] conclusiones reunion con jaime 30-2-2005
+Message-ID: <BAY103-F6E348968F701E32EEC436CE390@phx.gbl>
+
+-Modificaciones del interfaz:
+.a?adir al editor de pianola un boton para elegir el numero de filas:solo se 
+mostraran ese numero de filas
+.editor de pianola: al cargar un patron solo se ver?n las filas usadas
+.editor de pianola: al crear el patron vacio con Nuevo poner 4 filas por 
+defecto
+.editor de pianola: a?adir una linea vertical a la derecha del patron 
+indicando cuando acaba. Las notas al final del patron (tocando con esa 
+linea) q tb est?n justo al principio se podr?n ligar (para el bucle del 
+patr?n) poni?ndolas de color verde. Al desplazar la linea vertical todas las 
+notas que eran verdes pasar?n a rojos, ya que entonces dejar?n de estar en 
+el extremo derecho
+
+- las reuniones semanales pasan a ser los martes a las 16:00
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Mon Apr  4 19:57:48 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Mon, 04 Apr 2005 17:57:48 +0000
+Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] Armonizacion (2ª parte)
+In-Reply-To: <BAY103-F3779C90E70B60EFAF91B56CE390@phx.gbl>
+Message-ID: <BAY23-F107955359CE534BA72CD3BB93B0@phx.gbl>
+
+respecto a lo que comentas de llamar a swi desde c se puede, el problema es 
+que hay que convertir la librer?a que viene al formato de c++ builder, hay 
+que buscar por internet la manera de hacerlo, me parece que hay un script en 
+perl (intentar? buscarlo) para convertir estas librerias .lib a las v?lidas 
+para el builder.
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] RE: [Genaro-somos-todos] Armonizacion (2? 
+>parte)
+>Date: Sat, 02 Apr 2005 18:24:08 +0200
+>
+>La cosa es q el usuario te da una melodia q el dice que est? en una escala 
+>determinada, si el tio te miente y no le gusta el resultado es problema 
+>suyo. Otra cosa es que puede haber notas no diat?nicas en una melod?a, pero 
+>s?lo deber?an ser notas de paso. Si alguna nota principal no es diat?nica 
+>intenta encontrar la funci?n que podr?a desempe?ar, para ello mira la 
+>seccion XXV del libro de Herrera pag 81, acordes no diat?nicos. Si 
+>encuentras un bVII asocialo a este acorde, otras notas no diat?nicas 
+>podr?an corresponder a dominantes secundarios, iim7 relativos o disminuidos 
+>de paso. Yo comprobar?a estas posibilidades
+>
+>Respecto a lo de mutar la progresi?n es una opci?n que yo dejar?a siempre 
+>abierta, no solo para progresiones q vienen de armonizaci?n . Eso no ser?a 
+>pasarlo a prolog como semilla, m?s bien habria que escribir la progresion 
+>desde haskell en un archivo (tampoco es muy dificil esto), leerlo desde 
+>prolog (tb sencillo pq parsea el solo) y aplicarle el predicado de mutacion 
+>que quisiera el usuario. Luego volver a escribirlo, q lo lea haskell y q 
+>haskell haga el midi (todo ya hecho). Eso lo dejar?a para la semana q 
+>viene. Debido a q har?amos muchos accesos a prolog desde C voy a estudiar 
+>tb como llamar a SWI desde C sin necesidad de compilar SWI, pq si no habr?a 
+>q hacer tantos exes como tipos de llamadas a SWI, y ser?a muy engorroso y 
+>chapuzas
+>
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] Armonizacion (2? parte)
+>>Date: Fri, 01 Apr 2005 13:54:03 +0000
+>>
+>>Bueno, bueno, tengo otro problema, ?que pasa si alguna nota de la melodia 
+>>que se me pasa para armonizar no contiene notas de la escala (notas 
+>>diatonicas) ?
+>>Se supone que yo genero una progresion de acordes, pero ?esa progresion va 
+>>a ser modificada en algun momento? Seria buena idea que fuera pasada a 
+>>Prolog para que sirviese de semilla. ?Que os parece?
+>>
+>>_________________________________________________________________
+>>Descarga gratis la Barra de Herramientas de MSN 
+>>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From bc24us at hotmail.com  Mon Apr  4 20:11:39 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Mon, 04 Apr 2005 20:11:39 +0200
+Subject: [Genaro-somos-todos] RE: mensaejs de Berlios
+In-Reply-To: <BAY103-F328ADEE02803E6B9AFA010CE3A0@phx.gbl>
+Message-ID: <BAY103-F36FF6D3EC7246D5BA3AAC2CE3B0@phx.gbl>
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: gatchan00 at hotmail.com, roberto_is2003 at yahoo.es, bc24us at hotmail.com
+>Subject: mensaejs de Berlios
+>Date: Sun, 03 Apr 2005 19:08:11 +0200
+>
+>Parece q Berlios vuelve a dar problemas con las listas de correo, a mi me 
+>ha mandado hotmail un mensaje por cada uno de los q mand? ayer diciendo q 
+>lleg? retrasado. A lo mejor es hotmail el del problema, de todas formas os 
+>mando todos los mails a vuestro mail para q no se retrase la cosa
+>
+>Hasta el martes!
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Armonizacion (1? parte)
+>Sent: s?bado, 02 de abril de 2005 18:07:37
+>La idea q tengo yo de como hacer la armonizacion es la del libro de enric 
+>herrera p?gina 46 y 52. Sacas las notas principales y luego para cada nota 
+>consideras que puede ser fundamental, tercera o quinta del acorde. S?lo 
+>estas tres opciones por nota, para n notas da 3 elevado a n posibilidades. 
+>Lo que tendr?as que devolver es un elemento de tipo Progresion, al que 
+>luego se le aplicaria un patron ritmico. Inferir un patron ritmico a partir 
+>del ritmo de la melodia estaria muy bien pero lo veo chunguisimo, lo que 
+>hace el Herrera es construir la lista de cifrados con su duracion
+>Respecto a tensiones y tal tu genera la lista de cuatriadas, pq a partir de 
+>ella puedes hacer las triadas o a?adir tensiones con gran facilidad. Eso lo 
+>elegir?a el usuario
+>
+>Estas son solo ideas q tengo, la decisi?n final es tuya
+>
+>	 	From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Armonizacion (1? parte)
+>Date: Thu, 31 Mar 2005 13:40:01 +0000
+>
+>Esta pregunta va para ti, Juan. Si, si, tu, no te hagas el loco. Se supone 
+>que de cada nota principal de la melodia busco un acorde que tenga en comun 
+>una nota con dicha nota principal de la melodia. Hasta ahi bien, pero:
+>? Que tipos de acordes cojo ? Puedo coger todos los que tenemos pero 
+>quedaria un poco raro que se armonizara con dominantes y cosas de esas 
+>raras. Creo que mejor lo hago con triadas y cuatriadas. Quizas lo deje como 
+>opcion las dos cosas aunque una sepamos que va a sonar muy mal.
+>? Tengo en cuenta las tensiones de los acordes ? Es decir, que si armonizo 
+>con acordes que tengan una nota en comun con la melodia en la fundamental o 
+>tercera o quinta o septica o tensiones. O simplemente no tengo en cuenta 
+>las tensiones. A mi me vendria mejor no usar las tensiones
+>? Tengo en cuenta el ritmo en las notas principales ? En el libro creo que 
+>viene que no pero no esta muy bien explicado
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Armonizacion (2? parte)
+>Sent: s?bado, 02 de abril de 2005 18:24:08
+>La cosa es q el usuario te da una melodia q el dice que est? en una escala 
+>determinada, si el tio te miente y no le gusta el resultado es problema 
+>suyo. Otra cosa es que puede haber notas no diat?nicas en una melod?a, pero 
+>s?lo deber?an ser notas de paso. Si alguna nota principal no es diat?nica 
+>intenta encontrar la funci?n que podr?a desempe?ar, para ello mira la 
+>seccion XXV del libro de Herrera pag 81, acordes no diat?nicos. Si 
+>encuentras un bVII asocialo a este acorde, otras notas no diat?nicas 
+>podr?an corresponder a dominantes secundarios, iim7 relativos o disminuidos 
+>de paso. Yo comprobar?a estas posibilidades
+>
+>Respecto a lo de mutar la progresi?n es una opci?n que yo dejar?a siempre 
+>abierta, no solo para progresiones q vienen de armonizaci?n . Eso no ser?a 
+>pasarlo a prolog como semilla, m?s bien habria que escribir la progresion 
+>desde haskell en un archivo (tampoco es muy dificil esto), leerlo desde 
+>prolog (tb sencillo pq parsea el solo) y aplicarle el predicado de mutacion 
+>que quisiera el usuario. Luego volver a escribirlo, q lo lea haskell y q 
+>haskell haga el midi (todo ya hecho). Eso lo dejar?a para la semana q 
+>viene. Debido a q har?amos muchos accesos a prolog desde C voy a estudiar 
+>tb como llamar a SWI desde C sin necesidad de compilar SWI, pq si no habr?a 
+>q hacer tantos exes como tipos de llamadas a SWI, y ser?a muy engorroso y 
+>chapuzas
+>
+>
+>	 	From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Armonizacion (2? parte)
+>Date: Fri, 01 Apr 2005 13:54:03 +0000
+>
+>Bueno, bueno, tengo otro problema, ?que pasa si alguna nota de la melodia 
+>que se me pasa para armonizar no contiene notas de la escala (notas 
+>diatonicas) ?
+>Se supone que yo genero una progresion de acordes, pero ?esa progresion va 
+>a ser modificada en algun momento? Seria buena idea que fuera pasada a 
+>Prolog para que sirviese de semilla. ?Que os parece?
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: conclusiones reunion con jaime 30-2-2005
+>Sent: s?bado, 02 de abril de 2005 18:35:51
+>-Modificaciones del interfaz:
+>.a?adir al editor de pianola un boton para elegir el numero de filas:solo 
+>se mostraran ese numero de filas
+>.editor de pianola: al cargar un patron solo se ver?n las filas usadas
+>.editor de pianola: al crear el patron vacio con Nuevo poner 4 filas por 
+>defecto
+>.editor de pianola: a?adir una linea vertical a la derecha del patron 
+>indicando cuando acaba. Las notas al final del patron (tocando con esa 
+>linea) q tb est?n justo al principio se podr?n ligar (para el bucle del 
+>patr?n) poni?ndolas de color verde. Al desplazar la linea vertical todas 
+>las notas que eran verdes pasar?n a rojos, ya que entonces dejar?n de estar 
+>en el extremo derecho
+>
+>- las reuniones semanales pasan a ser los martes a las 16:00
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: cambiados mains de haskell y prolog
+>Sent: s?bado, 02 de abril de 2005 20:10:46
+>Ya estan cambiados los mains de haskell y prolog para que su primer 
+>argumento sea el directorio de trabajo. Ejemplos de uso:
+>
+>D:\cvsrepo\Codigo\Haskell>runhugs.exe main.lhs d:/cvsrepo 
+>PatronesRitmicos/vals.txt 4
+>
+>El directorio de trabajo es: d:/cvsrepo
+>
+>Procesando el archivo de progresion de acordes de Prolog: 
+>d:/cvsrepo\progresion
+>.txt
+>
+>Procesando el archivo de patron ritmico de C: PatronesRitmicos/vals.txt
+>
+>Generando el archivo midi: d:/cvsrepo\musica_genara.mid
+>
+>Generando el archivo de partitura lilypond: d:/cvsrepo\musica_genara.ly
+>
+>D:\cvsrepo\Codigo\Prolog>mainArgs.exe d:/cvsrepo 8 0
+>
+>ahora solo queda q javi cambie las llamadas q hace C
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: funcion q hace midis por defecto para los patrones ritmicos
+>Sent: s?bado, 02 de abril de 2005 21:04:51
+>Ya est? en el CVS el fichero patRitCAMidi.lhs se?oraaaaaa!!!!!. En fin, 
+>esta hecho para ser llamado con runhugs y se le pasa la ruta de un patron 
+>ritmico, para que haskell cree un midi con el mismo nombre, en el mismo 
+>directorio, pero de extensi?n .mid.
+>-Ejemplo de uso:
+>
+>D:\cvsrepo\Codigo\Haskell>runhugs.exe patRitCAMidi.lhs 
+>d:/cvsrepo/PatronesRitmicos/mazurka.txt
+>
+>Procesando el archivo de patron ritmico de C: 
+>d:/cvsrepo/PatronesRitmicos/mazurka.txt
+>
+>Generando el archivo midi: d:/cvsrepo/PatronesRitmicos/mazurka.mid
+>
+>-Comentarios:
+>
+>Se llama pasando unicamente la ruta absoluta de un fichero de patron 
+>ritmico de C y crea un fichero
+>midi por defecto correspondiente a ese patron ritmico, de mismo nombre que 
+>el fichero de patron ritmico
+>pero con la extensi?n .mid
+>
+>	 	main :: IO()
+>main = do [ruta] <- getArgs
+>           fichPatRitAMidi ruta
+>
+>
+>Dada la ruta donde se encuentra un fichero de patron ritmico de C, lo lee y 
+>construye un elemento
+>de tipo Music resultado de asociar a cada fila/voz del patron r?tmico 
+>correspondiente una nota, empezando
+>por asociar a la primera voz el Do y siguiendo construyendo la triada de Do 
+>mayor, subiendo una octava con cada nota repetida.
+>A este acorde se le aplica el patron r?tmico y se produce la musica, que 
+>luego se pasa a midi y se escribe en un archivo con el
+>mismo nombre que el de partida salvo que su extensi?n se cambia para que 
+>sea .mid
+>
+>	 	fichPatRitAMidi :: String -> IO()
+>fichPatRitAMidi ruta = do putStr mensajeProcesandoPatronRit
+>                           ficheroPatron <- leePatronRitmicoC ruta
+>                           putStr mensajeGenerandoMidi
+>                           haskoreAMidi (fichPatRitAMusic ficheroPatron) 
+>rutaDestinoMidi
+>                           where rutaDestinoMidi = cambiaExtension "mid" 
+>ruta
+>                                 mensajeProcesandoPatronRit = "\n 
+>Procesando el archivo de patron ritmico de C: " ++ ruta ++ "\n"
+>                                 mensajeGenerandoMidi = "\n Generando el 
+>archivo midi: " ++ rutaDestinoMidi ++ "\n"
+>
+>
+>Ahora solo falta poner un botoncillo en el editor de pianola y tirar millas
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: + sobre midis de patrones ritmicos
+>Sent: s?bado, 02 de abril de 2005 21:06:37
+>Al reproducir un midi de un patron ritmico ser?a interesante poder elegir 
+>el tempo (opcion -t de timidity) y que la reproducci?n fuese en un bucle 
+>infinito (seguro q se puede hacer con timidity)
+>
+>
+>
+>
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Pruebas
+>Sent: s?bado, 02 de abril de 2005 18:25:01
+>Si,si, teneis toda la raz?n
+>
+>	 	From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Pruebas
+>Date: Fri, 01 Apr 2005 15:58:25 +0000
+>
+>a mi me parece una idea acertada, para dar cierto retoques tal vez sea 
+>mejor estar los 3 juntos una tarde de s?bado haciendo el ganso, digo yo XD
+>
+>	 	From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Pruebas
+>Date: Fri, 01 Apr 2005 15:56:16 +0000
+>
+>Opino que nuestra parte de pruebas la deberiamos hacer todos juntos (por 
+>ejemplo, en el colegio de Javi) en unas cuantas reuniones. Tambien podiamos 
+>dar alguna copia del proyecto a gente externa para que lo valoren como 
+>usuarios. Vale, no soy original, pero ?que os parece?
+>
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Tue Apr  5 10:45:15 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 05 Apr 2005 08:45:15 +0000
+Subject: [Genaro-somos-todos] Partituras pdf
+Message-ID: <BAY1-F27D96ACEC06C7C16DDBB22D53C0@phx.gbl>
+
+Os envio a cada uno este mensaje que me ha dicho berlios que no lo ha 
+enviado
+
+Tal y como tengo hecho el paso de traducir una lista de cifrados a un tipo 
+Music usando un patros ritmico meto muchos silencios por el medio. Eso es 
+correcto pero en la partitura aparece un monton de silencios que son 
+horribles. He intentado hacer una funcion que dado un tipo Music elimine los 
+silencios redundantes pero no he conseguido que sea muy buena.
+Tenedlo en cuenta.
+Os mando un ejemplo para que os deprimais
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Partitura.pdf
+Type: application/pdf
+Size: 14923 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/genaro-somos-todos/attachments/20050405/7588a940/attachment.pdf>
+
+From roberto_____666 at hotmail.com  Tue Apr  5 10:49:49 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 05 Apr 2005 08:49:49 +0000
+Subject: [Genaro-somos-todos] Retraso en los emails
+Message-ID: <BAY1-F216C677C58F61163645AD5D53C0@phx.gbl>
+
+Parece que los emails llegan un poco con retraso o directamente no se 
+difunden. De momento deberiamos mandar los mensajes a la lista de correo y 
+ademas a todos nosotros para asegurarnos de que llegan
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Tue Apr  5 11:00:25 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 05 Apr 2005 09:00:25 +0000
+Subject: [Genaro-somos-todos] lilypond
+Message-ID: <BAY1-F286EBF00D7DDDF3CE23525D53C0@phx.gbl>
+
+He visto que en lilypond tambien se puede poner la notacion de los acordes, 
+lo que nosotros llamamos progresion. Seria una buena idea ponerlo para 
+ayudar a que el usuario nos entienda (que yo creo que le va a costar).
+Tambien puede poner una partitura para bateria. Cosas como la clave de 
+bateria (los dos palitos) y las notas con cruces para los platillos. Esto, 
+si quereis que lo ponga, antes me teneis que explicar como Genaro va a tocar 
+la bateria, los intrumentos que vamos a tener, etc.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Tue Apr  5 12:01:32 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 05 Apr 2005 10:01:32 +0000
+Subject: [Genaro-somos-todos] Progresiones a pelo
+Message-ID: <BAY1-F3898C721C418098DF66CE7D53C0@phx.gbl>
+
+He pensado que cuando tengamos la posibilidad de que el usuario introduzca 
+sus propias secuencias de acordes seria facil meter lo de las cadencias.
+Una forma seria que el usuario metiera una progresion de dos compases (por 
+ejemplo) y escribiera V-I por ser cadencia conclusiva. Eso implicaria que el 
+pibe que lo usa tendria que saber algo de musica.
+Otra forma es que Javi tenga una lista de cadencias y el las meta a pelo.
+Otra, la que mas me gusta, es que el usuario pida un numero de compases. 
+Cuando lo abra (o lo se?ale o lo que sea) aparecera un menu desplegable con 
+secuencias de patrones tipo y entre ellos las cadencias. Tambien eso podria 
+ser la semilla de la progresion.
+
+Yo creo que si lo hacemos de esta tercera forma todo quedaria mas claro para 
+el usuario, no tendriamos que cambiar mucho codigo y ademas seria mas 
+general.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From gatchan00 at hotmail.com  Tue Apr  5 17:39:03 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Tue, 05 Apr 2005 15:39:03 +0000
+Subject: [Genaro-somos-todos] Usar prolog desde c, concretamente desde el builder
+Message-ID: <BAY23-F271917F3B326B2B48E6997B93C0@phx.gbl>
+
+ya enonctr? la soluci?n, viene en la p?gina 
+http://www.fftw.org/install/bcb-fftw3.html, y estaba posteado en la lista de 
+correo del swi-prolog. en esa p?gina te explican el porque de la 
+incompatibilidad de la libreria y c?mo solucionarlo. para ello te dan un 
+script en python que automatica la conversi?n de la libreria de visualc++ a 
+builder. el script es el siguiente:
+
+#!/usr/bin/env python
+# this program automates the introduction of aliases for function
+# names starting with a leading underscore for FFTW3 in a Windows
+# def-file
+
+import sys
+
+if (len(sys.argv) < 3):
+    raise "Usage: %s  " % sys.argv[0]
+
+lines = open(sys.argv[1], "r").readlines()
+
+outfile=open(sys.argv[2], "w")
+outfile.writelines(lines)
+exports=0
+for line in lines:
+    if (exports != 0):
+        fields = line.split()
+        if (len(fields)> 0):
+            outfile.write("    _%-30s = %s\r\n" % (fields[0], fields[0]))
+    if (line.find("EXPORTS")!=-1):
+        exports=1
+The script is called with the filenames for the old and new def-files as 
+arguments ("def_cdecl_borland.py rawfftw3.def fftw3.def"). The last step is 
+to create a "lib" file from the "def"-file: "implib fftw3.lib fftw3.def". 
+The resulting fftw3.lib can be added to the C++ Project in C++ Builder and 
+compiles.
+
+
+
+
+From bc24us at hotmail.com  Thu Apr  7 13:16:27 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 07 Apr 2005 13:16:27 +0200
+Subject: [Genaro-somos-todos] RE: Retraso en los emails
+In-Reply-To: <BAY1-F21C2A8ACC1E858419045A2D53C0@phx.gbl>
+Message-ID: <BAY103-F2444F7CE895CF3C402448ACE3E0@phx.gbl>
+
+Estoy de acuerdo, de hecho incluso lo a?adir?a a la GC como protocolo 
+habitual
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: bc24us at hotmail.com, gatchan00 at hotmail.com, 
+>genaro-somos-todos at lists.berlios.de
+>Subject: Retraso en los emails
+>Date: Tue, 05 Apr 2005 08:49:49 +0000
+>
+>Parece que los emails llegan un poco con retraso o directamente no se 
+>difunden. De momento deberiamos mandar los mensajes a la lista de correo y 
+>ademas a todos nosotros para asegurarnos de que llegan
+>
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Wed Apr 13 12:43:33 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 13 Apr 2005 12:43:33 +0200
+Subject: [Genaro-somos-todos] Propuesta de uso  de numeros aletaorios en Haskell
+Message-ID: <BAY103-F70E74D349E1416B46A890CE340@phx.gbl>
+
+La idea es usar un est?ndar para unificar el uso de numeros aleatorios en el 
+codigo de HASKELL. Se basa en:
+
+-En BiblioGenaro.hs se ha definido
+
+resolucionRandom :: Int
+resolucionRandom = 1000
+
+todos los numeros aleatorios se generar?n entre 1 y resolucionRandom . De 
+esta forma no tenemos numero bailando entre el codigo y podemos tener mas o 
+menos aleatoriedad cambiando un numero. Podemos suponer que cualquier numero 
+aleatorio/resolucionRandom pertenece a [0,1], y q multiplicado por otro 
+aplica un porcentaje
+
+- Los numeros aleatorios de los procesos pueden generarse con  aleat <- 
+listaInfNumsAleatoriosIO 1 resolucionRandom, que devuelve una lista infinita 
+de enteros aleatorios entre 1 y resolucionRandom. Si las funciones que usan 
+numeros aleatorios tienen de primer parametro una lista de enteros 
+aleatorios y devuelven una paraja formada por el elemento que se quiera (lo 
+que se quiere que devuelva la funcion) y los numeros aleatorios de la lista 
+que no se hayan usado, tenemos una manera facil de hacer el paso de numeros 
+aleatorios entre las funciones
+
+- Las funciones
+
+{-
+Dada una lista de parejas (termino, peso), donde los pesos son naturales, 
+devuelve en Elem un elemento
+(es decir, primer componente de una de las parejas que forman la lista de 
+entrada) elegido al azar entre
+de los de la lista asignando a cada elemento/pareja una probabilidad de ser 
+elegida igual a (peso/sumaPesos)
+, donde suma pesos es la suma de los pesos de todos los elementos de la 
+lista. Para ello se le debe suministrar un
+numero aleatorio entre 1 y resolucionRandom. Se devuelve el elemento elegido 
+y su posicion
+-dameElemAleatListaPesos aleat listaParejas
+-}
+dameElemAleatListaPesos :: Int -> [(a, Int)] -> (a, Int)
+
+y
+
+{-
+como dameElemAleatListaPesos pero con pesos de tipo Float
+-}
+dameElemAleatListaPesosFloat :: Int -> [(a, Float)] -> (a, Int)
+
+valen para eso y tienen su interes
+
+Espero tus opiniones Roberto
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From gatchan00 at hotmail.com  Thu Apr 14 01:00:53 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Wed, 13 Apr 2005 23:00:53 +0000
+Subject: [Genaro-somos-todos] Acta reunión 12-4-05
+In-Reply-To: <BAY103-F32BFAAD264E19723EA00F6CE3A0@phx.gbl>
+Message-ID: <BAY23-F38F5B05C30A3F7F070AC9EB9340@phx.gbl>
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Evaluaci?n del trabajo	2
+3.- Especificaciones.	2
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Evaluaci?n del trabajo
+-Juan:  Por terminar su trabajo, tiempo estimado 2 semanas
+
+-Javi: Por terminar su trabajo, tiempo estimado 1 semana
+
+-Rober: Por terminar su trabajo, tiempo estimado 1 semana
+
+3.- Especificaciones.
+
+	Bater?a: Estar? compuesta de 10 instrumentos, que son los siguientes
+		Bombo
+		Caja Fuerte
+		Caja Suave
+		Charles Pisado
+		Charles Abierto
+		Charles Cerrado
+		Timbal Agudo
+		Timbal Grave
+		1 Ride
+		1 Crash
+
+	Llamadas a Prolog para las progresiones:
+
+	Para hacer una progresi?n est?n los siguientes argumentos:
+
+	Directorio_Trabajo: Directorio de trabajo actual
+
+	Instrucci?n: existen 3, Crea_Progresi?n, Muta_Progresi?n
+
+	Ruta_Origen: Ruta de la progresi?n original
+
+	Ruta_Destino: Ruta destino de la progresi?n obtenida
+
+	N_Compases: N?mero de compases utilizados para la progresi?n a generar
+
+	MUTACIONES: existen 5 tipos de mutaciones,
+	  ?T1 n? Realiza n mutaciones de tipo 1, es decir, JUNTA ACORDES
+	  ?T2 n? Realiza n mutaciones de tipo 2, es decir, SEPARA ACORDES
+	  ?T3 n? Realiza n mutaciones de tipo 3, es decir, CAMBIA ACORDES
+	Estos 3 primeros acordes pueden ser agrupados en el tipo A, es decir ?TA n?
+	  ?TA n? Realiza n mutaciones de cualquiera de los 3 primeros tipos
+
+	  ?T4 n? Realiza n mutaciones de tipo 4, es decir, DOMINANTE SECUNDARIOS
+	  ?T5 n? Realiza n mutaciones de tipo 1, es decir, 2? MENOR S?PTIMA
+	Estos 2 ?ltimos acordes pueden ser agrupados en el tipo B, es decir ?TB n?
+	  ?TB n? Realiza n mutaciones de cualquiera de los 2 ?ltimos tipos
+
+	Y si no se quieren especificar el tipo de mutaciones se dir?a ?MT n? 
+realiza n mutaciones.
+	*Es obligatorio nombrar los 5 tipos de mutaciones si no se nombra ning?n 
+tipo que los agrupe, es decir, si decidimos
+	hacer T1 a T2 b TB c, deber?amos especificar T3 d, aunque ese d sea 0.
+
+
+
+	Instrucciones para las llamadas al mainArgs y ejemplos
+		Crea_Progresion: Crea una progresi?n. Ejemplos:
+	MainArgs Directorio_Trabajo Crea_Progresi?n Ruta_Destino N_Compases TA 3 TB 
+2
+	MainArgs Directorio_Trabajo Crea_Progresi?n Ruta_Destino N_Compases TA 3 T4 
+1 T5 1
+	MainArgs Directorio_Trabajo Crea_Progresi?n Ruta_Destino N_Compases T1 3 T2 
+2 T3 0 T4 0 T5 7
+	MainArgs Directorio_Trabajo Crea_Progresi?n Ruta_Destino N_Compases MT 12
+	MainArgs Directorio_Trabajo Crea_Progresi?n Ruta_Destino N_Compases T1 3 T2 
+2 T3 8 TB 2
+
+		Muta_Progresion: Muta una progresi?n ya existente.
+	MainArgs Directorio_Trabajo Muta_Progresi?n Ruta_Origen Ruta_Destino 
+N_Compases TA 3 TB 2
+
+		Muta_Progresion_Acorde: Muta la progresi?n en el acorde especificado
+	MainArgs Directorio_Trabajo Muta_Progresion_Acorde Ruta_Origen Ruta_Destino 
+N_Compases N_Acorde MT 33
+
+		Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+progresi?n origen
+	MainArgs Directorio_Trabajo Muta_Progresi?n_M?ltiple Ruta_Origen 
+Ruta_Destino N_Compases TA 3 TB 2
+
+
+
+
+From roberto_____666 at hotmail.com  Thu Apr 14 16:43:48 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Thu, 14 Apr 2005 14:43:48 +0000
+Subject: [Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+In-Reply-To: <BAY103-F70E74D349E1416B46A890CE340@phx.gbl>
+Message-ID: <BAY1-F19271C7AAB8C613AB168BBD5350@phx.gbl>
+
+Vale, intentare cambiar mi codigo para que se ajuste a esa definicion pero 
+sera algo secundario en la lista de tareas priorizadas, es decir, que lo 
+hare lo ultimo.
+
+
+>La idea es usar un est?ndar para unificar el uso de numeros aleatorios en 
+>el codigo de HASKELL. Se basa en:
+>
+>-En BiblioGenaro.hs se ha definido
+>
+>resolucionRandom :: Int
+>resolucionRandom = 1000
+>
+>todos los numeros aleatorios se generar?n entre 1 y resolucionRandom . De 
+>esta forma no tenemos numero bailando entre el codigo y podemos tener mas o 
+>menos aleatoriedad cambiando un numero. Podemos suponer que cualquier 
+>numero aleatorio/resolucionRandom pertenece a [0,1], y q multiplicado por 
+>otro aplica un porcentaje
+>
+>- Los numeros aleatorios de los procesos pueden generarse con  aleat <- 
+>listaInfNumsAleatoriosIO 1 resolucionRandom, que devuelve una lista 
+>infinita de enteros aleatorios entre 1 y resolucionRandom. Si las funciones 
+>que usan numeros aleatorios tienen de primer parametro una lista de enteros 
+>aleatorios y devuelven una paraja formada por el elemento que se quiera (lo 
+>que se quiere que devuelva la funcion) y los numeros aleatorios de la lista 
+>que no se hayan usado, tenemos una manera facil de hacer el paso de numeros 
+>aleatorios entre las funciones
+>
+>- Las funciones
+>
+>{-
+>Dada una lista de parejas (termino, peso), donde los pesos son naturales, 
+>devuelve en Elem un elemento
+>(es decir, primer componente de una de las parejas que forman la lista de 
+>entrada) elegido al azar entre
+>de los de la lista asignando a cada elemento/pareja una probabilidad de ser 
+>elegida igual a (peso/sumaPesos)
+>, donde suma pesos es la suma de los pesos de todos los elementos de la 
+>lista. Para ello se le debe suministrar un
+>numero aleatorio entre 1 y resolucionRandom. Se devuelve el elemento 
+>elegido y su posicion
+>-dameElemAleatListaPesos aleat listaParejas
+>-}
+>dameElemAleatListaPesos :: Int -> [(a, Int)] -> (a, Int)
+>
+>y
+>
+>{-
+>como dameElemAleatListaPesos pero con pesos de tipo Float
+>-}
+>dameElemAleatListaPesosFloat :: Int -> [(a, Float)] -> (a, Int)
+>
+>valen para eso y tienen su interes
+>
+>Espero tus opiniones Roberto
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Fri Apr 15 13:16:07 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Fri, 15 Apr 2005 13:16:07 +0200
+Subject: [Genaro-somos-todos] Propuesta de uso de numeros aletaorios en Haskell
+In-Reply-To: <BAY1-F19271C7AAB8C613AB168BBD5350@phx.gbl>
+Message-ID: <BAY103-F32448C83AB49BCAC135E06CE360@phx.gbl>
+
+No te molestes ni en cambiar el codigo, la sugerencia era hacerlo asi a 
+partir de ahora. Si al final del proyecto tenemos tiempo para revisar el 
+codigo ya lo cambiamos, pero me da la sensacion de q no nos va a sobrar el 
+tiempo
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Propuesta de uso de numeros aletaorios en 
+>Haskell
+>Date: Thu, 14 Apr 2005 14:43:48 +0000
+>
+>
+>Vale, intentare cambiar mi codigo para que se ajuste a esa definicion pero 
+>sera algo secundario en la lista de tareas priorizadas, es decir, que lo 
+>hare lo ultimo.
+>
+>
+>>La idea es usar un est?ndar para unificar el uso de numeros aleatorios en 
+>>el codigo de HASKELL. Se basa en:
+>>
+>>-En BiblioGenaro.hs se ha definido
+>>
+>>resolucionRandom :: Int
+>>resolucionRandom = 1000
+>>
+>>todos los numeros aleatorios se generar?n entre 1 y resolucionRandom . De 
+>>esta forma no tenemos numero bailando entre el codigo y podemos tener mas 
+>>o menos aleatoriedad cambiando un numero. Podemos suponer que cualquier 
+>>numero aleatorio/resolucionRandom pertenece a [0,1], y q multiplicado por 
+>>otro aplica un porcentaje
+>>
+>>- Los numeros aleatorios de los procesos pueden generarse con  aleat <- 
+>>listaInfNumsAleatoriosIO 1 resolucionRandom, que devuelve una lista 
+>>infinita de enteros aleatorios entre 1 y resolucionRandom. Si las 
+>>funciones que usan numeros aleatorios tienen de primer parametro una lista 
+>>de enteros aleatorios y devuelven una paraja formada por el elemento que 
+>>se quiera (lo que se quiere que devuelva la funcion) y los numeros 
+>>aleatorios de la lista que no se hayan usado, tenemos una manera facil de 
+>>hacer el paso de numeros aleatorios entre las funciones
+>>
+>>- Las funciones
+>>
+>>{-
+>>Dada una lista de parejas (termino, peso), donde los pesos son naturales, 
+>>devuelve en Elem un elemento
+>>(es decir, primer componente de una de las parejas que forman la lista de 
+>>entrada) elegido al azar entre
+>>de los de la lista asignando a cada elemento/pareja una probabilidad de 
+>>ser elegida igual a (peso/sumaPesos)
+>>, donde suma pesos es la suma de los pesos de todos los elementos de la 
+>>lista. Para ello se le debe suministrar un
+>>numero aleatorio entre 1 y resolucionRandom. Se devuelve el elemento 
+>>elegido y su posicion
+>>-dameElemAleatListaPesos aleat listaParejas
+>>-}
+>>dameElemAleatListaPesos :: Int -> [(a, Int)] -> (a, Int)
+>>
+>>y
+>>
+>>{-
+>>como dameElemAleatListaPesos pero con pesos de tipo Float
+>>-}
+>>dameElemAleatListaPesosFloat :: Int -> [(a, Float)] -> (a, Int)
+>>
+>>valen para eso y tienen su interes
+>>
+>>Espero tus opiniones Roberto
+>>
+>>_________________________________________________________________
+>>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>>Desc?rgalo y pru?balo 2 meses gratis. 
+>>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Wed Apr 20 22:05:35 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 20 Apr 2005 20:05:35 +0000
+Subject: [Genaro-somos-todos] reparto de voces
+Message-ID: <BAY1-F16283C4F0785987BE33F0ED52B0@phx.gbl>
+
+Tal y como esta ahora no se puede hacer un reparto de las notas que se 
+generan a partir de una progresion en diferentes instrumentos con 
+continuidad armonica.
+Se me ha ocurrido una forma pero es un poco gena ( -ro ). Para ello necesito 
+que se pueda especificar una semilla por el usuario. Una semilla simplemente 
+puede ser un entero. Ahora imaginemos que tenemos varios instrumentos con 
+una misma progresion. Si la semilla es la misma para todos y el numero de 
+notas tambien entonces las notas que sacarian serian las mismas. Ahora 
+tendriamos que aplicar un patron ritmico distinto a cada instrumento. Dicho 
+patron ritmico simplemente tendria que especificar la voz que va a ejecutar 
+ese instrumento.
+Por eso quiero que en interfaz haya dos opciones de aplicar semilla: una que 
+sea un cuadro de texto en el que se pueda escribir una semilla como un 
+entero; otra sea un entero aleatorio (una semilla aleatoria, cosa que en si 
+misma creo que es una contradiccion, pero bueno) y ya se encargara haskell 
+se buscar dicho entero, por ejemplo, con la hora actual del sistema.
+Creo que no parece mala idea y daria mucho juego, podriamos hacer un 
+quinteto de viento o cosas de esas.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Thu Apr 21 14:30:32 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Thu, 21 Apr 2005 14:30:32 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?QUNUQSBSRVVOSdNOIHJldW5p825fMTlfMDRfMDU=?=
+Message-ID: <BAY103-F134CB429953E72D463B728CE2C0@phx.gbl>
+
+ACTA REUNI?N
+
+
+Proyecto Genaro:		reuni?n_19_04_05
+Fecha de creaci?n		21/ 04/ 05
+Fecha de ?ltima actualizaci?n:	21/ 04/ 05
+Autores:				Juan Rodr?guez
+
+?NDICE
+
+1.- Asistentes.	2
+2.- Evaluaci?n del trabajo	2
+3.- Nuevos trabajos.	2
+4.- Otras decisiones.	2
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Evaluaci?n del trabajo
+-Juan:  en proceso como se esperaba
+
+-Javi: en proceso como se esperaba
+
+-Rober: en proceso como se esperaba
+
+3.- Nuevos trabajos.
+
+Se sigue con lo pendiente hasta terminarlo
+
+Roberto: Solamente si le sobra tiempo, a?adir a la generaci?n de cifrados de 
+Prolog los dominantes sustitutos primero, y luego los disminuidos, estos 
+?ltimos seg?n las opciones que presenta Enric Herrera en el segundo libro
+
+
+4.- Otras decisiones.
+
+?	En la informaci?n de un subbloque, se titulara ese cuadro con ?informaci?n 
+de subbloque?, y ?n?mero de compases? se sustituir? por ?n?mero de compases 
+de su bloque?
+?	Se quitar? la restricci?n que impide manipular un subbloque cuando su 
+pista esta silenciada
+?	Seleccionar una pista de acompa?amiento para una pista de melodia se har? 
+elegiendo en una lista desplegable con el nombre de las pistas
+?	Lo de cambiar el numero de compases de los bloques se deja para luego
+?	Se pondr? un dibujillo de fondo en las ventanas del interfaz a modo de 
+tema o skin para darle m?s vidilla a la cosa
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 13:03:20 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 11:03:20 +0000
+Subject: [Genaro-somos-todos] tipo semilla
+Message-ID: <BAY1-F24FBA9F216B2DEECC719BED52E0@phx.gbl>
+
+En este predicado de prolog
+haz_progresion(+N, +M, +TipoSemilla, -Progresion)
+que es TipoSemilla y que valor le pongo
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 13:42:35 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 11:42:35 +0000
+Subject: [Genaro-somos-todos] termina_haz_progresion/1
+Message-ID: <BAY1-F1188BC78BE542073815EEED52E0@phx.gbl>
+
+No entiendo muy bien que hacer el predicado termina_haz_progresion/1 de 
+fichero generador_acordes_binarios.pl
+Por lo visto el predicado haz_progresion/4 llama a termina_haz_progresion/1 
+y parece ser que escribe en un ficho la progresion. Creo que eso no deberia 
+ser asi, haz_progresion deberia generar la progresion y punto y luego que se 
+encargue otro predicado de escribirlo en fichero (como voy a hacer yo). Asi 
+que yo creo que ese predicado no lo puedo usar, o si s?, que me diga alguien 
+como
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 15:42:56 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 13:42:56 +0000
+Subject: [Genaro-somos-todos] las 7 diferencias
+Message-ID: <BAY1-F218F2E5A51C96F354D2E05D52E0@phx.gbl>
+
+Mirad el acta de la penultima reunion, que la escribio Javi, y veis la parte 
+en que se especifica el paso de parametros a prolog. ?Alguien me puede 
+explicar la diferencia entre Muta_progresion y Muta_progresion_multiple, si 
+es que la hay?
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 16:14:44 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 14:14:44 +0000
+Subject: [Genaro-somos-todos] Muta un acorde
+Message-ID: <BAY1-F29A4C6452BDA670697E194D52E0@phx.gbl>
+
+En la parte de pasar argumentos a prolog hay un caso en que se puede mutar 
+un acorde. No se si lo he entendido bien. Creo que dicho acorde se muta como 
+si ?l mismo fuera una progresion de un solo acorde. Dicho de otra forma, que 
+de esa progresion saco el acorde n-esimo y se lo paso al mutador como si 
+fuera un "tipo" progresion. Quien sabe, a lo mejor sale una tortuga ninja.
+?Es asi o no?
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 16:17:02 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 14:17:02 +0000
+Subject: [Genaro-somos-todos] Cosas pa Javi
+Message-ID: <BAY1-F13516434840530AD4C7849D52E0@phx.gbl>
+
+Como se que a Javi le da igual me gustaria que los argumentos que se le 
+pasan a prolog sean en minuscula. Me viene mejor a la hora de saber su 
+nombre por eso de que las cosas en mayuscusas son variables en prolog.
+Ademas el primer acorde de una progresion debe ser el acorde numero 1, y no 
+el 0.
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From gatchan00 at hotmail.com  Sat Apr 23 16:27:44 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 23 Apr 2005 14:27:44 +0000
+Subject: [Genaro-somos-todos] las 7 diferencias
+In-Reply-To: <BAY1-F218F2E5A51C96F354D2E05D52E0@phx.gbl>
+Message-ID: <BAY107-F16A0CE1326AC5A5513059BB92E0@phx.gbl>
+
+en el acta de reuni?n viene
+
+Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+progresi?n origen
+
+que b?sicamente significa que crea una progresi?n nueva, es decir, como 
+crea_progresi?n, s?lo que en este caso la semilla que se usa para crear esa 
+progresi?n se obtiene del fichero de "progresion_origen", es decir, la 
+semilla es la misma que la de progresi?n origen, nada m?s. ;)
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] las 7 diferencias
+>Date: Sat, 23 Apr 2005 13:42:56 +0000
+>
+>Mirad el acta de la penultima reunion, que la escribio Javi, y veis la 
+>parte en que se especifica el paso de parametros a prolog. ?Alguien me 
+>puede explicar la diferencia entre Muta_progresion y 
+>Muta_progresion_multiple, si es que la hay?
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From gatchan00 at hotmail.com  Sat Apr 23 16:30:10 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sat, 23 Apr 2005 14:30:10 +0000
+Subject: [Genaro-somos-todos] Cosas pa Javi
+In-Reply-To: <BAY1-F13516434840530AD4C7849D52E0@phx.gbl>
+Message-ID: <BAY107-F342186BAD624733B219A95B92E0@phx.gbl>
+
+no hay el mas m?nimo problema, esta tarde lo cambio :P
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Cosas pa Javi
+>Date: Sat, 23 Apr 2005 14:17:02 +0000
+>
+>Como se que a Javi le da igual me gustaria que los argumentos que se le 
+>pasan a prolog sean en minuscula. Me viene mejor a la hora de saber su 
+>nombre por eso de que las cosas en mayuscusas son variables en prolog.
+>Ademas el primer acorde de una progresion debe ser el acorde numero 1, y no 
+>el 0.
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 16:36:59 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 14:36:59 +0000
+Subject: [Genaro-somos-todos] num compases en muta progresion
+Message-ID: <BAY1-F30C9B6D5A3CC4247CC3138D52E0@phx.gbl>
+
+No tiene sentido el parametro numero de compases cuando mutacions una 
+progresion que nos pasan. Asi que habria que quitarlo de la especificacion. 
+Mejor que se haga mas adelante
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 23 18:38:17 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 23 Apr 2005 16:38:17 +0000
+Subject: [Genaro-somos-todos] Importante
+Message-ID: <BAY1-F127CCD627FDF7F4F0B46C5D52E0@phx.gbl>
+
+Los terminos que lee prolog de un archivo tiene que terminar en punto. Tened 
+cuidado porque cuando los escribe lo hace sin dicho punto.
+Asi que ya sabes Javi, cuando escribas una progresion en un archivo de texto 
+para que prolog lo lea pon un punto al final.
+Yo de hecho haria que cuando prolog escriba un termino ponga el punto al 
+final pero eso hay que hablarlo con Juan.
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Apr 23 20:49:49 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 23 Apr 2005 20:49:49 +0200
+Subject: [Genaro-somos-todos] tipo semilla
+In-Reply-To: <BAY1-F24FBA9F216B2DEECC719BED52E0@phx.gbl>
+Message-ID: <BAY103-F19A7782DD23755BECB3FF1CE2E0@phx.gbl>
+
+/**
+* haz_progresion(+N, +M, +TipoSemilla, -Progresion)
+* Genera una progresion de acordes en modo Jonico sin especificar la 
+tonalidad (como lista de grados asociados a un
+* cifrado americano), que empleando tecnicas de armonia moderna y de forma 
+pseudoaleatoria
+* @param +N natural que indica el numero exacto de compases que 
+durar&#65533; de la progresi&#65533;n
+* @param +M natural que indica el numero de mutaciones que se realizaran 
+para conseguir la progresion
+* @param +TipoSemilla si vale n entonces se utilizar&#65533; 
+haz_prog_semillan/2 para la generacion de la semilla, debe pertenecer al 
+conjunto
+* {1, 3} por ahora
+* @param -Progresion termino que hace cierto el predicado es_progresion con 
+el que se expresa la progresion de
+* acordes generada
+*/
+
+con TipoSemilla eliges el tipo de predicado de generacion de las semillas. 
+Leete los comentarios antes de preguntarme pq a lo mejor asi los dos ganamos 
+tiempo
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] tipo semilla
+>Date: Sat, 23 Apr 2005 11:03:20 +0000
+>
+>En este predicado de prolog
+>haz_progresion(+N, +M, +TipoSemilla, -Progresion)
+>que es TipoSemilla y que valor le pongo
+>
+>_________________________________________________________________
+>Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+>ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sat Apr 23 20:55:36 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 23 Apr 2005 20:55:36 +0200
+Subject: [Genaro-somos-todos] termina_haz_progresion/1
+In-Reply-To: <BAY1-F1188BC78BE542073815EEED52E0@phx.gbl>
+Message-ID: <BAY103-F2781579A54E7CB9542CEB0CE2E0@phx.gbl>
+
+No entiendo esta frase " Asi que yo creo que ese predicado no lo puedo usar, 
+o si s?, que me diga alguien como", de q predicado me estas hablando?. Mi 
+manera de entender haz_progresion/4 es este predicado genera una progresion  
+y la escribe. Si quieres separar estas dos cosas tu mismo, la progresion la 
+vas a tener q escribir en un fichero igual .  termina_haz_progresion/1 
+simplemente escribe los ficheros de texto resultado de la generacion, si lo 
+quieres hacer de otra manera me parece muy bien, pero q siga escribiendo los 
+dos ficheros,el resultado y el de depuracion
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] termina_haz_progresion/1
+>Date: Sat, 23 Apr 2005 11:42:35 +0000
+>
+>No entiendo muy bien que hacer el predicado termina_haz_progresion/1 de 
+>fichero generador_acordes_binarios.pl
+>Por lo visto el predicado haz_progresion/4 llama a termina_haz_progresion/1 
+>y parece ser que escribe en un ficho la progresion. Creo que eso no deberia 
+>ser asi, haz_progresion deberia generar la progresion y punto y luego que 
+>se encargue otro predicado de escribirlo en fichero (como voy a hacer yo). 
+>Asi que yo creo que ese predicado no lo puedo usar, o si s?, que me diga 
+>alguien como
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Dale rienda suelta a tu tiempo libre. Encuentra mil ideas para exprimir tu 
+ocio con MSN Entretenimiento. http://entretenimiento.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Apr 23 20:59:36 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 23 Apr 2005 20:59:36 +0200
+Subject: [Genaro-somos-todos] las 7 diferencias
+In-Reply-To: <BAY107-F16A0CE1326AC5A5513059BB92E0@phx.gbl>
+Message-ID: <BAY103-F28ADBD1130EA1FA356E974CE2E0@phx.gbl>
+
+Muta_progresion realiza una ?nica mutacion y Muta_Progresi?n_M?ltiple hace 
+tantas como se especifique. Los otros par?metros indican q mutacion/es se 
+hace/n y eligiendo entre q conjunto (q puede ser unitario) de mutaciones
+
+>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>Date: Sat, 23 Apr 2005 14:27:44 +0000
+>
+>en el acta de reuni?n viene
+>
+>Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+>progresi?n origen
+>
+>que b?sicamente significa que crea una progresi?n nueva, es decir, como 
+>crea_progresi?n, s?lo que en este caso la semilla que se usa para crear esa 
+>progresi?n se obtiene del fichero de "progresion_origen", es decir, la 
+>semilla es la misma que la de progresi?n origen, nada m?s. ;)
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] las 7 diferencias
+>>Date: Sat, 23 Apr 2005 13:42:56 +0000
+>>
+>>Mirad el acta de la penultima reunion, que la escribio Javi, y veis la 
+>>parte en que se especifica el paso de parametros a prolog. ?Alguien me 
+>>puede explicar la diferencia entre Muta_progresion y 
+>>Muta_progresion_multiple, si es que la hay?
+>>
+>>_________________________________________________________________
+>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sat Apr 23 21:06:38 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 23 Apr 2005 21:06:38 +0200
+Subject: [Genaro-somos-todos] Muta un acorde
+In-Reply-To: <BAY1-F29A4C6452BDA670697E194D52E0@phx.gbl>
+Message-ID: <BAY103-F9FE3C3083E7A3164F873BCE2E0@phx.gbl>
+
+Primero q este claro lo que hay que hacer, tienes q mutar un acorde concreto 
+de una progresion. Una progresion en el fondo es una lista, se te indica uno 
+de sus elementos (un acorde) y lo mutas. Si te fijas en los predicados de 
+mutacion de una progresion todos hacen en el fondo lo mismo, eligen un 
+elemento al azar de la lista, segun ciertos criterios (no todos los acordes 
+de una progresion pueden sufrir algunas mutaciones) y luego se sustituye ese 
+acorde por el resultado de aplicar una "funcion" a ese acorde, funcion que 
+da como resultado una lista de acordes. La implementacion hazla como 
+quieras, puedes coger los predicados que hay y separar la parte que elige el 
+acorde de la que hace la mutacion, o hacerlo como dices
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Muta un acorde
+>Date: Sat, 23 Apr 2005 14:14:44 +0000
+>
+>En la parte de pasar argumentos a prolog hay un caso en que se puede mutar 
+>un acorde. No se si lo he entendido bien. Creo que dicho acorde se muta 
+>como si ?l mismo fuera una progresion de un solo acorde. Dicho de otra 
+>forma, que de esa progresion saco el acorde n-esimo y se lo paso al mutador 
+>como si fuera un "tipo" progresion. Quien sabe, a lo mejor sale una tortuga 
+>ninja.
+>?Es asi o no?
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From roberto_____666 at hotmail.com  Sun Apr 24 16:20:07 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 24 Apr 2005 14:20:07 +0000
+Subject: [Genaro-somos-todos] las 7 diferencias
+In-Reply-To: <BAY103-F28ADBD1130EA1FA356E974CE2E0@phx.gbl>
+Message-ID: <BAY1-F84AA0FC906E00AEFF8C08D52F0@phx.gbl>
+
+No es eso lo que entiendo, o por lo menos entendi el dia que se hizo el 
+acta. Creo que la opcion "muta" realiza tantas mutaciones como se 
+especifique y la opcion "muta multiple" crea una progresion a partir de una 
+semilla dada. Es decir, que, a parte de mutarla todo lo que se pide, tambien 
+la estira para que ocupe los acordes especificados. Eso es lo que yo 
+entiendo y yo creo que hace el codigo de Prolog con las progresiones 
+semilla.
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>Date: Sat, 23 Apr 2005 20:59:36 +0200
+>
+>Muta_progresion realiza una ?nica mutacion y Muta_Progresi?n_M?ltiple hace 
+>tantas como se especifique. Los otros par?metros indican q mutacion/es se 
+>hace/n y eligiendo entre q conjunto (q puede ser unitario) de mutaciones
+>
+>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>Date: Sat, 23 Apr 2005 14:27:44 +0000
+>>
+>>en el acta de reuni?n viene
+>>
+>>Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+>>progresi?n origen
+>>
+>>que b?sicamente significa que crea una progresi?n nueva, es decir, como 
+>>crea_progresi?n, s?lo que en este caso la semilla que se usa para crear 
+>>esa progresi?n se obtiene del fichero de "progresion_origen", es decir, la 
+>>semilla es la misma que la de progresi?n origen, nada m?s. ;)
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] las 7 diferencias
+>>>Date: Sat, 23 Apr 2005 13:42:56 +0000
+>>>
+>>>Mirad el acta de la penultima reunion, que la escribio Javi, y veis la 
+>>>parte en que se especifica el paso de parametros a prolog. ?Alguien me 
+>>>puede explicar la diferencia entre Muta_progresion y 
+>>>Muta_progresion_multiple, si es que la hay?
+>>>
+>>>_________________________________________________________________
+>>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Sun Apr 24 16:37:54 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 24 Apr 2005 14:37:54 +0000
+Subject: [Genaro-somos-todos] ATENCION
+Message-ID: <BAY1-F387CA0D702AD40186C821D52F0@phx.gbl>
+
+En el codigo que he hecho de prolog me salen muchos errores muy raros que no 
+se como solucionar. Subo lo que he hecho por si alguien me puede ayudar pero 
+no funciona. Que nadie se preocupe que guardo una copia de seguridad en mi 
+ordenador. Ademas, para sacar el anterior codigo simplemente hay que borrar 
+el que he hecho yo.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 16:39:20 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 16:39:20 +0200
+Subject: [Genaro-somos-todos] FW: Primera advertencia: tu grupo musica_aleatoria_fdi va a ser eliminado
+Message-ID: <BAY103-F11987F5296F29F6D273177CE2F0@phx.gbl>
+
+Otra vez los de hotmail nos quieren quitar este grupo q no tiene sentido. Yo 
+voto por dejar q desaparezca. Por cierto Javi, has colgado en Berlios la 
+cutre-p?gina web q te mande ?
+
+
+>From: "MSN Grupos" <notifications at groups.msn.com>
+>To: "Administradores de musica_aleatoria_fdi" 
+><musicaaleatoriafdi at groups.msn.com>
+>Subject: Primera advertencia: tu grupo musica_aleatoria_fdi va a ser 
+>eliminado
+>Date: Sat, 23 Apr 2005 07:34:02 -0700
+>
+>
+>-----------------------------------------------------------
+>
+>       MSN Grupos
+>
+>-----------------------------------------------------------
+>
+>Querido/a usuario/a de MSN Grupos,
+>
+>Tu grupo de MSN, musica_aleatoria_fdi, no ha tenido ninguna actividad en 
+>los ?ltimos 90 d?as. Para comodidad de nuestros usuarios registrados, 
+>peri?dicamente eliminamos grupos que han quedado inactivos. Esperamos que 
+>regreses a nosotros ?Todav?a no es demasiado tarde!
+>http://groups.msn.com/musicaaleatoriafdi
+>
+>Si tu grupo contin?a inactivo durante los pr?ximos 14 d?as, procederemos a 
+>eliminarlo.
+>Si deseas mantener tu grupo, no tienes m?s que hacer clic en el v?nculo que 
+>ver?s abajo y seguir las instrucciones de la p?gina Web.
+>Mantener mi grupo
+>http://groups.msn.com/musicaaleatoriafdi/_activate.msnw
+>
+>
+>Esperando que tu grupo vuelva a activarse cuanto antes,
+>
+>
+>MSN Grupos
+>http://groups.msn.com
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Sun Apr 24 16:39:43 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sun, 24 Apr 2005 14:39:43 +0000
+Subject: [Genaro-somos-todos] mutaciones multiples
+Message-ID: <BAY1-F226296AE3C6FE9D571BF24D52F0@phx.gbl>
+
+El caso de las mutaciones multiples, si es que lo he entendido bien, no lo 
+se hacer porque no entiendo como trata Juan a las progresiones semilla para 
+que se ajusten al numero de compases dado. Asi que si alguien me lo puede 
+explica puesr chachi.
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:02:29 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:02:29 +0200
+Subject: [Genaro-somos-todos] Importante
+In-Reply-To: <BAY1-F127CCD627FDF7F4F0B46C5D52E0@phx.gbl>
+Message-ID: <BAY103-F4BD3D2BE7430A86EAE01FCE2F0@phx.gbl>
+
+Estoy de acuerdo contigo Roberto, no sabia lo del punto pero si hay que 
+ponerlo deber?a ponerlo Prolog. C tb escribir? archivos de progresion cuando 
+el usuario la meta a huevo pero prefiero separar lo m?s posible los 
+lenguajes y me parecer?a un mal rollo que cada vez q prolog escriba una 
+progresion este C por ah?. La movida es q habr? q cambiar el parser de 
+progresiones de haskell. En PrologAHaskell.hs, cambia
+
+{-
+Parser de strings en el formato de es_progesion de Prolog a elementos de 
+tipo Progresion
+-}
+parserProgresion :: Parser Char Progresion
+parserProgresion = (token "progresion") *> 
+parenthesized(bracketed(commaList(parCifDur))) . quitaEspacios
+		where parCifDur = parenthesized ((parserCifrado <* coma) <*> figura)
+
+
+por
+
+parserProgresion = parserTotal . quitaEspacios
+		where parCifDur = parenthesized ((parserCifrado <* coma) <*> figura)
+                      comeProgresion = (token "progresion") *> 
+parenthesized(bracketed(commaList(parCifDur)))
+                      parserTotal = comeProgresion <* (token ".")
+
+
+supongo q funcionar?. NO LO HE CAMBIADO EN EL CODIGO, espero que lo hagas tu 
+cuando Prolog empiece a escribir puntos. Si no funciona o lo q sea avisame
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Importante
+>Date: Sat, 23 Apr 2005 16:38:17 +0000
+>
+>Los terminos que lee prolog de un archivo tiene que terminar en punto. 
+>Tened cuidado porque cuando los escribe lo hace sin dicho punto.
+>Asi que ya sabes Javi, cuando escribas una progresion en un archivo de 
+>texto para que prolog lo lea pon un punto al final.
+>Yo de hecho haria que cuando prolog escriba un termino ponga el punto al 
+>final pero eso hay que hablarlo con Juan.
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:06:49 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:06:49 +0200
+Subject: [Genaro-somos-todos] las 7 diferencias
+In-Reply-To: <BAY1-F84AA0FC906E00AEFF8C08D52F0@phx.gbl>
+Message-ID: <BAY103-F39BD1D9CAC1BDA7DB17EDDCE2F0@phx.gbl>
+
+Pues los predicados debe?an hacer lo que nosotros queramos. Me parece bien 
+lo que dices pero entones a "muta multiple" le cambiar?a el nombre pq es 
+poco descriptivo. Si fuera tu yo solamente har?a "muta" con la 
+especificacion q has dado tu y dejar?a "muta multiple" para cuando nos 
+aclaremos despues de la reunion del martes
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>Date: Sun, 24 Apr 2005 14:20:07 +0000
+>
+>No es eso lo que entiendo, o por lo menos entendi el dia que se hizo el 
+>acta. Creo que la opcion "muta" realiza tantas mutaciones como se 
+>especifique y la opcion "muta multiple" crea una progresion a partir de una 
+>semilla dada. Es decir, que, a parte de mutarla todo lo que se pide, 
+>tambien la estira para que ocupe los acordes especificados. Eso es lo que 
+>yo entiendo y yo creo que hace el codigo de Prolog con las progresiones 
+>semilla.
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>Date: Sat, 23 Apr 2005 20:59:36 +0200
+>>
+>>Muta_progresion realiza una ?nica mutacion y Muta_Progresi?n_M?ltiple hace 
+>>tantas como se especifique. Los otros par?metros indican q mutacion/es se 
+>>hace/n y eligiendo entre q conjunto (q puede ser unitario) de mutaciones
+>>
+>>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>>Date: Sat, 23 Apr 2005 14:27:44 +0000
+>>>
+>>>en el acta de reuni?n viene
+>>>
+>>>Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+>>>progresi?n origen
+>>>
+>>>que b?sicamente significa que crea una progresi?n nueva, es decir, como 
+>>>crea_progresi?n, s?lo que en este caso la semilla que se usa para crear 
+>>>esa progresi?n se obtiene del fichero de "progresion_origen", es decir, 
+>>>la semilla es la misma que la de progresi?n origen, nada m?s. ;)
+>>>
+>>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>Subject: [Genaro-somos-todos] las 7 diferencias
+>>>>Date: Sat, 23 Apr 2005 13:42:56 +0000
+>>>>
+>>>>Mirad el acta de la penultima reunion, que la escribio Javi, y veis la 
+>>>>parte en que se especifica el paso de parametros a prolog. ?Alguien me 
+>>>>puede explicar la diferencia entre Muta_progresion y 
+>>>>Muta_progresion_multiple, si es que la hay?
+>>>>
+>>>>_________________________________________________________________
+>>>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>>>
+>>>>_______________________________________________
+>>>>Genaro-somos-todos mailing list
+>>>>Genaro-somos-todos at lists.berlios.de
+>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:10:55 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:10:55 +0200
+Subject: [Genaro-somos-todos] ATENCION
+In-Reply-To: <BAY1-F387CA0D702AD40186C821D52F0@phx.gbl>
+Message-ID: <BAY103-F39CC6899F4E460F363C3D1CE2F0@phx.gbl>
+
+Dime en q modulos te da errores, empiez por generador_acorde_binario.pl. 
+Suele ser buena idea cargar el modulo cada vez q haces algo para saber donde 
+esta el error nada mas cometerlo
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] ATENCION
+>Date: Sun, 24 Apr 2005 14:37:54 +0000
+>
+>En el codigo que he hecho de prolog me salen muchos errores muy raros que 
+>no se como solucionar. Subo lo que he hecho por si alguien me puede ayudar 
+>pero no funciona. Que nadie se preocupe que guardo una copia de seguridad 
+>en mi ordenador. Ademas, para sacar el anterior codigo simplemente hay que 
+>borrar el que he hecho yo.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:17:35 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:17:35 +0200
+Subject: [Genaro-somos-todos] ATENCION
+In-Reply-To: <BAY1-F387CA0D702AD40186C821D52F0@phx.gbl>
+Message-ID: <BAY103-F62512A70B79D5164A5FA6CE2F0@phx.gbl>
+
+En generador_acordes_binario.pl:
+
+esto da error % :- module(generador_acordes_binario).
+y esto no %:- module(generador_acordes_binario).
+
+el parser de prolog no reconoce "% :" como una linea de comentario por el 
+espacio
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] ATENCION
+>Date: Sun, 24 Apr 2005 14:37:54 +0000
+>
+>En el codigo que he hecho de prolog me salen muchos errores muy raros que 
+>no se como solucionar. Subo lo que he hecho por si alguien me puede ayudar 
+>pero no funciona. Que nadie se preocupe que guardo una copia de seguridad 
+>en mi ordenador. Ademas, para sacar el anterior codigo simplemente hay que 
+>borrar el que he hecho yo.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:21:33 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:21:33 +0200
+Subject: [Genaro-somos-todos] ATENCION
+In-Reply-To: <BAY103-F62512A70B79D5164A5FA6CE2F0@phx.gbl>
+Message-ID: <BAY103-F1132D8BD754351471E4D9CE2F0@phx.gbl>
+
+Vale, antes funcionaba y ahora no
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] ATENCION
+>Date: Sun, 24 Apr 2005 17:17:35 +0200
+>
+>En generador_acordes_binario.pl:
+>
+>esto da error % :- module(generador_acordes_binario).
+>y esto no %:- module(generador_acordes_binario).
+>
+>el parser de prolog no reconoce "% :" como una linea de comentario por el 
+>espacio
+>
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] ATENCION
+>>Date: Sun, 24 Apr 2005 14:37:54 +0000
+>>
+>>En el codigo que he hecho de prolog me salen muchos errores muy raros que 
+>>no se como solucionar. Subo lo que he hecho por si alguien me puede ayudar 
+>>pero no funciona. Que nadie se preocupe que guardo una copia de seguridad 
+>>en mi ordenador. Ademas, para sacar el anterior codigo simplemente hay que 
+>>borrar el que he hecho yo.
+>>
+>>_________________________________________________________________
+>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>http://www.msn.es/Mujer/moda/default.asp
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:26:46 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:26:46 +0200
+Subject: [Genaro-somos-todos] ATENCION
+In-Reply-To: <BAY103-F1132D8BD754351471E4D9CE2F0@phx.gbl>
+Message-ID: <BAY103-F1937626C136CC8FA5AE7EACE2F0@phx.gbl>
+
+Manda huevos, he hecho /*&#65279;%DESCRIPCION*/ en la primera linea y ya 
+funciona. Solo cambio la forma de poner el primer comentario. Va a ser por 
+esto que el SWI- Prolog viene sin garantias. Ya esta hecho el commit
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] ATENCION
+>Date: Sun, 24 Apr 2005 17:21:33 +0200
+>
+>Vale, antes funcionaba y ahora no
+>
+>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] ATENCION
+>>Date: Sun, 24 Apr 2005 17:17:35 +0200
+>>
+>>En generador_acordes_binario.pl:
+>>
+>>esto da error % :- module(generador_acordes_binario).
+>>y esto no %:- module(generador_acordes_binario).
+>>
+>>el parser de prolog no reconoce "% :" como una linea de comentario por el 
+>>espacio
+>>
+>>
+>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: [Genaro-somos-todos] ATENCION
+>>>Date: Sun, 24 Apr 2005 14:37:54 +0000
+>>>
+>>>En el codigo que he hecho de prolog me salen muchos errores muy raros que 
+>>>no se como solucionar. Subo lo que he hecho por si alguien me puede 
+>>>ayudar pero no funciona. Que nadie se preocupe que guardo una copia de 
+>>>seguridad en mi ordenador. Ademas, para sacar el anterior codigo 
+>>>simplemente hay que borrar el que he hecho yo.
+>>>
+>>>_________________________________________________________________
+>>>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>>>http://www.msn.es/Mujer/moda/default.asp
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>>http://astrocentro.msn.es/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Acepta el reto MSN Premium: Protecci?n para tus hijos en internet. 
+>Desc?rgalo y pru?balo 2 meses gratis. 
+>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_proteccioninfantil
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sun Apr 24 17:45:34 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sun, 24 Apr 2005 17:45:34 +0200
+Subject: [Genaro-somos-todos] mutaciones multiples
+In-Reply-To: <BAY1-F226296AE3C6FE9D571BF24D52F0@phx.gbl>
+Message-ID: <BAY103-F17A1FCF1009BBA5138AB6FCE2F0@phx.gbl>
+
+El codigo es este:
+
+haz_progresion(N, M, Tipo, ProgMutada) :- rango_prog_semilla(Tipo,MinComp, 
+MaxComp)
+, intervaloEntero(MinComp, MaxComp, CompPos), divisores(N, CompPos, 
+CompCand)
+, setof((CC,CC),member(CC,CompCand), ListaEligeSemilla)
+, dame_elemento_aleat_lista_pesos(ListaEligeSemilla, NCompasesSemilla, _, _)
+, haz_prog_semilla(NCompasesSemilla, Tipo, ProgSemilla)
+, FactorMul is N // NCompasesSemilla
+, multiplica_duracion(ProgSemilla, FactorMul, ProgMutable)
+, modifica_prog(ProgMutable, M, ProgMutada)
+, termina_haz_progresion(ProgMutada).
+
+
+me piden que haga una progresion de N compases usando M mutaciones y el 
+predicado de generacion de semillas de tipo Tipo. Lo que hago es:
+-rango_prog_semilla(Tipo,MinComp, MaxComp): me da en MinComp el numero 
+minimo de compases que tendra una progresion semilla generada con el 
+predicado de tipo Tipo. En MaxComp me da el maximo
+- intervaloEntero(MinComp, MaxComp, CompPos): me da la lista de enteros en 
+el intervalo [MinComp, MaxComp], es decir, la lista de numeros de compases 
+que podr?n tener las progresiones semillas generadas por haz_prog_semilla/3
+-divisores(N, CompPos, CompCand): CompCand es la lista de elementos de 
+CompPos que adem?s son divisores de N. La cosa es elegir uno de los numeros 
+de compases que hay en compCand que cumplen por tanto
+     .pueden ser el numero de compases de una progresion semilla generada 
+por el predicado de generacion de semillas de tipo Tipo
+     .son divisores del numero de compases que quiero que es N. Por tanto 
+multiplicando la duracion de todos los acordes de la progresion semilla 
+obtendr? una progresion de duracion N
+- setof((CC,CC),member(CC,CompCand), ListaEligeSemilla): Tengo que elegir 
+uno de los elementos de CompCand, y para ello monto ListaEligeSemilla de 
+manera que a cada numero se le asocia de peso su mismo valor, de forma que 
+numeros mayores tienen mayor probabilidad de ser elegidos
+-dame_elemento_aleat_lista_pesos(ListaEligeSemilla, NCompasesSemilla, _, _): 
+elige aleatoriamente el numero de compases que tendr? la progresion semilla 
+segun los pesos de antes
+-haz_prog_semilla(NCompasesSemilla, Tipo, ProgSemilla): hace una progresion 
+semilla del numero de compases elegidos
+- FactorMul is N // NCompasesSemilla
+, multiplica_duracion(ProgSemilla, FactorMul, ProgMutable): multiplica la 
+duracion de todos los acordes para lograr una progresion de longitud N. 
+Sabemos que N // NCompasesSemilla no truncara pq NCompasesSemilla es un 
+divisor de N. Y siempre hay divisor pq el 1 divide a todos
+
+el resto ya sabes como va
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] mutaciones multiples
+>Date: Sun, 24 Apr 2005 14:39:43 +0000
+>
+>El caso de las mutaciones multiples, si es que lo he entendido bien, no lo 
+>se hacer porque no entiendo como trata Juan a las progresiones semilla para 
+>que se ajusten al numero de compases dado. Asi que si alguien me lo puede 
+>explica puesr chachi.
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From gatchan00 at hotmail.com  Sun Apr 24 18:38:24 2005
+From: gatchan00 at hotmail.com (Shishigami yamato)
+Date: Sun, 24 Apr 2005 16:38:24 +0000
+Subject: [Genaro-somos-todos] FW: Primera advertencia: tu grupo musica_aleatoria_fdi 
+In-Reply-To: <BAY103-F11987F5296F29F6D273177CE2F0@phx.gbl>
+Message-ID: <BAY107-F39DB106A17666188C75DFCB92F0@phx.gbl>
+
+yo voto por dejar que desaparezca.
+
+el documento est? en la carpeta general de berlios, en la secci?n 
+documentation
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] FW: Primera advertencia: tu grupo 
+>musica_aleatoria_fdi va a ser eliminado
+>Date: Sun, 24 Apr 2005 16:39:20 +0200
+>
+>Otra vez los de hotmail nos quieren quitar este grupo q no tiene sentido. 
+>Yo voto por dejar q desaparezca. Por cierto Javi, has colgado en Berlios la 
+>cutre-p?gina web q te mande ?
+>
+>
+>>From: "MSN Grupos" <notifications at groups.msn.com>
+>>To: "Administradores de musica_aleatoria_fdi" 
+>><musicaaleatoriafdi at groups.msn.com>
+>>Subject: Primera advertencia: tu grupo musica_aleatoria_fdi va a ser 
+>>eliminado
+>>Date: Sat, 23 Apr 2005 07:34:02 -0700
+>>
+>>
+>>-----------------------------------------------------------
+>>
+>>       MSN Grupos
+>>
+>>-----------------------------------------------------------
+>>
+>>Querido/a usuario/a de MSN Grupos,
+>>
+>>Tu grupo de MSN, musica_aleatoria_fdi, no ha tenido ninguna actividad en 
+>>los ?ltimos 90 d?as. Para comodidad de nuestros usuarios registrados, 
+>>peri?dicamente eliminamos grupos que han quedado inactivos. Esperamos que 
+>>regreses a nosotros ?Todav?a no es demasiado tarde!
+>>http://groups.msn.com/musicaaleatoriafdi
+>>
+>>Si tu grupo contin?a inactivo durante los pr?ximos 14 d?as, procederemos a 
+>>eliminarlo.
+>>Si deseas mantener tu grupo, no tienes m?s que hacer clic en el v?nculo 
+>>que ver?s abajo y seguir las instrucciones de la p?gina Web.
+>>Mantener mi grupo
+>>http://groups.msn.com/musicaaleatoriafdi/_activate.msnw
+>>
+>>
+>>Esperando que tu grupo vuelva a activarse cuanto antes,
+>>
+>>
+>>MSN Grupos
+>>http://groups.msn.com
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+
+
+
+From roberto_____666 at hotmail.com  Mon Apr 25 16:00:34 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 25 Apr 2005 14:00:34 +0000
+Subject: [Genaro-somos-todos] las 7 diferencias
+In-Reply-To: <BAY103-F39BD1D9CAC1BDA7DB17EDDCE2F0@phx.gbl>
+Message-ID: <BAY1-F24BBDE0895485EC74F2735D5200@phx.gbl>
+
+De todas formas no tiene sentido hacer en prolog un "muta una vez" y un 
+"muta muchas veces". Simplemente implementamos el "muta muchas veces" y 
+cuando C lo llame le pasamos el valor 1 en donde sea, es decir, que mute una 
+vez
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>Date: Sun, 24 Apr 2005 17:06:49 +0200
+>
+>Pues los predicados debe?an hacer lo que nosotros queramos. Me parece bien 
+>lo que dices pero entones a "muta multiple" le cambiar?a el nombre pq es 
+>poco descriptivo. Si fuera tu yo solamente har?a "muta" con la 
+>especificacion q has dado tu y dejar?a "muta multiple" para cuando nos 
+>aclaremos despues de la reunion del martes
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>Date: Sun, 24 Apr 2005 14:20:07 +0000
+>>
+>>No es eso lo que entiendo, o por lo menos entendi el dia que se hizo el 
+>>acta. Creo que la opcion "muta" realiza tantas mutaciones como se 
+>>especifique y la opcion "muta multiple" crea una progresion a partir de 
+>>una semilla dada. Es decir, que, a parte de mutarla todo lo que se pide, 
+>>tambien la estira para que ocupe los acordes especificados. Eso es lo que 
+>>yo entiendo y yo creo que hace el codigo de Prolog con las progresiones 
+>>semilla.
+>>
+>>>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>>>To: genaro-somos-todos at lists.berlios.de
+>>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>>Date: Sat, 23 Apr 2005 20:59:36 +0200
+>>>
+>>>Muta_progresion realiza una ?nica mutacion y Muta_Progresi?n_M?ltiple 
+>>>hace tantas como se especifique. Los otros par?metros indican q 
+>>>mutacion/es se hace/n y eligiendo entre q conjunto (q puede ser unitario) 
+>>>de mutaciones
+>>>
+>>>>From: "Shishigami yamato" <gatchan00 at hotmail.com>
+>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>Subject: RE: [Genaro-somos-todos] las 7 diferencias
+>>>>Date: Sat, 23 Apr 2005 14:27:44 +0000
+>>>>
+>>>>en el acta de reuni?n viene
+>>>>
+>>>>Muta_Progresi?n_M?ltiple: Crea una progresi?n cogiendo al semilla de la 
+>>>>progresi?n origen
+>>>>
+>>>>que b?sicamente significa que crea una progresi?n nueva, es decir, como 
+>>>>crea_progresi?n, s?lo que en este caso la semilla que se usa para crear 
+>>>>esa progresi?n se obtiene del fichero de "progresion_origen", es decir, 
+>>>>la semilla es la misma que la de progresi?n origen, nada m?s. ;)
+>>>>
+>>>>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>>>>To: genaro-somos-todos at lists.berlios.de
+>>>>>Subject: [Genaro-somos-todos] las 7 diferencias
+>>>>>Date: Sat, 23 Apr 2005 13:42:56 +0000
+>>>>>
+>>>>>Mirad el acta de la penultima reunion, que la escribio Javi, y veis la 
+>>>>>parte en que se especifica el paso de parametros a prolog. ?Alguien me 
+>>>>>puede explicar la diferencia entre Muta_progresion y 
+>>>>>Muta_progresion_multiple, si es que la hay?
+>>>>>
+>>>>>_________________________________________________________________
+>>>>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>>>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>>>>
+>>>>>_______________________________________________
+>>>>>Genaro-somos-todos mailing list
+>>>>>Genaro-somos-todos at lists.berlios.de
+>>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>>
+>>>>
+>>>>_______________________________________________
+>>>>Genaro-somos-todos mailing list
+>>>>Genaro-somos-todos at lists.berlios.de
+>>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>>
+>>>_________________________________________________________________
+>>>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>>>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>>>
+>>>_______________________________________________
+>>>Genaro-somos-todos mailing list
+>>>Genaro-somos-todos at lists.berlios.de
+>>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>>
+>>_________________________________________________________________
+>>Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+>>incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+>>http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>http://astrocentro.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Mon Apr 25 16:58:33 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 25 Apr 2005 14:58:33 +0000
+Subject: [Genaro-somos-todos] orden de mutaciones
+Message-ID: <BAY1-F2645E362ED93274BA43610D5200@phx.gbl>
+
+Alguien me dijo que el orden de las mutaciones se debia respetar. ?Puede ser 
+el siguiente:
+{2,3,4} -> 0 -> 1
+?
+donde lo que esta entre llaves puede tener cualquier orden
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Mon Apr 25 17:35:58 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 25 Apr 2005 15:35:58 +0000
+Subject: [Genaro-somos-todos] parametros de mainargs
+Message-ID: <BAY1-F20942B76CB1EB047CA7E27D5200@phx.gbl>
+
+voy a explicar brevemente como hay que darle los parametros al mainargs que 
+he hecho yo:
+Para las acciones:
+crea_progresion           crea una progresion con un cierto numero de 
+acordes
+muta_progresion         muta una progresion que se encuentra en un fichero
+muta_progresion_acorde    idem que anterior pero solo para un acorde
+muta_progresion_multiple  todavia por especificar bien
+
+Para las mutaciones: se debe mantener el orden
+mt Num_mutaciones   ->  un numero de mutaciones cualesquiera
+ta NTA tb NTB   -> de tipo a y de tipo b
+t1 NT1 t2 NT2 t3 NT3 tb NTB  -> de tipo 1, 2, 3, y B
+ta NTA t4 NT4 t5 NT5 -> de tipo A, 4 y 5
+t1 NT1 t2 NT2 t3 NT3 t4 NT4 t5 NT5  -> de tipo 1, 2, 3, 4 y 5
+Si alguna no queremos que se haga ponemos un 0
+Cualquier ateracion de los parametros anterior produciria una inmediata 
+ca?da del pene.
+
+Si os fijais es como lo que puso Javi en el acta de reunion pero con los 
+parametros en minuscula. Lo hago asi porque me es mas comodo en Prolog, nada 
+mas.
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From roberto_____666 at hotmail.com  Mon Apr 25 17:40:18 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 25 Apr 2005 15:40:18 +0000
+Subject: [Genaro-somos-todos] Prolog
+Message-ID: <BAY1-F36353C721CB8ABBAA60162D5200@phx.gbl>
+
+Sabia que lo que me fallaba en Prolog era una tonteria. Puede que sea eso de 
+los comentarios pero creo que tambien depende del editor porque me han 
+aparecidos algunos caracteres cuadrados (a saber que oculto mensaje queria 
+Juan introducirme subliminalmente en mi cabeza).
+Yo recomiento usar en WordPad en windows porque se cuenta que una vez un 
+chaval usaba el bloc de notas y las cosas le iban mal. Tras usar el wordpad 
+se vio sorprendido de como, sin hacer nada mas, la cosa funcionaba.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Mon Apr 25 17:43:42 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Mon, 25 Apr 2005 15:43:42 +0000
+Subject: [Genaro-somos-todos] Tiempo es plata
+Message-ID: <BAY1-F21D8863AC8E7497ABBC9A2D5200@phx.gbl>
+
+Yo pretendia que el proyecto estuviera "acabado" antes de Mayo para dejar 
+Mayo para pruebas y la escritura de la memoria. ?Creis que se puede 
+conseguir? Si no se puede seria tiempo que perderiamos para otra cosa. 
+?Cuanto esperais continuar con ?l?
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From roberto_____666 at hotmail.com  Tue Apr 26 11:51:01 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 26 Apr 2005 09:51:01 +0000
+Subject: [Genaro-somos-todos] Importante
+In-Reply-To: <BAY103-F4BD3D2BE7430A86EAE01FCE2F0@phx.gbl>
+Message-ID: <BAY1-F24100C932655DA9AD0B7AFD5210@phx.gbl>
+
+Ok, ya esta hecho y subido. Ahora prolog escribe los terminos con un punto 
+al final, los lee tambien con un punto al final, y Haskell lee progresiones 
+con un punto al final, tal y como pusiste el codigo de mas abajo. Si haskell 
+se come algun otro termino de prolog deberiamos cambiarlo para que pillase 
+el punto.
+
+
+>From: Juan Rodriguez Hortal? <bc24us at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: RE: [Genaro-somos-todos] Importante
+>Date: Sun, 24 Apr 2005 17:02:29 +0200
+>
+>Estoy de acuerdo contigo Roberto, no sabia lo del punto pero si hay que 
+>ponerlo deber?a ponerlo Prolog. C tb escribir? archivos de progresion 
+>cuando el usuario la meta a huevo pero prefiero separar lo m?s posible los 
+>lenguajes y me parecer?a un mal rollo que cada vez q prolog escriba una 
+>progresion este C por ah?. La movida es q habr? q cambiar el parser de 
+>progresiones de haskell. En PrologAHaskell.hs, cambia
+>
+>{-
+>Parser de strings en el formato de es_progesion de Prolog a elementos de 
+>tipo Progresion
+>-}
+>parserProgresion :: Parser Char Progresion
+>parserProgresion = (token "progresion") *> 
+>parenthesized(bracketed(commaList(parCifDur))) . quitaEspacios
+>		where parCifDur = parenthesized ((parserCifrado <* coma) <*> figura)
+>
+>
+>por
+>
+>parserProgresion = parserTotal . quitaEspacios
+>		where parCifDur = parenthesized ((parserCifrado <* coma) <*> figura)
+>                      comeProgresion = (token "progresion") *> 
+>parenthesized(bracketed(commaList(parCifDur)))
+>                      parserTotal = comeProgresion <* (token ".")
+>
+>
+>supongo q funcionar?. NO LO HE CAMBIADO EN EL CODIGO, espero que lo hagas 
+>tu cuando Prolog empiece a escribir puntos. Si no funciona o lo q sea 
+>avisame
+>
+>
+>>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>>To: genaro-somos-todos at lists.berlios.de
+>>Subject: [Genaro-somos-todos] Importante
+>>Date: Sat, 23 Apr 2005 16:38:17 +0000
+>>
+>>Los terminos que lee prolog de un archivo tiene que terminar en punto. 
+>>Tened cuidado porque cuando los escribe lo hace sin dicho punto.
+>>Asi que ya sabes Javi, cuando escribas una progresion en un archivo de 
+>>texto para que prolog lo lea pon un punto al final.
+>>Yo de hecho haria que cuando prolog escriba un termino ponga el punto al 
+>>final pero eso hay que hablarlo con Juan.
+>>
+>>_________________________________________________________________
+>>Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+>>http://astrocentro.msn.es/
+>>
+>>_______________________________________________
+>>Genaro-somos-todos mailing list
+>>Genaro-somos-todos at lists.berlios.de
+>>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Tue Apr 26 12:54:05 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Tue, 26 Apr 2005 10:54:05 +0000
+Subject: [Genaro-somos-todos] Acta  6 4 2005 (con retraso)
+Message-ID: <BAY1-F3240514D968C73435B7047D5210@phx.gbl>
+
+1.- Asistentes.
+Javi, Roberto y Juan
+
+2.- Trabajos completados durante la semana.
+No podemos decir que se haya completado ning?n trabajo ya que el trabajo que 
+se nos hab?a asignado tenia de duraci?n varias semanas. Podr?amos decir que 
+solo Javier completo su tarea ya que el trabajo de los otros componentes fue 
+pensado para una semana pero se alarg? a m?s
+
+3.- Nuevos trabajos.
+
+Juan:
+Continuar con la generaci?n de una melod?a a partir de una progresi?n y un 
+patr?n r?tmico
+
+Javier:
+Continuar con la tarea de mejora del interfaz gr?fico a?adiendo mas 
+par?metros. Dichos par?metros fueron apuntados por el mismo Javier y no son 
+recogidos aqu?.
+
+Roberto:
+Continuar con la armonizaci?n de una melod?a. Ahora vamos a seguir dos 
+m?todos para obtener las notas principales y dos para armonizar la melod?a.
+Los m?todos para obtener las notas principales son: solo las notas de 
+duraci?n mayor de un valor dado por el usuario, y el m?todo que expone Enric 
+Herrera en la pagina 72 de su libro Teor?a Musical y Armon?a Moderna.
+Los m?todos para armonizar las notas principales son: s?lo con triadas 
+cuando la nota es diat?nica, y con triadas y cuatriadas.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Wed Apr 27 14:08:46 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 27 Apr 2005 12:08:46 +0000
+Subject: [Genaro-somos-todos] Acta de reunion 26-04-2005
+Message-ID: <BAY1-F377A499C3F1E638E3A3083D5220@phx.gbl>
+
+1.- Asistentes.
+Javier, Roberto y Juan
+
+2.- Trabajos realizados.
+Roberto: terminado la distincion de casos en Prolog del predicado mainargs 
+excepto para el caso de muta_multiple que tiene que ser discutido es esta 
+reunion.
+
+3.- Nuevos trabajos.
+
+Javi:
+- Seguir con la parte del interfaz especificada pero no acabada todavia
+
+- Realizar el editor de pianola para melodia. Para ello reutilizara el 
+codigo del editor de pianola que ya tenemos. El numero de octavas es de 1 a 
+9 y cada octava tiene 12 notas, por tanto el editor poseera 9 * 12 filas. 
+Las notas de cada fila seran {C, C# / Db, D, D# / Eb , E, F, F# / Gb , G, G# 
+/ Ab , A, A# / Bb, B} seguido de la octava a la que pertenezca.
+
+- Queda como optativo hacer que las filas puedan cambiar de tama?o y que en 
+vez de las notas de la izquierda aparezca un piano con las notas blancas y 
+negras. Posiblemente esto no se haga.
+
+- A?adir los siguientes parametros de la obra completa: el tono que sera un 
+desplegable de las siguientes opciones {C, Cb, C#, D, Db, E, Eb, F, F#, G, 
+Gb, A, Ab, B, Bb} todas ellas son mayores y tempo que es un valor entero de 
+0 a 300
+
+- A?adir la restriccion de la octava inicial para que sea desde 1 hasta 7. 
+Se puede poner un menu desplegable
+
+- Pasar la ruta absoluta a prolog en vez de la relativa como estaba puesto 
+ahora
+
+- Pasar la ruta melodica desde C a haskell mediante un fichero que contiene 
+siempre 10 puntos
+
+- A?adir parametros a la pista de progresiones cuando queremos armonizar una 
+melodia:
+   - Modo Acordes: Triadas (solo para las notas diatonicas) y Triadas y 
+Cuatriadas
+   - Tipo de notas principales: Solo de larga duracion  y mas refinado (que 
+es el que usa el libro). EN ambos casos hay que poner un cuadro desplegable 
+con diferentes duraciones de notas (como en el editor de pianola)
+   - Tipo de asignacion de acordes: Uno por nota y Mas largo posible (este 
+lleva el parametro de la duracion igual que el parametro anterior que indica 
+el maximo que se quiere)
+
+- A?adir un parametro a cada subloque de la pista de acompa?amiento que 
+contenga lo siguiente: una semilla aleatoria o una semilla como numero 
+entero
+
+
+Roberto:
+- A?adir la opcion al mainargs de crea_con_semilla
+
+- Preparar el codigo de haskell para a?adir la bateria.
+
+
+Juan:
+- Acabar la generacion de melodia
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From roberto_____666 at hotmail.com  Wed Apr 27 14:14:45 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 27 Apr 2005 12:14:45 +0000
+Subject: [Genaro-somos-todos] Calendario
+Message-ID: <BAY1-F301B49FF1954FA5EFA844CD5220@phx.gbl>
+
+En vista de que lo tenemos un poco retrasado y lo queremos cerrar la primera 
+semana de Mayo vamos a hacer dos sesiones s?lo dedicadas a implementar como 
+unos cerdos. Dichas se celebraran el sabado 7 y Domindo 8 de Mayo en el 
+colegio de Javi. Todavia hay que fijar la fecha.
+Por otro lado, como el martes 3 de Mayo es fiesta la reunion genara se har? 
+el miercoles 4 a las 16:00 en cafeter?a.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Wed Apr 27 14:19:14 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 27 Apr 2005 12:19:14 +0000
+Subject: [Genaro-somos-todos] Guardar Music
+Message-ID: <BAY1-F20743E96BF98A3148DF4F7D5220@phx.gbl>
+
+He pensado que necesitamos de alguna forma que Genaro guarde las notas que 
+ya ha generado. De otra forma podriamos generar las notas cada vez que vamos 
+a crear un Midi pero, al ser aleatorio, podriamos chafar notas que ya esten 
+hechas y que al usuario le haya gustado. Asi que he pensado que todas las 
+notas que tengamos sean guardadas en tipo Music en un archivo y que C lleve 
+la cuenta de ellos. El tipo Music es facil meterlo en un archivo ya que 
+deriva de las clases Read y Show. La cuenta de C la puede llevar simplemente 
+asociando cada subloque con un archivo.
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From roberto_____666 at hotmail.com  Wed Apr 27 14:21:54 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Wed, 27 Apr 2005 12:21:54 +0000
+Subject: [Genaro-somos-todos] Triadas y Cuatriadas
+Message-ID: <BAY1-F16BB849BC0C7E3714EF886D5220@phx.gbl>
+
+Me parece perdedor que Prolog lo unico que genere sean cuatriadas. 
+Deberiamos hacer algo para que , aleatoriamente, se cambien ciertas 
+cuatriadas en triadas. Se podria hacer desde Haskell. Eso har?a que las 
+armonizaciones sean mas suaves y sonasen mejor
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Wed Apr 27 16:40:19 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 27 Apr 2005 16:40:19 +0200
+Subject: [Genaro-somos-todos] orden de mutaciones
+In-Reply-To: <BAY1-F2645E362ED93274BA43610D5200@phx.gbl>
+Message-ID: <BAY103-F2578C9C10DBB0AB07192E1CE220@phx.gbl>
+
+Si no me dices que significa cada numero no me voy a enterar. Las mutaciones 
+deben ser
+1? cambia, quita o aniade: en cualquier orden estos 3
+2? dominantes secundarios y IIm7 : en cualquier orden estos 2
+3? dominantes substitutos
+4? dismunidos de paso y tal
+
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] orden de mutaciones
+>Date: Mon, 25 Apr 2005 14:58:33 +0000
+>
+>Alguien me dijo que el orden de las mutaciones se debia respetar. ?Puede 
+>ser el siguiente:
+>{2,3,4} -> 0 -> 1
+>?
+>donde lo que esta entre llaves puede tener cualquier orden
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Wed Apr 27 16:47:41 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 27 Apr 2005 16:47:41 +0200
+Subject: [Genaro-somos-todos] Prolog
+In-Reply-To: <BAY1-F36353C721CB8ABBAA60162D5200@phx.gbl>
+Message-ID: <BAY103-F55765C1D5FA53705B638FCE220@phx.gbl>
+
+Yo uso de editores el JBuilder en Linux y Windows y el gedit en Windows y 
+nunca he tenido problemas, solamente que los acentos en linux y en windows 
+van distintos. Como editor multiplataforma si no quieres usar jBuilder te 
+recomiendo el emacs q viene integrado en SWI-prolog, abre un int?rprete y 
+lanza el objetivo "emacs." y te sale el editor, con colorines y tal. Lo malo 
+es q se cierra con el int?rprete y tienes q tener uno abierto para editar y 
+otro para depurar y recargar y tal (el recolector de basura de swi es una 
+mierda y a veces tienes q cerrar y abrir el int?rprete para q se entere de 
+los cambios en el codigo)
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Prolog
+>Date: Mon, 25 Apr 2005 15:40:18 +0000
+>
+>Sabia que lo que me fallaba en Prolog era una tonteria. Puede que sea eso 
+>de los comentarios pero creo que tambien depende del editor porque me han 
+>aparecidos algunos caracteres cuadrados (a saber que oculto mensaje queria 
+>Juan introducirme subliminalmente en mi cabeza).
+>Yo recomiento usar en WordPad en windows porque se cuenta que una vez un 
+>chaval usaba el bloc de notas y las cosas le iban mal. Tras usar el wordpad 
+>se vio sorprendido de como, sin hacer nada mas, la cosa funcionaba.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
+From bc24us at hotmail.com  Wed Apr 27 16:59:23 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Wed, 27 Apr 2005 16:59:23 +0200
+Subject: [Genaro-somos-todos] Triadas y Cuatriadas
+In-Reply-To: <BAY1-F16BB849BC0C7E3714EF886D5220@phx.gbl>
+Message-ID: <BAY103-F334E71B055D7775CA9ED0CCE220@phx.gbl>
+
+Ya te he dicho alguna vez lo que opino, las cuatriadas identifican 
+totalmente al acorde, luego pasar a que sean triadas o cuatriadas con 
+tensiones es muy sencillo y es una extensi?n que har?a cuanto antes. La cosa 
+ser?a que lo seleccionara el usuario desde el interfaz como una opcion mas 
+de generacion o mutacion de una progresion. Y lo mas facil seria que lo 
+hiciera haskell, pq por ejemplo tranformar una progresion de cuatriadas a 
+triadas es un map de una funcion tb trivial, y transformar una progresion de 
+cuatriadas a una en q hay una cierta probabilidad de ser triada o cuatriada 
+tb es un map muy facil. Pero coincido contigo en q es prioritario q las 
+progresiones no sean solo de triadas, ya lo haremos en la integracion o 
+cuando podamos
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Triadas y Cuatriadas
+>Date: Wed, 27 Apr 2005 12:21:54 +0000
+>
+>Me parece perdedor que Prolog lo unico que genere sean cuatriadas. 
+>Deberiamos hacer algo para que , aleatoriamente, se cambien ciertas 
+>cuatriadas en triadas. Se podria hacer desde Haskell. Eso har?a que las 
+>armonizaciones sean mas suaves y sonasen mejor
+>
+>_________________________________________________________________
+>Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+>canciones. http://music.msn.es/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 30 15:29:12 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 30 Apr 2005 13:29:12 +0000
+Subject: [Genaro-somos-todos] Mutaciones
+Message-ID: <BAY1-F34CC5B02729CEF08342564D5250@phx.gbl>
+
+La nominacion de las mutaciones no es uniforme. Supongo que estas mutaciones 
+son iguales
+a?ade acordes = separa acordes
+quita acordes = junta acordes
+porque en el codigo de prolog y en el acta vienen con diferente nombre
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 30 15:36:31 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 30 Apr 2005 13:36:31 +0000
+Subject: [Genaro-somos-todos] Tipo de semilla
+Message-ID: <BAY1-F42BE234F315DF0DD659885D5250@phx.gbl>
+
+En la creacion de la semilla hay un parametro que es "Tipo" que no se 
+exactamente que hace. De todas formas no esta especificado en el paso de 
+parametros del "mainargs". Yo de momento pongo 1 aunque no se que hacer con 
+ello
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 30 16:18:58 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 30 Apr 2005 14:18:58 +0000
+Subject: [Genaro-somos-todos] progresion semilla
+Message-ID: <BAY1-F37C4F1139C6A135338C799D5250@phx.gbl>
+
+Cuando al codigo de Juan le piden que genere una progresion usa la 
+progresion semilla que mas le convenga.
+A mi hay un caso en que me pasan la progresion semilla y tengo que usar esa 
+para generar la progresion. No tengo mas remedio que coger esa progresion y 
+estirarla hasta que tenga el numero de compeses que me han pedido. Eso puede 
+hacer que los acordes duren un multiplo de los compases (que sonaria mejor) 
+o no.
+Por ejemplo:
+Si me piden que use la semilla ((C, maj7), 1/1) para dos compases yo la 
+estiro a ((C, maj7), 2/1)
+Si me piden que use la semilla [(A1, 1/1), (A2, 1/1)] (el cifrado da igual 
+en este caso) para tres compses me saldra [(A1, 3/2), (A2, 3/2)]. Como vemos 
+en el segundo compas la primera mitad del tiempo posee el acorde A1 y el 
+segundo A2.
+Resumiendo: si el numero de acordes es divisor del numero de compases 
+entonces las cosas son mas o menos audibles, ya que tenemos un acorde por 
+compas, si no se puede dar cosas muy raras, pero raras, raras. No digo que 
+suene mal pero puede.
+
+_________________________________________________________________
+Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+http://www.msn.es/Mujer/moda/default.asp
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 30 16:45:24 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 30 Apr 2005 14:45:24 +0000
+Subject: [Genaro-somos-todos] terminado el MainArgs
+Message-ID: <BAY1-F16378AB09FE1463689742DD5250@phx.gbl>
+
+La clausula mainArgumentos2 (a la que se le pasa los nuevos parametros) esta 
+terminada pero el ejecutable no esta hecho ni subido. ?Lo hago yo? ?Le pongo 
+otro nombre?
+
+_________________________________________________________________
+?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+MSN Motor. http://motor.msn.es/researchcentre/
+
+
+
+From roberto_____666 at hotmail.com  Sat Apr 30 17:04:18 2005
+From: roberto_____666 at hotmail.com (Roberto Torres)
+Date: Sat, 30 Apr 2005 15:04:18 +0000
+Subject: [Genaro-somos-todos] depuracion semilla
+Message-ID: <BAY1-F31911EC7F64FA42F8884FAD5250@phx.gbl>
+
+Juan, hacias algo de depuracion con la generacion de las progresiones. Era 
+algo asi como escribirlo en un archivo. ?Quieres que haga yo lo mismo?
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:17:55 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:17:55 +0200
+Subject: [Genaro-somos-todos] Mutaciones
+In-Reply-To: <BAY1-F34CC5B02729CEF08342564D5250@phx.gbl>
+Message-ID: <BAY103-F20CA055874DDC343B651E7CE250@phx.gbl>
+
+Sisi
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Mutaciones
+>Date: Sat, 30 Apr 2005 13:29:12 +0000
+>
+>La nominacion de las mutaciones no es uniforme. Supongo que estas 
+>mutaciones son iguales
+>a?ade acordes = separa acordes
+>quita acordes = junta acordes
+>porque en el codigo de prolog y en el acta vienen con diferente nombre
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descubre la descarga digital con MSN Music. M?s de medio mill?n de 
+canciones. http://music.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:19:47 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:19:47 +0200
+Subject: [Genaro-somos-todos] Tipo de semilla
+In-Reply-To: <BAY1-F42BE234F315DF0DD659885D5250@phx.gbl>
+Message-ID: <BAY103-F23762DB28F7C273622309BCE250@phx.gbl>
+
+Ya te lo he dicho, hay distintos predicados de creacion de semillas que son 
+ligeramente diferentes. Con el tipo eliges cual usas, ponlo como argumento, 
+puede valer 1 o 3. El de tipo2 corresponde al predicado de generacion de 
+semillas que hiciste tu, si este mantiene el ritmo arm?nico ponlo como 
+posibilidad
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] Tipo de semilla
+>Date: Sat, 30 Apr 2005 13:36:31 +0000
+>
+>En la creacion de la semilla hay un parametro que es "Tipo" que no se 
+>exactamente que hace. De todas formas no esta especificado en el paso de 
+>parametros del "mainargs". Yo de momento pongo 1 aunque no se que hacer con 
+>ello
+>
+>_________________________________________________________________
+>Descarga gratis la Barra de Herramientas de MSN 
+>http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN Amor 
+& Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:21:43 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:21:43 +0200
+Subject: [Genaro-somos-todos] progresion semilla
+In-Reply-To: <BAY1-F37C4F1139C6A135338C799D5250@phx.gbl>
+Message-ID: <BAY103-F341D0C919047DD5728E6ABCE250@phx.gbl>
+
+Es normal, incluso generando semilla aleatoria si pides un numero impar de 
+compases salen cosas raras, algo normal ya q estamos en binario (par). Si el 
+usuario pide cosas raras le saldran cosas raras
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] progresion semilla
+>Date: Sat, 30 Apr 2005 14:18:58 +0000
+>
+>Cuando al codigo de Juan le piden que genere una progresion usa la 
+>progresion semilla que mas le convenga.
+>A mi hay un caso en que me pasan la progresion semilla y tengo que usar esa 
+>para generar la progresion. No tengo mas remedio que coger esa progresion y 
+>estirarla hasta que tenga el numero de compeses que me han pedido. Eso 
+>puede hacer que los acordes duren un multiplo de los compases (que sonaria 
+>mejor) o no.
+>Por ejemplo:
+>Si me piden que use la semilla ((C, maj7), 1/1) para dos compases yo la 
+>estiro a ((C, maj7), 2/1)
+>Si me piden que use la semilla [(A1, 1/1), (A2, 1/1)] (el cifrado da igual 
+>en este caso) para tres compses me saldra [(A1, 3/2), (A2, 3/2)]. Como 
+>vemos en el segundo compas la primera mitad del tiempo posee el acorde A1 y 
+>el segundo A2.
+>Resumiendo: si el numero de acordes es divisor del numero de compases 
+>entonces las cosas son mas o menos audibles, ya que tenemos un acorde por 
+>compas, si no se puede dar cosas muy raras, pero raras, raras. No digo que 
+>suene mal pero puede.
+>
+>_________________________________________________________________
+>Moda para esta temporada. Ponte al d?a de todas las tendencias. 
+>http://www.msn.es/Mujer/moda/default.asp
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Hor?scopo, tarot, numerolog?a... Escucha lo que te dicen los astros. 
+http://astrocentro.msn.es/
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:23:07 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:23:07 +0200
+Subject: [Genaro-somos-todos] terminado el MainArgs
+In-Reply-To: <BAY1-F16378AB09FE1463689742DD5250@phx.gbl>
+Message-ID: <BAY103-F5470B2295EDB7E4C845DFCE250@phx.gbl>
+
+Yo no subiria ejecutables pq se montan en un momento y tardan en bajar, y 
+sobre todo segun la version de SWI son incompatibles
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] terminado el MainArgs
+>Date: Sat, 30 Apr 2005 14:45:24 +0000
+>
+>La clausula mainArgumentos2 (a la que se le pasa los nuevos parametros) 
+>esta terminada pero el ejecutable no esta hecho ni subido. ?Lo hago yo? ?Le 
+>pongo otro nombre?
+>
+>_________________________________________________________________
+>?Est?s pensando en cambiar de coche? Todas los modelos de serie y extras en 
+>MSN Motor. http://motor.msn.es/researchcentre/
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Descarga gratis la Barra de Herramientas de MSN 
+http://www.msn.es/usuario/busqueda/barra?XAPID=2031&DI=1055&SU=http%3A//www.hotmail.com&HL=LINKTAG1OPENINGTEXT_MSNBH
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:24:23 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:24:23 +0200
+Subject: [Genaro-somos-todos] depuracion semilla
+In-Reply-To: <BAY1-F31911EC7F64FA42F8884FAD5250@phx.gbl>
+Message-ID: <BAY103-F158B1CB85F019B257D0AB6CE250@phx.gbl>
+
+Si, lo escribo en un archivo en un formato facil de leer por un humano. Si 
+puedes hacerlo tu tb mejor, tampoco es muy dificil
+
+>From: "Roberto Torres" <roberto_____666 at hotmail.com>
+>To: genaro-somos-todos at lists.berlios.de
+>Subject: [Genaro-somos-todos] depuracion semilla
+>Date: Sat, 30 Apr 2005 15:04:18 +0000
+>
+>Juan, hacias algo de depuracion con la generacion de las progresiones. Era 
+>algo asi como escribirlo en un archivo. ?Quieres que haga yo lo mismo?
+>
+>_________________________________________________________________
+>Un amor, una aventura, compa??a para un viaje. Reg?strate gratis en MSN 
+>Amor & Amistad. http://match.msn.es/match/mt.cfm?pg=channel&tcid=162349
+>
+>_______________________________________________
+>Genaro-somos-todos mailing list
+>Genaro-somos-todos at lists.berlios.de
+>http://lists.berlios.de/mailman/listinfo/genaro-somos-todos
+
+_________________________________________________________________
+Acepta el reto MSN Premium: Correos m?s divertidos con fotos y textos 
+incre?bles en MSN Premium. Desc?rgalo y pru?balo 2 meses gratis. 
+http://join.msn.com?XAPID=1697&DI=1055&HL=Footer_mailsenviados_correosmasdivertidos
+
+
+
+From bc24us at hotmail.com  Sat Apr 30 17:25:17 2005
+From: bc24us at hotmail.com (=?iso-8859-1?B?SnVhbiBSb2RyaWd1ZXogSG9ydGFs4Q==?=)
+Date: Sat, 30 Apr 2005 17:25:17 +0200
+Subject: [Genaro-somos-todos] =?iso-8859-1?B?Rlc6INpsdGltYSBhZHZlcnRlbmNpYTogdHUgZ3J1cG8gbXVzaWNhX2Fs?=
+ =?iso-8859-1?B?ZWF0b3JpYV9mZGkgdmEgYSBzZXIgZWxpbWluYWRv?=
+Message-ID: <BAY103-F100167DEF31A288EE523B4CE250@phx.gbl>
+
+Weno, el grupo de msn de genaro se va a la mierda, q lo sepais
+
+>From: "MSN Grupos" <notifications at groups.msn.com>
+>To: "Administradores de musica_aleatoria_fdi" 
+><musicaaleatoriafdi at groups.msn.com>
+>Subject: ?ltima advertencia: tu grupo musica_aleatoria_fdi va a ser 
+>eliminado
+>Date: Sat, 30 Apr 2005 08:18:48 -0700
+>
+>
+>-----------------------------------------------------------
+>
+>       MSN Grupos
+>
+>-----------------------------------------------------------
+>
+>Querido/a usuario/a de MSN Grupos,
+>
+>El presente es otro recordatorio de que tu grupo de MSN, 
+>musica_aleatoria_fdi, no ha tenido ninguna actividad en m?s de 90 d?as. 
+>Esperamos que lo reactives con la mayor brevedad posible para que no sea 
+>eliminado.
+>http://groups.msn.com/musicaaleatoriafdi
+>
+>Tu grupo ser? autom?ticamente eliminado si contin?a estando inactivo.
+>Si deseas mantener tu grupo, no tienes m?s que hacer clic en el v?nculo que 
+>ver?s abajo y seguir las instrucciones de la p?gina Web.
+>Mantener mi grupo
+>http://groups.msn.com/musicaaleatoriafdi/_activate.msnw
+>
+>
+>Esperando que tu grupo vuelva a activarse cuanto antes,
+>
+>
+>MSN Grupos
+>http://groups.msn.com
+
+_________________________________________________________________
+M?viles, DVD, c?maras digitales, coleccionismo... Con unas ofertas que ni te 
+imaginas. http://www.msn.es/Subastas/
+
+
+
